@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>code/c/array/test-array.c</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,9 +20,23 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>346</integer>
+	<integer>296</integer>
 	<key>metaData</key>
 	<dict>
+		<key>code/c/array/test-array.c</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>code/c/storing-using-data/assignment-test.c</key>
 		<dict>
 			<key>caret</key>
@@ -76,6 +92,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>17</integer>
+		</dict>
+		<key>programming-arcana.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
@@ -189,6 +219,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>tools/syntax-parser/eebnf_exporter.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
 			<key>caret</key>
@@ -231,6 +275,76 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>topics/arrays/arrays.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/c/c-array-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/concepts/array.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/concepts/assignment-with-arrays.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/concepts/expressions-with-arrays.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
 			<key>caret</key>
@@ -260,6 +374,34 @@
 				<key>line</key>
 				<integer>37</integer>
 			</dict>
+		</dict>
+		<key>topics/control-flow/control-flow.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>24</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/control-flow/understanding/understanding-control-flow.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -1181,7 +1323,37 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>13</integer>
+			<integer>0</integer>
+		</dict>
+		<key>topics/type-decl/c/c-array-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>37</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
 		</dict>
 		<key>topics/type-decl/c/c-type-decl.tex</key>
 		<dict>
@@ -1213,7 +1385,37 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
+		<key>topics/type-decl/type-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>tools/syntax-parser/eebnf_exporter.py</string>
+		<string>programming-arcana.tex</string>
+		<string>topics/arrays/arrays.tex</string>
+		<string>code/c/array/test-array.c</string>
+		<string>topics/arrays/concepts/assignment-with-arrays.tex</string>
+		<string>topics/arrays/concepts/expressions-with-arrays.tex</string>
+		<string>topics/type-decl/c/c-array-decl.tex</string>
+		<string>topics/arrays/c/c-array-decl.tex</string>
+		<string>topics/arrays/concepts/array.tex</string>
+		<string>topics/type-decl/type-decl.tex</string>
+		<string>topics/storing-using-data/storing-using-data.tex</string>
+		<string>topics/control-flow/understanding/understanding-control-flow.tex</string>
+		<string>topics/control-flow/control-flow.tex</string>
+	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -1249,7 +1451,7 @@
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>control-flow</key>
+								<key>array</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1273,7 +1475,7 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>control-flow</key>
+						<key>arrays</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1286,28 +1488,14 @@
 									<key>subItems</key>
 									<dict/>
 								</dict>
+								<key>c</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
 								<key>concepts</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>examples</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>images</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1323,7 +1511,7 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>program-creation</key>
+						<key>type-decl</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1336,15 +1524,7 @@
 									<key>subItems</key>
 									<dict/>
 								</dict>
-							</dict>
-						</dict>
-						<key>storing-using-data</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>c</key>
+								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1359,6 +1539,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
