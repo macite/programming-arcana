@@ -1,0 +1,10 @@
+assignment stmt. = standard assignment | post increment | post decrement | pre increment | pre decrement ;
+
+std. assignment = variable name, "=" | "+=" | "-=" | "*=" | "/=" , expression ;
+
+post increment = variable name, "++" ;
+post decrement = variable name, "--";
+pre increment = "++", variable name;
+pre decrement = "--", variable name;
+
+variable name = identifier; 

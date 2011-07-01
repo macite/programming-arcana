@@ -1,0 +1,29 @@
+----------------------------
+Program: Draw Sun Scene
+----------------------------
+
+  Procedure: DrawSun
+  ----------------------------
+  Steps:
+   1: FillCircle with ColorYellow, at 50.0, 50.0, with radius 20
+   2: DrawCircle with ColorRed, at 50.0, 50.0, with radius 15
+   3: DrawCircle with ColorRed, at 50.0, 50.0, with radius 12
+   4: DrawCircle with ColorRed, at 50.0, 50.0, with radius 9
+   5: DrawCircle with ColorRed, at 50.0, 50.0, with radius 6
+   6: FillCircle with ColorWhite, at 50.0, 50.0, with radius 3
+   7: DrawLine with ColorYellow, from 50, 75, to 50, 110
+   8: DrawLine with ColorYellow, from 25, 75, to 0, 100);
+   9: DrawLine with ColorYellow, from 75, 75, to 100, 100);
+  10: DrawLine with ColorYellow, from 0, 50, to 25, 50);
+  11: DrawLine with ColorYellow, from 75, 50, to 100, 50);
+  12: DrawLine with ColorYellow, from 25, 25, to 0, 0);
+  13: DrawLine with ColorYellow, from 75, 25, to 100, 0);
+  14: DrawLine with ColorYellow, from 50, 0, to 50, 25);
+
+Steps:
+ 1: Open Graphics Window titled 'Draw Sun', with width 800, and height 600
+ 2: ClearScreen to ColorBlue 
+ 3: DrawSun
+ 4: RefreshScreen
+ 5: Delay for 5000 milliseconds
+ 6: Release All Resources

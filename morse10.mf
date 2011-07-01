@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% morse10.MF : CODE (Version 1.00, January 1, 1998) %%
+%% Udo Heyl, Stregdaer Allee, 99817 Eisenach GERMANY %%
+%% to be used under LaTeX.2E  supported by MORSE.STY %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mode_setup;
+font_coding_scheme = "Morse Telegraph Code"; 
+font_identifier = "morse10";  
+pen norm_pen; U# := 9pt#; u# := (1/1024)*U#; define_pixels(U,u);
+norm_pen := nullpen;
+
+input morse.def;
+o:=0; input morse.alf; input morse.num;
+o:=32; input morse.alf;
+
+font_size 10pt#;
+font_normal_space 9pt#;
+font_normal_stretch 2pt#;
+font_normal_shrink 1.5pt#; 
+
+bye 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% end of morse10.MF %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%

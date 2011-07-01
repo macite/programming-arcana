@@ -1,0 +1,27 @@
+Program: Test Procedures
+----------------------------
+
+Global Variable:
+* evil (Integer)
+
+  Procedure: Test Params
+  ----------------------------
+  Parameters:
+   1: val (Integer)
+  Variables:
+   *: local (Integer)
+  Steps:
+   1: Assign local, val - evil
+   2: Output val, local, and evil
+   3: Decrease val by 1
+   4: Decrease local by 1
+   5: Decrease evil by 1
+
+Variables:
+* good (Integer)
+Steps:
+ 1: Assign to evil, 1
+ 2: Assign to good, 1
+ 3: Call Test Params ( good )
+ 4: Output good and evil to the Terminal
+

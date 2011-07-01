@@ -1,0 +1,37 @@
+\clearpage
+\section{Pascal Program} % (fold)
+\label{sec:pascal-basic-program}
+
+Pascal includes syntax to allow you to declare a program in your code. The code for a Pascal program is written
+
+Your program contains the instructions that are followed when the user runs the executable file. In many cases you will want to use code from other \nameref{sec:unit}s. This is achieved using the uses clause. By default all program's have access to the \texttt{System} unit, which contains \nameref{sec:writeln} and many other useful procedures.
+
+\subsection*{Pascal Syntax} % (fold)
+\label{sub:programsgeneralform}
+
+\input{syntax-out/pascal/program-creation/program}
+% subsection general_form (end)
+
+\subsection*{Example} % (fold)
+\label{sub:programExamples}
+
+The code in Listing \ref{lst:pascal-program-creation-HelloWorld} and Listing \ref{lst:pascal-program-creation-ClrScr} show two example programs. Listing \ref{lst:pascal-program-creation-HelloWorld} contains the instructions that for a program which greets the world when it is executed, printing the text \emph{Hello World} to the console. The program in Listing \ref{lst:pascal-program-creation-ClrScr} shows how to use code from the CRT \nameref{sec:unit}, the code for the \texttt{ClrScr} procedure is contained in the \texttt{CRT} Unit.
+
+\lstinputlisting[caption={The classic ``Hello World'' program.},label={lst:pascal-program-creation-HelloWorld}]{./topics/program-creation/pascal/HelloWorld.pas}
+\lstinputlisting[caption={Example of unit use, using the \texttt{CRT} unit},label={lst:pascal-program-creation-ClrScr}]{code/pascal/program-creation/ClearScreen.pas}
+
+% subsection program_examples (end)
+
+\mynote{
+\begin{itemize}
+    \item The program in Listing~\ref{lst:HelloWorld} is named `HelloWorld', see \nameref{sec:identifier}.
+    \item A program's instructions start at the \texttt{begin} \nameref{sec:keyword}.
+    \item The `Hello World' program in Listing~\ref{lst:HelloWorld} has one statement that uses \nameref{sec:writeln}.
+    \item The statements are grouped within a \emph{block} that ends with the \texttt{end} \nameref{sec:keyword}.
+    \item Program's end at the full stop (at \texttt{end.}).
+    \item \nameref{sec:writeln} comes from the System unit, to use code in other units you need to include the uses clause.
+\end{itemize}
+}
+% subsection program_study (end)
+
+% section program (end)

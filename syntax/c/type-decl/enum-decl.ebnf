@@ -1,0 +1,7 @@
+enum decl. = "enum", "{", {enumeration constant}*, "}", typedef name;
+
+enum constant = enumeration constant name, [ "=", constant expression ], ";";
+
+enum const name = identifier;
+
+typedef name = identifier;

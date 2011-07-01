@@ -1,0 +1,85 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Control Flow Concepts}{\reset@font\mtcSfont 199}{section.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.1}Boolean Data}{\reset@font\mtcSSfont 200}{subsection.5.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Comparisons}{\reset@font\mtcSSSfont 201}{subsubsection*.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Logical Operators}{\reset@font\mtcSSSfont 202}{subsubsection*.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.2}Branching}{\reset@font\mtcSSfont 203}{subsection.5.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode If Statement}{\reset@font\mtcSSSfont 204}{subsubsection*.11}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Case Statement}{\reset@font\mtcSSSfont 205}{subsubsection*.13}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.3}Looping}{\reset@font\mtcSSfont 206}{subsection.5.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Pre-Test Loop}{\reset@font\mtcSSSfont 207}{subsubsection*.16}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Post-Test Loop}{\reset@font\mtcSSSfont 208}{subsubsection*.18}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.4}Jumping}{\reset@font\mtcSSfont 209}{subsection.5.1.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Break}{\reset@font\mtcSSSfont 210}{subsubsection*.21}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Continue}{\reset@font\mtcSSSfont 211}{subsubsection*.23}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Exit}{\reset@font\mtcSSSfont 212}{subsubsection*.25}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Goto}{\reset@font\mtcSSSfont 213}{subsubsection*.27}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.5}Compound Statement}{\reset@font\mtcSSfont 214}{subsection.5.1.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.6}Statement (Simple and Structured)}{\reset@font\mtcSSfont 215}{subsection.5.1.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1.7}Summary}{\reset@font\mtcSSfont 216}{subsection.5.1.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Using these Concepts}{\reset@font\mtcSfont 217}{section.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.1}Designing Guess that Number}{\reset@font\mtcSSfont 217}{subsection.5.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.2}Understanding Guess that Number}{\reset@font\mtcSSfont 218}{subsection.5.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.3}Choosing Artefacts for Guess that Number}{\reset@font\mtcSSfont 218}{subsection.5.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.4}Designing Control Flow for Perform Guess}{\reset@font\mtcSSfont 220}{subsection.5.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Drawing control flow using a Flowchart}{\reset@font\mtcSSSfont 220}{subsubsection*.35}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Use Structured Programming Principles to guide the design of the flowchart}{\reset@font\mtcSSSfont 221}{subsubsection*.37}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode The Structured Programming blocks used to build the logic}{\reset@font\mtcSSSfont 224}{subsubsection*.40}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Combining blocks for the Perform Guess}{\reset@font\mtcSSSfont 225}{subsubsection*.44}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Setting the result using an Expression}{\reset@font\mtcSSSfont 231}{subsubsection*.52}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode The Pseudocode for \texttt {Perform Guess}}{\reset@font\mtcSSSfont 232}{subsubsection*.54}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.5}Designing Control Flow for Play Game}{\reset@font\mtcSSfont 234}{subsection.5.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.6}Designing Control Flow for Print Line}{\reset@font\mtcSSfont 239}{subsection.5.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.7}Designing the Control Flow for Main}{\reset@font\mtcSSfont 241}{subsection.5.2.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.8}Writing the Code for Guess That Number}{\reset@font\mtcSSfont 243}{subsection.5.2.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.9}Compiling and Running Guess that Number}{\reset@font\mtcSSfont 243}{subsection.5.2.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Control Flow in C}{\reset@font\mtcSfont 244}{section.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Implementing the Guess that Number in C}{\reset@font\mtcSSfont 244}{subsection.5.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}C Boolean Data}{\reset@font\mtcSSfont 246}{subsection.5.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.3}C Statement (with loops)}{\reset@font\mtcSSfont 248}{subsection.5.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.4}C If Statement}{\reset@font\mtcSSfont 249}{subsection.5.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.5}C Case Statement}{\reset@font\mtcSSfont 250}{subsection.5.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.6}C Compound Statement}{\reset@font\mtcSSfont 252}{subsection.5.3.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.7}C While Loop}{\reset@font\mtcSSfont 253}{subsection.5.3.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.8}C Do While Loop}{\reset@font\mtcSSfont 254}{subsection.5.3.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.9}Jump Statements}{\reset@font\mtcSSfont 255}{subsection.5.3.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Understanding Control Flow}{\reset@font\mtcSfont 256}{section.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.1}Understanding Branching in Perform Guess}{\reset@font\mtcSSfont 256}{subsection.5.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Perform Guess is called for guess 1}{\reset@font\mtcSSSfont 257}{subsubsection*.74}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Execution reaches the if branch for guess 1}{\reset@font\mtcSSSfont 258}{subsubsection*.76}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode If takes the True branch for guess 1}{\reset@font\mtcSSSfont 259}{subsubsection*.78}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Control jumps to the end of \texttt {Perform Guess} for guess 1}{\reset@font\mtcSSSfont 260}{subsubsection*.80}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {Perform Guess} is called again for guess 2}{\reset@font\mtcSSSfont 261}{subsubsection*.82}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode If takes the \emph {else} branch for guess 2}{\reset@font\mtcSSSfont 262}{subsubsection*.84}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode The inner if's \emph {true} branch is taken in guess 2}{\reset@font\mtcSSSfont 263}{subsubsection*.86}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Control jumps to the end of \texttt {Perform Guess} for guess 2}{\reset@font\mtcSSSfont 264}{subsubsection*.88}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Perform Guess is called again for guess 3}{\reset@font\mtcSSSfont 265}{subsubsection*.90}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode If takes the \emph {else} branch for guess 3}{\reset@font\mtcSSSfont 266}{subsubsection*.92}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode The inner if's \emph {else} branch is taken in guess 3}{\reset@font\mtcSSSfont 267}{subsubsection*.94}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Control jumps to the end of \texttt {Perform Guess} for guess 3}{\reset@font\mtcSSSfont 268}{subsubsection*.96}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.2}Understanding Looping in Play Game}{\reset@font\mtcSSfont 269}{subsection.5.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {Play Game} is called}{\reset@font\mtcSSSfont 270}{subsubsection*.99}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode The loop is entered}{\reset@font\mtcSSSfont 271}{subsubsection*.101}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {Perform Guess} is called, and returns false for guess 1}{\reset@font\mtcSSSfont 272}{subsubsection*.103}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Loop condition is checked at the end of guess 1, with the loop being repeated}{\reset@font\mtcSSSfont 273}{subsubsection*.105}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Control returns to the top of the loop to perform guess 2}{\reset@font\mtcSSSfont 274}{subsubsection*.107}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {Perform Guess} is called again, and returns false for guess 2}{\reset@font\mtcSSSfont 275}{subsubsection*.109}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Loop condition is checked at the end of guess 2, with the loop being repeated}{\reset@font\mtcSSSfont 276}{subsubsection*.111}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {Perform Guess} is called a third time, and returns true for guess 3}{\reset@font\mtcSSSfont 277}{subsubsection*.113}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Loop condition is checked at the end of guess 3, ending the loop}{\reset@font\mtcSSSfont 278}{subsubsection*.115}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Branch is checked after the loop}{\reset@font\mtcSSSfont 279}{subsubsection*.117}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.3}Understanding looping in Print Line}{\reset@font\mtcSSfont 280}{subsection.5.4.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Print Line is called to print a line of three characters}{\reset@font\mtcSSSfont 281}{subsubsection*.120}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Execution proceeds to the while loop}{\reset@font\mtcSSSfont 282}{subsubsection*.122}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode First dash is output to the Terminal}{\reset@font\mtcSSSfont 283}{subsubsection*.124}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {i} is incremented, counting the number of times the loop has run}{\reset@font\mtcSSSfont 284}{subsubsection*.126}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Condition is checked again, and the body of the loop reentered}{\reset@font\mtcSSSfont 285}{subsubsection*.128}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Loop 2 starts, outputting the second dash}{\reset@font\mtcSSSfont 286}{subsubsection*.130}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {i} is incremented again, indicating that the loop has run twice}{\reset@font\mtcSSSfont 287}{subsubsection*.132}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Condition is checked again, and the loop runs a third time}{\reset@font\mtcSSSfont 288}{subsubsection*.134}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Another dash is output as the loop body runs a third time}{\reset@font\mtcSSSfont 289}{subsubsection*.136}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \texttt {i} is incremented again, indicating the loop has been performed three times}{\reset@font\mtcSSSfont 290}{subsubsection*.138}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Condition is checked a fourth time, and the loop body is skipped}{\reset@font\mtcSSSfont 291}{subsubsection*.140}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Having completed the loop, the next instruction outputs a new line}{\reset@font\mtcSSSfont 292}{subsubsection*.142}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Control Flow Examples}{\reset@font\mtcSfont 293}{section.5.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.6}Control Flow Exercises}{\reset@font\mtcSfont 294}{section.5.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.7}Control Flow in the Project}{\reset@font\mtcSfont 295}{section.5.7}}

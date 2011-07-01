@@ -1,0 +1,11 @@
+Program: Test Assignment
+----------------------------
+
+Variables:
+ * val (Integer)
+ * range (Double)
+Steps:
+ 1: Assign to val, 23
+ 2: Assign to range, 1 + val / 100
+ 3: Output val and range to the Terminal
+

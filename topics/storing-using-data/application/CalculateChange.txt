@@ -1,0 +1,56 @@
+Program: Simple Change
+----------------------------
+Constants:
+ * TWO_DOLLARS with value 200
+ * ONE_DOLLAR with value 100
+ * FIFTY_CENTS with value 50
+ * TWENTY_CENTS with value 20
+ * TEN_CENTS with value 10
+ * FIVE_CENTS with value 5
+
+  Function: Coins to Give
+  ----------------------------
+  Returns: An Integer - the number of coins to give in change
+  Parameters:
+   1: Change (Integer)
+   2: Coin Value (Integer)
+  Steps:
+   1: Return the result of Change divided by Coin Value
+  
+  Procedure: Output Change Data
+  ----------------------------
+  Parameters:
+   1: Number Given (Integer)
+   2: Coin Description (String)
+  Steps:
+   1: Output Number Given, ' x ', and the Coin Description
+  
+Variables:
+ * Cost of Item (Integer)
+ * Payment (Integer)
+ * Change Value (Integer)
+ * To Give (Integer)
+Steps:
+ 1: Output 'Cost of item (in cents): '
+ 2: Read a number into Cost of Item
+ 3: Output 'Amount paid (in cents): '
+ 4: Read a number into Payment
+ 5: Assign to Change Value the value Payment - Cost of Item
+ 6: To Give = Coins to Give(Change Value, TWO_DOLLARS)
+ 7: Change Value = Change Value - To Give * TWO_DOLLARS
+ 8: Call Output Change Data( To Give, '$2' )
+ 9: To Give = Coins to Give(Change Value, ONE_DOLLAR)
+10: Change Value = Change Value - To Give * ONE_DOLLAR
+11: Call Output Change Data( To Give, '$1' )
+12: To Give = Coins to Give(Change Value, FIFTY_CENTS)
+13: Change Value = Change Value - To Give * FIFTY_CENTS
+14: Call Output Change Data( To Give, '50c' )
+15: To Give = Coins to Give(Change Value, TWENTY_CENTS)
+16: Change Value = Change Value - To Give * TWENTY_CENTS
+17: Call Output Change Data( To Give, '20c' )
+18: To Give = Coins to Give(Change Value, TEN_CENTS)
+19: Change Value = Change Value - To Give * TEN_CENTS
+20: Call Output Change Data( To Give, '10c' )
+21: To Give = Coins to Give(Change Value, FIVE_CENTS)
+22: Change Value = Change Value - To Give * FIVE_CENTS
+23: Call Output Change Data( To Give, '5c' )

@@ -1,0 +1,10 @@
+----------------------------
+Procedure: SignalQ
+----------------------------
+Steps:
+1: Call Long Signal
+2: Call Long Signal
+3: Call Short Signal
+4: Call Long Signal
+5: Output ' ' (a space) to the Terminal
+

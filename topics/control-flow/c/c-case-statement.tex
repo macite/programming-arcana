@@ -1,0 +1,27 @@
+\clearpage
+\subsection{C Case Statement} % (fold)
+\label{sub:c_case_statement}
+
+The case statement allows you to switch between a number of paths.
+
+\csyntax{csynt:branching-case-statement}{a Case Statement}{branching/case-statement}
+
+\mynote{
+\begin{itemize}
+  \item This is the C syntax to declare a \nameref{sub:case_statement}.
+  \item The \emph{constant expressions} in each \emph{case} must be ordinal values (integers or characters).
+  \item The code in \lref{clst-test-case} shows an example use for a case statement.
+  \item The \texttt{default} path is taken when none of the other paths match the expression.
+  \item If the \texttt{break} is left off the end of a \emph{case} then execution will continue into the next \emph{case}. For example, in \lref{clst-simple-case} if the user enters `c' the output will be `\texttt{C and D}'
+  \item Each \emph{case} can contain a number of Statements.
+  \item Watch \url{http://www.youtube.com/watch?v=zIV4poUZAQo} for important details on the legendary Knights of Ni.
+\end{itemize}
+}
+
+\csection{\ccode{clst-simple-case}{C case test code with a character}{code/c/control-flow/simple-case.c}}
+
+\clearpage
+
+\csection{\ccode{clst-test-case}{C case test code with an integer}{code/c/control-flow/test-case.c}}
+
+% subsection case_statement (end)

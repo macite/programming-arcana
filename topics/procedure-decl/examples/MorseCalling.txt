@@ -1,0 +1,48 @@
+----------------------------
+Program: MorseCalling
+----------------------------
+
+  Procedure: ShortSignal
+  ----------------------------
+  Steps:
+  1: Play 'dit' Sound Effect
+  2: Delay for 200 milliseconds
+
+  Procedure: LongSignal
+  ----------------------------
+  Steps:
+  1: Play 'dah' Sound Effect
+  2: Delay for 600 milliseconds
+
+  Procedure: SignalC
+  ----------------------------
+  Steps:
+  1: Delay for 500 milliseconds
+  2: Call LongSignal
+  3: Call ShortSignal
+  4: Call LongSignal
+  5: Csll ShortSignal
+
+  Procedure: SignalQ
+  ----------------------------
+  Steps:
+  1: Delay for 500 milliseconds
+  2: Call LongSignal
+  3: Call LongSignal
+  4: Call ShortSignal
+  5: Call LongSignal
+
+  Procedure: LoadSounds
+  ----------------------------
+  Steps:
+  1: Load a SoundEffect Named 'dah', for 'dah.wav'
+  2: Load a SoundEffect Named('dit', for  'dit.wav'
+
+
+Steps:
+1: OpenAudio
+2: LoadSounds
+3: SignalC
+4: SignalQ
+5: Close Audio
+6: Release All Resources

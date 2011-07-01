@@ -1,0 +1,9 @@
+program = {header include}*, main function ;
+
+header include = "#include", "<" | '"', library name, ">" | '"' ;
+
+main function = "int main()", block ;
+
+block = "{", {statement, ";"}*, "}" ;
+
+library name = filename ;

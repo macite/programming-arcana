@@ -1,0 +1,37 @@
+% Document is a book printed on A4 paper
+\documentclass[english,a4paper,10pt]{book}
+
+\input{preamble/preamble}
+
+% \includeonly{topics/program-creation/program-creation}
+% \includeonly{topics/procedure-decl/procedure-decl}
+% \includeonly{topics/storing-using-data/storing-using-data}
+% \includeonly{topics/control-flow/control-flow}
+
+\begin{document}
+  % bring the style into effect
+  \input{preamble/title}
+  
+  \dominitoc 
+  \dominilof 
+  \dominilot
+  
+  \faketableofcontents
+  
+  \include{topics/programs-and-compilers/compilers}
+  \include{topics/program-creation/program-creation}
+  \include{topics/procedure-decl/procedure-decl}
+  \include{topics/storing-using-data/storing-using-data}
+  \include{topics/control-flow/control-flow}
+  % \include{topics/parameters/parameters}
+  % \include{topics/function-decl/function-decl}
+  % \include{topics/branching/branching}
+  % \include{topics/looping/looping}
+  
+  \include{topics/type-decl/type-decl}
+  \include{topics/library-creation/library-creation}
+  
+  \appendix
+  \include{appendix/starting-swingame}
+  
+\end{document}

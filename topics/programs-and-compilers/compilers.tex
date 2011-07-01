@@ -1,0 +1,188 @@
+\chapter{Building Programs} % (fold)
+\label{cha:building programs}
+
+Welcome to the Programming Arcana\footnote{Arcana is defined as secrets or mysteries, Wiktionary defines it as ``specialized knowledge that is mysterious to the uninitiated.''. This fits well with the idea of programming, and we just think its a cool word to describe the \emph{magic} of programming!}, a book about learning to program. This book contains a number of lessons that take you from knowing nothing, or little, about programming to a position where the mysteries are revealed. By the end of the material you will be able to create your own programs and you will be ready to start learning other programming languages and approaches to software development.
+
+This book is divided into a number of chapters, each of which introduces you to a programming task and the arcane knowledge that must be attained to understand how the task is accomplished. As with any arcane knowledge there are special terms that are used by those who know its secrets. In each chapter you will be introduced to the terms you need to understand in order to perform the current task. This will provide you with the tools you need to describe programs to other software developers, and will help you understand how the structures within your programs work to achieve their goals.
+
+Like magic, you must learn the structure of source code, and how to use tools to convert these into executable programs. Let us begin with a simple program, a program that will greet the world.
+
+\minitoc
+
+\clearpage
+
+\section{Hello World} % (fold)
+\label{sec:hello world}
+
+There is a special program that should be the first program a software developer creates. This program is called `Hello World', it runs and displays the text `Hello World' onto the console. The program requires very little code, and can be used to make sure that everything is set up correctly on your machine.
+
+This chapter covers the knowledge needed to create a simple program that outputs information to the console. This first step is important and will require you to have installed the compiler, see Appendix \ref{chap:InstallingTools} for instructions. At the end of this material you will be able to create and run programs using the languages presented.
+
+This book focuses on programming concepts, and gives you the option of programming these using either the C or Pascal programming language. Both languages are very capable, with each having their own advantages and disadvantages. Pascal was designed as a teaching language and is easy to program with while still being very capable. C is very flexible and is the basis for a number of other languages.
+
+\begin{multicols}{2}
+  \ccode{lst:hello-world-c}{Hello World code in C.}{code/c/program-creation/hello-world.c}
+  \columnbreak
+  \pascode{lst:hello-world-pas}{Hello World code in Pascal.}{./topics/program-creation/pascal/HelloWorld.pas}
+\end{multicols}
+
+Listings \ref{lst:hello-world-c} and \ref{lst:hello-world-pas} show the code for the `Hello World' program written with the C and Pascal programming languages. Both programs result in the same output when run: they write the text `Hello World!' to the console. They both use the same basic programming structures, and they both go about performing the task in the same way. At this stage, however, they are both just fancy text. What we need to do is use a special tool to convert these into \emph{programs}.
+
+% section hello world (end)
+
+\clearpage
+\section{The Compiler} % (fold)
+\label{sec:the_compiler}
+
+A \textbf{compiler} is a program that can be used to turn code, such as the code in Listings \ref{lst:hello-world-c} and \ref{lst:hello-world-pas}, into an executable file; making a \emph{program} we can execute. In order to understand this, we need to step back and look in a little more detail at how computers work. The following sections will cover details on what programs are, how they work, the tool you can use create programs, and how these tools work at a high level.
+
+\subsection{Machine Code} % (fold)
+\label{sub:machine_code}
+
+\emph{What is a program?}
+
+Programs are lists of commands\footnote{C and Pascal are both \emph{imperative} programming languages. In the imperative paradigm a program is seen as a list of commands instructing the computer to perform actions.} telling the computer what to do, and the order in which to do it. Each instruction is very simple, but they can be executed very quickly, allowing computers to perform quite remarkable feats.
+
+
+\medskip
+
+\emph{What instructions does a computer understand?}
+
+Computers are unintelligent: they can execute a sequence of simple instructions. These instructions are often called \textbf{machine code}, reflecting the fact that these are the \emph{codes} used to tell the computer what to do. The code \texttt{1000 0011 1100 0101}, for example, may tell the computer to add some values together. The instructions that a computer uses is called its {\em instruction set} and contain instructions to perform basic mathematic operations, loading and storing data in memory, comparing numeric values, and moving to the next instruction. Listing \ref{lst:machine code} shows a chunk of the machine code for a small program. These 1s and 0s are the codes used to instruct the computer when this program is executed.
+
+\begin{lstlisting}[caption={128 bits from the 106,752 bits of Machine Code from a small program.},label={lst:machine code}]
+...
+0110 0111 0111 0010 0000 0000 0110 0011
+0100 1110 0101 1111 0100 0001 0101 1000
+0110 0111 0111 0010 0000 0000 0111 0110
+0101 1111 0101 1111 0110 1001 0101 1111
+...
+\end{lstlisting}
+
+\emph{Can you write using machine code?}
+
+Programs can be written directly in machine code, but this is a time consuming task. This is further complicated by the fact that machine code is unique to each kind of processor (CPU). This means that programming at this level is entirely dependent on the kind of processor that you are targeting. As a result programmers tend not to work at this level, but to use a higher level languages and tools to convert their code down to this level.
+% subsection machine_code (end)
+
+\subsection{Assembler Code} % (fold)
+\label{sub:assembler_code}
+
+The next level of abstraction up from machine code is called \textbf{Assembler Code}. Here the numeric machine code instructions are given symbolic names that are, to some degree, more understandable for humans. The code \texttt{1000 0011 1100 0101} may be given the symbolic name \texttt{add}, for example.
+
+Programs written in this language cannot be executed directly by the computer, it isn't machine code. Assembler code is converted to machine code by a program called an \textbf{Assembler}, hence the name `assembler code'. This program reads the instructions from the assembler code and outputs the appropriate machine code. So anywhere it encounters \texttt{add} in the code it can output \texttt{1000 0011 1100 0101}.
+
+The code in Listing \vref{asmcode} shows an example of some assembler code. This is the assembler code that was used to generate the machine code from Listing \ref{lst:machine code}. The machine code was 13,344 bytes in size, where the same program in assembler code is only 658 bytes. The assembler reads these 658 bytes, combines it with instructions from program libraries, and outputs machine code. 
+
+\lstset{language=[x86masm]{assembler}}
+
+\begin{lstlisting}[caption={Assembler Sample},label={asmcode}]
+  .cstring
+LC0:
+  .ascii "Hello\0"
+  .text
+.globl _main
+_main:
+  pushl	%ebp
+  movl	%esp, %ebp
+  pushl	%ebx
+  subl	$20, %esp
+  call	___i686.get_pc_thunk.bx 
+"L000001$pb":
+  leal	LC0-"L000001$pb"(%ebx), %eax
+  movl	%eax, (%esp)
+  call	L_printf$stub
+  addl	$20, %esp
+  popl	%ebx
+  popl	%ebp
+  ret
+\end{lstlisting}
+
+From a programmer's perspective, assembler code is much easier to work with than machine code, though there are still issues with the use of assembler code. Firstly assembler code is bound to the instruction set of the CPU that you are targeting, meaning that if you want to support other kinds of CPU you will need to rewrite the program. The other main issue with assembler code is that while it is more understandable, you are still working with the primitive instructions of the CPU. Working at this level takes considerable effort to write even simple programs.
+
+% subsection assembler_code (end)
+\clearpage
+\subsection{Source Code} % (fold)
+\label{sub:source_code}
+
+The next step in programming language evolution moved from machine level instructions to something more human readable. These languages, known as \emph{third generation programming languages}, use move advanced programs than assemblers to convert their instructions into machine code. Programs written in these languages may have their code converted by either a \textbf{compiler}\footnote{Both C and Pascal are compiled languages, using a compiler to convert your code into machine code.} or an \textbf{interpreter}.
+
+\begin{description}
+\item[Compiler]\index{compiler} A program that converts code into machine code that is saved into an executable file called a \emph{program}. The program can then be executed independent of the compiler and the source code.
+\item[Interpreter]\index{interpreter} A program that reads and `executes' the code directly. This involves reading the code, and executing machine code to fulfil the required actions. To run the program requires the source code and the compiler; with the code being read and executed each time the program is run.
+\end{description}
+
+\ccode{lst:hello-world-c2}{Hello World code in C (same as \ref{lst:hello-world-c}).}{code/c/program-creation/hello-world.c}
+
+The code shown in Listing \ref{lst:hello-world-c2} shows the code for the C program that was used to generate the assembler code, and machine code shown in the previous code listings. This code must be converted by the C compiler into machine code before it can be run. It is interesting to note the size of the C file: it is only 50 bytes! The compiler converts this 50 bytes into the 13,344 bytes of machine code that tells the computer what to do when this program is run.
+
+Programs written in a third generation programming language are much more understandable than their assembler or machine code counterparts. It is also possible that this code can be compiled to run on different types of CPU, making it more portable. Most modern programming languages are third generation programming languages.
+
+The code that a programmer writes in these languages is called \textbf{source code}. Typically source code is saved into a text file with a file extension that helps identify the language it is written in. For example, programs written in the C language are saved into files with a {\tt .c} file extension whereas Pascal programs are saved into files with a {\tt .pas} extension.
+
+% subsection source_code (end)
+\clearpage
+\subsection{Compiling Code} % (fold)
+\label{sub:compiling_code}
+
+The compiler's job is to convert your source code into machine code. To do this the compiler needs a way of understanding the tasks you want the computer to perform, and the order you want them to be performed in. To help with this task the designers of the compiler define rules for how the source code for their compiler must be written. These rules define the \textbf{syntax} for the \emph{programming language} the compiler understands.
+
+When you run the compiler you will pass to it two things: options, and the file or files you want converted to machine code. The compiler will read the files you pass it and use the language's syntax to determine the tasks you want performed. Once it has built up a model of the program it will the write machine code instructions into a program file. When the compiler finishes you can then run the program file and see the computer perform the tasks coded in the source code.
+
+\begin{multicols}{2}
+  \bashcode{lst:compile-hello-world-c}{Compiling C code.}{code/c/program-creation/compile-hello-world.sh}
+  \columnbreak
+  \bashcode{lst:compile-hello-world-pas}{Compiling Pascal code.}{code/pascal/program-creation/compile-hello-world.sh}
+\end{multicols}
+
+\csection{There are many different C compilers. The one we have used in Listing \ref{lst:compile-hello-world-c} is the \textbf{gcc} compiler, the \textbf{GNU C Compiler}. When you call the compiler you can use the \emph{-o name} option to tell it the name of the program file to create. In our example this will compile the code in \emph{helloworld.c} and save the machine code into a program called \emph{hello}.}
+
+\passection{Listing \ref{lst:compile-hello-world-pas} shows the instructions to run the \textbf{fpc} compiler. FPC is the \textbf{Free Pascal Compiler}, which can compile a number of different versions of the Pascal language. The \emph{-S2} option is used to tell FPC to compile using the latest `Free Pascal' version of the language. In our example this will compile the code in \emph{HelloWorld.pas} and save the machine code into a program called \emph{HelloWorld}, which it gets from the name of the Pascal file.}
+
+If the source code you try to compile does not follow all of the rules of the language then the compiler will end with an error message. These errors, called \textbf{syntax errors}, could be as small as missing a semicolon (;), or misspelling a name. When the compiler encounters these issues it does not create the executable program, but instead returns a list showing where it got to before it found an error. You can use these error messages to fix the mistakes, and then run the compiler again to generate your program.
+
+\clearpage
+\subsection{Challenges and Rewards} % (fold)
+\label{sub:challenges_and_rewards}
+
+% subsection challenges_and_rewards (end)
+
+Programming in a third generation language, like C and Pascal, requires you master several different things, as shown in the following list. The following chapters will work on building your knowledge and skills in each of these aspects.
+
+\begin{enumerate}
+  \item What is it that you want the program to do? Writing a program is like writing instructions for someone to carry out. If you do not know how to perform the task yourself you will not be able to tell someone else how to perform the task.
+  \item You need to understand what the computer is capable of doing. Computers are unintelligent, so writing a program is more challenging than giving instructions to a person as the computer cannot interpret what you mean and will follow your instructions to the letter, regardless of the effect. The capabilities of the computer limit the flexibility you have for expressing your solution.
+  \item The language you choose to develop with also limits how you express your solution. You need to understand the artefacts that you can create, how these artefacts are written in source code, and how these are executed by the computer.
+  \item Finally you need to understand how to locate and correct issues with your programs. This includes responding to syntax errors reported to you by the compiler, as well being able to locate errors where the program does not operate the way you intended. 
+\end{enumerate}
+
+\emph{With all of these challenges, what appeal does software development have?}
+
+There is nothing better than seeing a program you created running on a computer. You have brought the machine to life, getting it to perform a task the way you want it performed. Once you get a program working it can become easy to get hooked and working on new features and functions becomes a real joy. The greater the challenge the program offers, the greater your sense of achievement when you see the working product in operation.
+
+% subsection compiling_code (end)
+
+% section the_compiler (end)
+
+\section{Getting Setup} % (fold)
+\label{sec:getting_setup}
+
+To create programs you are going to need a couple of tools.
+
+\begin{itemize}
+  \item A \textbf{compiler} to convert your source code into machine code.
+  \item A \textbf{text editor} to enter your code into.
+  \item A \textbf{shell} to interact with your computer.
+\end{itemize}
+
+
+
+% section getting_setup (end)
+
+\section{Summary} % (fold)
+\label{sec:summary-compilers}
+
+Computers can execute \textbf{machine code}, but this isn't very friendly for people to read or create. \textbf{Assembler code} provided the first layer of abstraction over machine code, giving symbolic names to the machine code instructions. This was a little easier to work with, but still required considerable work to create programs of even simple functionality. Most modern programs are written from \textbf{third generation languages} such as \textbf{C} and \textbf{Pascal}. With these languages the develop writes source code that is converted by a \textbf{compiler} into machine code.
+
+% section summary (end)
+
+% chapter building_programs (end)

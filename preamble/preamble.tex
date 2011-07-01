@@ -1,0 +1,255 @@
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+% \usepackage{fullpage}
+
+% Running Headers and footers
+% \usepackage{fancyhdr}
+% \usepackage{newhead}
+
+% More symbols
+\usepackage{amsmath, amssymb, amsthm, amstext, latexsym}
+
+% Surround parts of graphics with box
+% \usepackage{boxedminipage}
+% \usepackage{psboxit}
+% \PScommands
+
+\usepackage{framed}
+
+\usepackage[a4paper]{geometry}            % See geometry.pdf to learn the layout options. There are lots.
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+  \pdfcompresslevel=9
+  \DeclareGraphicsExtensions{.pdf,.png,.jpg} 
+  \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\else
+  \usepackage{graphicx}
+\fi
+
+\usepackage{epstopdf}
+
+\usepackage[usenames,dvipsnames]{color}
+
+\usepackage[margin=10pt,font=small,labelfont=bf,position=bottom]{caption}
+% \usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[sectionbib,square]{natbib}
+
+\usepackage{wrapfig} % Allow text to wrap figures
+\usepackage{subfig} % Allow subfigures in a figure
+
+\usepackage{flushend}
+\usepackage{rotating}
+\usepackage{url}
+\usepackage{varioref}
+% 
+% \usepackage{exercise}
+
+% ======================
+% = Playing with Fonts =
+% ======================
+
+\usepackage[OT1]{fontenc}
+\usepackage{babel}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{slantsc}
+\usepackage{yfonts}
+
+\usepackage{times}
+\usepackage{tgbonum}  %% Use the extended bookman font
+\usepackage{aurical}
+\renewcommand*\ttdefault{txtt}
+
+\usepackage{morse}
+
+% \usepackage{mybox}
+% \definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
+
+%\usepackage{noteslang}
+%\usejava
+%\usecsharp
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% =========================
+% = Packages for graphics =
+% =========================
+\usepackage{tikz}
+\usepackage{pgf}
+
+\input{preamble/tikz-style}
+
+% =======================
+% = Drop Caps and Fonts =
+% =======================
+
+\usepackage{lettrine}
+
+
+% ==============================================
+% = Packages required for Source Code Listings =
+% ==============================================
+
+\usepackage{listings}
+\usepackage{upquote}
+\usepackage{fancyvrb}
+\usepackage{pdflscape}
+
+\lstdefinelanguage[FPC]{Pascal}[Standard]{Pascal}
+  {morecomment=[l]//,
+   morekeywords={uses,external,cdecl,export,forward,global,module,nil,operator,overload,%
+      priority,sum,type,use,dispose,mark,page,release,%
+      eof,eoln,ord,pos,pred,rval,succ,result,interface,implementation,unit}%
+  }%
+
+\lstset{keywordstyle=\color{Blue}}
+\lstset{commentstyle=\color{OliveGreen}}
+\lstset{stringstyle=\color{BrickRed}}
+\lstset{basicstyle=\ttfamily\small}
+\lstset{captionpos=t}
+% \lstset{frame=trbl}
+\lstset{fancyvrb=true}
+\lstset{numberstyle=\footnotesize}
+\lstset{showstringspaces=false}
+\lstset{tabsize=2}
+\lstset{captionpos=b}
+
+\newcommand{\straightcode}[1]
+{
+  \begin{tikzpicture}
+    \draw[very thick,color=gray] (0,-0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,-0.15);
+  \end{tikzpicture}
+  
+  {#1}
+  
+  \begin{tikzpicture}
+    \draw[very thick,color=gray] (0,0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,0.15);
+  \end{tikzpicture}
+}
+
+
+\newcommand{\pascode}[3]
+{
+  \lstset{language=[FPC]Pascal}
+  \lstinputlisting[caption={#2},label={#1}]{#3}
+}
+
+\newcommand{\mpascode}[4]
+{
+  \lstset{language=[FPC]Pascal}
+  \lstinputlisting[caption={#2},label={#1},multicols=#4]{#3}
+}
+
+
+\newcommand{\passnipet}[1]
+{
+  \lstset{language=[FPC]Pascal}
+  \lstinline&#1&
+}
+
+
+\newcommand{\ccode}[3]
+{
+  \lstset{language=C}
+  \lstinputlisting[caption={#2},label={#1}]{#3}
+}
+
+\newcommand{\mccode}[4]
+{
+  \lstset{language=C}
+  \lstinputlisting[caption={#2},label={#1},multicols=#4]{#3}
+}
+
+
+\newcommand{\csnipet}[1]
+{
+  \lstset{language=C}
+  \lstinline^#1^
+}
+
+\newcommand{\bashcode}[3]
+{
+  \lstset{language=bash}
+  \lstinputlisting[caption={#2},label={#1}]{#3}
+}
+
+\newcommand{\bashsnipet}[1]
+{
+  \lstset{language=bash}
+  \lstinline^#1^
+}
+
+
+\captionsetup[lstlisting]{labelfont=bf} 
+
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{0.50in}
+
+\addtolength{\topmargin}{-0.25in}
+\addtolength{\textheight}{1.25in}
+
+\usepackage{phdthesis}
+
+% ==================
+% = MyBox commands =
+% ==================
+
+\usepackage{lipsum,framed,color}
+
+\definecolor{shadecolor}{rgb}{1,0.8,0.3}
+\newlength{\boxwidth}
+\newsavebox{\boxcontainer}
+
+\newcommand\mybox[1]{%
+  \begin{center}%
+    \fcolorbox{black}{shadecolor}{%
+      \begin{minipage}[t]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}%
+        #1%
+      \end{minipage}}%
+  \end{center}}
+
+\newenvironment{Mybox}%
+  {\begin{lrbox}{\boxcontainer}%
+     \begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}}%
+  {\end{minipage}\end{lrbox}%
+   \begin{center}%
+     \fcolorbox{black}{shadecolor}{\usebox{\boxcontainer}}
+   \end{center}}
+
+\newenvironment{MyBox}{%
+  \def\FrameCommand{\fcolorbox{black}{shadecolor}}%
+  \MakeFramed{\setlength{\hsize}{\dimexpr\textwidth-2\fboxsep-2\fboxrule} \FrameRestore}}%
+{\endMakeFramed}
+
+% Settings for \mybox and Mybox
+\setlength{\fboxrule}{0pt}
+\setlength{\fboxsep}{9pt}
+
+% Additional settings for MyBox
+\setlength{\FrameRule}{\fboxrule}
+\setlength{\FrameSep}{\fboxsep}
+
+% ===========================
+% = Bookmarks for PDF Index =
+% ===========================
+\usepackage[bookmarks=true,colorlinks=true,linkcolor=blue,plainpages=false,pdfpagelabels]{hyperref}
+
+\input{preamble/commands}
+
+% ============
+% = Metadata =
+% ============
+
+\title{The Programming Arcana}
+\author{Andrew Cain, Clinton Woodward, Markus Lumpe}
+\date{\today}

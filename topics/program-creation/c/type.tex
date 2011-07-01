@@ -1,0 +1,73 @@
+\clearpage
+\subsection{C Types} % (fold)
+\label{sub:program-creation-c_types}
+
+\nameref{sub:type}s are used to define how data is interpreted and the operations that can be performed on the data. Table \ref{tbl:program-creation-c-types} shows the three basic types of data, the associated C type, size in memory, and other related information. Table \ref{tbl:program-creation-c operators by type} shows the operators that are permitted for each Type.
+
+\begin{table}[h] 
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Whole Number Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \multicolumn{2}{|c|}{\emph{Range (lowest .. highest)}} \\
+\hline
+\texttt{short} & 2 bytes/16 bits & \multicolumn{2}{|c|}{-32,767 .. 32,767} \\
+\texttt{int} & 4 bytes/32 bits & \multicolumn{2}{|c|}{-2147483648 .. 2147483647} \\
+\texttt{long long}    & 8 bytes/64 bits & \multicolumn{2}{|c|}{-9,223,372,036,854,775,807 ..} \\
+  & & \multicolumn{2}{|c|}{9,223,372,036,854,775,807} \\
+\hline
+\multicolumn{4}{c}{} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Real Number Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \emph{Range (lowest .. highest)} & \emph{Significant Digits} \\
+\hline
+\texttt{float} & 4 bytes/32 bits & 1.0e-38 .. 1.0e38 & 6 \\
+\texttt{double} & 8 bytes/64 bits & 2.0e-308 .. 2.0e308 & 10 \\
+\hline
+\multicolumn{4}{c}{} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Text Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \multicolumn{2}{|c|}{\emph{Known As}} \\
+\hline
+\texttt{char}  & 1 byte/8 bits & \multicolumn{2}{|c|}{} \\
+\hline
+\texttt{char*} & various\footnote{1 byte per character + 1 byte overhead} &  \multicolumn{2}{|c|}{c-string} \\
+\hline
+\end{tabular}
+\caption{C Data Types}\label{tbl:program-creation-c-types}
+\end{minipage}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|l|}
+    \hline
+    \textbf{Type} & \textbf{Operations Permitted} & \textbf{Notes}\\
+    \hline
+    Whole Numbers     &   \texttt{( ) + - / *} & Division rounds down if all\\
+                                    &                        & values are whole numbers.\\
+    Real Numbers   &   \texttt{( ) + - / *} &    \\
+       & & \\
+    Text           &   \emph{None}          & You cannot perform mathematical\\
+    & & operations on text.\\
+    \hline
+  \end{tabular}
+  \caption{C Permitted Operators by Type}
+  \label{tbl:program-creation-c operators by type}
+\end{table}
+
+\csyntax{csynt:program-creation-typed-literal}{Typed Literals}{program-creation/typed-literal}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{int} type is the main whole number type.
+  \item The \texttt{double} type is the main real number type.
+  \item C has limited support for text data. In most languages, text is represented using a \texttt{String} type. The C text type is named \texttt{c-string} to indicate this limited support. C includes a \nameref{sec:program-creation-library} to add operations to manipulate \texttt{c-string} values.
+  \item For example values see Table \vref{tbl:program-creation-c example expresions}.
+\end{itemize}
+}
+% subsection c_types (end)

@@ -1,0 +1,116 @@
+\subsection{Seven Times Table} % (fold)
+\label{sub:seven_times_table}
+
+This program prints out the seven times table from 1 x 7 to 10 x 7. The description of the program is in Table \ref{tbl:program-creation-times-table}, the pseudocode in Listing \ref{lst:program-creation-seven-times-pseudo}, the C code in Listing \ref{lst:program-creation-seven-times-c}, and the Pascal code in Listing \ref{lst:program-creation-seven-times-pas}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Seven Times Table} \\
+  \\
+  \textbf{Description} & Displays the Seven Times Table from 1 x 7 to 10 x 7. \\
+  \hline
+\end{tabular}
+\caption{Description of the Seven Times Table program}
+\label{tbl:program-creation-times-table}
+\end{table}
+
+\pseudocode{lst:program-creation-seven-times-pseudo}{Pseudocode for Seven Times Table program.}{./topics/program-creation/examples/seven-times.txt}
+
+\clearpage
+
+\csection{\ccode{lst:program-creation-seven-times-c}{C Seven Times Table}{topics/program-creation/examples/seven_times.c}}
+\passection{\pascode{lst:program-creation-seven-times-pas}{Pascal Seven Times Table}{topics/program-creation/examples/SevenTimesTable.pas}}
+
+% subsection times_table (end)
+\clearpage
+\subsection{Circle Area} % (fold)
+\label{sub:circle_area}
+
+This program prints out the area of circles with different radius. The description of the program is in Table \ref{tbl:program-creation-circle-area}, the pseudocode in Listing \ref{lst:program-creation-circle-areas-pseudo}, the C code in Listing \ref{lst:program-creation-circle-areas-c}, and the Pascal code in Listing \ref{lst:program-creation-circle-areas-pas}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Circle Areas} \\
+  \\
+  \textbf{Description} & Displays the Circle Areas for circles with radius from 1.0 to 5.0 with increments of 0.5. \\
+  \hline
+\end{tabular}
+\caption{Description of the Circle Areas program}
+\label{tbl:program-creation-circle-area}
+\end{table}
+
+\pseudocode{lst:program-creation-circle-areas-pseudo}{Pseudocode for Circle Area program.}{./topics/program-creation/examples/circle_areas.txt}
+
+\clearpage
+
+\csection{\ccode{lst:program-creation-circle-areas-c}{C Circle Areas}{topics/program-creation/examples/circle_areas.c}}
+\passection{\pascode{lst:program-creation-circle-areas-pas}{Pascal Circle Areas}{topics/program-creation/examples/CircleAreas.pas}}
+
+% subsection circle_area (end)
+\clearpage
+\subsection{Shape Drawing} % (fold)
+\label{sub:shape_drawing}
+
+This program draws some shapes to the screen using the \textbf{SwinGame} Software Development Kit (SDK). The SwinGame SDK is a library that provides a number of reusable code artefacts that you can use to create 2D games. This SDK is available for both C and Pascal, and work on Linux, Mac, and Windows. See Appendix \ref{cha:getting_started_with_swingame} for details on getting started.
+
+The description of the program is in Table \ref{tbl:program-creation-shape-drawing}, the pseudocode in Listing \ref{lst:program-creation-shape-drawing-pseudo}, the C code in Listing \ref{lst:program-creation-shape-drawing-c}, and the Pascal code in Listing \ref{lst:program-creation-shape-drawing-pas}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Shape Drawing} \\
+  \\
+  \textbf{Description} & Draws a number of shapes to the screen using SwinGame. \\
+  \hline
+\end{tabular}
+\caption{Description of the Shape Drawing program}
+\label{tbl:program-creation-shape-drawing}
+\end{table}
+
+\pseudocode{lst:program-creation-shape-drawing-pseudo}{Pseudocode for Shape Drawing program.}{./topics/program-creation/examples/shape_drawing.txt}
+
+The Lines from the program will do the following:
+\begin{itemize}
+  \item \textbf{\texttt{OpenGraphicsWindow}} opens a Window with the title `Shape Drawing' that is 800 pixels wide by 600 pixels high.
+  \item \textbf{\texttt{ClearScreen}} clears the screen to black.
+  \item \textbf{\texttt{FillRectangle}} uses the color, the x, y location, and width and height to fill a rectangle.
+  \item \textbf{\texttt{RefreshScreen}} updates the screen to show what has been drawn. All SwinGame drawing is done offscreen, and only drawn to the screen when RefreshScreen is called.
+  \item \textbf{\texttt{Delay}} pauses the program for a number of milliseconds, so 500 will wait for half a second.
+  \item \textbf{\texttt{FillCircle}} uses the color, given x, y location and radius to fill a circle.
+  \item \textbf{\texttt{FillTriangle}} fills a triangle with the given x, y points (6 values for 3 points).
+\end{itemize}
+
+\clearpage
+
+\csection{\ccode{lst:program-creation-shape-drawing-c}{C Shape Drawing Code}{topics/program-creation/examples/shape_drawing.c}}
+
+The SwinGame procedure for C are named using the standard C naming scheme. The names are:
+\begin{itemize}
+  \item \textbf{\texttt{open\_graphics\_window}} opens a Window with the title `Shape Drawing' that is 800 pixels wide by 600 pixels high.
+  \item \textbf{\texttt{load\_default\_colors}} loads default colors for use in your code.
+  \item \textbf{\texttt{clear\_screen}} clears the screen to black.
+  \item \textbf{\texttt{fill\_rectangle}} uses the color, the x, y location, and width and height to fill a rectangle.
+  \item \textbf{\texttt{refresh\_screen}} updates the screen to show what has been drawn. All SwinGame drawing is done offscreen, and only drawn to the screen when RefreshScreen is called.
+  \item \textbf{\texttt{delay}} pauses the program for a number of milliseconds, so 500 will wait for half a second.
+  \item \textbf{\texttt{fill\_circle}} uses the color, given x, y location and radius to fill a circle.
+  \item \textbf{\texttt{fill\_triangle}} fills a triangle with the given x, y points (6 values for 3 points).
+\end{itemize}
+
+
+\clearpage
+
+\passection{\pascode{lst:program-creation-shape-drawing-pas}{Pascal Shape Drawing Code}{topics/program-creation/examples/ShapeDrawing.pas}}
+
+
+% subsection shape_drawing (end)

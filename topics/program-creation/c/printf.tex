@@ -1,0 +1,94 @@
+\clearpage
+\subsection{C Terminal Output} % (fold)
+\label{sub:c_console_output}
+
+C comes with a range of \nameref{sec:program-creation-library}s that provide reusable programming artefacts, including reusable \nameref{sub:procedure}s. The Standard Library includes a number of different components, one of which is \texttt{stdio.h}. The \texttt{stdio.h} refers to the Standard Input/Output library. This header file gives you access to artefacts you can use to perform input and output, including code to write output to the Terminal. The \texttt{printf} procedure is used to write data to the Terminal.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{printf(char *format, \ldots )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ format } & The text that is to be written to the Terminal. This text may contain format tags to include other values. See Figure \ref{csynt:program-creation-format-string} for the syntax of the format tag. \\
+    & \\
+    \texttt{\ldots}   & Optional values, must have at least as many values as format tags. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{printf}}
+  \label{tbl:program-creation-c printf parameters}
+\end{table}
+
+The syntax for the \texttt{Format Tag} is shown in Figure \ref{csynt:program-creation-format-string}, with the details for the values that can be placed in the \emph{flag}, \emph{width}, \emph{precision}, and \emph{specifier} section being shown in Table \vref{tbl:program-creation-c printf specifier}. A number of examples are shown in Table \ref{tbl:program-creation-c printf specifier}, as well as in Listing \ref{lst:program-creation-c-printf}.
+
+\csyntax{csynt:program-creation-format-string}{Format Tag}{program-creation/format-string}
+
+\csection{\ccode{lst:program-creation-c-printf}{C \texttt{printf} Examples}{code/c/program-creation/sample-printf.c}}
+
+\begin{table}[htbp]
+  \begin{minipage}{\textwidth}
+  \centering
+  
+  \begin{tabular}{|c|p{4cm}|l|c|}
+    \hline
+    \textbf{Flag} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
+    \hline
+    \texttt{-}  & Left justify\footnote{Right justify is the default} the width. & \csnipet{printf("\%-5c", 'a');} & \texttt{a\textvisiblespace\textvisiblespace\textvisiblespace\textvisiblespace} \\
+                & & \csnipet{printf("\%5i", 23);} & \texttt{\textvisiblespace\textvisiblespace{\textvisiblespace}23} \\
+    \hline
+    \texttt{+}  & Always display sign for numbers & \csnipet{printf("\%+d", 42);} & \texttt{+42} \\
+                & & \csnipet{printf("\%+i", -42);} & \texttt{-42} \\
+    \hline
+    \texttt{\textvisiblespace}\footnote{A space.}  & Shows a space if positive & \csnipet{printf("\% f", 127.5);} & \texttt{\textvisiblespace127.5} \\
+                & & \csnipet{printf("\% i", -73);} & \texttt{-73} \\
+    \hline
+    \texttt{0}  & Pad with 0's rather than spaces\footnote{The 5 in the example represents the width of the output.} & \csnipet{printf("\%05i", 3);} & \texttt{00003} \\
+    \hline
+    \multicolumn{4}{c}{} \\
+    \hline
+    \textbf{Width} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
+    \hline
+    \emph{number} & The minimum width for output & \csnipet{printf("\%5i", 1);} & \texttt{\textvisiblespace\textvisiblespace\textvisiblespace{\textvisiblespace}1} \\
+    & & \csnipet{printf("\%5s", "Fred");} & \texttt{{\textvisiblespace}Fred} \\
+    & & \csnipet{printf("\%5s", "Hello World");} & \texttt{Hello World}\footnote{Width specifies the minimum width.} \\
+    \hline
+    \multicolumn{4}{c}{} \\
+    \hline
+    \textbf{Precision} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
+    \hline
+    \emph{number} & \textbf{For integers}: same as Width &  \csnipet{printf("\%.5i", 1);} & \texttt{\textvisiblespace\textvisiblespace\textvisiblespace{\textvisiblespace}1} \\
+     & \textbf{For real numbers}: number of &  \csnipet{printf("\%.3f", 3.1415);} & \texttt{3.142} \\
+     &  values after the decimal point & \csnipet{printf("\%.3f", 2.5);} & \texttt{2.50} \\
+    \hline
+    \multicolumn{4}{c}{} \\
+    \hline
+    \textbf{Specifier} & \textbf{Output}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
+    \hline
+    \texttt{c}  & A single character & \csnipet{printf("\%c", 'a');} & \texttt{a} \\
+    \hline
+    \texttt{d} or \texttt{i} & A signed decimal integer & \csnipet{printf("\%d", -127);} & \texttt{-127} \\
+    \hline
+    \texttt{f}  & Decimal floating point number & \csnipet{printf("\%f", 127.5);} & \texttt{127.5} \\
+    \hline
+    \texttt{s}  & Text data & \csnipet{printf("\%s", "Hello World");} & \texttt{Hello World} \\
+    \hline
+    \multicolumn{4}{c}{} \\
+    \hline
+  \end{tabular}
+  
+  \end{minipage}
+  \caption{Details for Format Tag specifier, flag, precision, and width}
+  \label{tbl:program-creation-c printf specifier}
+\end{table}
+
+
+
+
+
+% subsection c_console_output (end)

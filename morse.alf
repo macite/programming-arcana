@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% morse.alf :  CODE (Version 1.00, January 1, 1998) %%
+%% Udo Heyl, Stregdaer Allee, 99817 Eisenach GERMANY %%
+%% to be used under LaTeX.2E  supported by MORSE.STY %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+beg(65+o,1.2); "a";  dotbar; endchar;
+beg(66+o,1.6); "b";  bardotdot; dot (10a,2b); endchar;
+beg(67+o,2);   "c";  bardotbar; dot (14a,2b); endchar;
+beg(68+o,1.4); "d";  bardotdot; endchar;
+beg(69+o,.6);  "e";  dot (0,2b); endchar;
+beg(70+o,1.6); "f";  dotdotbar; dot (10a,2b); endchar;
+beg(71+o,1.8); "g";  barbardot; endchar;
+beg(72+o,1.2); "h";  dotdotdot; dot (6a,2b); endchar;
+beg(73+o,.8);  "i";  dotdot; endchar;
+beg(74+o,2.4); "j";  dotbarbar; bar (14a,0); endchar;
+beg(75+o,1.8); "k";  bardotbar; endchar;
+beg(76+o,1.6); "l";  dotbardot; dot (10a,2b); endchar;
+beg(77+o,1.6); "m";  barbar; endchar;
+beg(78+o,1.2); "n";  bardot; endchar;
+beg(79+o,2.2); "o";  barbarbar; endchar;
+beg(80+o,2);   "p";  dotbarbar; dot (14a,2b); endchar;
+beg(81+o,2.4); "q";  barbardot; bar (14a,0); endchar;
+beg(82+o,1.4); "r";  dotbardot; endchar;
+beg(83+o,1);   "s";  dotdotdot; endchar;
+beg(84+o,1);   "t";  bar (0,0); endchar;
+beg(85+o,1.4); "u";  dotdotbar; endchar;
+beg(86+o,1.6); "v";  dotdotdot; bar (6a,0); endchar;
+beg(87+o,1.8); "w";  dotbarbar; endchar;
+beg(88+o,2);   "x";  bardotdot; bar (10a,0); endchar;
+beg(89+o,2.4); "y";  bardotbar; bar (14a,0); endchar;
+beg(90+o,2);   "z";  barbardot; dot (14a,2b); endchar;
+
+
+
+

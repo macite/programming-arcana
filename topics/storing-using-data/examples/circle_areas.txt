@@ -1,0 +1,27 @@
+----------------------------
+Program: Circle Areas
+----------------------------
+
+  Constant: PI = 3.1415
+
+  Function: Circle Area
+  ----------------------------
+  Returns: A Double - the area of a circle with the given radius
+  Parameters:
+  * radius (Double)
+  Steps:
+   1: Return the result PI * radius * radius
+
+Steps:
+ 1: Output 'Circle Areas' to the Terminal
+ 2: Output '-----------------' to the Terminal
+ 3: Output ' Radius: 1.0 = ', CircleArea(1.0) to the Terminal
+ 4: Output ' Radius: 1.5 = ', CircleArea(1.5) to the Terminal
+ 5: Output ' Radius: 2.0 = ', CircleArea(2.0) to the Terminal
+ 6: Output ' Radius: 2.5 = ', CircleArea(2.5) to the Terminal
+ 7: Output ' Radius: 3.0 = ', CircleArea(3.0) to the Terminal
+ 8: Output ' Radius: 3.5 = ', CircleArea(3.5) to the Terminal
+ 9: Output ' Radius: 4.0 = ', CircleArea(4.0) to the Terminal
+10: Output ' Radius: 4.5 = ', CircleArea(4.5) to the Terminal
+11: Output ' Radius: 5.0 = ', CircleArea(5.0) to the Terminal
+12: Output '-----------------' to the Terminal

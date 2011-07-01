@@ -1,0 +1,44 @@
+%%%%%%%%%%%%% morse.sty %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% LaTeX document style `morse', for use with LaTeX version 2e.
+%% This is a style for typesetting MORSE telegraphic code.
+%%
+%% COPYRIGHT (c) 1998, by Udo Heyl, Eisenach.
+%%
+%% Copying of part or all of any file in the morse package
+%% is allowed under the following conditions only:
+%% (1) You may freely distribute unchanged copies of the files. Please
+%%     include the documentation when you do so.
+%% (2) You may modify a renamed copy of any file, but only for personal
+%%     use or use within an organization.
+%% (3) You may copy fragments from the files, for personal use or for use
+%%     in a macro package for distribution, as long as credit is given
+%%     where credit is due.
+%%
+%% You are NOT ALLOWED to take money for the distribution or use of
+%% these files or modified versions or fragments thereof, except for
+%% a nominal charge for copying etc.
+%%
+\ProvidesPackage{morse}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  [1998/01/01 v1.0 MORSE TELEGRAPH CODE by Udo Heyl, Eisenach]        %%
+\DeclareFontFamily{OT1}{mors}{}                                       %%
+\DeclareFontShape{OT1}{mors}{m}{n}{<-> morse10}{}                     %%
+\def\morse{\usefont{OT1}{mors}{m}{n}}                                 %%
+\def\textmors#1{{\morse\char#1}}                                      %%
+\def\ch{\char23}                                                      %%
+\def\ae{\char196}                                                     %%
+\def\oe{\char214}                                                     %%
+\def\ue{\char220}                                                     %%
+\def\aAcute{\char193}                                                 %%
+\def\eAcute{\char233}                                                 %%
+\def\sq{\char39}                                                      %%
+\def\dq{\char34}                                                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\Morsesym{{\reset@font\rm M%                       %%             %%
+   \kern-.515em\lower.35ex\hbox{\reset@font\sc o}%     %%  u.h.u.     %%
+   \kern-.2em\raise.4ex\hbox{\reset@font\it R}%        %%             %%
+   \kern-.1em\lower.3ex\hbox{\reset@font\sc s}%        %%  (c)1998    %%
+   \kern-.15em\hbox{\reset@font\it E}\kern.2em\hbox{}}}%%             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\write16{MORSE TELEGRAPH CODE by Udo Heyl, Eisenach *** 1998/01/01 v1.0}
+%%%%% End of File +++ MORSE.STY +++ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,18 @@
+----------------------------
+Program: Shape Drawing
+----------------------------
+Steps:
+ 1: Call OpenGraphicsWindow with 'Shape Drawing', 800, and 600
+ 2: Call ClearScreen
+ 3: Call FillRectangle with ColorWhite, 10, 10, 780, and 580
+ 4: Call RefreshScreen
+ 5: Call Delay with 500
+ 6: Call FillCircle with ColorRed, 50, 50, and 25
+ 7: Call FillCircle with ColorGreen, 80, 50, and 25
+ 8: Call FillCircle with ColorBlue, 110, 50, and 25
+ 9: Call RefreshScreen
+10: Call Delay with 500
+11: FillTriangle with ColorYellow, 100, 100, 150, 175, 210, and 115
+12: Call RefreshScreen
+13: Call Delay with 2000
+14: Call ReleaseAllResources

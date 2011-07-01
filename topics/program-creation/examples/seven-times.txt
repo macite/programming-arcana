@@ -1,0 +1,17 @@
+----------------------------
+Program: SevenTimesTable
+----------------------------
+Steps:
+ 1: Output 'Seven Times Table' to the Terminal
+ 2: Output '-----------------' to the Terminal
+ 3: Output ' 1 x 7 = ', and 1 * 7 to the Terminal
+ 4: Output ' 2 x 7 = ', and 2 * 7 to the Terminal
+ 5: Output ' 3 x 7 = ', and 3 * 7 to the Terminal
+ 6: Output ' 4 x 7 = ', and 4 * 7 to the Terminal
+ 7: Output ' 5 x 7 = ', and 5 * 7 to the Terminal
+ 8: Output ' 6 x 7 = ', and 6 * 7 to the Terminal
+ 9: Output ' 7 x 7 = ', and 7 * 7 to the Terminal
+10: Output ' 8 x 7 = ', and 8 * 7 to the Terminal
+11: Output ' 9 x 7 = ', and 9 * 7 to the Terminal
+12: Output '10 x 7 = ', and 10 * 7 to the Terminal
+13: Output '-----------------' to the Terminal

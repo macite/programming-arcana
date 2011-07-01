@@ -1,0 +1,183 @@
+\chapter{Control Flow} % (fold)
+\label{cha:control_flow}
+
+The focus so far has been on learning the programming artefacts that you can create within your code. You have seen how to create \nameref{sub:program}s, \nameref{sub:procedure}s, \nameref{sub:function}s, and \nameref{sub:variables}. The actual instructions that you can issue to the computer have been limited to \nameref{sub:procedure call}s, \nameref{sub:function_call}s, and \nameref{sub:assignment_statement}s. This Chapter will introduce you to the other actions that you can command the computer to perform.
+
+At the end of this material you will be able to command the computer to perform a wider range of actions by controlling the sequence in which the basic commands are performed.
+
+\minitoc
+
+% ============
+% = Concepts =
+% ============
+\clearpage
+\section{Control Flow Concepts} % (fold)
+\label{sec:control_flow_concepts}
+
+Programming is about designing code that commands the computer to perform actions. Earlier chapters have introduced the \nameref{sub:program}, \nameref{sub:procedure}, and \nameref{sub:function} artefacts into which you can enter these instructions, but have not elaborated on the actions that you can perform.
+
+Most of a program's actual work will be carried out in \nameref{sub:assignment_statement}s, and through \nameref{sub:procedure call}s and \nameref{sub:function_call}s. These are the main commands, allowing you to alter values stored in memory and to execute stored instructions. The remaining commands relate to controlling the order in which the computer performs the instructions; called \textbf{control flow statements}.
+
+This chapter introduces the following kinds of instructions. You can use these to get the computer to perform certain \textbf{actions} within your program.
+\begin{itemize}
+  \item \nameref{sub:if_statement}: Run some code if a condition is true.
+  \item \nameref{sub:case_statement}: Selectively run a branch of code.
+  \item \nameref{sub:compound_statements}: Group statements together.
+  \item \nameref{sub:pre_test_loop}: Loop after testing a condition.
+  \item \nameref{sub:post_test_loop}: Loop then test a condition.
+\end{itemize}
+
+In addition to these actions, you will need to understand some programming \textbf{terminology}. The following terms are discussed in this section:
+\begin{itemize}
+  \item \nameref{sub:boolean_data}: A \nameref{sub:type} that has either a \emph{true} or \emph{false} value.
+\end{itemize}
+
+\bigskip
+
+You may need to revise the following programming artefacts:
+\begin{itemize}
+  \item \nameref{sub:program}: The idea of building your own Programs.
+  \item \nameref{sub:procedure}: Creating your own Procedure, as well as calling Procedures from libraries.
+  \item \nameref{sub:function}: Creating your own Functions, as well as calling Functions from libraries.
+\end{itemize}
+
+The following programming terminology will also be used in this Chapter:
+\begin{itemize}
+  \item \nameref{sec:program-creation-statement}: An instruction performed in your code.
+  \item \nameref{sub:type}: A kind of data used in your code.
+\end{itemize}
+
+The example for this chapter is a guessing game, where the user is guessing a number between 1 and 100. An example of this program executing is shown in Figure \ref{fig:control-flow-guess-num}.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.5\textwidth]{./topics/control-flow/images/GuessThatNumber} 
+   \caption[Guess That Number Terminal]{Guess that Number run from the Terminal}
+   \label{fig:control-flow-guess-num}
+\end{figure}
+
+\input{topics/control-flow/concepts/boolean}
+
+\input{topics/control-flow/concepts/branching}
+\input{topics/control-flow/concepts/if-statement}
+\input{topics/control-flow/concepts/case-statement}
+
+\input{topics/control-flow/concepts/looping}
+\input{topics/control-flow/concepts/pre-test-loop}
+\input{topics/control-flow/concepts/post-test-loop}
+
+\input{topics/control-flow/concepts/jump-statements}
+\input{topics/control-flow/concepts/break}
+\input{topics/control-flow/concepts/continue}
+\input{topics/control-flow/concepts/exit}
+\input{topics/control-flow/concepts/goto}
+
+
+\input{topics/control-flow/concepts/combining-statements}
+\input{topics/control-flow/concepts/statement-with-loops}
+
+\clearpage
+\subsection{Summary} % (fold)
+\label{sub:control_flow_summary}
+
+This section has introduced a number of new actions that you can use in your code to create more dynamic programs. 
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/control-flow/diagrams/Summary} 
+   \caption[Chapter Concepts]{Key Concepts introduced in this Chapter}
+   \label{fig:control-flow-summary}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item \textbf{Artefacts} are things you can \emph{create} and \emph{use}.
+  \item \textbf{Terms} are things you need to \emph{understand}.
+  \item \textbf{Actions} are things you can \emph{command} the computer to perform.
+\end{itemize}
+}
+
+% subsection summary (end)
+% section control-flow_concepts (end)
+
+% ======================
+% = Using Control Flow =
+% ======================
+\clearpage
+\section{Using these Concepts} % (fold)
+\label{sec:control_flow_using_these_concepts}
+
+The Control Flow Statements enable you to alter the purely sequential order in which instructions are performed. Using these Statements you can have the computer select a path to follow, or jump back and repeat statements a number of times. These capabilities make it possible to create programs that react to the data they receive, giving more interactive results than were possible before.
+
+\input{topics/control-flow/application/using-control-flow}
+
+% section using_these_concepts (end)
+
+% =============
+% = C Section =
+% =============
+\clearpage
+\def\pageLang{c}
+\section{Control Flow in C} % (fold)
+\label{sec:control_flow_in_c}
+
+\input{topics/control-flow/c/c-guessing-game}
+\input{topics/control-flow/c/c-boolean}
+\input{topics/control-flow/c/c-statement-with-loops}
+\input{topics/control-flow/c/c-if-statement}
+\input{topics/control-flow/c/c-case-statement}
+\input{topics/control-flow/c/c-compound-statement}
+
+\input{topics/control-flow/c/c-while-loop}
+\input{topics/control-flow/c/c-do-while-loop}
+% \input{topics/control-flow/c/c-for-loop}
+\input{topics/control-flow/c/c-jump-statements}
+
+
+% section control-flow_in_c (end)
+
+% ===========================
+% = Understanding Data Flow =
+% ===========================
+
+\clearpage
+\def\pageLang{None}
+\section{Understanding Control Flow} % (fold)
+\label{sec:understanding_control_flow}
+
+\input{topics/control-flow/understanding/understanding-control-flow}
+
+% section understanding_control_flow (end)
+
+% ====================
+% = Examples Section =
+% ====================
+\clearpage
+\section{Control Flow Examples} % (fold)
+\label{sec:control_flow_examples}
+
+\input{topics/control-flow/examples/examples}
+
+% section control_flow_examples (end)
+
+% =============
+% = Exercises =
+% =============
+\clearpage
+\section{Control Flow Exercises} % (fold)
+\label{sec:control_flow_exercises}
+
+\input{topics/control-flow/exercises/exercises}
+
+% section control_flow_exercises (end)
+
+% ===========
+% = Project =
+% ===========
+\clearpage
+\section{Control Flow in the Project} % (fold)
+\label{sec:control_flow_in_the_project}
+
+% section control_flow_in_the_project (end)
+
+% chapter control-flow (end)

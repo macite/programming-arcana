@@ -1,0 +1,10 @@
+----------------------------
+Procedure: SignalC
+----------------------------
+Steps:
+1: Call Long Signal
+2: Call Short Signal
+3: Call Long Signal
+4: Call Short Signal
+5: Output ' ' (a space) to the Terminal
+

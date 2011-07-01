@@ -1,0 +1,186 @@
+\subsection{Designing Morse Calling} % (fold)
+\label{sub:designing_morse_calling}
+
+Table \ref{tbl:procedure-decl-morse_calling} contains a description of the next program we are going to design. This program will output a message in Morse Code to the console. In designing this program we will make use of the concepts introduced in this chapter; we will divide the program's code into a number of procedures each with the instructions to get the computer to perform a single task.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Morse Calling} \\
+  \\
+  \textbf{Description} & Displays the morse code for `\emph{Calling Anyone}' on the console. \\
+  \hline
+\end{tabular}
+\caption{Description of the Morse Calling program.}
+\label{tbl:procedure-decl-morse_calling}
+\end{table}
+
+To design and implement this program we need to follow a number of steps:
+\begin{enumerate}
+  \item Understand the problem, and get some ideas on the tasks that need to be performed.
+  \item Choose the artefacts we will create and use
+  \item Map these artefacts to code
+  \item Compile and run the program
+\end{enumerate}
+
+Our first step will be to analyse the problem, and find related material that we can use to make sure we know what the computer needs to do. You need to understand what the program needs to do before you can design the solution. For this program you need to find out a little more about Morse Code so that you can issue the right signals. An important part of this analysis will be to identify the tasks that need to performed in order to meet the programs requirements.
+
+Having understood the problem, the next step will be to create a design for the solution. This involves choosing the artefacts (procedures at this point) that you will \textbf{use}, and the artefacts that you will \textbf{create}. You use the information you gained from analysing the requirements to help you model the tasks that need to be performed in the code.
+
+This is the point where you need to map the artefacts that you need to create to code. You can use the Language Syntax rules to determine what needs to be typed in order to make sure your program will compile.
+
+Finally you can test your program by running it and observing the output. If there are compiler errors then you need to fix these, so that the program compiles. Then you need to check that the output of the program matches the expected outcome. Your understanding of how the program should work will be important during the testing as much as it was during the design and implementation.
+
+\clearpage
+\subsection{Understanding Morse Calling} % (fold)
+\label{ssub:understanding_morse_calling}
+
+Understanding the problem is the first step toward creating a solution. In this case you need to understand Morse Code so that you can work out what needs to be written to the Terminal. Wikipedia describes Morse Code as a sequence of long and short signals used to encode textual data. When we write this out to the console the short signals can be represented using a dot (.), the long signals using a dash (-). Table \ref{tbl:procedure-decl-morse-codes} contains the Morse code signals for letters, numbers, and some punctuation.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{|p{1cm}l|p{1cm}l|p{1cm}l|p{1cm}l|}
+    \hline
+    \centering A & {\huge \morse a}  & \centering K & {\huge \morse K} & \centering U & {\huge \morse U} & \centering 4 & {\huge \morse 4}\\
+    \centering B & {\huge \morse b}  & \centering L & {\huge \morse L} & \centering V & {\huge \morse V} & \centering 5 & {\huge \morse 5}\\
+    \centering C & {\huge \morse c}  & \centering M & {\huge \morse M} & \centering W & {\huge \morse W} & \centering 6 & {\huge \morse 6}\\
+    \centering D & {\huge \morse d}  & \centering N & {\huge \morse N} & \centering X & {\huge \morse X} & \centering 7 & {\huge \morse 7}\\
+    \centering E & {\huge \morse e}  & \centering O & {\huge \morse O} & \centering Y & {\huge \morse Y} & \centering 8 & {\huge \morse 8}\\
+    \centering F & {\huge \morse f}  & \centering P & {\huge \morse P} & \centering Z & {\huge \morse Z} & \centering 9 & {\huge \morse 9}\\
+    \centering G & {\huge \morse g}  & \centering Q & {\huge \morse Q} & \centering 0 & {\huge \morse 0} & \centering . & {\huge \morse .}\\
+    \centering H & {\huge \morse h}  & \centering R & {\huge \morse R} & \centering 1 & {\huge \morse 1} & \centering , & {\huge \morse ,}\\
+    \centering I & {\huge \morse i}  & \centering S & {\huge \morse S} & \centering 2 & {\huge \morse 2} & \centering ? & {\huge \morse ?}\\
+    \centering J & {\huge \morse j}  & \centering T & {\huge \morse T} & \centering 3 & {\huge \morse 3} & \centering ! & {\huge \morse !}\\
+    \hline
+  \end{tabular}
+  \caption{Morse code signals for letters and numbers}
+  \label{tbl:procedure-decl-morse-codes}
+\end{table}
+
+With some additional searching you can also find that the signal for `\emph{Calling Anyone}' is the code to signal C and Q. This means that the Program needs to output the signals {\morse CQ} (the signals for C and Q), see Table \ref{tbl:procedure-decl-morse-codes}.
+
+\bigskip
+
+As you read through this information its important to try and identify the tasks that the program will need to perform. These tasks can then be modelled in the program's code. The following list outlines the tasks that can be identified in the above descriptions. Read back over the text and make sure you can see where each of these can be identified.
+
+\begin{itemize}
+  \item Perform a Short Signal (a dot)
+  \item Perform a Long Signal (a dash)
+  \item Signal the Character C
+  \item Signal the Character Q
+\end{itemize}
+
+When you design the solution for this program you will be able to use this information to determine what needs to be created, and the tasks that each of these performs.
+
+\begin{itemize}
+  \item Perform Short Signal will output a dot (.) to the Terminal.
+  \item Perform Long Signal will output a dash (-) to the Terminal.
+  \item Signal C will perform a Long Signal, then a Short Signal, then a second Long Signal, and a second Short Signal. This will end by printing a space to separate it from the next character.
+  \item Signal Q will perform a Long Signal, a second Long Signal, a Short Signal, and then a third Long Signal. This will end by printing a space to separate it from the next character.
+\end{itemize}
+
+% subsubsection understanding_morse_calling (end)
+\clearpage
+\subsection{Choosing Artefacts for Morse Calling} % (fold)
+\label{sub:procedure-decl-choosing_artefacts}
+
+Having finished the analysis of the problem, the next step is to design the solution. This will involve determining which programming artefacts you will need to build, and the which programming artefacts exist for you to use. 
+
+\begin{itemize}
+  \item Create a \textbf{program} the user can execute. This will signal C and Q using Morse Code. Within this program there are several sub-tasks that can be coded into their own procedures.
+  \begin{itemize}
+    \item \textbf{Short Signal} - Morse Code needed the ability to perform a short signal. The instructions for this can be coded into a \emph{Short Signal} procedure. In this case that will output a dot (.) to the Terminal.
+    \item \textbf{Long Signal} - Similar to the \emph{Short Signal}, this procedure will contain the instructions needed to perform a \emph{Long Signal}, in this case this will output a dash (-) to the Terminal.
+    \item \textbf{Signal C} - This task will contain the instructions needed to get the computer to signal the character C. Internally this can call the \emph{Short Signal} and \emph{Long Signal} procedures.
+    \item \textbf{Signal Q} - Similar to the \emph{Signal C}, this procedure will contain the instructions needed to signal the character Q. Internally it will use the \emph{Short Signal} and \emph{Long Signal} procedures.
+  \end{itemize}
+  \item The following procedures already exist and can be used to help implement the procedures mentioned above:
+  \begin{itemize}
+    \item The language provides a procedure to write data to the Terminal.
+  \end{itemize}
+\end{itemize}
+
+\csection{In C the procedure to write data to the console is the \texttt{printf} procedure from \texttt{stdio.h}.}
+\passection{In Pascal there are two procedures to write data to the Terminal, \texttt{Write} and \texttt{WriteLn}.}
+
+The pseudocode for the \emph{Morse Calling} program is shown in Listing \ref{lst:procedure-decl-MorseCalling-pseudo}, with pseudocode for the \emph{Signal C} procedure in Listing \ref{lst:procedure-decl-signalc-pseudo}, \emph{Signal Q} in Listing \ref{lst:procedure-decl-signalq-pseudo}, and Listing \ref{lst:procedure-decl-shortsignal-pseudo} showing the pseudocode for the \emph{Short Signal} procedure.
+
+\clearpage
+\pseudocode{lst:procedure-decl-MorseCalling-pseudo}{Pseudocode for Morse Calling program.}{./topics/procedure-decl/application/MorseCalling.txt}
+
+\pseudocode{lst:procedure-decl-signalc-pseudo}{Pseudocode for the Signal C procedure.}{./topics/procedure-decl/application/SignalC.txt}
+
+\pseudocode{lst:procedure-decl-signalq-pseudo}{Pseudocode for the Signal Q procedure.}{./topics/procedure-decl/application/SignalQ.txt}
+
+\pseudocode{lst:procedure-decl-shortsignal-pseudo}{Pseudocode for the Short Signal procedure.}{./topics/procedure-decl/application/ShortSignal.txt}
+
+\pseudocode{lst:procedure-decl-longsignal-pseudo}{Pseudocode for the Long Signal procedure.}{./topics/procedure-decl/application/LongSignal.txt}
+
+\mynote{
+Have a look over the Procedures and the Morse Calling Program and note the following things:
+\begin{itemize}
+  \item The Procedures appear within the Program.
+  \item The name of the procedure indicates what it does.
+  \item \texttt{Short Signal} is called by the \texttt{Signal C} and \texttt{Signal Q} procedures.
+  \item \texttt{Short Signal} is not directly called by the Program.
+  \item The \texttt{SignalC} Procedure calls the \texttt{Long Signal} and \texttt{Short Signal} procedures.
+  \item In the C or Pascal code, the Procedure's declaration must appear before its use, so \texttt{Short Signal} and \texttt{Long Signal} will need to appear at the top of the code, \texttt{Signal C} and \texttt{Signal Q} in the middle, and the Program's instructions at the end.
+\end{itemize}
+}
+
+% subsection choosing_artefacts (end)
+
+\clearpage
+\subsection{Writing the Code for Morse Calling} % (fold)
+\label{sub:writing_the_code_for_morse_calling}
+
+The pseudocode from section \ref{sub:procedure-decl-choosing_artefacts} \nameref{sub:procedure-decl-choosing_artefacts} shows the instructions, and how these should be divided between a number of custom created procedures. At this stage these instructions need to be translated into source code, so that they can be compiled and the resulting program tested.
+
+The following two sections, Section \ref{sec:procedure_declaration_in_c} \nameref{sec:procedure_declaration_in_c} and Section \ref{sec:procedure_declaration_in_pascal} \nameref{sec:procedure_declaration_in_pascal}, contain a description of the syntax needed to create programs in the C and Pascal programming languages that include Procedure declarations.
+
+Each of these sections will contain extended Program declaration rules that show you where the Procedure Declarations can be coded, along with the rules for how Procedure Declarations should appear.
+
+\mynote{
+
+Remember the basic process for reading the Syntax Diagrams is to:
+\begin{enumerate}
+  \item Find the page with the Syntax rule you are interested in knowing about.
+  \item Have a quick look at the Syntax Diagram and the rules it contains. Read each rule, and get a basic feel for how it is going to come together for your program.
+  \item Read the example to see one way of using the Rule. The Syntax Diagram can be used to create any number of variations of the rule, the example gives you at least one way these rules can be coded.
+  \item Return to the diagram and make sure you can match each part of the example back to the rule that created it.
+  \item Now look up any related rules that are not explained on this rule's page. For example, a \nameref{sub:program_with_procedures_} uses the \nameref{sub:proc_decl-procedure_declarations} rule, you will need to read this rule to determine how to declare the Procedures you want to create in the code.
+\end{enumerate}
+
+}
+
+% subsection writing_the_code_for_morse_calling (end)
+\subsection{Compiling and Running Morse Calling} % (fold)
+\label{sub:compiling_and_running_morse_calling}
+
+Once you have completed your program, you need to compile and test it. 
+
+\begin{enumerate}
+  \item Open the \textbf{Terminal}\footnote{The \textbf{MinGW Shell} on Windows.} program for your Operating System
+  \item Use the \texttt{\textbf{cd}} command to move to the directory with your code, for example \newline \bashsnipet{cd /Users/acain/Documents/Code}
+  \item Run the compiler with your program's code. See the language specific details below.
+  \item Fix any compiler errors, using the tips from Section \ref{ssub:compiler_errors} \nameref{ssub:compiler_errors}.
+  \item Execute the program using \bashsnipet{./MorseCalling} and check the results
+\end{enumerate}
+
+\csection{
+The C compiler is called \textbf{gcc}. To compile your \emph{Morse Calling} program you will need to run the following: \newline \newline \bashsnipet{gcc -o MorseCalling morse-calling.c}
+}
+
+\passection{
+The Pascal compiler is called \textbf{fpc}. To compile your \emph{Morse Calling} program you will need to run the following: \newline \newline \bashsnipet{fpc -S2 MorseCalling.pas}
+}
+
+
+
+% subsection compiling_and_running_morse_calling (end)
+
+
+% subsection designing_morse_calling (end)

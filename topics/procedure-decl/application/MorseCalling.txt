@@ -1,0 +1,13 @@
+----------------------------
+Program: MorseCalling
+----------------------------
+Procedures:
+*  Short Signal
+*  Long Signal
+*  Signal C
+*  Signal Q
+----------------------------
+Steps:
+1: Call Signal C
+2: Call Signal Q
+3: Output a new line to the Terminal

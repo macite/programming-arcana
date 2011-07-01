@@ -1,0 +1,16 @@
+Procedure: Print Trapezoid Area
+----------------------------
+Variables:
+ * base1, base2 (Double)
+ * height (Double)
+ * area (Double)
+Steps:
+ 1: Output 'Enter base 1: ' to the Terminal
+ 2: Read input into base1
+ 3: Output 'Enter base 2: ' to the Terminal
+ 4: Read input into base1
+ 5: Output 'Enter height: ' to the Terminal
+ 6: Read input into height
+ 7: Assign to area height * ( base1 + base1 / 2 )
+ 8: Output 'Trapezoid area is ', and area
+

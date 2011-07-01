@@ -1,0 +1,21 @@
+----------------------------
+Program: Times Table
+----------------------------
+Variables:
+* number (Integer)
+Steps:
+ 1: Output 'Times Table' to the Terminal
+ 2: Output 'Enter number: ' to the Terminal
+ 3: Read input into number
+ 4: Output '-----------------' to the Terminal
+ 5: Output ' 1 x ' number ' = ', and 1 * number to the Terminal
+ 6: Output ' 2 x ' number ' = ', and 2 * number to the Terminal
+ 7: Output ' 3 x ' number ' = ', and 3 * number to the Terminal
+ 8: Output ' 4 x ' number ' = ', and 4 * number to the Terminal
+ 9: Output ' 5 x ' number ' = ', and 5 * number to the Terminal
+10: Output ' 6 x ' number ' = ', and 6 * number to the Terminal
+11: Output ' 7 x ' number ' = ', and 7 * number to the Terminal
+12: Output ' 8 x ' number ' = ', and 8 * number to the Terminal
+13: Output ' 9 x ' number ' = ', and 9 * number to the Terminal
+14: Output '10 x ' number ' = ', and 10 * number to the Terminal
+15: Output '-----------------' to the Terminal

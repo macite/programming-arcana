@@ -1,0 +1,9 @@
+----------------------------
+Procedure: SignalS
+----------------------------
+Steps:
+1: Call Short Signal
+2: Call Short Signal
+3: Call Short Signal
+4: Output ' ' (a space) to the Terminal
+

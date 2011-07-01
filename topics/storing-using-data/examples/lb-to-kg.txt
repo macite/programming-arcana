@@ -1,0 +1,25 @@
+--------------------
+Program: lb to kg
+--------------------
+
+  Function: ConvertFtoC -> returns a Double
+  --------------------
+  Parameters:
+  * f -> a Double representing the temperature in Fahrenheit
+  --------------------
+  1: Assign to result the value (5/9)*(tempF-32)
+  
+
+  Procedure: Main
+  --------------------
+  Local Variables:
+  * temp         -> a String
+  * tempF, tempC -> Double values
+  --------------------
+  1: Assign to temp the value from calling ParamStr(1)
+  2: Assign to tempF the value of calling StrToFloat with temp
+  3: Assign to tempC the value of calling ConvertFtoC with tempF
+  4: Call WriteLn to print out tempC
+
+Steps:
+1: Call Main

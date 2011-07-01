@@ -1,0 +1,78 @@
+\clearpage
+\subsection{C Boolean Data} % (fold)
+\label{sub:c_boolean_data}
+
+C has very flexible support for Boolean values. In C a \texttt{0} value is considered to be false, and any other value is true. Modern C compilers have now added support for an explicit Boolean type, \texttt{bool}. This type requires the \texttt{stdbool.h} header file, which defines the \texttt{bool} type as well as the values \texttt{true} and \texttt{false}.
+
+\begin{table}[h] 
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Boolean Type}} \\
+\hline
+\emph{Name} & \emph{Size} & \emph{Values} \\
+\hline
+\texttt{bool} & 1 byte/8 bits & \texttt{true} or \texttt{false} \\
+\hline
+\end{tabular}
+\caption{C Boolean Type}\label{tbl:c-boolean}
+\end{minipage}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+     & \textbf{Description} & \textbf{C} \\
+    \hline
+    \textbf{Equal} & Are the values the same? & \texttt{a == b} \\
+    \hline
+    \textbf{Not Equal} & Are the values different? & \texttt{a != b} \\
+    \hline
+    \textbf{Larger Than} & Is the left value larger than the right? & \texttt{a > b}  \\
+    \hline
+    \textbf{Less Than} & Is the left value smaller than the right? & \texttt{a < b}  \\
+    \hline
+    \textbf{Larger Or Equal} & Is the left value equal or larger than the right? & \texttt{a >= b}  \\
+    \hline
+    \textbf{Less Or Equal} & Is the left value smaller or equal to the right? & \texttt{a <= b}  \\
+    \hline
+  \end{tabular}
+  \caption{C Comparison Operators}
+  \label{tbl:c_comparison_op}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+     & \textbf{Description} & \textbf{C} \\
+    \hline
+    \textbf{And} & Are both values True? & \texttt{a \&\& b} \\
+    \hline
+    \textbf{Or} & Is at least one value True? & \texttt{a || b} \\
+    \hline
+    \textbf{Xor} & Is one value True, and the other False? & \texttt{a \^{} b} \\
+    \hline
+    \textbf{Not} & Is the value False? & \texttt{!a} \\
+    \hline
+  \end{tabular}
+  \caption{Logical Operators}
+  \label{tbl:c-logical-operators}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item To use the Boolean type in C you must include the \texttt{stdbool.h} header.
+  \item In C false is the value \texttt{0}, and true is any other value.
+  \item The \texttt{stdbool.h} header gives you access to two value, \texttt{true} and \texttt{false}. \texttt{true} has the value 1, \texttt{false} has the value 0.
+\end{itemize}
+}
+
+\clearpage
+
+\csection{\ccode{clst:bool-test}{C Boolean Test Code}{code/c/control-flow/test-bools.c}}
+
+
+% subsection c_boolean_data (end)

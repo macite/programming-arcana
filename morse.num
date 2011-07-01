@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% morse.num :  CODE (Version 1.00, January 1, 1998) %%
+%% Udo Heyl, Stregdaer Allee, 99817 Eisenach GERMANY %%
+%% to be used under LaTeX.2E  supported by MORSE.STY %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Special Symbols, Numbers and Stops %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+beg(193,2.6);"adot";dotbarbar; dot(14a,2b); bar(16a,0); endchar;
+beg(225,2.6);"adot";dotbarbar; dot(14a,2b); bar(16a,0); endchar;
+beg(196,2);"ae";dotbardot; bar(10a,0); endchar;
+beg(214,2.4);"oe";barbarbar; dot(18a,2b); endchar;
+beg(220,2);"ue"; dotdotbar; bar(10a,0); endchar;
+beg(228,2);"ae";dotbardot; bar(10a,0); endchar;
+beg(246,2.4);"oe";barbarbar; dot(18a,2b); endchar;
+beg(252,2);"ue"; dotdotbar; bar(10a,0); endchar;
+beg(23,2.8);"ch";barbarbar; bar(18a,0); endchar;
+beg(201,1.8);"edot";dotdotbar; dot(10a,2b); dot(12a,2b); endchar;
+beg(233,1.8);"edot";dotdotbar; dot(10a,2b); dot(12a,2b); endchar;
+beg("0",3.4);"0";barbarbar; bar(18a,0); bar(24a,0); endchar;
+beg("1",3);"1";dotbarbar; bar(14a,0); bar(20a,0); endchar;
+beg("2",2.6);"2";dotdotbar; bar(10a,0); bar(16a,0); endchar;
+beg("3",2.2);"3";dotdotdot; bar(6a,0); bar(12a,0); endchar;
+beg("4",1.8);"4";dotdotdot; dot(6a,2b); bar(8a,0); endchar;
+beg("5",1.4);"5";dotdotdot; dot(6a,2b); dot(8a,2b); endchar;
+beg("6",1.8);"6";bardotdot; dot(10a,2b); dot(12a,2b); endchar;
+beg("7",2.2);"7";barbardot; dot(14a,2b); dot(16a,2b); endchar;
+beg("8",2.6);"8";barbarbar; dot(18a,2b); dot(20a,2b); endchar;
+beg("9",3);"9";barbarbar; bar(18a,0); dot(24a,2b); endchar;
+beg(46,1.6);".";dotdotdot; dot(6a,2b); dot(8a,2b); dot(10a,2b); endchar;
+beg(59,2.8);";";bardotbar; dot(14a,2b); bar(16a,0); dot(22a,2b); endchar;
+beg(44,2.8);",";dotbardot; bar(10a,0); dot(16a,2b); bar(18a,0); endchar;
+beg(58,2.8);":";barbarbar; dot(18a,2b); dot(20a,2b); dot(22a,2b); endchar;
+beg(63,2.4);"?";dotdotbar; bar(10a,0); dot(16a,2b); dot(18a,2b); endchar;
+beg(33,3.2);"!";barbardot; dot(14a,2b); bar(16a,0); bar(22a,0); endchar;
+beg(34,2.4);"d-qu";bardotdot; dot(10a,2b); dot(12a,2b); bar(14a,0); endchar;
+beg(39,3.2);"s-qu";dotbarbar; bar(14a,0); bar(20a,0); dot(26a,2b); endchar;
+beg(47,4);"slash";barbarbar; bar(18a,0); bar(24a,0); bar(30a,0); endchar;

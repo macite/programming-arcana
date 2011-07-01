@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% morse.def :  CODE (Version 1.00, January 1, 1998) %%
+%% Udo Heyl, Stregdaer Allee, 99817 Eisenach GERMANY %%
+%% to be used under LaTeX.2E  supported by MORSE.STY %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+def dot=fill fullcircle scaled 1.2pt shifted enddef;
+def bar=fill superellipse((4.5a,.5b),(2a,b),(-.5a,.5b),(2a,0),1)% 
+                                                shifted enddef;
+def barbar=bar (0,0); bar (6a,0) enddef;
+def bardot=bar (0,0); dot (6a,2b) enddef;
+def dotbar=dot (0,2b); bar (2a,0) enddef;
+def dotdot=dot (0,2b); dot (2a,2b) enddef;
+def barbarbar=barbar; bar (12a,0) enddef;
+def barbardot=barbar; dot (12a,2b) enddef;
+def bardotbar=bardot; bar (8a,0) enddef;
+def bardotdot=bardot; dot (8a,2b) enddef;
+def dotbarbar=dotbar; bar (8a,0) enddef;
+def dotbardot=dotbar; dot (8a,2b) enddef;
+def dotdotbar=dotdot; bar (4a,0) enddef;
+def dotdotdot=dotdot; dot (4a,2b) enddef;
+def beg(expr a,b)=beginchar(a,b*U#,U#,0) enddef;
+beginchar(0,U#,U#,0); "dummy"; pickup norm_pen; a=.1w; b=.1h; endchar;

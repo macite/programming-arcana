@@ -1,0 +1,326 @@
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,shapes.misc,chains,scopes,shadows}
+
+\tikzset{
+  syntax-rule/.style={
+    % The shape: 
+    rectangle, 
+    % The size: 
+    minimum size=5mm,
+    minimum width=8em, 
+    % The border: 
+    % very thick, 
+    % draw=red!50!black!50,       % 50% red and 50% black, 
+                                % and that mixed with 50% white
+    % The filling: 
+    % top color=white, 
+    % bottom color=red!50!black!20, % and something else at the bottom 
+    % Font 
+    font=\itshape\small
+  }
+}
+
+\tikzset{
+  syntax-rule-cont/.style={
+    % The shape: 
+    rectangle, 
+    % The size: 
+    minimum size=6mm, 
+    minimum width=8em,
+    % The border: 
+    % very thick, 
+    % draw=red!50!black!50,       % 50% red and 50% black, 
+                                % and that mixed with 50% white
+    % The filling: 
+    % top color=white, 
+    % bottom color=red!50!black!20, % and something else at the bottom 
+    % Font 
+    font=\itshape\small,
+    text=white
+  }
+}
+
+\tikzset{
+  nonterminal/.style={
+      % The shape: 
+      rectangle, 
+      % The size: 
+      minimum size=5mm, 
+      % The border: 
+      very thick, 
+      draw=red!30!black!50,       % 50% red and 50% black, 
+                                  % and that mixed with 50% white
+      % The filling: 
+      top color=white, 
+      bottom color=red!30!black!20, % and something else at the bottom 
+      % Font 
+      font=\small
+    }
+}
+
+\tikzset{
+  terminal/.style={
+    % The shape:
+    rounded rectangle,
+    % The size:
+    minimum size=5mm,
+    % The border:
+    very thick,
+    draw=black!50,
+    % The filling:
+    top color=white,
+    bottom color=black!20,
+    font=\ttfamily\small
+  }
+}
+
+\tikzset{
+  meta-terminal/.style={
+    % The shape:
+    rounded rectangle,
+    % The size:
+    minimum size=5mm,
+    % The border:
+    very thick,
+    draw=black!50,
+    opacity=0.5,
+    % The filling:
+    top color=white,
+    bottom color=black!20,
+    font=\ttfamily\it\small
+  }
+}
+
+
+% Define box and box title style
+
+
+\definecolor{mynote-color}{rgb}{1, 0.8, 0.4}
+
+\tikzstyle{mynote-mybox} = [draw=mynote-color, fill=mynote-color, very thick, fill opacity=0.1,
+    rectangle, rounded corners, inner sep=10pt]
+\tikzstyle{mynote-fancytitle} =[fill=mynote-color, text=white]
+
+
+% =============
+% = C Section =
+% =============
+
+\definecolor{c-color}{rgb}{0.5, 0.05, 0}
+
+\tikzstyle{c-mybox} = [draw=c-color, fill=c-color, very thick, fill opacity=0.05, rectangle, rounded corners, inner sep=10pt]
+\tikzstyle{c-fancytitle} =[fill=c-color, text=white]
+
+\newcommand{\csection}[1] {%
+\begin{tikzpicture}%
+\node [c-mybox] (box){%
+    \begin{minipage}{0.95\textwidth}%
+      \pgfsetfillopacity{1}%
+      #1%
+    \end{minipage}%
+};%
+\node[c-fancytitle, right=10pt] at (box.north west) { C };
+\node[c-fancytitle, rounded corners] at (box.east) {$\diamondsuit$};
+\end{tikzpicture}%
+}
+
+\newcommand{\lcsection}[1] {%
+\clearpage
+\thispagestyle{codepage}
+\begin{tikzpicture}[remember picture, overlay]%
+\node [c-mybox,minimum width=0.90\paperheight,minimum height=0.90\paperwidth,rotate=90] (box) at (current page.center) {%
+    \begin{minipage}{\textheight}%
+      \pgfsetfillopacity{1}%
+      #1%
+    \end{minipage}%
+};%
+\node[c-fancytitle, rotate=90] at (box.north) {C};
+\node[c-fancytitle, rotate=90, rounded corners] at (box.east) {$\diamondsuit$};
+\end{tikzpicture}%
+\clearpage
+}
+
+
+% ==================
+% = Pascal Section =
+% ==================
+
+\tikzstyle{pas-mybox} = [draw=blue!50, fill=blue!20, very thick, fill opacity=0.1, rectangle, rounded corners, inner sep=10pt]
+\tikzstyle{pas-fancytitle} =[fill=blue!50, text=white]
+
+
+\newcommand{\passection}[1] {%
+\begin{tikzpicture}%
+\node [pas-mybox] (box){%
+    \begin{minipage}{0.95\textwidth}%
+      \pgfsetfillopacity{1}%
+      #1%
+    \end{minipage}%
+};%
+\node[pas-fancytitle, right=10pt] at (box.north west) {Pascal};
+\node[pas-fancytitle, rounded corners] at (box.east) {$\heartsuit$};
+\end{tikzpicture}%
+}
+
+\newcommand{\lpassection}[1] {%
+\clearpage
+\thispagestyle{codepage}
+\begin{tikzpicture}[remember picture, overlay]%
+\node [pas-mybox,minimum width=0.90\paperheight,minimum height=0.90\paperwidth,rotate=90] (box) at (current page.center) {%
+    \begin{minipage}{\textheight}%
+      \pgfsetfillopacity{1}%
+      #1%
+    \end{minipage}%
+};%
+\node[pas-fancytitle, rotate=90] at (box.north) {Pascal};
+\node[pas-fancytitle, rotate=90, rounded corners] at (box.east) {$\heartsuit$};
+\end{tikzpicture}%
+\clearpage
+}
+
+
+
+% ===========
+% = My Note =
+% ===========
+
+\newcommand{\mynote}[1] {%
+\begin{tikzpicture}%
+\node [mynote-mybox] (box){%
+    \begin{minipage}{0.95\textwidth}%
+      \pgfsetfillopacity{1}%  
+      #1%
+    \end{minipage}%
+};%
+\node[mynote-fancytitle, right=10pt] at (box.north west) {Note};
+\node[mynote-fancytitle, rounded corners] at (box.east) {$\spadesuit$};
+\end{tikzpicture}%
+}
+
+
+% =============================================
+% = Pseudocode - pseudocode and pseudosection =
+% =============================================
+\definecolor{pseudo-color}{rgb}{0.8, 0.4, 1}
+
+\tikzstyle{pseudo-mybox} = [draw=pseudo-color, fill=pseudo-color, very thick, fill opacity=0.2,
+    rectangle, rounded corners, inner sep=10pt]
+\tikzstyle{pseudo-fancytitle} =[fill=pseudo-color, text=white]
+
+\newcommand{\pseudosection}[1] {%
+\begin{tikzpicture}%
+\node [pseudo-mybox] (box){%
+    \begin{minipage}{0.95\textwidth}%
+      \pgfsetfillopacity{1}%      
+        #1 %
+    \end{minipage}%
+};%
+\node[pseudo-fancytitle, right=10pt] at (box.north west) {Pseudocode};
+\node[pseudo-fancytitle, rounded corners] at (box.east) {$\clubsuit$};
+\end{tikzpicture}%
+}
+
+\newcommand{\lpseudosection}[1] {%
+\clearpage
+\thispagestyle{codepage}
+\begin{tikzpicture}[remember picture, overlay]%
+\node [pseudo-mybox,minimum width=0.90\paperheight,minimum height=0.90\paperwidth,rotate=90] (box) at (current page.center) {%
+    \begin{minipage}{\textheight}%
+      \pgfsetfillopacity{1}%
+      #1%
+    \end{minipage}%
+};%
+\node[pseudo-fancytitle, rotate=90] at (box.north) {Pseudocode};
+\node[pseudo-fancytitle, rotate=90, rounded corners] at (box.east) {$\clubsuit$};
+\end{tikzpicture}%
+\clearpage
+}
+
+\newcommand{\pseudocode}[3]
+{
+  \lstset{language=Pascal}
+  \pseudosection{\lstinputlisting[caption={#2},label={#1}]{#3}}
+}
+
+
+\newcommand{\lpseudocode}[4]
+{
+  \lstset{language=Pascal}
+  \lpseudosection{\lstinputlisting[caption={#2},label={#1},multicols=#4]{#3}}
+}
+
+% =======================
+% = Syntax - syntaxsect =
+% =======================
+
+\newcommand{\csyntax}[3] {%
+  \begin{figure}[htbp]%
+   \centering%
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,-0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,-0.15);
+    \end{tikzpicture}
+    
+    %\frame{
+    \begin{minipage}{0.95\textwidth}%
+      \input{./syntax-out/c/#3}%
+      \smallskip
+    \end{minipage}%
+    %}
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,0.15);
+    \end{tikzpicture}
+    \caption{C Syntax for #2}%
+    \label{#1}%
+  \end{figure}%
+}
+
+\newcommand{\passyntax}[3] {%
+  \begin{figure}[htbp]%
+   \centering%
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,-0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,-0.15);
+    \end{tikzpicture}
+    
+    %\frame{
+    \begin{minipage}{0.95\textwidth}%
+      \input{./syntax-out/pascal/#3}%
+      \smallskip
+    \end{minipage}%
+    %}
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,0.15);
+    \end{tikzpicture}
+    \caption{Pascal Syntax for #2}%
+    \label{#1}%
+  \end{figure}%
+}
+
+\newcommand{\examplesyntax}[3] {%
+  \begin{figure}[htbp]%
+   \centering%
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,-0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,-0.15);
+    \end{tikzpicture}
+    
+    %\frame{
+    \begin{minipage}{0.95\textwidth}%
+      \input{./syntax-out/example/#3}%
+      \smallskip
+    \end{minipage}%
+    %}
+    
+    \begin{tikzpicture}
+      \draw[very thick,color=gray] (0,0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,0.15);
+    \end{tikzpicture}
+    \caption{#2}%
+    \label{#1}%
+  \end{figure}%
+}
+
+
+
+

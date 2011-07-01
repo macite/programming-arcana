@@ -1,0 +1,8 @@
+\begin{tikzpicture}[column sep=2mm, row sep=1mm,>=stealth,thick,draw=black!70,
+  point/.style={coordinate},
+  tip/.style={->,shorten >=1pt},every join/.style={rounded corners},
+  end/.style={-|,shorten >=1pt},
+  extender/.style={->>,shorten >= 1pt},
+  skip loop/.style={to path={-- ++(0,#1) -| (\tikztotarget)}},
+  hv path/.style={to path={-| (\tikztotarget)}},
+  vh path/.style={to path={|- (\tikztotarget)}}]

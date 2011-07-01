@@ -1,0 +1,30 @@
+\clearpage
+\subsection{C Assignment Statement} % (fold)
+\label{sub:c_assignment_statement}
+
+The assignment statement is used to store a value in a variable.
+
+\csyntax{csynt:storing-using-data-assignment-statement}{an Assignment Statement}{storing-using-data/assignment-statement}
+
+\mynote{
+\begin{itemize}
+  \item This is the C syntax for the \nameref{sub:assignment_statement}.
+  \item In C assignment is indicated by the equals sign ( = ).
+  \item The \emph{left hand side} of the assignment must be a valid variable, this is where the value is to be stored.
+  \item The \emph{right hand side} of the assignment is an expression, this calculates the value that will be stored in the Variable.
+  \item There are multiple versions of the assignment, giving short hand ways of using the current value.
+  \begin{itemize}
+    \item \textbf{\texttt{=}} is the standard assignment, this stores the value of the expression in the Variable.
+    \item \textbf{\texttt{+=}} increments the variable's value, \newline \csnipet{a += n;} is equivalent to \csnipet{a = a + n;}
+    \item \textbf{\texttt{-=}} decrements the variable's value, \newline \csnipet{a -= n;} is equivalent to \csnipet{a = a - n;}
+    \item \textbf{\texttt{*=}} multiplies the value in the variable by a given factor. \newline \csnipet{a *= n;} is equivalent to \csnipet{a = a * n;}
+    \item \textbf{\texttt{/=}} divides the value in the variable by a factor. \newline \csnipet{a /= n;} is equivalent to \csnipet{a = a / n;}
+  \end{itemize}
+  \item The \texttt{++} and \texttt{-{-}} operators allow a variables value to be increments or decremented.
+\end{itemize}
+}
+
+\csection{\ccode{lst:assignment-test-c}{Assignment Tests}{code/c/storing-using-data/assignment-test.c}}
+
+
+% subsection c_assignment_statement (end)

@@ -1,0 +1,222 @@
+\chapter{Program Creation} % (fold)
+\label{cha:program_creation}
+
+\begin{quote}
+  %\frakfamily\selectfont\Large
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \renewcommand{\LettrineFontHook}{\color{red}}
+  \lettrine[image=true,lines=3,lhang=.2, loversize=.25, findent=0.1em]
+  {W}{elcome} neophyte! So you seek to master the art of Magic? To work magic you must learn the structure of incantations, and how to use a wand to convert these into magic energy. 
+  
+  Let us begin with a simple spell, a spell that will greet the world around you! Utter these words, and wave your wand\ldots
+\end{quote}
+
+\bigskip
+
+This chapter introduces the artefacts used to create programs, and how you can code these using a programming language. You will start by learning to create simple programs that output information to the console.
+
+At the end of this material you will be able to write the code needed to declare a program, convert this code into an executable program using a compiler, and then run the program you created.
+
+\minitoc
+
+% ============
+% = Concepts =
+% ============
+\clearpage
+\section{Program Creation Concepts} % (fold)
+\label{sec:program_creation_concepts}
+
+Our first program is going to display some text to the Terminal. In this section you will be introduced to the programming artefacts and terminology you will need to use to create this program. This first step is important and will require you to have installed a C or Pascal compiler, see Appendix \ref{chap:InstallingTools} for instructions.
+
+A programming artefact is something that can be created and used within your code. In this chapter we will look at creating Programs, and using a number of other artefacts. The following \textbf{artefacts} will be covered in this chapter:
+\begin{itemize}
+  \item \nameref{sub:program}: You declare a Program to get the compiler to write a file the user can execute.
+  \item \nameref{sub:procedure}: You can call Procedures to perform actions within the program.
+  \item \nameref{sec:program-creation-library}: The program can use code from other Libraries. These libraries contain reusable Procedures and Types. 
+  \item \nameref{sub:type}: A Type defines how data is interpreted by the program. The language will support a number of basic types by default, and Libraries can add other types. 
+\end{itemize}
+
+In addition to these artefacts, you will need to understand some programming \textbf{terminology}. The following terms are discussed in this section:
+\begin{itemize}
+  \item \nameref{sec:program-creation-statement}: An \textbf{instruction} within the Program.
+  \item \nameref{sub:expression}: A \textbf{value} used in a Statement.
+  \item \nameref{sec:program-creation-identifier}: The \textbf{name} of an artefact.
+  % \item Literal: A part of an \textbf{expression} where the value is entered directly into the code.
+\end{itemize}
+
+This section also introduces the following kinds of instructions. You can use these to get the computer to perform certain \textbf{actions} within your program.
+\begin{itemize}
+  \item \nameref{sub:procedure call}: The instruction to run a Procedure.
+\end{itemize}
+
+We can then use these concepts, artefacts, and instructions to create a Program that includes a call to a procedure that will write some text to the Terminal as shown in Figure \ref{fig:program-creation-helloworld}.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.8\textwidth]{./topics/program-creation/images/HelloWorld} 
+   \caption[Hello World Terminal]{Hello World run from the Terminal}
+   \label{fig:program-creation-helloworld}
+\end{figure}
+
+\input{topics/program-creation/concepts/program}
+\input{topics/program-creation/concepts/statement}
+\input{topics/program-creation/concepts/procedure-call}
+\input{topics/program-creation/concepts/procedure}
+\input{topics/program-creation/concepts/expression}
+% \input{topics/program-creation/concepts/literal}
+\input{topics/program-creation/concepts/type}
+\input{topics/program-creation/concepts/identifier}
+\input{topics/program-creation/concepts/library}
+\input{topics/program-creation/concepts/comments}
+
+% section program_creation_concepts (end)
+
+\clearpage
+\subsection{Summary} % (fold)
+\label{sub:program_creation_concepts_summary}
+
+This section has introduced a number of programming artefacts, some programming terminology, and one kind of instruction. An overview of these concepts is shown in Figure \ref{fig:program-creation-summary}. The next section will look at how you can use these concepts to design some small programs.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/program-creation/diagrams/Summary} 
+   \caption[Chapter Concepts]{Key Concepts introduced in this Chapter}
+   \label{fig:program-creation-summary}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item \textbf{Artefacts} are things you can \emph{create} and \emph{use}.
+  \item \textbf{Terms} are things you need to \emph{understand}.
+  \item \textbf{Actions} are things you can \emph{command} the computer to perform.
+\end{itemize}
+}
+
+% subsection summary (end)
+
+
+% ======================
+% = Using the Concepts =
+% ======================
+
+\clearpage
+\section{Using these Concepts} % (fold)
+\label{sec:using_these_concepts_program_creation}
+
+Armed with the knowledge you have gained in the Section \ref{sec:program_creation_concepts} you can now start to design a small program.
+
+\input{topics/program-creation/application/design-hello-world}
+
+% section using_these_concepts (end)
+
+
+% =============
+% = C Section =
+% =============
+\clearpage
+\def\pageLang{c}
+\section{Program Creation in C}
+\label{sec:program-creation-in-c}
+
+% Overview of concepts in C
+\input{topics/program-creation/c/output_test}
+
+% Each part of the syntax
+\input{topics/program-creation/c/program}
+\input{topics/program-creation/c/statement}
+\input{topics/program-creation/c/procedure-call}
+\input{topics/program-creation/c/identifier}
+\input{topics/program-creation/c/expression}
+\input{topics/program-creation/c/literal}
+\input{topics/program-creation/c/type}
+\input{topics/program-creation/c/printf}
+\input{topics/program-creation/c/c-comments}
+\input{topics/program-creation/c/c-common-errors-in-program-creation}
+
+% ==================
+% = Pascal Section =
+% ==================
+\clearpage
+\def\pageLang{pas}
+\section{Program Creation in Pascal}
+\label{sec:program-creation-in-pas}
+
+
+% =========================
+% = Visualising Execution =
+% =========================
+\clearpage
+\def\pageLang{none}
+\section{Understanding Program Execution} % (fold)
+\label{sec:understanding_program_execution}
+
+\input{topics/program-creation/application/visualise-hello-world}
+
+% section understanding_program_execution (end)
+
+% ====================
+% = Examples Section =
+% ====================
+\clearpage
+\section{Program Creation Examples} % (fold)
+\label{sec:program_creation_examples}
+
+\input{topics/program-creation/examples/program-creation-examples}
+
+% section program_creation_examples (end)
+
+% =============
+% = Exercises =
+% =============
+\clearpage
+\section{Program Creation Exercises} % (fold)
+\label{sec:program_creation_exercises}
+
+\begin{enumerate}
+  \item Write a program that prints the 73 times table from 1 * 73 to 10 * 73.
+  \begin{itemize}
+    \item Draw up a outline of the program
+    \item Write pseudocode for the program's instructions
+    \item Convert your pseudocode to either C or Pascal
+    \item Compile and Run your program, and check that the values are correctly calculated
+  \end{itemize}
+  
+  \item Write a program that prints the powers\footnote{In the code you will need to calculate these manually using times ($2^1$ = 2, $2^2$ = 2*2, $2^3$ = 2*2*2, etc.)} of 2 from $2^1$ to $2^8$.
+  \begin{itemize}
+    \item Draw up a outline of the program
+    \item Write pseudocode for the program's instructions
+    \item Convert your pseudocode to either C or Pascal
+    \item Compile and Run your program, and check that the values are correctly calculated
+  \end{itemize}
+  
+  
+  \item Write a program that prints a table that shows calculations related to circles. This should output the  radius, circle area, diameter, and circumference.
+  \begin{itemize}
+    \item Find the necessary calculations and then draw up a outline of the program
+    \item Write pseudocode for the program's instructions
+    \item Convert your pseudocode to either C or Pascal
+    \item Compile and Run your program, and check that the values are correctly calculated
+  \end{itemize}
+  
+  \item Write a program that draws a face on the screen using SwinGame.
+  \begin{itemize}
+    \item Draw up an outline of the program. Work out the coordinates of the circles for the face, circles. Determine three points of the triangle for the mouth.
+    \item Write up the pseudocode for the program's instructions. Remember to use the \texttt{RefreshScreen} and \texttt{Delay} procedures to see the results.
+    \item Convert your pseudocode to either C or Pascal
+    \item Compile and Run your program, and check that the values are correctly calculated
+  \end{itemize}
+\end{enumerate}
+
+% section program_creation_exercises (end)
+
+% ===================
+% = Project Section =
+% ===================
+\clearpage
+\section{Program Creation Project} % (fold)
+\label{sec:program_creation_project}
+
+% section program_creation_project (end)
+
+% chapter program_creation (end)

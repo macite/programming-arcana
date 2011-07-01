@@ -1,0 +1,3 @@
+array decl. = variable name, {"[", [constant expression], "]"}*;
+
+array type decl. = typedef name, {"[", [constant expression], "]"}*;

@@ -1,0 +1,16 @@
+----------------------------
+Program: CircleAreas
+----------------------------
+Steps:
+ 1: Output 'Circle Areas' to the Terminal
+ 2: Output '-----------------' to the Terminal
+ 3: Output ' Radius: 1.0 = ', 3.1415 * 1.0 * 1.0 to the Terminal
+ 4: Output ' Radius: 1.5 = ', 3.1415 * 1.5 * 1.5 to the Terminal
+ 5: Output ' Radius: 2.0 = ', 3.1415 * 2.0 * 2.0 to the Terminal
+ 6: Output ' Radius: 2.5 = ', 3.1415 * 2.5 * 2.5 to the Terminal
+ 7: Output ' Radius: 3.0 = ', 3.1415 * 3.0 * 3.0 to the Terminal
+ 8: Output ' Radius: 3.5 = ', 3.1415 * 3.5 * 3.5 to the Terminal
+ 9: Output ' Radius: 4.0 = ', 3.1415 * 4.0 * 4.0 to the Terminal
+10: Output ' Radius: 4.5 = ', 3.1415 * 4.5 * 4.5 to the Terminal
+11: Output ' Radius: 5.0 = ', 3.1415 * 5.0 * 5.0 to the Terminal
+12: Output '-----------------' to the Terminal

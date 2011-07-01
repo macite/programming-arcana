@@ -1,0 +1,13 @@
+----------------------------
+Program: MorseSOS
+----------------------------
+Procedures:
+*  Short Signal
+*  Long Signal
+*  Signal S
+*  Signal O
+----------------------------
+Steps:
+1: Call Signal S
+2: Call Signal O
+3: Call Signal S

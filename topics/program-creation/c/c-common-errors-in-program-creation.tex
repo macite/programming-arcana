@@ -1,0 +1,39 @@
+\clearpage
+\subsection{Some Common C Errors with Program Creation} % (fold)
+\label{sub:some_common_c_errors_with_program_creation}
+
+The following list shows some of the more common errors you are likely to encounter at this stage. The C compiler is particularly cryptic with its error messages, but these few should help you with the more common problems.
+
+\begin{tabular}{p{1cm}p{12cm}}
+  \multicolumn{2}{l}{\textbf{\texttt{error: expected ‘;’ before ...}}} \\
+  &  Each statement in C must be ended with a semicolon (;). This error is indicating that the compiler has reached a point where it believes a statement should have ended. Look back at the previous line, it is likely that you forgot to put the ending semicolon.\\ 
+  & \\
+  
+  \multicolumn{2}{l}{\textbf{\texttt{warning: implicit declaration of function ‘\ldots’}}} \\
+  & The compiler doesn't know about the procedure/function that you are calling at this point in the code. This could be caused by one of two common problems. Firstly you may have a typo in the name of the procedure you are calling, check the name carefully and remember that C is case sensitive. Secondly, you may have forgotten to include a library that you are using. If this is the case check the includes at the top of the file. \\
+  & \\
+  
+  \multicolumn{2}{l}{\textbf{\texttt{Undefined symbols: "\_main", referenced from:\ldots}}} \\
+  & The entry point for a C program must be called \texttt{main}. C is case sensitive, so \texttt{Main} and \texttt{main} are not the same. Check that you have a \texttt{main} function. This error is indicating that the compiler cannot find the program's entry point, it cannot find the \texttt{main} function. \\
+  & \\
+  
+  \multicolumn{2}{l}{\textbf{\texttt{warning: control reaches end of non-void function}}} \\
+  & You are missing the return at the end of the main function. Add the code \csnipet{return 0;}. \\
+  & \\
+   
+  \multicolumn{2}{l}{\textbf{\texttt{error: \emph{filename}: No such file or directory}}} \\
+  & This error is likely to occur if you mistype the name of the library's header (.h) file that you are including. Check the \csnipet{#include<...>} at the start of the code. The error here is indicating that the compiler cannot find the file. If the filename is spelt correctly then there may be an issue with your compiler's installation. \\
+  & \\
+  
+  \multicolumn{2}{l}{\textbf{\texttt{error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘\_\_attribute\_\_’ before ‘main’}}} \\
+  & You must declare main has \csnipet{int main()}. This error will occur if you have a typo in the \texttt{int} part. \\
+  & \\
+  
+  \multicolumn{2}{l}{\textbf{\texttt{error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘\_\_attribute\_\_’ before ‘\{’ token}}} \\
+  & This is the error message you get if you forget to put the parenthesis after \texttt{main} but before the open brace ( \{ ). \\
+  & \\
+  
+\end{tabular}
+
+
+% subsection some_common_c_errors_with_program_creation (end)

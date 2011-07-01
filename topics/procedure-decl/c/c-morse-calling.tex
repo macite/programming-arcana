@@ -1,0 +1,22 @@
+\subsection{Implementing Morse Calling in C} % (fold)
+\label{sub:implementing_morse_calling_in_c}
+
+Section \ref{sec:using_these_concepts_procedure_decl} of this chapter introduced the `Morse Calling' program, and its design. Its implementation requires the definition of some procedures in the Program's code. This section of the chapter introduces the C syntax rules for declaring your own procedures, with the C implementation of Morse Calling being shown in Listing \ref{lst:procedure-decl-c-morse_calling}.
+
+\csection{\ccode{lst:procedure-decl-c-morse_calling}{C Morse Calling}{code/c/procedure-decl/morse-calling.c}}
+
+\mynote{
+\begin{itemize}
+  \item Save the C code in a file named \texttt{morse-calling.c}.
+  \item Compile this using \bashsnipet{gcc -o MorseCalling morse-calling.c}.
+  \item Run the resulting program using \bashsnipet{./MorseCalling}.
+  \item Check that the output matches the expected values.
+  \item Looking over the code you should be able to see the instructions for each Procedure.
+  \item Notice how the indentation makes it easy to see where each Procedure starts and ends. Always lay your code out so that it is easy to see its structure.
+  \item See how the procedures are declared before they are used. This is important as the C compiler must know about the Procedure before you can call it.
+  \item To see how to create this have a look at the Syntax for declaring \nameref{sub:c_program_with_procedures_}.
+  \item The Program's declaration can contain a number of Procedures using the \nameref{sub:c_procedure_declaration} syntax.
+\end{itemize}
+}
+
+% subsection implementing_morse_sos_in_c (end)

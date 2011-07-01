@@ -1,0 +1,10 @@
+Program: Test Input
+----------------------------
+
+Variables:
+ * age (Integer)
+Steps:
+ 1: Output 'Enter your age: ' to the Terminal
+ 2: Read input into age
+ 3: Output 'You entered ' and age to the Terminal
+

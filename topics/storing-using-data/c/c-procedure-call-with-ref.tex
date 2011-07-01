@@ -1,0 +1,20 @@
+\clearpage
+\subsection{C Procedure Call (with pass by reference)} % (fold)
+\label{sub:c_procedure_call_with_pass_by_reference}
+
+Many languages support pass by reference in the compiler. This is where the compiler manages the passing of the reference for you in the background. Unfortunately C does not do this transparently and you need to manually pass the reference yourself. Its good to know that the concept remains the same, but it does mean that you must manually add code to achieve this.
+
+\csyntax{csynt:parameter-procedure-call}{Procedure Call (with pass by reference)}{parameters/procedure-call-with-ref}
+
+\mynote{
+\begin{itemize}
+  \item With C you must manually pass parameters by reference using the ampersand (\texttt{\&}) operator.
+  \item The ampersand (\texttt{\&}) operator gets the address of the variable given to it, in effect you manually fetch the reference to the variable and pass that as the argument.
+  \item Passing the address of a variable allows the called code to use that address to find your Variable's value. The code can read and store values in this Variable for you.
+  \item Reading input from the Terminal is one of the common use of pass by reference.
+\end{itemize}
+}
+
+\csection{\ccode{lst:input-test-c}{Testing Pass by Reference in C}{code/c/storing-using-data/input-test.c}}
+
+% subsection c_procedure_call_with_pass_by_reference_ (end)

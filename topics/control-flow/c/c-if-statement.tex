@@ -1,0 +1,22 @@
+\clearpage
+\subsection{C If Statement} % (fold)
+\label{sub:c_if_statement}
+
+The if statement is a \nameref{sub:branching} statement. This can be used to optionally run a block of code, providing two alternate paths controlled by a Boolean expression.
+
+\csyntax{csynt:branching-if-statement}{an If Statement}{branching/if-statement}
+
+\csection{\ccode{clst-test-if}{C if test code}{code/c/control-flow/test-if.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the C syntax for the \nameref{sub:if_statement}.
+  \item The parenthesis surround the expression. This enables the compiler to tell where the expression ends.
+  \item Notice that the \texttt{else} branch is optional.
+  \item When the expression is \texttt{false} (0 in C), the else branch is taken.
+  \item For any other value the first path is taken.
+  \item You only need to include \texttt{stdbool.h} if you want to use the \texttt{bool} type and the values \texttt{true} or \texttt{false}.
+\end{itemize}
+}
+
+% subsection c_if_statement (end)

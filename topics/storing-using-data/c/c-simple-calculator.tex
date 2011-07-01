@@ -1,0 +1,22 @@
+\subsection{Implementing Simple Change in C} % (fold)
+\label{sub:implementing_simple_change_in_c}
+
+Section \ref{sec:using_these_concepts_storing_using_data} of this chapter introduced the `Simple Change Calculator' program, and its design. Its implementation requires the definition of a Function as well as a Procedure in the Program's code. The Procedure and Function accepted parameters, and the Program's code uses Local Variables. This section of the chapter introduces the C syntax rules for implementing these concepts using the C language. The C implementation of the Simple Change Calculator are shown in Listing \ref{lst:storing-data-c-simple-change}.
+
+\straightcode{\ccode{lst:storing-data-c-simple-change}{C code for the Simple Change Calculator}{code/c/storing-using-data/simple-change.c}}
+
+\mynote{
+\begin{itemize}
+  \item Save the C code in a file named \texttt{simple-change.c}.
+  \item Compile this using \bashsnipet{gcc -o SimpleChange simple-change.c}.
+  \item Run the resulting program using \bashsnipet{./SimpleChange}.
+  \item Perform each of the Test Cases from Table \ref{tab:simple_change_test_data} and check that the output matches the expected values.
+  \item Look over the code and examine how the Variables, Parameters, Constants, and Function are being used.
+  \item Notice how the indentation makes it easy to see where each Function and Procedure starts and ends. Always lay your code out so that it is easy to see its structure.
+  \item See how the Function and Procedure are declared before they are used. This is important as the C compiler reads the code from the start, and must know about the artefacts before you use them.
+\end{itemize}
+}
+
+
+
+% subsection implementing_simple_change_in_c (end)

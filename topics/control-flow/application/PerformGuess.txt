@@ -1,0 +1,18 @@
+Function: Perform Guess
+----------------------------
+Returns: Boolean - True if the user has guessed the Target
+Parameters:
+ 1: Num Guess (Integer) - The number of the guess (1..7)
+ 2: Target (Integer) - The target the user is aiming for
+Steps:
+  1: Output 'Guess ', num_guess, and ': '
+  2: Read input into guess
+  3: 
+  4: if target is less than guess then
+  5:     Output 'The number is less than ', guess
+  6: else
+  7:     if target is larger than guess then
+  8:         Output 'The number is larger than ', guess
+  9:     else 
+ 10:         Output 'Well done... the number was ', guess
+ 11: Return the result, target = guess

@@ -1,0 +1,8 @@
+----------------------------
+Program: Output Test
+----------------------------
+Steps:
+1: Output 'Extended Hello World' to the Terminal
+2: Output ' 1 + 1 = ', and the result of 1 + 1
+3: Output ' Area of a circle with radius 3 = ', 
+                           and the result of 3.1415 * 3 * 3

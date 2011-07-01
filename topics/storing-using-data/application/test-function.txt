@@ -1,0 +1,17 @@
+Program: Test Functions
+----------------------------
+
+  Function: Square
+  ----------------------------
+  Returns: An Integer - val squared
+  Parameters:
+   1: val (Integer)
+  Steps:
+   1: Returns the result, val * val
+
+Variable:
+ *: answer (Integer)
+Steps:
+ 1: Assign to answer, Square(5)
+ 2: Output answer to the Terminal
+

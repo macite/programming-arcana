@@ -1,0 +1,89 @@
+----------------------------
+Program:   Tell Joke
+----------------------------
+
+  ----------------------------
+  Procedure: Setup Joke
+  ----------------------------
+  Steps:
+  1: Write 'Knock Knock.' to the Terminal
+  2: Write 'Who''s there?' to the Terminal
+  3: Write 'Boo' to the Terminal
+  4: Write 'Boo Who?' to the Terminal
+
+  ----------------------------
+  Procedure: Pause For Dramatic Effect
+  ----------------------------
+  Steps:
+  1:  Pause Execution
+
+  ----------------------------
+  Procedure: Punch Line
+  ----------------------------
+  Steps:
+  1: Pause For Dramatic Effect
+  2: Write 'Don''t cry its only a joke!' to the Terminal
+
+  ----------------------------
+  Procedure: Tell Joke
+  ----------------------------
+  Steps:
+  1: Call Setup Joke
+  2: Call Punch Line
+
+  ----------------------------
+  Procedure: Ha
+  ----------------------------
+  Steps:
+  1: Write 'ha' to the Terminal
+
+  ----------------------------
+  Procedure: HaHa
+  ----------------------------
+  Steps:
+  1: Call Ha
+  2: Call Ha
+
+  ----------------------------
+  Procedure: HeHe
+  ----------------------------
+  Steps:
+  1: Write 'hehe' to the Terminal
+
+  ----------------------------
+  Procedure: Ah
+  ----------------------------
+  Steps:
+  1: Write 'ah' to the Terminal
+
+  ----------------------------
+  Procedure: HaHaHeHe
+  ----------------------------
+  Steps:
+  1: Call HaHa
+  2: Call HeHe
+
+  ----------------------------
+  Procedure: Laugh
+  ----------------------------
+  Steps:
+  1: Call Ah
+  2: Call HaHa 
+  3: Call HaHaHeHe
+  4: Call Pause For Dramatic Effect
+  5: Call HeHe 
+
+  ----------------------------
+  Procedure: StopLaughing
+  ----------------------------
+  Steps:
+  1: Write a blank line to the Terminal
+  2: Call Ah
+  3: Call Pause For Dramatic Effect
+  4: Write a blank line to the Terminal
+  5: Write 'Yes, very funny :)' to the Terminal
+
+Steps:
+1: Tell Joke
+2: Laugh
+3: StopLaughing

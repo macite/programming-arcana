@@ -1,0 +1,106 @@
+\clearpage
+\subsection{C Terminal Input} % (fold)
+\label{sub:c_terminal_input}
+
+C comes with a range of \nameref{sec:program-creation-library}s that provide reusable programming artefacts, including reusable \nameref{sub:function} and \nameref{sub:procedure}s. The \texttt{stdio.h} refers to the Standard Input/Output library, and including code to read input from the Terminal. The \texttt{scanf} function is used to read data from the Terminal.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{int scanf(char *format, \ldots )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{int} & The number of values read by \texttt{scanf}. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ format } & The format specifier describing what is to be read from the Terminal. See \tref{tbl:format specifiers}. \\
+    & \\
+    \texttt{\ldots}   & The variables into which the values will be read. There must be at least as many variables as format tags in the format specifier. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{scanf}}
+  \label{tbl:scanf parameters}
+\end{table}
+
+\csyntax{csynt:scanf-format-string}{Format Tags for \texttt{scanf}}{storing-using-data/scanf-format-tags}
+
+\csection{\ccode{clst:scanf}{Example of reading data using \texttt{scanf}.}{code/c/storing-using-data/test-scanf.c}}
+
+\clearpage
+
+\begin{table}[p]
+  \begin{minipage}{\textwidth}
+  \centering
+  
+  \begin{tabular}{|c|p{8cm}|l|}
+    \hline
+    \textbf{} & \textbf{Description}  & \textbf{Example Usage} \\
+    \hline
+    \emph{white space} & Skips white space at this point in the input. & \csnipet{scanf("{ } \%d", \&age);} \\
+    \hline
+    \emph{non white space}\footnote{Except for the percent character which is used in the Format Tag.} & Matches the input against characters, skipping this text in the input. Fails if input does not match. The example looks for `age: ' and reads the following integer.& \csnipet{scanf("age: \%d", \&age);} \\
+    \hline
+    \emph{format tag} & The tag indicates the kind of data to read and store in a Variable. This starts with a percent character. See \tref{tbl:scanf format tag} and \fref{csynt:scanf-format-string} for the syntax of the format tags. & \csnipet{scanf("\%d", \&age);}\\
+    \hline
+  \end{tabular}
+  \caption{Elements of the Format String in \texttt{scanf}}
+  \label{tbl:format specifiers}
+  \end{minipage}
+\end{table}
+
+\begin{table}[p]
+  \begin{minipage}{\textwidth}
+  \centering
+  
+  \begin{tabular}{|c|p{8cm}|l|}
+    \hline
+    \textbf{} & \textbf{Description}  & \textbf{Example Usage} \\
+    \hline
+    \texttt{*}  & Read the data, but ignore it. Does not store the value in a Variable. & \csnipet{scanf("\%*d");} \\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{Width} & \textbf{Description}  & \textbf{Example Usage} \\
+    \hline
+    \emph{number} & The maximum number of characters to read in the current operation. & \csnipet{scanf("\%3d", \&age);}\\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{Modifier} & \textbf{Description}  & \textbf{Example Usage} \\
+    \hline
+    \texttt{h} &  Reads a \texttt{short int} for the \texttt{d} or \texttt{i} Types. & \csnipet{scanf("\%hi", \&age);}\\
+    \hline
+    \texttt{l} & Reads a \texttt{long int} for the \texttt{d} or \texttt{i} Types, or a \texttt{double} for \texttt{f}. & \csnipet{scanf("\%lf \%li", \&height, \&count);} \\
+    \hline
+    \texttt{L} & Reads a \texttt{long double} for \texttt{f}. & \csnipet{scanf("\%Lf", \&range);} \\ 
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{Type} & \textbf{Data Read}  & \textbf{Example Usage} \\
+    \hline
+    \texttt{c}  & A single character. & \csnipet{scanf("\%c", \&ch);} \\
+    \hline
+    \texttt{d} or \texttt{i} & Decimal integer. This is able to read a starting + or - if present. & \csnipet{scanf("\%d", \&height);} \\
+    \hline
+    \texttt{f}  & Decimal floating point number. Can be signed, or in scientific notation. & \csnipet{scanf("\%f", \&radius);} \\
+    \hline
+    \texttt{s}  & Text data. Should be preceded by the number of characters to read. The c-string must have sufficient space to store the data read in\footnote{This will be covered in future chapters.}.  & \csnipet{scanf("\%40s", \&name);} \\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+  \end{tabular}
+  
+  \end{minipage}
+  \caption{Details for \texttt{scanf}'s Format Tag type, specifiers, modifiers, and width}
+  \label{tbl:scanf format tag}
+\end{table}
+
+
+% subsection c_terminal_input (end)

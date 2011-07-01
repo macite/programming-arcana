@@ -1,0 +1,196 @@
+\chapter{Storing and Using Data} % (fold)
+\label{cha:storing_and_using_data}
+
+So far our programs have only been able to work with Literal values. This Chapter introduces new artefacts you can use to store data, and from which you can read the value stored called Variables and Constants. It will also introduce a new artefact that can be used to calculate values called a Function. Using these artefacts you will see how you can store and manipulate values in your code.
+
+At the end of this material you will be able to write code that uses Variable and Constants to stores and manipulates data. You will be able to share data between different Procedures, and create and use Functions to calculate values.
+
+\minitoc
+
+% ========================
+% = Concepts - Variables =
+% ========================
+
+\clearpage
+\section{Concepts Related to Storing and Using Data} % (fold)
+\label{sec:concepts_related_to_storing_and_using_data}
+
+Chapter \ref{cha:procedure_declaration}, \nameref{cha:procedure_declaration}, showed you how you can create your own procedures, with each procedure performing a task for the program. The procedures that you created did use some data, but in each case the data was entered directly into the code of the program, as a Literal.
+
+This next step introduces the idea of creating your own artefacts that can be used to \textbf{store}, or \textbf{calculate} a value. Using these artefacts you can start to work with values in a more dynamic way, allowing you to get the computer to perform calculations, and to store and manipulate values.
+
+In this Chapter you will learn how to create the following programming \textbf{artefacts}:
+\begin{itemize}
+  \item \nameref{sub:variables}: You can \textbf{store} a value in a Variable, and \textbf{retrieve} the value from the Variable.
+  \item \nameref{sub:constants}: Is similar to a Variable, except that its value cannot change after it is declared.
+  \item \nameref{sub:function}: Is similar to a \nameref{sub:procedure}, but is used to calculate a value rather than to produce a side effect.
+\end{itemize}
+
+You will learn about the following \textbf{terminology}:
+\begin{itemize}
+  \item \nameref{sub:global_variable}: Variables declared within the Program's code are called Global Variables.
+  \item \nameref{sub:local_variable}: Variables declared within a Function or Procedure are called Local Variables.
+  \item \nameref{sub:parameter}: Parameters are variables that allow values to be passed into a Function or Procedure.
+  \item \nameref{sub:expressions_with_variables_}: See how Functions, Constant, and Variables can be used in Expressions.
+\end{itemize}
+
+Additionally, you will learn how to perform the following \textbf{actions}:
+\begin{itemize}
+  \item \nameref{sub:assignment_statement}: You use an Assignment Statement to store a value in a Variable.
+  \item \nameref{sub:function_call}: This is part of an Expression, and is used to call the Function and to read the returned result.
+\end{itemize}
+
+\bigskip
+
+You may need to revise the following programming artefacts:
+\begin{itemize}
+  \item \nameref{sub:program}: The idea of building your own Programs.
+  \item \nameref{sub:procedure}: Creating your own Procedure, as well as calling Procedures from libraries.
+\end{itemize}
+
+The following programming terminology will also be used in this Chapter:
+\begin{itemize}
+  \item \nameref{sec:program-creation-statement}: An instruction performed in your code.
+  \item \nameref{sec:program-creation-identifier}: The name of an artefact, or the text used to identify something meaningful to the language.
+\end{itemize}
+
+This material also requires that you have a good understanding of the following actions:
+\begin{itemize}
+  \item \nameref{sub:procedure call}: A Procedure Call is an instruction to run a Procedure.
+\end{itemize}
+
+\clearpage
+
+By the end of this material we will have worked through an example where you create a program that calculates change for . This program will read a temperature value in Fahrenheit from the user, and will then output the temperature in Celsius. The output of several runs of this program are shown in Figure \ref{fig:storing-using-simeple-change}.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.9\textwidth]{./topics/storing-using-data/images/SimpleChange} 
+   \caption{The Simple Change Calculator running in the Terminal}
+   \label{fig:storing-using-simeple-change}
+\end{figure}
+
+
+\input{topics/storing-using-data/concepts/variables}
+\input{topics/storing-using-data/concepts/constants}
+\input{topics/storing-using-data/concepts/local-variables}
+\input{topics/storing-using-data/concepts/global-variables}
+\input{topics/storing-using-data/concepts/parameter}
+\input{topics/storing-using-data/concepts/pass-by}
+\input{topics/storing-using-data/concepts/statement-with-assignment}
+\input{topics/storing-using-data/concepts/assignment-statement}
+\input{topics/storing-using-data/concepts/function}
+\input{topics/storing-using-data/concepts/function-call}
+\input{topics/storing-using-data/concepts/expressions-with-variables}
+\input{topics/storing-using-data/concepts/program-with-functions}
+
+\clearpage
+\subsection{Summary} % (fold)
+\label{sub:data_concepts_summary}
+
+This section has introduced a number of programming artefacts, some programming terminology, and one kind of instruction. An overview of these concepts is shown in Figure \ref{fig:data-summary}. The next section will look at how you can use these concepts to design some small programs.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/storing-using-data/diagrams/Summary} 
+   \caption[Chapter Concepts]{Key Concepts introduced in this Chapter}
+   \label{fig:data-summary}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item \textbf{Artefacts} are things you can \emph{create} and \emph{use}.
+  \item \textbf{Terms} are things you need to \emph{understand}.
+  \item \textbf{Actions} are things you can \emph{command} the computer to perform.
+\end{itemize}
+}
+
+% section concepts_related_to_storing_and_using_data (end)
+
+% ==========================================
+% = Using Concepts related to data storage =
+% ==========================================
+
+\clearpage
+\section{Using these Concepts} % (fold)
+\label{sec:using_these_concepts_storing_using_data}
+
+Variables, Constants, and Functions give us the ability to work with data in new ways in our programs. Previously the data within the program was limited to values entered directly into the code. Now with these concepts we can interact more meaningfully with data, performing calculations, and storing and manipulating values.
+
+\input{topics/storing-using-data/application/designing-simple-change}
+
+
+% section using_these_concepts (end)
+
+
+% ===============================
+% = Storing and Using Data in C =
+% ===============================
+
+\clearpage
+\def\pageLang{c}
+\section{Storing and Using Data in C} % (fold)
+\label{sec:storing_and_using_data_in_c}
+
+\input{topics/storing-using-data/c/c-simple-calculator}
+\input{topics/storing-using-data/c/c-variable-declaration}
+\input{topics/storing-using-data/c/c-program-with-globals}
+\input{topics/storing-using-data/c/c-procedure-decl-with-locals}
+% \input{topics/storing-using-data/c/c-statement-with-assignment}
+\input{topics/storing-using-data/c/c-assignment-statement}
+\input{topics/storing-using-data/c/c-procedure-decl-with-params}
+\input{topics/storing-using-data/c/c-procedure-call-with-ref}
+\input{topics/storing-using-data/c/c-input}
+\input{topics/storing-using-data/c/c-program-with-func}
+\input{topics/storing-using-data/c/c-function-decl}
+\input{topics/storing-using-data/c/c-procedure-decl}
+\input{topics/storing-using-data/c/c-function-call}
+\input{topics/storing-using-data/c/c-return-statement}
+\input{topics/storing-using-data/c/c-statement-with-return}
+
+% section storing_and_using_data_in_c (end)
+
+% ======================
+% = Understanding Data =
+% ======================
+\clearpage
+\def\pageLang{none}
+\section{Understanding Data} % (fold)
+\label{sec:understanding_dat}
+
+\input{topics/storing-using-data/application/visualising-data}
+
+% section understanding_dat (end)
+
+
+% ====================
+% = Examples Section =
+% ====================
+\clearpage
+\section{Data Examples} % (fold)
+\label{sec:data_examples}
+
+\input{topics/storing-using-data/examples/data-examples}
+
+% section data_examples (end)
+
+% =============
+% = Exercises =
+% =============
+\clearpage
+\section{Data Exercises} % (fold)
+\label{sec:data_exercises}
+
+% section data_exercises (end)
+
+% ===========
+% = Project =
+% ===========
+\clearpage
+\section{Data in the Project} % (fold)
+\label{sec:data_in_the_project}
+
+% section data_in_the_project (end)
+
+
+% chapter storing_and_using_data (end)

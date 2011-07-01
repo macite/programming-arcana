@@ -1,0 +1,23 @@
+\clearpage
+\subsection{C Program (with Global Variables and Constants)} % (fold)
+\label{sub:c_program_with_global_variables}
+
+You can declare Global Variables and Constants within a C Program file.
+
+\csyntax{csynt:storing-using-data-program}{a Program (with global variables and constants)}{storing-using-data/program-with-globals}
+
+\mynote{
+\begin{itemize}
+  \item This syntax allows you to declare \nameref{sub:global_variable}s and Constants.
+  \item See Listing \ref{lst:variable-test-c} for an example of declaring Global Variable and Constants.
+  \item In Listing \ref{lst:variable-test-c} \ldots
+  \begin{itemize}
+    \item \texttt{global\_float} and \texttt{global\_int} are Global Variables. These can be accessed in both the \texttt{test} procedure and \texttt{main}.
+    \item \texttt{PI} is a Global Constant, with the value 3.1415. This can be read in both the \texttt{test} procedure and \texttt{main}.
+  \end{itemize}
+  \item Global variable should be avoided.
+  \item There are a number of conventions, called coding standards, that describe how your code should appear for a given language. In this text we will use a common C convention of having all \emph{Constants} in \textbf{UPPER CASE}, with underscores ( \_ ) used to separate words. So the \emph{Maximum Height} constant becomes \texttt{MAXIMUM\_HEIGHT}.
+\end{itemize}
+}
+
+% subsection c_program_with_global_variables (end)

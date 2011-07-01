@@ -1,0 +1,5 @@
+----------------------------
+Procedure: Short Signal
+----------------------------
+Steps:
+1: Output '.' to the Terminal

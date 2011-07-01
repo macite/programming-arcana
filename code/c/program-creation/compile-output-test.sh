@@ -1,0 +1,1 @@
+gcc -o OutputTest output_test.c

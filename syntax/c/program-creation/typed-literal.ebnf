@@ -1,0 +1,11 @@
+integer literal = whole number;
+
+long long literal = whole number, 'l' | 'L';
+
+float literal = real number , "f" | "F" ;
+
+double literal = real number ;
+
+char literal = character;
+
+c-string literal = character string ;

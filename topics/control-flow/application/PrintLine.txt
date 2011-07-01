@@ -1,0 +1,13 @@
+Procedure: Print Line
+----------------------------
+Parameters:
+1: Length (Integer)
+Local Variables:
+* i (Integer)
+Steps:
+ 1: Assign i, the value 0
+ 2: While i < Length
+ 3:     Output '-'
+ 4:     Increase i by 1
+ 5: Output a new line
+ 
