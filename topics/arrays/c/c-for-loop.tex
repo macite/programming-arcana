@@ -1,0 +1,24 @@
+\clearpage
+\subsection{C For Loop} % (fold)
+\label{sub:c_for_loop}
+
+The \nameref{sub:for_loop} in C can do much more than just counting, but that is its primary purpose. You can use this to implement the logic to process each element of an array.
+
+The for loop itself is controlled by three aspects. The first is an initialiser, it sets the first value for the control variable (usually \texttt{i} if you are  using it to index an array). The second part is the condition, the body will run \emph{while} this is true just like a \nameref{sub:c_while_loop}. The third part is a post loop increment, you use this to move the index to the next value. 
+
+The standard for loop is: \csnipet{for(i = 0; i < size; i++)\{...\}}. This can be read as `for \texttt{i} starts at 0, while \texttt{i} is less than \texttt{size}, do the following then increment \texttt{i}'. If \texttt{size} is three then this counts 0, 1, 2. Repeating the body of the loop three times.
+
+\csyntax{csynt:looping-for-loop}{a For Loop}{looping/for-loop}
+
+\csection{\ccode{clst:test-for}{Code illustrating the for loop in C}{code/c/array/test-for.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the C syntax for implementing a \nameref{sub:for_loop}.
+  \item The \emph{initialiser} of the for loop is used to set the initial values before the loop body is first executed.
+  \item The \emph{control} is a \emph{condition}, the loop executes \emph{while}\footnote{In the same way a while loop does, checking the condition to determine if the body should execute or be skipped when the condition is checked.} this is true.
+  \item The \emph{increment} is a post loop action, used to move to the next index.
+\end{itemize}
+}
+
+% subsection c_while_loop (end)

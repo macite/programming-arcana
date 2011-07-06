@@ -1,0 +1,14 @@
+Function: Sum
+----------------------------
+Returns: Double - The sum of the numbers from the data array
+Parameters:
+ 1: data (array of Double) - the list of values to sum
+ 2: size (Integer) - the number of elements in data (C only)
+Local Variables:
+ *: i (Integer) - index of the current element in the array
+ *: total (Double) - running total
+Steps:
+  1: total is assigned 0
+  2: For i, starts at 0 and loops to the highest index of data
+  3:    total is assigned total + the value of the ith element of data
+  4: Return the result, total

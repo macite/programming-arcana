@@ -1,0 +1,22 @@
+\clearpage
+\subsection{C Function (with Array Parameters)} % (fold)
+\label{sub:c_fn_with_array}
+
+In C you can only use \nameref{sub:pass_by_reference} to pass an array to a Function or Procedure. There are two ways of passing arrays by reference in C: one uses the bracket notation (\texttt{type name[ ]}), the other an asterisks notation (\texttt{type *name}). The asterisks notation is more general pass by reference, and will be covered in a later chapter in more details. The brackets notation accomplishes the same task, and indicates that the passed data will be an array.\footnote{Which is passed by reference, as arrays are always passed by reference in C.}
+
+The optional \textbf{\texttt{const}} operator allows you to indicate that the passed in value will not be changed in the Function or Procedure. This is important with strings, as if you want to pass a string literal to a parameter it must be a \texttt{const char *}, as the literal cannot be changed.
+
+\csyntax{csynt:fn-with-array}{Functions with Array Parameters}{arrays/fn-array-param}
+
+\csection{\ccode{clst:test-array-passing}{Code illustrating array passing in C}{code/c/array/test-array-passing.c}}
+
+\mynote{
+\begin{itemize}
+  \item This syntax shows you how to code \nameref{sub:pass_by_reference} into your Functions and Procedures in C.
+  \item See \lref{clst:test-array-passing} for examples of the different ways of declaring pass by reference parameters in C.
+  \item Notice that in the call you \textbf{do not} need to get the address of arrays, as you would do with other types that are passed by reference. This is because C does this for you in the background. Remember arrays are always passed by reference in C.
+  \item When using the \texttt{[ ]} syntax you do not specify the size of the array. This allows arrays of varying size to be passed into the Function or Procedure. The \texttt{size} parameter is then used by \emph{convention} to carry across the size of the array.
+\end{itemize}
+}
+
+% subsection c_fn_with_array (end)

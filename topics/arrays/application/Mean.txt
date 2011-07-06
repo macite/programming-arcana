@@ -1,0 +1,8 @@
+Function: Mean
+----------------------------
+Returns: Double - The average (mean) of the numbers from the data array
+Parameters:
+ 1: data (array of Double) - the list of values
+ 2: size (Integer) - the number of elements in data (C only)
+Steps:
+  1: Return the result, Sum(data, size) / size

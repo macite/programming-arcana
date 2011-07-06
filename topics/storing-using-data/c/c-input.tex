@@ -29,13 +29,9 @@ C comes with a range of \nameref{sec:program-creation-library}s that provide reu
   \label{tbl:scanf parameters}
 \end{table}
 
-\csyntax{csynt:scanf-format-string}{Format Tags for \texttt{scanf}}{storing-using-data/scanf-format-tags}
+The \texttt{scanf} function is controlled by the \texttt{format} parameter. This parameter tells \texttt{scanf} what it must read from the input. Details of how to construct the \texttt{format} String are shown in \tref{tbl:format specifiers}.
 
-\csection{\ccode{clst:scanf}{Example of reading data using \texttt{scanf}.}{code/c/storing-using-data/test-scanf.c}}
-
-\clearpage
-
-\begin{table}[p]
+\begin{table}[htbp]
   \begin{minipage}{\textwidth}
   \centering
   
@@ -55,11 +51,15 @@ C comes with a range of \nameref{sec:program-creation-library}s that provide reu
   \end{minipage}
 \end{table}
 
+\csyntax{csynt:scanf-format-string}{Format Tags for \texttt{scanf}}{storing-using-data/scanf-format-tags}
+
+\csection{\ccode{clst:scanf}{Example of reading data using \texttt{scanf}.}{code/c/storing-using-data/test-scanf.c}}
+
 \begin{table}[p]
   \begin{minipage}{\textwidth}
   \centering
   
-  \begin{tabular}{|c|p{8cm}|l|}
+  \begin{tabular}{|c|p{7cm}|l|}
     \hline
     \textbf{} & \textbf{Description}  & \textbf{Example Usage} \\
     \hline
@@ -91,9 +91,11 @@ C comes with a range of \nameref{sec:program-creation-library}s that provide reu
     \hline
     \texttt{f}  & Decimal floating point number. Can be signed, or in scientific notation. & \csnipet{scanf("\%f", \&radius);} \\
     \hline
-    \texttt{s}  & Text data. Should be preceded by the number of characters to read. The c-string must have sufficient space to store the data read in\footnote{This will be covered in future chapters.}.  & \csnipet{scanf("\%40s", \&name);} \\
+    \texttt{s}  & Text data. Should be preceded by the number of characters to read. The c-string must have sufficient space to store the data read\footnote{This will be covered in future chapters.}.  & \csnipet{scanf("\%40s", name);} \\
     \hline
-    \multicolumn{3}{c}{} \\
+    \texttt{[\emph{pattern}]} & Text data. As with \texttt{\%s}, but this allows you to specify the pattern of characters that can be read. & \csnipet{scanf("\%7[1234567890]", num_text);} \\
+    \hline
+    \texttt{[\emph{{\textasciicircum}pattern}]} & Text data. As with \texttt{\%s}, but this allows you to specify the pattern of characters that can \textbf{not} be read. & \texttt{\small scanf("\%40[\textasciicircum \textbackslash n]", name);} \\
     \hline
   \end{tabular}
   

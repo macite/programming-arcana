@@ -10,8 +10,4 @@ variable decls. = {variable declaration}*(",") ;
 
 statements = {statement, ";"}* ;
 
-procedure name = identifier ;
-
-type name = identifier ;
-
 parameter name = identifier ;

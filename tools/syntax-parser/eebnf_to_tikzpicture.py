@@ -407,7 +407,7 @@ class EEBNFToTikzPicture():
         else:
             # Add the return arrow
             self._current_picture()._add_chain('\t\t{ [start branch]\n')
-            self._current_picture()._add_chain("\t\t\\chainin (%s) [join=by {skip loop=-%imm,tip}];\n" % (start_p, max_depth * 7))
+            self._current_picture()._add_chain("\t\t\\chainin (%s) [join=by {skip loop=-%imm,tip}];\n" % (start_p, max_depth * 6))
             self._current_picture()._add_chain('\t\t}\n')
         
         if repeat_kind == '0 or more':

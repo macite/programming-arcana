@@ -1,0 +1,15 @@
+Function: Maximum
+----------------------------
+Returns: Double - The sum of the value of the largest number from the data array
+Parameters:
+ 1: data (array of Double) - the list of values to sum
+ 2: size (Integer) - the number of elements in data (C only)
+Local Variables:
+ *: i (Integer) - index of the current element in the array
+ *: max (Double) - current largest number
+Steps:
+  1: max is assigned the value of the 0th element of the array
+  2: For i, starts at 1 and loops to the highest index of data
+  3:    if the ith element is larger than max then
+  4:        max is assigned the value of the ith element of the array
+  4: Return the result, max

@@ -1,22 +1,17 @@
 /* Program: test-array.c */
-
 #include <stdio.h>
 
 int main()
 {
-    char name[] = "Fred";
-    int data[3] = { 0, 0, 0 };
+    int     data[5] = { 0, -1, 2, -3, 4 };
+    double  my_data[5];
+    float   other[] = {1.2f, 2.5f, 0, -1, 6};
     int i;
     
-    name[0] = 'f';
-    
-    for(i = 0; i < 3; i++)
+    for(i = 0; i < 5; i++)
     {
         printf("data[%d]: %d\n", i, data[i]);
-        printf("name[%d]: %c %p\n", i, name[i], &name[i]);
+        printf("name[%d]: %f\n", i, other[i]);
     }
-    
-    
-    
     return 0;
 }

@@ -1,0 +1,16 @@
+Function: Variance
+----------------------------
+Returns: Double - The Variance of the numbers from the data array
+Parameters:
+ 1: data (array of Double) - the list of values
+ 2: size (Integer) - the number of elements in data (C only)
+Local Variables:
+ *: i (Integer) - index of the current element in the array
+ *: avg (Double) - used to store the mean
+ *: temp (Double) - stores a temporary values used in the calculation
+Steps:
+  1: avg is assigned Mean(data, size)
+  2: temp is assigned 0
+  3: For i, starts at 0 and loops to the highest index of data
+  4:    temp is assigned temp + the square of (the ith element of data - avg)
+  5: Return the result, temp / (size - 1)

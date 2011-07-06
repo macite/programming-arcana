@@ -1,0 +1,13 @@
+function decl. = type name, function name, "(", parameter list ,")", block ;
+
+parameter list = { parameter declaration }*(",") ;
+
+parameter decl. = [ "const" ] type name, ["*"], parameter name, { "[ ]" }* ;
+
+function name = identifier ;
+
+type name = identifier ;
+
+parameter name = identifier ;
+
+block = "{", variable declarations, statements ,"}" ;

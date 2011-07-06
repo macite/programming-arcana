@@ -2,6 +2,19 @@
 \subsection{C Array Declaration} % (fold)
 \label{sub:c_array_declaration}
 
-\csyntax{csynt:type-decl-variable-decl}{Array Variable and Type Declarations}{type-decl/array-decl}
+C allows you to declare variables that are arrays. This is done using the \texttt{[ ]} to denote the number of elements in the array (\emph{n}). Indexes will then be \emph{0} to \emph{n-1}.
+
+\csyntax{csynt:type-decl-variable-decl}{Array Variable and Type Declarations}{arrays/array-decl}
+
+\csection{\ccode{clst:test-array}{C code demonstrating array declaration}{code/c/array/test-array.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the C syntax to declare a \nameref{sub:array}.
+  \item Arrays in C do not remember their length, you must keep track of this yourself.
+  \item You can initialise an array when it is declared using a list of values in braces (\{\ldots\}). This can only be done to initialise arrays, and is not valid elsewhere.
+  \item The size of the array must be able to be determined at compile time.
+\end{itemize}
+}
 
 % subsection c_array_declaration (end)

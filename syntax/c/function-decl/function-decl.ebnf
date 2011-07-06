@@ -6,8 +6,4 @@ parameter decl. = type name, parameter name ;
 
 function name = identifier ;
 
-type name = identifier ;
-
-parameter name = identifier ;
-
 block = "{", variable declarations, statements ,"}" ;

@@ -111,6 +111,7 @@
 \tikzstyle{c-fancytitle} =[fill=c-color, text=white]
 
 \newcommand{\csection}[1] {%
+\begin{figure}[htbp]%
 \begin{tikzpicture}%
 \node [c-mybox] (box){%
     \begin{minipage}{0.95\textwidth}%
@@ -121,6 +122,7 @@
 \node[c-fancytitle, right=10pt] at (box.north west) { C };
 \node[c-fancytitle, rounded corners] at (box.east) {$\diamondsuit$};
 \end{tikzpicture}%
+\end{figure}%
 }
 
 \newcommand{\lcsection}[1] {%
@@ -149,6 +151,7 @@
 
 
 \newcommand{\passection}[1] {%
+\begin{figure}[htbp]%
 \begin{tikzpicture}%
 \node [pas-mybox] (box){%
     \begin{minipage}{0.95\textwidth}%
@@ -159,6 +162,7 @@
 \node[pas-fancytitle, right=10pt] at (box.north west) {Pascal};
 \node[pas-fancytitle, rounded corners] at (box.east) {$\heartsuit$};
 \end{tikzpicture}%
+\end{figure}%
 }
 
 \newcommand{\lpassection}[1] {%
@@ -207,6 +211,7 @@
 \tikzstyle{pseudo-fancytitle} =[fill=pseudo-color, text=white]
 
 \newcommand{\pseudosection}[1] {%
+\begin{figure}[htbp]%
 \begin{tikzpicture}%
 \node [pseudo-mybox] (box){%
     \begin{minipage}{0.95\textwidth}%
@@ -217,6 +222,7 @@
 \node[pseudo-fancytitle, right=10pt] at (box.north west) {Pseudocode};
 \node[pseudo-fancytitle, rounded corners] at (box.east) {$\clubsuit$};
 \end{tikzpicture}%
+\end{figure}%
 }
 
 \newcommand{\lpseudosection}[1] {%

@@ -1,7 +1,7 @@
-for loop = "for", "(", initialiser, ";", control, ";", incrementer, ")", statement;
+for loop = "for", "(", initialiser, ";", control, ";", increment, ")", statement;
 
 initialiser = assignment statement ;
 
 control = expression ;
 
-incrementer = assignment statement ;
+increment = assignment statement ;

@@ -1,0 +1,18 @@
+\subsection{Implementing Statistics Calculator in C} % (fold)
+\label{sub:implementing_statistics_calculator_in_c}
+
+\sref{sec:arrays_using_these_concepts} of this Chapter introduced the Statistics Calculator. A partial implementation of this program is shown in Listing \ref{lst:c-stats-calc}, with the logic in the \texttt{max} and \texttt{variance} functions still to be implemented. This program reads a number of values from the user into an array, and then calculates and outputs the \textbf{sum}, \textbf{mean}, \textbf{variance}, and \textbf{maximum} value from this data.
+
+\straightcode{\ccode{lst:c-stats-calc}{C code for the Statistics Calculator}{code/c/array/simple-stats.c}}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{strings.h} is included to give access to the various functions needed to manipulate string values. See the comments associated with \lref{clst:populate_array}.
+  \item \texttt{math.h} is included to give access to the \texttt{pow} function that will be needed in the implementation of the \texttt{variance} function.
+  \item Arrays in C are always passed by reference.
+  \item C does not keep track of the size of an array, the \texttt{size} parameter in each function call carries this data along with the array.
+  \item The \texttt{DATA\_SIZE} constant stores the number of values that will be stored in the array. This can easily be changed to allow the program to read a different number of values.
+\end{itemize}
+}
+
+% subsection implementing_statistics_calculator_in_c (end)

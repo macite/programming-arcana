@@ -1,31 +1,96 @@
-\chapter{Better Data Management} % (fold)
-\label{cha:better_data_management}
+\chapter{Managing Multiple Values} % (fold)
+\label{cha:managing_multiple_values}
+
+Previous chapters have introduced a number programming artefacts for you to create within your code. However, when it comes to working with data in your programs you have been limited in the way you deal with multiple values. This chapter introduces the concepts and practices that make it easier to work with multiple values in your code.
+
+At the end of this material you will be able to create programs that work with multiple values. 
 
 \minitoc
 
 % ============
 % = Concepts =
 % ============
-\section{Better Data Management Concepts} % (fold)
-\label{sec:better_data_management_concepts}
+\clearpage
+\section{Concepts Related to Managing Multiple Values} % (fold)
+\label{sec:managing_multiple_values_concepts}
+
+Data is an important part of any program. Earlier chapters have shown how to store and work with data. These chapters covered both the \nameref{sub:type}s of data you can work with, and means of storing and exchanging data using \nameref{sub:variables}. So far each Variable has stored only a single value, making it difficult to work with multiple values. This chapter introduces the concepts needed start working more effectively with multiple values.
+
+The chapter introduced the following \textbf{artefacts}:
+\begin{itemize}
+  \item \nameref{sub:array}: A kind of variable that is used to store multiple values. The individual values in the array are called \emph{elements}.
+  \item \nameref{sub:string}: An existing \nameref{sub:type} that stores textual data.
+\end{itemize}
+
+The following \textbf{actions} are then needed to work with Arrays:
+\begin{itemize}
+  \item \nameref{sub:for_loop}: A \nameref{sub:pre_test_loop} that can be used to easily repeat a block of code for each element of an array.
+  \item \nameref{sub:expressions_with_arrays_}: Expressions can read the value from the element of an array.
+  \item \nameref{sub:assignment_statement_with_arrays_}: The assignment statement can be used to assign a value to an element in an array.
+\end{itemize}
+
+\bigskip
+
+You may need to revise the following programming artefacts:
+\begin{itemize}
+  \item \nameref{sub:variable}: The idea of storing data within your code.
+  \item \nameref{sub:local_variable}: Storing data in a \nameref{sub:function} or \nameref{sub:procedure}.
+  \item \nameref{sub:parameter}: Passing data to a Function or Procedure.
+\end{itemize}
+
+The following programming terminology will also be used in this Chapter:
+\begin{itemize}
+  \item \nameref{sub:expression}: A value used in a statement.
+  \item \nameref{sub:type}: A kind of data used in your code.
+\end{itemize}
+
+The example for this chapter is a statistics calculator, where the user enters 10 values, and the program calculates some statistics. An example of this program executing is shown in Figure \ref{fig:simple-stats}.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.6\textwidth]{./topics/arrays/images/SimpleStats} 
+   \caption[Statistics Calculator Terminal]{Statistics Calculator run from the Terminal}
+   \label{fig:simple-stats}
+\end{figure}
+
 
 \input{topics/arrays/concepts/array}
 \input{topics/arrays/concepts/assignment-with-arrays}
 \input{topics/arrays/concepts/expressions-with-arrays}
-
+\input{topics/arrays/concepts/pass-by-ref}
+\input{topics/arrays/concepts/for}
+\input{topics/arrays/concepts/string}
+\input{topics/arrays/concepts/summary}
 
 % section data_type_concepts (end)
+\clearpage
+\section{Using these Concepts} % (fold)
+\label{sec:arrays_using_these_concepts}
+
+Arrays make it easier to work with multiple values, allowing you to have a single variable that stores multiple values. With arrays you can start to create programs that process larger quantities of data.
+
+\input{topics/arrays/application/using-arrays}
+
+% section using_these_concepts (end)
+
 
 % =============
 % = C Section =
 % =============
 \clearpage
-\section{Better Data Management in C} % (fold)
-\label{sec:better_data_management_in_c}
+\def\pageLang{c}
+\section{Managing Multiple Values in C} % (fold)
+\label{sec:arrays_in_c}
 
+\input{topics/arrays/c/c-stats-calc}
 \input{topics/arrays/c/c-array-decl}
+\input{topics/arrays/c/c-fn-with-array}
+\input{topics/arrays/c/c-for-loop}
+\input{topics/arrays/c/c-strings}
 
 % section more_data_types_in_c (end)
 
+\clearpage
+\def\pageLang{none}
 
 % chapter more_data_types (end)

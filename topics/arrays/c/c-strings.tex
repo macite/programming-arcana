@@ -1,0 +1,85 @@
+\clearpage
+\subsection{C String} % (fold)
+\label{sub:c_string}
+
+C was designed to build for use with the Unix operating system. When the language was designed string manipulation was not a high priority, and therefore C does not have built in capabilities to perform tasks like concatenating strings, and copying strings (i.e. assigning a string a value after it has been declared).
+
+Working with c-strings requires that you think about how the text is represented in the computer. \tref{tbl:c-string-fred} shows the characters used to store the text value `Fred'. 
+
+As C does not keep the length of the array there needs to be a means of determining how long the string is. The method that C choose was to place a \textbf{sentinel} value at the end of the string. This marks the position in the array where the string ends. The sentinel is the \texttt{null} character, the one with value the \texttt{0}.
+
+\begin{table}[h]
+\begin{minipage}{\textwidth}
+  \centering
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+Characters: & F & r & e & d & \texttt{\textbackslash 0} \\
+\hline
+Bytes Values\footnote{Byte values are shown as decimal.}: & \texttt{70} & \texttt{114} & \texttt{101} & \texttt{100} & \texttt{0} \\
+\hline
+\end{tabular}
+\caption{The characters and byte values for the c-string containing the text `Fred'}
+\label{tbl:c-string-fred}
+\end{minipage}
+\end{table}
+
+Space characters are distinct from the \texttt{null} character. \tref{tbl:c-string-fred-smith} shows the characters involved in storing the text `Fred Smith'. The space character is the value 32, and the sentinel value only appears at the end of the c-string. To store `Fred Smith' you need an array that can store at least 11 characters. Ten for the characters in the name, and one for the sentinel.
+
+\begin{table}[h]
+\begin{minipage}{\textwidth}
+  \centering
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Characters: & F & r & e & d &  & S & m & i & t & h & \texttt{\textbackslash 0}\\
+\hline
+Bytes Values\footnote{Byte values are shown as decimal.}: & \texttt{70} & \texttt{114} & \texttt{101} & \texttt{100} & \texttt{32} & \texttt{83} &\texttt{109} & \texttt{105} & \texttt{116} & \texttt{104} & \texttt{0} \\
+\hline
+\end{tabular}
+\caption{Characters for `Fred Smith', the space has the character value 32.}
+\label{tbl:c-string-fred-smith}
+\end{minipage}
+\end{table}
+
+It is possible for an array to have more characters that are needed. \tref{tbl:c-string-fred-null-smith} shows an array with 11 characters that is storing the c-string `Fred'. The \texttt{null} character at index 4 (the $5^{th}$ character) ends the c-string and the remainder of the data in the array will be ignored by the c-string functions.
+
+\begin{table}[h]
+\begin{minipage}{\textwidth}
+  \centering
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Characters: & F & r & e & d & \texttt{\textbackslash 0} & S & m & i & t & h & \texttt{\textbackslash 0}\\
+\hline
+Bytes Values\footnote{Byte values are shown as decimal.}: & \texttt{70} & \texttt{114} & \texttt{101} & \texttt{100} & \texttt{0} & \texttt{83} &\texttt{109} & \texttt{105} & \texttt{116} & \texttt{104} & \texttt{0} \\
+\hline
+\end{tabular}
+\caption{This would only print `Fred', as the 0 character indicates the end of the c-string}
+\label{tbl:c-string-fred-null-smith}
+\end{minipage}
+\end{table}
+
+The code in \lref{clst:test-strings} shows some examples of the main operations you may want to perform on strings. This includes the following actions:
+\begin{itemize}
+  \item \textbf{Initialisation}: Creating and initialising a string.
+  \item \textbf{Input}: Reading words, and lines, from the Terminal.
+  \item \textbf{Comparison}: Checking if two strings are equal. Notice that you also need to check the \texttt{null} value.
+\end{itemize}
+Other common string operations are found in \lref{clst:populate_array}. These included:
+\begin{itemize}
+  \item \textbf{Copy}: Assigning one string to another, as you cannot use the assignment statement to achieve this in C.
+  \item \textbf{Concatenate}: Adding one string to the end of another.
+\end{itemize}
+
+\csection{\ccode{clst:test-strings}{Code illustrating working with Strings in C}{code/c/array/test-string.c}}
+
+\mynote{
+\begin{itemize}
+  \item This discusses how \nameref{sub:string}s are handled in C.
+  \item In C a String is an array of characters. There is little built in support beyond this in the C language itself. The Standard C libraries include functions that can be used to work with String data, in \texttt{strings.h}.
+  \item \textbf{Remember} to ask for enough space to store the text and the sentinel value when declaring a c-string. If you want to store 4 characters then you need to ask for an array with space for 5, the 4 characters + and 1 sentinel value.
+  \item The c-string functions will look for the null character. If the null character is missing from the end of the c-string then these functions will not work as you want. The problem is that they may appear to be working, though in reality they are interacting with memory that is not associated with the c-string you are working on.
+  \item \textbf{Take care when working with c-strings!} Many security issues in software relate to incorrect handling of c-strings.
+\end{itemize}
+}
+
+
+% subsection c_string (end)
