@@ -1,0 +1,20 @@
+Procedure: Populate Array
+----------------------------
+Parameters:
+ 1: data (array of Double) - the list of values to sum
+ 2: size (Integer) - the number of elements in data (C only)
+Local Variables:
+ *: i (Integer) - index of the current element in the array
+ *: prompt (String) - the prompt to be shown to the user
+Steps:
+  1: For i, loops from lowest to highest index of data
+  2:     Assign to prompt, 'Enter value ' + (i + 1) + ': '
+  3:     Assign to data[i], the result of calling Read Double(prompt)
+
+Procedure: Main
+----------------------------
+Local Variables:
+ *: my_data (array containing 3 Double values) - data array
+ *: prompt (String - array with 17 characters) - the prompt to be shown to the user
+Steps:
+  1: Call Populate Array ( my_data )

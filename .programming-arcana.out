@@ -1,7 +1,23 @@
-\BOOKMARK [0][-]{chapter.6}{Better Data Management}{}
-\BOOKMARK [1][-]{section.6.1}{Better Data Management Concepts}{chapter.6}
+\BOOKMARK [0][-]{chapter.6}{Managing Multiple Values}{}
+\BOOKMARK [1][-]{section.6.1}{Concepts Related to Managing Multiple Values}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.1.1}{Array}{section.6.1}
 \BOOKMARK [2][-]{subsection.6.1.2}{Assignment Statement \(with Arrays\)}{section.6.1}
 \BOOKMARK [2][-]{subsection.6.1.3}{Expressions \(with Arrays\)}{section.6.1}
-\BOOKMARK [1][-]{section.6.2}{Better Data Management in C}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.2.1}{C Array Declaration}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.1.4}{Pass by Reference}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.5}{For Loop}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.6}{String}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.7}{Summary}{section.6.1}
+\BOOKMARK [1][-]{section.6.2}{Using these Concepts}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.2.1}{Designing Statistics Calculator}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.2}{Understanding the Statistics Calculator}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.3}{Choosing Artefacts for Statistics Calculator}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.4}{Writing the Code for Statistics Calculator}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.5}{Compiling and Running Statistics Calculator}{section.6.2}
+\BOOKMARK [1][-]{section.6.3}{Managing Multiple Values in C}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.3.1}{Implementing Statistics Calculator in C}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.2}{C Array Declaration}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.3}{C Function \(with Array Parameters\)}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.4}{C For Loop}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.5}{C String}{section.6.3}
+\BOOKMARK [1][-]{section.6.4}{Understanding Arrays}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.4.1}{Understanding Populate Array}{section.6.4}

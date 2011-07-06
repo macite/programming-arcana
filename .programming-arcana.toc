@@ -257,13 +257,47 @@
 \contentsline {section}{\numberline {5.5}Control Flow Examples}{293}{section.5.5}
 \contentsline {section}{\numberline {5.6}Control Flow Exercises}{294}{section.5.6}
 \contentsline {section}{\numberline {5.7}Control Flow in the Project}{295}{section.5.7}
-\contentsline {chapter}{\numberline {6}Better Data Management}{297}{chapter.6}
-\contentsline {section}{\numberline {6.1}Better Data Management Concepts}{297}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Array}{298}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Assignment Statement (with Arrays)}{299}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Expressions (with Arrays)}{300}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Better Data Management in C}{301}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}C Array Declaration}{302}{subsection.6.2.1}
+\contentsline {chapter}{\numberline {6}Managing Multiple Values}{297}{chapter.6}
+\contentsline {section}{\numberline {6.1}Concepts Related to Managing Multiple Values}{298}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Array}{299}{subsection.6.1.1}
+\contentsline {subsubsection}{Arrays in Memory}{300}{subsubsection*.3}
+\contentsline {subsection}{\numberline {6.1.2}Assignment Statement (with Arrays)}{301}{subsection.6.1.2}
+\contentsline {subsubsection}{Assigning all elements of an array}{302}{subsubsection*.8}
+\contentsline {subsection}{\numberline {6.1.3}Expressions (with Arrays)}{303}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Pass by Reference}{304}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}For Loop}{305}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}String}{306}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}Summary}{307}{subsection.6.1.7}
+\contentsline {section}{\numberline {6.2}Using these Concepts}{308}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Designing Statistics Calculator}{308}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Understanding the Statistics Calculator}{308}{subsection.6.2.2}
+\contentsline {subsubsection}{Calculating Sum}{308}{subsubsection*.19}
+\contentsline {subsubsection}{Calculating Mean}{310}{subsubsection*.25}
+\contentsline {subsubsection}{Calculating Maximum}{310}{subsubsection*.29}
+\contentsline {subsubsection}{Calculating Variance}{312}{subsubsection*.31}
+\contentsline {subsection}{\numberline {6.2.3}Choosing Artefacts for Statistics Calculator}{313}{subsection.6.2.3}
+\contentsline {subsubsection}{Reading double values from the user}{314}{subsubsection*.34}
+\contentsline {subsubsection}{Populating the Array}{316}{subsubsection*.38}
+\contentsline {subsubsection}{Where is the data stored}{316}{subsubsection*.42}
+\contentsline {subsubsection}{Overview of Statistics Calculator's design}{318}{subsubsection*.43}
+\contentsline {subsection}{\numberline {6.2.4}Writing the Code for Statistics Calculator}{318}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Compiling and Running Statistics Calculator}{319}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}Managing Multiple Values in C}{320}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Implementing Statistics Calculator in C}{320}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}C Array Declaration}{322}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}C Function (with Array Parameters)}{323}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}C For Loop}{325}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}C String}{326}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Understanding Arrays}{328}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Understanding Populate Array}{328}{subsection.6.4.1}
+\contentsline {subsubsection}{Main starts, and the array is allocated space}{329}{subsubsection*.56}
+\contentsline {subsubsection}{Populate array is called, and a reference to \texttt {my{\textunderscore }data} passed in}{330}{subsubsection*.58}
+\contentsline {subsubsection}{Step 1 of \texttt {Populate Array} is run}{331}{subsubsection*.60}
+\contentsline {subsubsection}{Step 2 constructs the prompt to be shown to the user}{332}{subsubsection*.62}
+\contentsline {subsubsection}{Step 3 reads a value from the user and stores it in the array at index 0}{333}{subsubsection*.64}
+\contentsline {subsubsection}{Control returns to Step 1 as the loop body has ended}{334}{subsubsection*.66}
+\contentsline {subsubsection}{Second prompt is built, asking the user to enter value 2}{335}{subsubsection*.68}
+\contentsline {subsubsection}{Populate Array stores the second value read into \texttt {data[1]}}{336}{subsubsection*.70}
 \contentsline {chapter}{\numberline {6}More Data Types}{297}{chapter.6}
 \contentsline {section}{\numberline {6.1}Data Type Concepts}{297}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Program (with Type Declarations)}{298}{subsection.6.1.1}
