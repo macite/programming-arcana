@@ -66,12 +66,13 @@ void populate_array(double data[], int size)
         // Ensure that the terminator is included in the copy
         // so that the later calls to strncat know where to
         // append their details. 
-        strncpy(prompt, "Enter value ", 13); // plus terminator
-        sprintf(buffer, "%2d", i + 1);
-        strncat(prompt, buffer, 2); 
-        strncat(prompt, ": ", 3); // plus terminator
+        strncpy(prompt, "Enter value ", 13); // 12 + terminator
+        sprintf(buffer, "%d", (i + 1) % 100); // needs space for 3 (2 + terminator)
+        strncat(prompt, buffer, 2); // takes 3 spaces, 2 + terminator
+        strncat(prompt, ": ", 2); // takes 3 spaces, 2 + terminator
         
-        data[i] = read_double(prompt);
+        printf("%s", prompt);
+        //data[i] = read_double(prompt);
     }
 }
 

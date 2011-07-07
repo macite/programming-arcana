@@ -1,5 +1,5 @@
 // Calculate the sum of the values in the array
-double sum(double data[], int size)
+double sum(const double data[], int size)
 {
     int i;
     double total = 0;

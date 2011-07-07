@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/arrays/understanding/understanding-arrays.tex</string>
+	<string>topics/arrays/c/c-strings.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,6 +23,20 @@
 	<integer>237</integer>
 	<key>metaData</key>
 	<dict>
+		<key>code/c/array/simple-stats.c</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>69</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>29</integer>
+		</dict>
 		<key>code/c/storing-using-data/assignment-test.c</key>
 		<dict>
 			<key>caret</key>
@@ -50,20 +64,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>preamble/tikz-style.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>224</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>222</integer>
 		</dict>
 		<key>programming-arcana.tex</key>
 		<dict>
@@ -291,6 +291,20 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
+		<key>todo.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
 			<key>caret</key>
@@ -393,50 +407,6 @@
 				<integer>8</integer>
 			</dict>
 		</dict>
-		<key>topics/arrays/application/Sum.pas</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/arrays/application/Sum.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-		</dict>
 		<key>topics/arrays/application/Variance.txt</key>
 		<dict>
 			<key>caret</key>
@@ -495,47 +465,61 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/application/sum.c</key>
+		<key>topics/arrays/application/populate-array.c</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>69</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/understanding/SimpleStats.txt</key>
+		<key>topics/arrays/application/using-arrays.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>310</integer>
 				<key>line</key>
-				<integer>20</integer>
+				<integer>192</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+			<integer>76</integer>
+		</dict>
+		<key>topics/arrays/c/c-strings.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>154</integer>
+				<key>line</key>
+				<integer>148</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
 			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>118</integer>
 		</dict>
 		<key>topics/arrays/understanding/understanding-arrays.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>82</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>200</integer>
+				<integer>701</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>188</integer>
+			<integer>661</integer>
 		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
@@ -1376,9 +1360,12 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>preamble/tikz-style.tex</string>
-		<string>topics/arrays/understanding/SimpleStats.txt</string>
+		<string>todo.txt</string>
+		<string>topics/arrays/c/c-strings.tex</string>
 		<string>topics/arrays/understanding/understanding-arrays.tex</string>
+		<string>code/c/array/simple-stats.c</string>
+		<string>topics/arrays/application/populate-array.c</string>
+		<string>topics/arrays/application/using-arrays.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1489,6 +1476,36 @@
 							<key>subItems</key>
 							<dict>
 								<key>understanding</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>program-creation</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>c</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>storing-using-data</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>c</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>

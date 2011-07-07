@@ -2,7 +2,7 @@ Function: Sum
 ----------------------------
 Returns: Double - The sum of the numbers from the data array
 Parameters:
- 1: data (array of Double) - the list of values to sum
+ 1: data (by const ref, array of Double) - the list of values to sum
  2: size (Integer) - the number of elements in data (C only)
 Local Variables:
  *: i (Integer) - index of the current element in the array

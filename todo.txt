@@ -1,1 +1,4 @@
 * Add ascii character table
+* sprintf in arrays chap
+* Add keyboard image to illustrations with input
+* Summary after each understanding section

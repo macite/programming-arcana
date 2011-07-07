@@ -190,7 +190,7 @@ Once again the C and Pascal code differ in how this is implemented, centred on h
 \csection{The C version of \texttt{Populate Array} is shown in \lref{clst:populate_array}. This uses the following functions from \texttt{strings.h}. As C does not know the length of the string each of these functions takes a number (\texttt{n}) that indicates the maximum number of characters to copy.
 \begin{itemize}
   \item \texttt{\textbf{strncpy}}: String Copy (n characters). The first parameter is the destination, the second the source, the third is the number of characters.
-  \item \texttt{\textbf{sprintf}}: Same as \texttt{printf} (see \nameref{sub:c_console_output}), except that the output is stored in a c-string. Int his case the \csnipet{"\%2d"} ensures that only 2 characters (plus the terminator) are written into the string.
+  \item \texttt{\textbf{sprintf}}: Same as \texttt{printf} (see \nameref{sub:c_console_output}), except that the output is stored in a c-string. In this case the \csnipet{"\% 100"} ensures that only 2 characters (plus the terminator) are written into the string. See \sref{sub:c_string} \nameref{sub:c_string}.
   \item \textbf{\texttt{strncat}}: String Concatenate (n characters). Adds the text in parameter 2 to the end of the string in parameter 1. 
 \end{itemize}
 
