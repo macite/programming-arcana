@@ -1,0 +1,21 @@
+\clearpage
+\subsubsection{C++ Reference Parameters} % (fold)
+\label{ssub:c_reference_parameters}
+
+C has limited support for pass by reference, but this feature was added with the extensions in the C++ language. The following syntax shows how to declare a parameter that will be passed by reference. Please note that this is not standard C code, and will require you to use a C++ compiler.
+
+\cppsyntax{csynt:by-ref-parameter}{by-ref Parameters}{parameters/cpp-fn-decl-with-by-ref}
+
+\cppsection{\ccode{clst:doubleif}{Example of passing by reference using C++}{code/c/storing-using-data/test-byref.cpp}}
+
+
+\mynote{
+\begin{itemize}
+  \item This requires a \textbf{C++ compiler}, such as the \texttt{g++} compiler.
+  \item C++ to an extension of the C compiler, so your C code should be able to be compiled with the C++ compiler.
+  \item The C++ compiler is more strict on some rules than the C compiler. This means the compiler will give you more help in avoiding some poor programming practices.
+  \item Notice that with pass by reference you do not need to do anything special in the call, the compiler takes care of the necessary details needed to achieve this.
+\end{itemize}
+}
+
+% subsubsection c_reference_parameters (end)

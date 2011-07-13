@@ -216,25 +216,25 @@ For the Guess that Number program we can start by designing the control flow wit
   \label{tbl:perform guess}
 \end{table}
 
-The first task the Function needs to perform is to get the guess from the user. This can be performed in a \textbf{sequence}: display a prompt, read the value from the user. This first sequence is shown in \fref{fig:perform-guess-1}.
+The first task the Function needs to perform is to get the guess from the user. This can be performed in a \textbf{sequence}: display a prompt, read the value from the user. This first sequence is shown in \fref{fig:perform-guess-seq-1}.
 
 \begin{figure}[h]
    \centering
    \includegraphics[width=0.25\textwidth]{./topics/control-flow/diagrams/PerformGuess1} 
    \caption{Initial Sequence in \texttt{Perform Guess}}
-   \label{fig:perform-guess-1}
+   \label{fig:perform-guess-seq-1}
 \end{figure}
 
 \clearpage
 The next step in this sequence is to give the user feedback based upon their guess and the target number. This code requires a the ability to \emph{select} a given branch. The computer needs to output different messages based upon the users guess. This can be achieved with a \textbf{selection} block. Looking back at \fref{fig:selection-flow} there are three possible alternatives for implementing this selection. The \texttt{if} with no \texttt{else} is not a valid option as there are three paths we need to take. The \texttt{case} block is also not valid as we are not matching a value, but comparing values to each other. The last option is the \texttt{if-else} block, but this only has two branches. It is not going to be possible to code all three options within one block, but it can be achieved using two \texttt{if-else} blocks.
 
-The first \texttt{if-else} block will check if the \texttt{target} is greater than the user's \texttt{guess}. If this is true then the computer can take the first branch and output the message `The number is larger than ' and the value from the user's guess. The flow chart for this part is shown in \fref{fig:perform-guess-2}. This block is the third task in the sequence, this if block has a single entry, causes a branch in the flow, and will have a single exit.
+The first \texttt{if-else} block will check if the \texttt{target} is greater than the user's \texttt{guess}. If this is true then the computer can take the first branch and output the message `The number is larger than ' and the value from the user's guess. The flow chart for this part is shown in \fref{fig:perform-guess-seq-2}. This block is the third task in the sequence, this if block has a single entry, causes a branch in the flow, and will have a single exit.
 
 \begin{figure}[h]
    \centering
    \includegraphics[width=0.6\textwidth]{./topics/control-flow/diagrams/PerformGuess2} 
    \caption{First branch in \texttt{Perform Guess}}
-   \label{fig:perform-guess-2}
+   \label{fig:perform-guess-seq-2}
 \end{figure}
 
 \mynote{
@@ -247,13 +247,13 @@ The first \texttt{if-else} block will check if the \texttt{target} is greater th
 
 \clearpage
 
-Following the false path from the first decision, and we have a new location into which to insert a block. At this point we know the target is \emph{not} larger than the user's guess. At this point you can include another \texttt{if-else} block to check if the target is \textbf{less than} the user's guess. This is shown in \fref{fig:perform-guess-3}.
+Following the false path from the first decision, and we have a new location into which to insert a block. At this point we know the target is \emph{not} larger than the user's guess. At this point you can include another \texttt{if-else} block to check if the target is \textbf{less than} the user's guess. This is shown in \fref{fig:perform-guess-seq-3}.
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=0.7\textwidth]{./topics/control-flow/diagrams/PerformGuess3} 
    \caption{Second branch tests if the Target is less than the guess}
-   \label{fig:perform-guess-3}
+   \label{fig:perform-guess-seq-3}
 \end{figure}
 
 \mynote{
@@ -266,13 +266,13 @@ Following the false path from the first decision, and we have a new location int
 }
 
 \clearpage
-Taking the false path again, and now we have a location at which the target value \emph{must be} equal to the user's guess. The first condition checked if the \texttt{target} was larger than the \texttt{guess}, which it was not. The second condition checked if the \texttt{target} was less than the \texttt{guess}, which it was not. So the only way this can be the case if is the \texttt{target} and the \texttt{guess} are equal. This path can then be used to output the `Well done\ldots' message. This is shown in \fref{fig:perform-guess-4}. 
+Taking the false path again, and now we have a location at which the target value \emph{must be} equal to the user's guess. The first condition checked if the \texttt{target} was larger than the \texttt{guess}, which it was not. The second condition checked if the \texttt{target} was less than the \texttt{guess}, which it was not. So the only way this can be the case if is the \texttt{target} and the \texttt{guess} are equal. This path can then be used to output the `Well done\ldots' message. This is shown in \fref{fig:perform-guess-seq-4}. 
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=0.8\textwidth]{./topics/control-flow/diagrams/PerformGuess4} 
    \caption{The `Well done\ldots' message can be output on the third path}
-   \label{fig:perform-guess-4}
+   \label{fig:perform-guess-seq-4}
 \end{figure}
 
 \mynote{
@@ -290,7 +290,7 @@ The last action in the code is to return a Boolean result indicating if the user
    \centering
    \includegraphics[width=0.74\textwidth]{./topics/control-flow/diagrams/PerformGuess5} 
    \caption{A Boolean result is returned from the Function}
-   \label{fig:perform-guess-5}
+   \label{fig:perform-guess-seq-5}
 \end{figure}
 
 \mynote{
@@ -302,13 +302,13 @@ The last action in the code is to return a Boolean result indicating if the user
 
 \clearpage
 
-\fref{fig:perform-guess-7} shows the flowchart with annotations highlighting the different blocks within the code. The function starts off with a \textbf{sequence} that contains all of the code in the Function. Within this there is the \textbf{selection}, that internally contains another \textbf{selection}.
+\fref{fig:perform-guess-seq-7} shows the flowchart with annotations highlighting the different blocks within the code. The function starts off with a \textbf{sequence} that contains all of the code in the Function. Within this there is the \textbf{selection}, that internally contains another \textbf{selection}.
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=0.85\textwidth]{./topics/control-flow/diagrams/PerformGuess7} 
    \caption{Blocks in the \texttt{Perform Guess} code}
-   \label{fig:perform-guess-7}
+   \label{fig:perform-guess-seq-7}
 \end{figure}
 
 \mynote{
@@ -323,13 +323,13 @@ The last action in the code is to return a Boolean result indicating if the user
 \subsubsection{Setting the result using an Expression} % (fold)
 \label{ssub:setting_the_result_using_an_expression}
 
-\fref{fig:perform-guess-6} shows the \emph{trick} that is being performed at the end of \texttt{Perform Guess}'s code. \texttt{Perform Guess} needs to return a result indicating if the user has guessed the number of not. This will be a Boolean value, with True indicating they guessed the number. Initially it may seem that you need a \textbf{selection} block to enable this, as shown on the right of \fref{fig:perform-guess-6}. 
+\fref{fig:perform-guess-seq-6} shows the \emph{trick} that is being performed at the end of \texttt{Perform Guess}'s code. \texttt{Perform Guess} needs to return a result indicating if the user has guessed the number of not. This will be a Boolean value, with True indicating they guessed the number. Initially it may seem that you need a \textbf{selection} block to enable this, as shown on the right of \fref{fig:perform-guess-seq-6}. 
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=\textwidth]{./topics/control-flow/diagrams/PerformGuess6} 
    \caption{Calculating \texttt{Perform Guess}'s result}
-   \label{fig:perform-guess-6}
+   \label{fig:perform-guess-seq-6}
 \end{figure}
 
 \mynote{
@@ -350,7 +350,7 @@ The last action in the code is to return a Boolean result indicating if the user
 \subsubsection{The Pseudocode for \texttt{Perform Guess}} % (fold)
 \label{ssub:the_pseudocode_for_perform_guess}
 
-Listing \ref{plst:perform_guess} contains the Pseudocode for the \texttt{Perform Guess} logic from the flowchart in \fref{fig:perform-guess-5}. Notice how the indentation in this mirrors the block structures in the flowchart. It is good practice to indent your code in this way as it helps you, and any person who reads your code, to see the structure of the logic. You will be able to avoid many errors by making sure that you always indent your code so that it highlights the code's structure.
+Listing \ref{plst:perform_guess} contains the Pseudocode for the \texttt{Perform Guess} logic from the flowchart in \fref{fig:perform-guess-seq-5}. Notice how the indentation in this mirrors the block structures in the flowchart. It is good practice to indent your code in this way as it helps you, and any person who reads your code, to see the structure of the logic. You will be able to avoid many errors by making sure that you always indent your code so that it highlights the code's structure.
 
 \pseudocode{plst:perform_guess}{Pseudocode for \texttt{Perform Guess}}{topics/control-flow/application/PerformGuess.txt}
 
@@ -414,7 +414,7 @@ The implementation of this Procedure will require us to store some data. The fol
   \item \texttt{\textbf{Got It}}: A Boolean value to indicate if the user did guess the number, allowing the computer to stop looping when the user guesses the number.
 \end{itemize}
 
-The flowchart for this is shown in \fref{fig:play-game}, and again in \fref{fig:play-game-1} with its blocks highlighted. This code uses a \textbf{repetition} to ask the user to perform up to 7 guesses. The condition on this loop occurs \emph{after} the loop body as the user must have at least one guess. 
+The flowchart for this is shown in \fref{fig:play-game}, and again in \fref{fig:play-game-diag1} with its blocks highlighted. This code uses a \textbf{repetition} to ask the user to perform up to 7 guesses. The condition on this loop occurs \emph{after} the loop body as the user must have at least one guess. 
 
 There is also a \textbf{selection} after the loop to output the answer if the user ran out of guesses. This is only done when the user has not guessed it themselves. This does not need to perform any other actions when the user did guess the number, so the False branch has no additional actions. In code this would be implemented with an \nameref{sub:if_statement} without an \textbf{else} branch.
 
@@ -438,7 +438,7 @@ There is also a \textbf{selection} after the loop to output the answer if the us
    \centering
    \includegraphics[width=0.65\textwidth]{./topics/control-flow/diagrams/PlayGame1} 
    \caption{Blocks in the \texttt{Play Game} code}
-   \label{fig:play-game-1}
+   \label{fig:play-game-diag1}
 \end{figure}
 
 \clearpage
@@ -473,7 +473,7 @@ The flowchart for \texttt{Play Game} includes a \nameref{sub:post_test_loop}, wh
 \subsection{Designing Control Flow for Print Line} % (fold)
 \label{sub:designing_control_flow_for_print_line}
 
-\texttt{Print Line} is a short Procedure used to print a line of `-' characters to the Terminal. The flowchart for this Procedure is shown in \fref{fig:print-line}, and again with the blocks highlighted in \fref{fig:print-line-1}.
+\texttt{Print Line} is a short Procedure used to print a line of `-' characters to the Terminal. The flowchart for this Procedure is shown in \fref{fig:print-line}, and again with the blocks highlighted in \fref{fig:print-line-diag-1}.
 
 \begin{table}[h]
   \centering
@@ -511,7 +511,7 @@ The flowchart for \texttt{Play Game} includes a \nameref{sub:post_test_loop}, wh
    \centering
    \includegraphics[width=0.57\textwidth]{./topics/control-flow/diagrams/PrintLine1} 
    \caption{Blocks in the \texttt{Print Line} code}
-   \label{fig:print-line-1}
+   \label{fig:print-line-diag-1}
 \end{figure}
 
 \pseudocode{plst:print_line}{Pseudocode for \texttt{Print Line}}{topics/control-flow/application/PrintLine.txt}

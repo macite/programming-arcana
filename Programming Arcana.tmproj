@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/type-decl/understanding/understanding-custom-types.tex</string>
+	<string>topics/dynamic-memory/concepts/heap.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -12,7 +12,7 @@
 			<key>name</key>
 			<string>Programming Arcana</string>
 			<key>regexFileFilter</key>
-			<string>\.(sh|sty|txt|py|jpg|png|tex|pdf|ebnf|pas|c)$</string>
+			<string>\.(cpp|sh|sty|txt|py|jpg|png|tex|pdf|ebnf|pas|c)$</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
@@ -20,7 +20,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>257</integer>
+	<integer>286</integer>
 	<key>metaData</key>
 	<dict>
 		<key>code/c/storing-using-data/assignment-test.c</key>
@@ -36,48 +36,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>code/c/types/small-db.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>22</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>179</integer>
-		</dict>
-		<key>preamble/commands.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>preamble/tikz-style.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>224</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>222</integer>
 		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
@@ -115,20 +73,6 @@
 				<integer>17</integer>
 				<key>line</key>
 				<integer>4</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>syntax/c/function-decl/procedure-decl.ebnf</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>40</integer>
-				<key>line</key>
-				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -247,33 +191,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>todo.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>15</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>tools/syntax-parser/eebnf_exporter.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>42</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>16</integer>
+			<integer>0</integer>
 		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
@@ -549,7 +479,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>88</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>topics/arrays/c/c-stats-calc.tex</key>
 		<dict>
@@ -608,6 +538,34 @@
 				<key>line</key>
 				<integer>37</integer>
 			</dict>
+		</dict>
+		<key>topics/dynamic-memory/concepts/heap.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>122</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/dynamic-memory/dynamic-memory.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>46</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>314</integer>
+			<key>firstVisibleLine</key>
+			<integer>3</integer>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -1123,34 +1081,6 @@
 				<integer>6</integer>
 			</dict>
 		</dict>
-		<key>topics/storing-using-data/c/c-function-decl.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/storing-using-data/c/c-procedure-call-with-ref.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>98</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/storing-using-data/c/c-procedure-decl-with-locals.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1325,104 +1255,12 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/application/using-custom-types.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>190</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>179</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>184</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>190</integer>
-			</dict>
-		</dict>
-		<key>topics/type-decl/type-decl.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>10</integer>
-				<key>line</key>
-				<integer>106</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>52</integer>
-			<key>firstVisibleLine</key>
-			<integer>86</integer>
-		</dict>
-		<key>topics/type-decl/understanding/PrintRow.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/type-decl/understanding/ReadRow.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>71</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/type-decl/understanding/understanding-custom-types.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>86</integer>
-				<key>line</key>
-				<integer>240</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>48</integer>
-			<key>firstVisibleLine</key>
-			<integer>220</integer>
-		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>tools/syntax-parser/eebnf_exporter.py</string>
-		<string>todo.txt</string>
-		<string>code/c/types/small-db.c</string>
-		<string>topics/type-decl/understanding/understanding-custom-types.tex</string>
-		<string>topics/type-decl/application/using-custom-types.tex</string>
-		<string>topics/type-decl/type-decl.tex</string>
-		<string>topics/type-decl/understanding/ReadRow.txt</string>
-		<string>topics/type-decl/understanding/PrintRow.txt</string>
-		<string>topics/arrays/arrays.tex</string>
+		<string>topics/dynamic-memory/dynamic-memory.tex</string>
+		<string>topics/dynamic-memory/concepts/heap.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1447,33 +1285,18 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
+				<key>tools</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>c</key>
+						<key>syntax-parser</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
-							<dict>
-								<key>pointers</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>types</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
+							<dict/>
 						</dict>
 					</dict>
 				</dict>
@@ -1483,27 +1306,28 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>type-decl</key>
+						<key>arrays</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>application</key>
+								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
 									<key>subItems</key>
 									<dict/>
 								</dict>
-								<key>c</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>understanding</key>
+							</dict>
+						</dict>
+						<key>dynamic-memory</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1518,6 +1342,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {720, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
