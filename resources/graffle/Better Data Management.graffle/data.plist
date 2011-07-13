@@ -42,7 +42,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2011-07-07 18:50:15 +1000</string>
+	<string>2011-07-12 16:02:49 +1000</string>
 	<key>Modifier</key>
 	<string>Andrew Cain</string>
 	<key>NotesVisible</key>
@@ -71,7 +71,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{595.28, 841.89}</string>
+			<string>{595, 842}</string>
 		</array>
 		<key>NSRightMargin</key>
 		<array>
@@ -96,7 +96,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -1722,7 +1722,7 @@ that is an}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -2706,7 +2706,7 @@ data type for a}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -3339,7 +3339,7 @@ to declare data for}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -5415,7 +5415,7 @@ in the code}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -6290,7 +6290,7 @@ calculated in an}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -7480,7 +7480,7 @@ declare the type for}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -8089,7 +8089,7 @@ type to declare}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -11012,7 +11012,7 @@ Array}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -12938,7 +12938,7 @@ Array (arr)}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -14710,7 +14710,7 @@ Expression}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -16770,7 +16770,7 @@ Array (Data)}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -18364,7 +18364,7 @@ Array (Data)}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -20190,7 +20190,7 @@ For Loop\
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -26090,7 +26090,7 @@ Type}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -31092,7 +31092,7 @@ Function or Procedure}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -31440,7 +31440,7 @@ Function or Procedure}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 1565.78}}</string>
+				<string>{{0, 0}, {559, 1566}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -32768,7 +32768,7 @@ Read Double}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -33560,7 +33560,7 @@ Populate Array}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -34473,7 +34473,7 @@ Sum}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -36294,7 +36294,7 @@ Sum}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -36952,8 +36952,8 @@ Variable}</string>
 					<integer>216</integer>
 					<key>Points</key>
 					<array>
-						<string>{371.836, 427.448}</string>
-						<string>{349.419, 425.296}</string>
+						<string>{371.836, 427.446}</string>
+						<string>{349.419, 425.292}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37732,8 +37732,8 @@ String}</string>
 					<integer>110</integer>
 					<key>Points</key>
 					<array>
-						<string>{430, 578.492}</string>
-						<string>{408.537, 576.424}</string>
+						<string>{430, 578.493}</string>
+						<string>{408.537, 576.425}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -38206,7 +38206,7 @@ Statement}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -38340,7 +38340,7 @@ Statement}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -38552,7 +38552,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -39126,7 +39126,7 @@ to Main}</string>
 					<key>Layer</key>
 					<integer>0</integer>
 					<key>Rotation</key>
-					<real>270.75808715820312</real>
+					<real>270.75814819335938</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -39451,7 +39451,7 @@ to Main}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -39631,7 +39631,7 @@ will end}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -39875,7 +39875,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -41960,7 +41960,7 @@ control jumps back to step 1 }</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -42105,7 +42105,7 @@ control jumps back to step 1 }</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -42425,7 +42425,7 @@ data there...}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -42604,7 +42604,7 @@ prompt "Enter Value 3: "}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -44679,7 +44679,7 @@ Enter value 2: -5}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -44857,7 +44857,7 @@ The value is stored in prompt}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -45036,7 +45036,7 @@ be converted to a String value}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -47083,7 +47083,7 @@ Enter value 3:
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -47326,7 +47326,7 @@ Enter value 2: -5}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -49422,7 +49422,7 @@ control jumps back to step 1 }</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -49567,7 +49567,7 @@ control jumps back to step 1 }</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -49886,7 +49886,7 @@ data there...}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -50065,7 +50065,7 @@ prompt "Enter Value 2: "}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -52137,7 +52137,7 @@ Enter value 1: 10.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -52315,7 +52315,7 @@ The value is stored in prompt}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -52494,7 +52494,7 @@ be converted to a String value}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -54541,7 +54541,7 @@ Enter value 2:
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -54783,7 +54783,7 @@ Enter value 1: 10.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -56501,7 +56501,7 @@ control jumps back to step 1 }</string>
 					<key>Layer</key>
 					<integer>7</integer>
 					<key>Rotation</key>
-					<real>268.73919677734375</real>
+					<real>268.73916625976562</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -56870,7 +56870,7 @@ control jumps back to step 1 }</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -57120,7 +57120,7 @@ Enter value 1: 10.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -57300,7 +57300,7 @@ data there...}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -57484,7 +57484,7 @@ prompt "Enter Value 1: "}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -59532,7 +59532,7 @@ basic validation}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -59710,7 +59710,7 @@ The value is stored in prompt}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -59889,7 +59889,7 @@ be converted to a String value}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -61936,7 +61936,7 @@ Enter value 1:
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -62115,7 +62115,7 @@ and the body of the loop is entered.}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -64165,7 +64165,7 @@ of the array}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -65462,7 +65462,7 @@ an array of characters}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -66130,7 +66130,7 @@ and space is allocated for i, and prompt}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -66549,7 +66549,7 @@ by reference.}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -67181,7 +67181,7 @@ the last is my_data[1]}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -67306,7 +67306,7 @@ Local Variable}</string>
 					<key>Layer</key>
 					<integer>12</integer>
 					<key>Rotation</key>
-					<real>269.35147094726562</real>
+					<real>269.35153198242188</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -68025,7 +68025,7 @@ Steps:\
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -68096,7 +68096,7 @@ Steps:\
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.28, 782.89}}</string>
+				<string>{{0, 0}, {559, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -68367,7 +68367,7 @@ Steps:\
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -68546,7 +68546,7 @@ result returned by the Sum function}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -69707,7 +69707,7 @@ Sum is 22.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -69886,7 +69886,7 @@ where the function was called}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -70226,7 +70226,7 @@ Total becomes the value returned}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -71563,7 +71563,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Rotation</key>
-					<real>270.23175048828125</real>
+					<real>270.23178100585938</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -72014,7 +72014,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -72193,7 +72193,7 @@ so the body will now be skipped}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -72513,7 +72513,7 @@ and control returns to step 2}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -73747,7 +73747,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.376, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3761, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -73755,7 +73755,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>2</integer>
 					<key>Rotation</key>
-					<real>269.97857666015625</real>
+					<real>269.9786376953125</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -74154,7 +74154,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -74365,7 +74365,7 @@ total + data[2] has the value 22.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -74550,7 +74550,7 @@ to find its value - reading 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -74878,7 +74878,7 @@ data array - i is 2, so data[2]}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -76625,7 +76625,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -76804,7 +76804,7 @@ so it runs the body again}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -77124,7 +77124,7 @@ and control returns to step 2}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -78358,7 +78358,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3758, 408.396}, {215.235, 15}}</string>
+					<string>{{99.376, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -78366,7 +78366,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>4</integer>
 					<key>Rotation</key>
-					<real>269.978515625</real>
+					<real>269.97857666015625</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -78765,7 +78765,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -78976,7 +78976,7 @@ total + data[1] has the value 5.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -79161,7 +79161,7 @@ to find its value - reading -5}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -79489,7 +79489,7 @@ data array - i is 1, so data[1]}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -81236,7 +81236,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -81415,7 +81415,7 @@ so it runs the body again}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -81735,7 +81735,7 @@ and control returns to step 2}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -82969,7 +82969,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3757, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3758, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -82977,7 +82977,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>6</integer>
 					<key>Rotation</key>
-					<real>269.97848510742188</real>
+					<real>269.978515625</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -83376,7 +83376,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -83587,7 +83587,7 @@ total + data[0] has the value 10.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -83770,7 +83770,7 @@ to find its value - reading 10.0}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -84098,7 +84098,7 @@ data array - i is 0, so data[0]}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 4}</string>
@@ -85394,7 +85394,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>7</integer>
 					<key>Rotation</key>
-					<real>273.6337890625</real>
+					<real>273.63375854492188</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -85845,7 +85845,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -86165,7 +86165,7 @@ over each element of the array}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -87398,7 +87398,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3756, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3757, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -87406,7 +87406,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>8</integer>
 					<key>Rotation</key>
-					<real>269.97842407226562</real>
+					<real>269.97848510742188</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -87993,7 +87993,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -89224,7 +89224,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{94.0543, 402.713}, {226.601, 15}}</string>
+					<string>{{94.0545, 402.713}, {226.601, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -89232,7 +89232,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>9</integer>
 					<key>Rotation</key>
-					<real>270.12942504882812</real>
+					<real>270.12939453125</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -89819,7 +89819,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 1}</string>
@@ -89999,7 +89999,7 @@ user.}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 3}</string>
@@ -90244,7 +90244,7 @@ Enter value 3: 17.21}</string>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red217\green0\blue12;}
+{\colortbl;\red255\green255\blue255;\red211\green0\blue10;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
 \f0\fs24 \cf2 2}</string>
@@ -91417,7 +91417,7 @@ the array of data (by reference)}</string>
 					<key>Layer</key>
 					<integer>10</integer>
 					<key>Rotation</key>
-					<real>270.23046875</real>
+					<real>270.23037719726562</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -92028,7 +92028,7 @@ Steps:\
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -92038,7 +92038,7 @@ Steps:\
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -92189,7 +92189,7 @@ Steps:\
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118.56, 782.89}}</string>
+				<string>{{0, 0}, {1118, 783}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -99531,16 +99531,20 @@ Steps:\
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>23</integer>
+		<integer>22</integer>
 		<key>ExpandedCanvases</key>
 		<array>
+			<dict>
+				<key>name</key>
+				<string>Visualise Sum</string>
+			</dict>
 			<dict>
 				<key>name</key>
 				<string>Visualise C Concat</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{0, 4}, {2560, 1414}}</string>
+		<string>{{0, 4}, {1440, 874}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -99556,9 +99560,9 @@ Steps:\
 		<key>SmallIcons</key>
 		<true/>
 		<key>VisibleRegion</key>
-		<string>{{0, 56.1905}, {1107.14, 592.857}}</string>
+		<string>{{-17, 194.581}, {593.596, 354.68}}</string>
 		<key>Zoom</key>
-		<real>2.0999999046325684</real>
+		<real>2.0299999713897705</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>

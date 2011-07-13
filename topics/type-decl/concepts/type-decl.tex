@@ -2,11 +2,33 @@
 \subsection{Type Declaration} % (fold)
 \label{sub:type_declaration}
 
+Type declarations allow you to define your own types. Programming Languages offer a range of different code structures you can use to build your own types.
+
 \begin{figure}[h]
    \centering
-   \includegraphics[width=\textwidth]{./topics/type-decl/diagrams/TypeDecl} 
+   \includegraphics[width=0.9\textwidth]{./topics/type-decl/diagrams/TypeDecl} 
    \caption{You can declare your own Data Types}
    \label{fig:type-decl-type-decl}
 \end{figure}
+
+\mynote{
+\begin{itemize}
+  \item A type declaration is the \textbf{term} given for declaring your own type \emph{artefact} in code.
+  \item Programming Languages offer a range of different kinds of types that you can create.
+  \item Each kind of type declaration allows you to create a type for different kinds of values:
+  \begin{itemize}
+    \item \textbf{Enum}: An enumeration is creates a type where the value will be one of a list of available options.
+    \item \textbf{Record} or \textbf{Struct}: A structured record, where each value of this type is made up of a number of fields.
+    \item \textbf{Union} or \textbf{Variant Record}: Makes it possible to create a type where the value could be one of a number of other types.
+    \item Languages may also offer other kinds of type you can declare.
+  \end{itemize}
+  \item You use these different kind of types to design the structure for the values you will work with in your code.
+  \item There is no data associated with a type declaration, you are declaring a new format, not another value.
+\end{itemize}
+}
+
+\input{topics/type-decl/concepts/record}
+\input{topics/type-decl/concepts/enum}
+\input{topics/type-decl/concepts/union}
 
 % subsection type_declaration (end)

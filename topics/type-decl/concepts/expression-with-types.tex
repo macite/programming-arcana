@@ -1,12 +1,100 @@
 \clearpage
-\subsection{Expression (with Records and Arrays)} % (fold)
-\label{sub:expression_with_records_and_arrays_}
+\subsection{Expression (with custom types)} % (fold)
+\label{sub:expression_with_custom_types}
+
+The types you define allow you to specify how data values can be formatted, allowing you to declare variables that contain data in this new format. You can then read data back from your variables in expressions.
 
 \begin{figure}[h]
    \centering
    \includegraphics[width=\textwidth]{./topics/type-decl/diagrams/Expression} 
-   \caption{An expression can read the value of a record's field or array's element}
+   \caption{An expression can read the value of a record's field, a union's field, and from an enumeration}
    \label{fig:type-decl-expression}
 \end{figure}
+
+\mynote{
+\begin{itemize}
+  \item Expression is the \textbf{term} given to the code that calculates values within your Statements.
+  \item Within an expression you can read the value from\ldots
+  \begin{itemize}
+    \item a field of a record.
+    \item a field of a union.
+    \item an enumeration.
+  \end{itemize} 
+  \item The dot (\texttt{.}) notation is used to indicate which field you want to access from a record or union.
+\end{itemize}
+}
+
+\clearpage
+\subsubsection{Record Expressions} % (fold)
+\label{ssub:record_expressions}
+
+A \nameref{ssub:record} is a type that contains a number of fields. When using a record value you can use either an individual fields from the record, or the record in its entirety.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.8\textwidth]{./topics/type-decl/diagrams/RecordExpr} 
+   \caption{A field of a record can be used, or the record can be used in its entirety}
+   \label{fig:record-expr}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item \fref{fig:record-expr} shows some examples of expressions on an record variable and array.
+  \item The \texttt{Point} record in the illustration has an \texttt{x} field that stores an integer value.
+  \item You can access a field of the record from its variable using the dot notation. So \texttt{mouse.x} reads the \texttt{x} value form the record stored in the \texttt{mouse} variable. This value is then an Integer, and can be used anywhere an Integer is allowed. For example, you could have this in an equation where the value was subsequently stored in an Integer variable or passed to an integer parameter.
+  \item You can access the entire record using just \texttt{mouse}. This expression has the \texttt{Point} type. It can be used anywhere a Point can be used. For example, it could be stored in another \texttt{Point} variable, or passed to a \texttt{Point} parameter.
+  \item In an array of records, each element has the records type. In \fref{fig:record-expr} the \texttt{points} array is storing 3 \texttt{Point} values. This means the \texttt{points} is an expression to access the entire array, \texttt{points[2]} accesses the $3^{rd}$ element and therefore has a \texttt{Point} type, and \texttt{points[2].x} accessed the \texttt{x} value of the $3^{rd}$ element of the \texttt{points} array.
+\end{itemize}
+}
+
+% subsubsection record_expressions (end)
+
+\subsubsection{Union Expressions} % (fold)
+\label{ssub:union_expressions}
+
+A \nameref{ssub:union} has multiple fields that all give access to the same piece of memory. In effect, the union stores only \emph{one} of the values from its available fields. This allows you to create a type that can be used to store one of a selection of available values.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.87\textwidth]{./topics/type-decl/diagrams/UnionExpr} 
+   \caption{A field of a union can be used, or the union can be used in its entirety}
+   \label{fig:union-expr}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item A Union is very similar to a Record, the only difference is that the union only stores one of the field values.
+  \item \fref{fig:union-expr} shows an example of a union variable and array.
+  \item The expression \texttt{value} gives access to the union stored in the variable. This has a \texttt{UserData} type an can be used anywhere a \texttt{UserData} value can be accepted.
+  \item The expression \texttt{value.dblVal} is a \texttt{Double} value, and can be used anywhere a \texttt{Double} is allowed.
+  \item Accessing a union value from an array is similar to accessing a record value. In \fref{fig:union-expr} you can access the array in its entirety using \texttt{data}, you can access the first \texttt{UserData} value using \texttt{data[0]}, and you can access its text value using \texttt{data[0].txtVal}.
+  \item When accessing the data in a Union you are responsible for ensuring you read it using the correct field. For example, it is possible to read the data stored in \texttt{value} using \texttt{value.intVal}. This will not cause any errors during compiling or running, but the value read will be the Integer interpretation of the Double value stored in the variable.
+\end{itemize}
+}
+
+% subsubsection union_expressions (end)
+
+\clearpage
+\subsubsection{Enumeration Expression} % (fold)
+\label{ssub:enumeration_expression}
+
+The \nameref{ssub:enum} is the simplest of the custom types to make use of. It defines a list of available options for values of this type. This means that enumerations are just like standard values.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.87\textwidth]{./topics/type-decl/diagrams/EnumExpr} 
+   \caption{You interact with an Enumeration just like other simple data types (Integers, and Doubles for example)}
+   \label{fig:union-expr}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item Accessing an value of an Enumeration type is just like accessing an Integer or Double value.
+  \item In \fref{fig:union-expr} the \texttt{kind} variable is storing a \texttt{Data Kind} value. This value can be read from the variable using the variable's name (its \nameref{sec:identifier}).
+  \item The \texttt{kinds} variable is an array of \texttt{Data Kind} values. The expression \texttt{kinds} is an array of \texttt{Data Kind} values and can be used anywhere the array would be accepted. \texttt{kinds[0]} is a \texttt{Data Kind} value and can be used anywhere a \texttt{Data Kind} value can be used.
+\end{itemize}
+}
+
+% subsubsection enumeration_expression (end)
 
 % subsection expression_with_records_and_arrays_ (end)

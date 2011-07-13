@@ -16,3 +16,5 @@ OT1tt.cmap
 code/c/array/SimpleStats
 code/c/array/StatsCalc
 code/pascal/array/ArrayTest
+code/pascal/types/TestUnion
+code/c/types/SmallDB

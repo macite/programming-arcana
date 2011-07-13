@@ -1,39 +1,133 @@
-\chapter{More Data Types} % (fold)
+\chapter{Custom Data Types} % (fold)
 \label{cha:more_data_types}
+
+\cref{cha:managing_multiple_values} introduced the array, allowing you to store multiple values of the same type in a single variable. This greatly expanded the ways in which you can work with data in your code, but there are more tools you can use to model data in your programs.
+
+This chapter will show you how to create your own data types, allowing you to model the entities\footnote{A fancy way of saying the `\emph{things}' associated with your program.} related to your program. This means that your code can work with more meaningful values, making it easier to create larger and more complicated programs.
+
+By the end of this chapter you will be able to define your own data types to model the entities you want to work with in your program.
 
 \minitoc
 
 % ============
 % = Concepts =
 % ============
-\section{Data Type Concepts} % (fold)
+\clearpage
+\section{Custom Data Type Concepts} % (fold)
 \label{sec:data_type_concepts}
 
+To this point, data has been about single values that are either numbers, text, or Boolean values. These values can be used in \nameref{sub:expression}s and stored in \nameref{sub:variable}s and \nameref{sub:array} elements. Now as we move to creating larger and more complicated programs you need a more effective means of modelling the data in your code. This chapter introduces concepts that you can use to more accurately model the data and entities associated with your program.
+
+This chapter introduces the following \textbf{artefacts}:
+\begin{itemize}
+  \item \nameref{ssub:enum}: a kind of type used to store one of a list of available options.
+  \item \nameref{ssub:record}: a kind of type used to store multiple fields in a single composite value.
+  \item \nameref{ssub:union}: a kind of type used to store one value of different possible types.
+\end{itemize}
+
+\bigskip
+
+You may need to revise the following programming artefacts:
+\begin{itemize}
+  \item \nameref{sub:variable}: The idea of storing data within your code.
+  \item \nameref{sub:array}: Allowing you to store multiple values within your code.
+  \item \nameref{sub:local_variable}: Storing data in a \nameref{sub:function} or \nameref{sub:procedure}.
+  \item \nameref{sub:parameter}: Passing data to a Function or Procedure.
+\end{itemize}
+
+The following programming terminology will also be used in this Chapter:
+\begin{itemize}
+  \item \nameref{sub:expression}: A value used in a statement.
+  \item \nameref{sub:type}: A kind of data used in your code.
+\end{itemize}
+
+The example program for this chapter will be Small DB, a program that allows the user to enter a number of integer, double, and text values.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.7\textwidth]{./topics/type-decl/images/SmallDB} 
+   \caption{Small DB run from the Terminal}
+   \label{fig:small-db}
+\end{figure}
+
+
+\input{topics/type-decl/concepts/types}
 \input{topics/type-decl/concepts/program-with-types}
 \input{topics/type-decl/concepts/type-decl}
-% \input{topics/type-decl/concepts/array}
-\input{topics/type-decl/concepts/record}
-\input{topics/type-decl/concepts/enum}
-\input{topics/type-decl/concepts/expression-with-types}
+\input{topics/type-decl/concepts/declaring-variables}
 \input{topics/type-decl/concepts/assignment-with-types}
+\input{topics/type-decl/concepts/expression-with-types}
 
 % section data_type_concepts (end)
+
+% ======================
+% = Using Custom Types =
+% ======================
+\clearpage
+\section{Using Custom Types} % (fold)
+\label{sec:using_custom_types}
+
+\input{topics/type-decl/application/using-custom-types}
+
+% section using_custom_types (end)
 
 % =============
 % = C Section =
 % =============
 \clearpage
-\section{More Data Types in C} % (fold)
-\label{sec:more_data_types_in_c}
+\def\pageLang{c}
+\section{Custom Data Types in C} % (fold)
+\label{sec:custom_types_in_c}
 
-\input{topics/type-decl/c/c-variable-decl-with-types}
+\input{topics/type-decl/c/c-small-db}
 \input{topics/type-decl/c/c-type-decl}
-% \input{topics/type-decl/c/c-array-decl}
 \input{topics/type-decl/c/c-struct-decl}
 \input{topics/type-decl/c/c-enum-decl}
-\input{topics/type-decl/c/c-parameter-decl-with-types}
+\input{topics/type-decl/c/c-union-decl}
+\input{topics/type-decl/c/c-variable-decl-with-types}
 
 % section more_data_types_in_c (end)
+
+% ==============================
+% = Understanding Custom Types =
+% ==============================
+\clearpage
+\def\pageLang{none}
+\section{Understanding Custom Types} % (fold)
+\label{sec:understanding_custom_types}
+
+\input{topics/type-decl/understanding/understanding-custom-types.tex}
+
+
+% section understanding_custom_types (end)
+
+% ============
+% = Examples =
+% ============
+\clearpage
+\section{Example Custom Types} % (fold)
+\label{sec:example_custom_types}
+
+% section example_custom_types (end)
+
+
+% =============
+% = Exercises =
+% =============
+\clearpage
+\section{Custom Type Exercises} % (fold)
+\label{sec:custom_type_exercises}
+
+% section custom_type_exercises (end)
+
+% ===========
+% = Project =
+% ===========
+\clearpage
+\section{Custom Types in the Project} % (fold)
+\label{sec:custom_types_in_the_project}
+
+% section custom_types_in_the_project (end)
 
 
 % chapter more_data_types (end)

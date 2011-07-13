@@ -1,7 +1,27 @@
 \clearpage
-\subsection{C Structure Declaration} % (fold)
+\subsection{C Record/Structure Declaration} % (fold)
 \label{sub:c_structure_declaration}
 
+A record is a type that allows you to store multiple field values. In C this is implemented using a \texttt{struct}. The struct defines a list of fields and their types. The field declarations are similar to other variable declarations, with you specifying the type and then the name of the field.
+
 \csyntax{csynt:type-decl-variable-decl}{Structure Declarations}{type-decl/struct-decl}
+
+\csection{\ccode{clst:test-struct}{C for working with a structure}{code/c/types/test-struct.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the syntax for declaring your own custom record.
+  \bigskip
+  \item The declaration starts with \texttt{\textbf{typedef}}, which indicates that this is a declaration for a custom type, then \texttt{\textbf{struct}} indicating the declaration of a structured record.
+  \item Next comes an \emph{option} \textbf{struct name}. This identifier can be used to refer to the struct\footnote{This enables you to declare a struct outside of a \texttt{typedef}.} but requires the keyword \texttt{struct} before it. For example, the declaration in \lref{clst:test-struct} declares a \texttt{person}, or a \texttt{struct person\_struct}, depending on if you use the \emph{struct name} or the \emph{typedef name}.
+  \item Following this is a \textbf{list of fields} between braces (i.e. \texttt{\{\ldots\}}). Each field has its own type that may be of any type, including other structures, arrays, standard types, enumerations, and unions.
+  \item Finally the typedef ends with the \textbf{name} of the type you are declaring.
+  \bigskip
+  \item \lref{clst:test-struct} shows an example of a record in C. The \texttt{person} record contains an array of fifty characters called \texttt{name}, and an integer called \texttt{age}.
+  \item Remember that the type declaration is creating a new type. After declaring the \texttt{struct} you can now create variables of the \texttt{person} type.
+  \item Additional fields could be added to the record, and these will be added to all variables declared from this type.
+  
+\end{itemize}
+}
 
 % subsection c_structure_declaration (end)

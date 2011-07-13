@@ -1,0 +1,23 @@
+\subsection{Implementing Small DB in C} % (fold)
+\label{sub:implementing_small_db_in_c}
+
+\sref{sec:using_custom_types} of this Chapter introduced the Small DB program. A partial implementation of this program is shown in \lref{lst:c-small-db}. The type definitions, and code are missing the details needed to store and display double values. This program reads a number of rows of data from the user (determined by the \texttt{DB\_SIZE} constant). Each row stores a single value, being either a text value, an integer value, or a text value.
+
+\straightcode{\ccode{lst:c-small-db}{C code for the Small DB program}{code/c/types/small-db.c}}
+
+\clearpage
+
+\mynote{
+\begin{itemize}
+  \item \texttt{strtol} is a function from the \texttt{stdlib.h} header. This converts the input to a integer, and updated \texttt{p} to point to the character the conversion got to before ending. Checking that this matched the end of string terminator (\csnipet{'\0'}) indicates that the input matched the entire string.
+  \item \texttt{strtod} is a similar function that converts text to a double. As with \texttt{strtol}, this updates \texttt{p} to refer to the character it got in the conversion. If this refers to the end of the text then the data does contain a double.
+  \item The \texttt{trim} function removes spaces from the start and the end of the input, ensuring that numbers with leading or trailing spaces are still detected as numbers.
+  \item The type definitions must appear before they are used, as a result they commonly appear at the start of the code after the includes.
+  \item \texttt{limits.h} gives access to the constants \texttt{INT\_MAX} and \texttt{INT\_MIN}, these can be used to check if the integer read is in the range of an integer value.
+  \item \texttt{errno.h} gives access to the \texttt{errno} global variable that contains an error number when the integer is outside of the range of a long.
+  \item The code in \texttt{Read Row} includes code that skips any unwanted input on the current line. This requires two \texttt{scanf} calls: the first reading in any characters other than a newline, and the next reading in the newline. This method of skipping unwanted data in input is safe and works across multiple platforms.
+  \item A number of online resources refer to using \texttt{fflush} to skip processing input between reads. This \textbf{should not} be used. The \texttt{fflush} function is used to ensure that output is written to the underlying hardware. The behaviour of this function \textbf{is not defined} for input streams. As a result it will not work as expected on all platforms.
+\end{itemize}
+}
+
+% subsection implementing_small_db_in_c (end)

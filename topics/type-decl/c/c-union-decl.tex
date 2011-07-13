@@ -1,0 +1,30 @@
+\clearpage
+\subsection{C Union Declaration} % (fold)
+\label{sub:c_union_declaration}
+
+A union declaration is very similar to a record/structure declaration. The difference is in the way these are represented in memory. The structure stores a value for each field, whereas the union only stores a single value, allowing you to choose which of the fields has a value.
+
+\csyntax{csynt:type-decl-variable-decl}{Union Declarations}{type-decl/union-decl}
+
+\csection{\ccode{clst:test-union}{C code demonstrating union declaration and use}{code/c/types/test-union.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the syntax for declaring your own custom union.
+  \medskip
+  \item The declaration starts with \texttt{\textbf{typedef}}, which indicates that this is a declaration for a custom type, then \texttt{\textbf{union}} indicating the declaration of a union.
+  \item Next comes an \emph{option} \textbf{union name}. This identifier can be used to refer to the union\footnote{This enables you to declare a union outside of a \texttt{typedef}.} but requires the keyword \texttt{union} before it. For example, the declaration in \lref{clst:test-union} declares a \texttt{color}, or a \texttt{union color\_union}, depending on if you use the \emph{union name} or the \emph{typedef name}.
+  \item Following this is a \textbf{list of fields} between braces (i.e. \texttt{\{\ldots\}}). Each field has its own type that may be of any type, including other structures, arrays, standard types, enumerations, and unions. This is the same as with a \nameref{sub:c_structure_declaration}, except that when it is stored in memory only one of these fields will have a value.
+  \item Finally the typedef ends with the \textbf{name} of the type you are declaring.
+  \medskip
+  \item \lref{clst:test-union} shows an example of a union in C. The \texttt{color} union contains \emph{either} an unsigned integer called \texttt{value}, or an array of four bytes called \texttt{components}.
+  \item Remember that the type declaration is creating a new type. After declaring the \texttt{union} you can now create variables of the \texttt{color} type.
+  \item Please note that when you store a value in a union via one field, that is the field that has a reliable value. If you access the union's value via another field the results are \textbf{unreliable}. This behaviour is demonstrated in \lref{clst:test-union} where a value is stored in the union via the \texttt{components} field, but accessed via the \texttt{value} field. This should be avoided in `\emph{real}' code as it relies upon an understanding of how the data is being laid out in memory which can differ by platform, and can be a source of hard to locate issues. 
+  \item For an example of good usage see \lref{lst:c-small-db}.
+  
+\end{itemize}
+}
+
+
+
+% subsection c_union_declaration (end)

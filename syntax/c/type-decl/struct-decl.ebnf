@@ -1,8 +1,10 @@
-struct decl. = "struct", "{", field list, "}", typedef name;
+struct decl. = "struct", [ struct name ], "{", field list, "}", typedef name;
 
 field list = { field declaration }+(";") ;
 
 field decl. = type name, [ "*" ], field name, {"[", expression, "]"}* ;
+
+explicit name = identifier ;
 
 field name = identifier ;
 

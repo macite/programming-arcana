@@ -1,7 +1,20 @@
 \clearpage
 \subsection{C Enumeration Declaration} % (fold)
-\label{sub:c_enumeration_declaration}
+\label{sub:c_enum_declaration}
+
+An enumeration is a list of available options for the type. A variable of an enumeration type can store one of these values. In C you declare the enumeration using a \texttt{typedef}, and list the available constants within the braces. 
 
 \csyntax{csynt:type-decl-variable-decl}{Enumeration Declarations}{type-decl/enum-decl}
+
+\csection{\ccode{clst:test-enum}{C code illustrating enumeration declarations.}{code/c/types/test-enum.c}}
+
+\mynote{
+\begin{itemize}
+  \item This is the syntax that allows you to declare an enumeration in C.
+  \item The declaration starts with \texttt{typedef}, which indicates that this is a declaration for a custom type, and \texttt{enum} indicating that this custom type is an enumeration.
+  \item Following this is a list of constants between braces (i.e. \texttt{\{\ldots\}}). Each constant must have a unique name, and the by convention is all UPPERCASE.
+  \item Finally the typedef ends with the name of the type you are declaring.
+\end{itemize}
+}
 
 % subsection c_enumeration_declaration (end)

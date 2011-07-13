@@ -15,6 +15,5 @@ Procedure: Main
 ----------------------------
 Local Variables:
  *: my_data (array containing 3 Double values) - data array
- *: prompt (String - array with 17 characters) - the prompt to be shown to the user
 Steps:
   1: Call Populate Array ( my_data )

@@ -2,6 +2,32 @@
 \subsection{C Type Declaration} % (fold)
 \label{sub:c_type_declaration}
 
+In C you can declare your own record/structure, union, and enumeration types using the \texttt{typedef} declaration. It is also possible to create an alias type declaration, in which you assign a new name to an existing type.
+
 \csyntax{csynt:type-decl-variable-decl}{Type Declarations}{type-decl/type-decl}
+
+\csection{\ccode{clst:test-alias}{Testing the alias declarations in C}{code/c/types/test-alias.c}}
+
+\mynote{
+\begin{itemize}
+  \item This syntax allows you to declare your own data types.
+  \item The following sections contain the details of declaring different kinds of custom types:
+  \begin{itemize}
+    \item Records/structures are shown in \nameref{sub:c_structure_declaration}.
+    \item Enumerations are shown in \nameref{sub:c_enum_declaration}.
+    \item Unions are shown in \nameref{sub:c_union_declaration}.
+  \end{itemize}
+  \item \lref{clst:test-alias} shows how to declare alias types. An alias type give a new name to an existing type. Included in this are examples of the following:
+  \begin{itemize}
+    \item \texttt{number} is an alias for \texttt{int}.
+    \item \texttt{five\_numbers} is an alias for an array of file \texttt{int} values.
+    \item \texttt{my\_string} is an alias for a string of 256 characters.
+    \item \texttt{c\_string} is an alias for a variable length string.
+    \item \texttt{const\_c\_string} is an alias for a read-only c-string.
+  \end{itemize}
+  \item Notice that these new types can be used to declare variables, arrays, and parameter.
+  \item \texttt{grid2} is an array that contains \texttt{five\_numbers} in each element. Each element of this array is an array of five integer values.
+\end{itemize}
+}
 
 % subsection c_type_declaration (end)

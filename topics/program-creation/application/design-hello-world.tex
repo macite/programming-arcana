@@ -115,7 +115,7 @@ Having finished the \emph{second rule}, you can return back to finish the \emph{
 \end{verb}
 
 For a more realistic example have a look at the Syntax Diagram in Figure \ref{synt:example-identifier}\footnote{ 
-The \tikz \node [meta-terminal] {...}; is used as shorthand to avoid having to list all of the characters between `A' to `Z'.}. This shows the rules you need to follow to code an \nameref{sec:program-creation-identifier}\footnote{Most programming languages have the same rules for identifiers.} in either C or Pascal.
+The \tikz \node [meta-terminal] {...}; is used as shorthand to avoid having to list all of the characters between `A' to `Z'.}. This shows the rules you need to follow to code an \nameref{sub:identifier}\footnote{Most programming languages have the same rules for identifiers.} in either C or Pascal.
 
 \examplesyntax{synt:example-identifier}{The Syntax Rules for an Identifier}{identifier}
 
@@ -127,7 +127,7 @@ There are three rules in Figure \ref{synt:example-identifier}, the \textbf{ident
   
   \item The \textbf{identifier} has a more complicated rule, with the following parts:
   \begin{enumerate}
-    \item The first thing in an \nameref{sec:program-creation-identifier} must be either a \emph{letter} or an underscore ( \_ ).
+    \item The first thing in an \nameref{sub:identifier} must be either a \emph{letter} or an underscore ( \_ ).
     \item Following this is an example of another kind of option. Here you have the ability to end the rule, allowing you to have identifiers that are a single character, or you can follow the downward arrow to include other letters, digits, and underscores.
     \item Following the downward arrow you have a new option where you can choose to have either a \emph{letter}, a \emph{digit}, or an underscore as the second character in your identifier.
     \item Continuing after this option you have another option where you can return back to repeat the previous step, allowing you to have identifiers with more than one or two characters.

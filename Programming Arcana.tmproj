@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/arrays/c/c-strings.tex</string>
+	<string>topics/type-decl/understanding/understanding-custom-types.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -20,23 +20,9 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>237</integer>
+	<integer>257</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/array/simple-stats.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>69</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>29</integer>
-		</dict>
 		<key>code/c/storing-using-data/assignment-test.c</key>
 		<dict>
 			<key>caret</key>
@@ -50,6 +36,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>code/c/types/small-db.c</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>14</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>179</integer>
 		</dict>
 		<key>preamble/commands.tex</key>
 		<dict>
@@ -65,19 +65,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>programming-arcana.tex</key>
+		<key>preamble/tikz-style.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>9</integer>
+				<integer>224</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>222</integer>
 		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
@@ -247,63 +247,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>syntax/c/type-decl/type-decl.ebnf</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>27</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>syntax/c/type-decl/variable-decl-with-types.ebnf</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>18</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>52</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-		</dict>
 		<key>todo.txt</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>42</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>15</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>tools/syntax-parser/eebnf_exporter.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>16</integer>
 		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
@@ -363,6 +333,20 @@
 				<integer>10</integer>
 			</dict>
 		</dict>
+		<key>topics/arrays/application/Max.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/arrays/application/Mean.pas</key>
 		<dict>
 			<key>caret</key>
@@ -405,6 +389,50 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>8</integer>
+			</dict>
+		</dict>
+		<key>topics/arrays/application/Sum.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/application/Sum.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>14</integer>
 			</dict>
 		</dict>
 		<key>topics/arrays/application/Variance.txt</key>
@@ -465,14 +493,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/application/populate-array.c</key>
+		<key>topics/arrays/application/sum.c</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>69</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -484,42 +512,72 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>310</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>192</integer>
+				<integer>238</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>76</integer>
-		</dict>
-		<key>topics/arrays/c/c-strings.tex</key>
-		<dict>
-			<key>caret</key>
+			<integer>240</integer>
+			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>154</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>148</integer>
+				<integer>237</integer>
 			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>118</integer>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>238</integer>
+			</dict>
 		</dict>
-		<key>topics/arrays/understanding/understanding-arrays.tex</key>
+		<key>topics/arrays/arrays.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>701</integer>
+				<integer>97</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>661</integer>
+			<integer>88</integer>
+		</dict>
+		<key>topics/arrays/c/c-stats-calc.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>320</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/understanding/understanding-arrays.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>30</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>82</integer>
 		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
@@ -730,9 +788,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>49</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -766,36 +824,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>topics/program-creation/c/type.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>61</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>61</integer>
-			</dict>
 		</dict>
 		<key>topics/program-creation/concepts/expression.tex</key>
 		<dict>
@@ -1014,9 +1042,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>23</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>106</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>164</integer>
@@ -1237,36 +1265,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/storing-using-data/concepts/assignment-statement.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>31</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>31</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
 		<key>topics/storing-using-data/concepts/function.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1327,45 +1325,104 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/c/c-type-decl.tex</key>
+		<key>topics/type-decl/application/using-custom-types.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>190</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>179</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>79</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>184</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>190</integer>
 			</dict>
+		</dict>
+		<key>topics/type-decl/type-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>106</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>52</integer>
+			<key>firstVisibleLine</key>
+			<integer>86</integer>
+		</dict>
+		<key>topics/type-decl/understanding/PrintRow.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/type-decl/understanding/ReadRow.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>71</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/type-decl/understanding/understanding-custom-types.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>86</integer>
+				<key>line</key>
+				<integer>240</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>48</integer>
+			<key>firstVisibleLine</key>
+			<integer>220</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
+		<string>tools/syntax-parser/eebnf_exporter.py</string>
 		<string>todo.txt</string>
-		<string>topics/arrays/c/c-strings.tex</string>
-		<string>topics/arrays/understanding/understanding-arrays.tex</string>
-		<string>code/c/array/simple-stats.c</string>
-		<string>topics/arrays/application/populate-array.c</string>
-		<string>topics/arrays/application/using-arrays.tex</string>
+		<string>code/c/types/small-db.c</string>
+		<string>topics/type-decl/understanding/understanding-custom-types.tex</string>
+		<string>topics/type-decl/application/using-custom-types.tex</string>
+		<string>topics/type-decl/type-decl.tex</string>
+		<string>topics/type-decl/understanding/ReadRow.txt</string>
+		<string>topics/type-decl/understanding/PrintRow.txt</string>
+		<string>topics/arrays/arrays.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1402,14 +1459,14 @@
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>array</key>
+								<key>pointers</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
 									<key>subItems</key>
 									<dict/>
 								</dict>
-								<key>storing-using-data</key>
+								<key>types</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1420,20 +1477,13 @@
 						</dict>
 					</dict>
 				</dict>
-				<key>preamble</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict/>
-				</dict>
 				<key>topics</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>arrays</key>
+						<key>type-decl</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1453,59 +1503,7 @@
 									<key>subItems</key>
 									<dict/>
 								</dict>
-								<key>concepts</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
 								<key>understanding</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>control-flow</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>understanding</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>program-creation</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>c</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>storing-using-data</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>c</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1520,6 +1518,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 1414}}</string>
+	<string>{{0, 4}, {720, 874}}</string>
 </dict>
 </plist>

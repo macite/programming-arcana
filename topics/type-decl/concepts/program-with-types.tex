@@ -2,11 +2,21 @@
 \subsection{Program (with Type Declarations)} % (fold)
 \label{sub:program_with_type_declarations_}
 
+The Program is the overarching artefact, containing the code that defines the other artefacts that we have been creating. When you want to declare your own types, you do so in your program's code. This makes it possible to model the data, in the same way as you model the actions in your code.
+
 \begin{figure}[h]
    \centering
    \includegraphics[width=\textwidth]{./topics/type-decl/diagrams/ProgramWithTypes} 
    \caption{A Program can contain Type Declarations}
    \label{fig:type-decl-program}
 \end{figure}
+
+\mynote{
+\begin{itemize}
+  \item A program is an \textbf{artefact}, it is the container within which you code other artefacts such as your functions, procedures, constants, and now types.
+  \item The types you declare in your program will be available for use within the program's code, and your functions and procedures.
+  \item You will be able to create \nameref{sub:variable}s (including \nameref{sub:array}s) of the types you create. They will store the values in the format you specified. This includes \nameref{sub:parameter}s and \nameref{sub:local_variable}s.
+\end{itemize}
+}
 
 % subsection program_with_type_declarations_ (end)

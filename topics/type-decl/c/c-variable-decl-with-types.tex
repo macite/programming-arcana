@@ -2,6 +2,20 @@
 \subsection{C Variable Declaration (with Types)} % (fold)
 \label{sub:c_variable_declaration_with_types_}
 
+In C you can declare variables from any of the types that you have declared. The \emph{type name} in the variable's declaration can contain the names of the types that you declare using C's \texttt{typedef} declaration. See \nameref{sub:c_type_declaration}.
+
 \csyntax{csynt:type-decl-variable-decl}{Variable Declarations}{type-decl/variable-decl-with-types}
+
+\csection{\ccode{clst:type-var-decl}{C code illustrating variable declaration and use with Custom Types}{code/c/types/test-var-decl.c}}
+
+\mynote{
+\begin{itemize}
+  \item This shows the syntax for declaring variables that use the types you have created.
+  \item In C the type declaration must appear before you can use the type to declare variables.
+  \item The code in \lref{clst:type-var-decl} demonstrates how variables can be declared using custom defines records, unions, and enumerations.
+  \item In C it is possible to initialise a record/structure using similar notation to that used to initialise arrays (see \nameref{sub:c_array_declaration}). This uses braces (i.e. \texttt{\{\ldots\}} ) to surround the expression. Within the braces you place one value for each field, in order. These values are then used to initialise the fields of the variable. See the declaration of \texttt{var2} in \lref{clst:type-var-decl}.
+  \item Unions can also have their values initialised. This also uses the brace notation, but only the first declared field can be initialised.
+\end{itemize}
+}
 
 % subsection c_variable_declaration_with_types_ (end)

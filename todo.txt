@@ -1,4 +1,16 @@
 * Add ascii character table
-* sprintf in arrays chap
 * Add keyboard image to illustrations with input
 * Summary after each understanding section
+* Check term/action/artefact 
+* Array assignment in C using memcpy
+* Check header definition has been added to chapter 2
+* Write a new chapter 1
+
+* trim array exercise/example
+* multi dim arrays
+* bit flags with enum
+* %lld for printf and scanf
+* inner declarations must be explained in the Pointers chapter
+* pointers may need to be removed from the c syntax of the types chapter  
+
+* *'s in the pseudocode
