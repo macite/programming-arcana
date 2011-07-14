@@ -2,4 +2,19 @@
 \subsection{Freeing Memory Allocations} % (fold)
 \label{sub:freeing_memory_allocations}
 
+Dynamic memory allocation requires that you manage the memory you are allocated yourself. You ask to be allocated memory, and it is your responsibility to tell the Operating System when you are finished with that memory. This is one of the main challenges of working with dynamically allocated memory. You need to take care to ensure that you do free the memory you have been allocated when you are finished with it, but at the same time you must make sure that you do not free the memory while it is still needed.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.8\textwidth]{./topics/dynamic-memory/diagrams/FreeMem} 
+   \caption{You can ask to be allocated enough space to store one value}
+   \label{fig:free-memory}
+\end{figure}
+
+\csection{The \texttt{free} function releases the memory allocated to a pointer. To free the memory allocated to \texttt{p} as shown in \fref{fig:free-memory} you would use: \csnipet{free(p); p = NULL;} This will both free the memory allocation and point \texttt{p} to nothing so that you cannot accidentally access it later.}
+
+\passection{The \texttt{Dispose} procedure releases the memory allocated to a pointer. To free the memory allocated to \texttt{p} as shown in \fref{fig:free-memory} you would use: \passnipet{Dispose(p); p := nil;} This will both free the memory allocation and point \texttt{p} to nothing so that you cannot accidentally access it later.
+}
+
+
 % subsection freeing_memory_allocations (end)
