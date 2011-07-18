@@ -1,0 +1,13 @@
+Function: Add Row
+----------------------------
+Parameters:
+ 1: Db Data (Data Store, passed by reference)
+----------------------------
+Locals:
+ - Row Id (Integer)
+----------------------------
+Steps:
+1: Assign Row Id, the value of Db Data's Next Row Id field
+2: Increase the Db Data's Next Row Id field by 1
+3: Increase memory allocated to Db Data's Rows by 1 Row (and Row Count in C)
+4: Store in Db Data's new row, the result of calling Read Row (row_id)

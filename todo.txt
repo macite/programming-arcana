@@ -16,3 +16,9 @@
 * *'s in the pseudocode
 
 * Ask XKCD for permission to use comics
+
+* Discuss Data Dictionary in Type chap
+
+* Ptr exerc: Implement "fast delete" and "ordered delete", add menu option to select
+
+* Underline variables in the flow charts

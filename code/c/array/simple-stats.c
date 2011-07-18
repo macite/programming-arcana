@@ -71,8 +71,7 @@ void populate_array(double data[], int size)
         strncat(prompt, buffer, 2); // takes 3 spaces, 2 + terminator
         strncat(prompt, ": ", 2); // takes 3 spaces, 2 + terminator
         
-        printf("%s", prompt);
-        //data[i] = read_double(prompt);
+        data[i] = read_double(prompt);
     }
 }
 

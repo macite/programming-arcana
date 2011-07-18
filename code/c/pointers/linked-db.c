@@ -30,18 +30,19 @@ typedef enum {
 
 // The Row record/structure. Each row contains an id
 // a kind, and some data (a Row Value).
-typedef struct {
-        int         id;
-        data_kind   kind;
-        row_value   data;
+typedef struct row_struct {
+        int                 id;
+        data_kind           kind;
+        row_value           data;
+        struct row_struct   *next;
     } row;
 
-// The data store is a dynamic array of rows, keeping track
-// of the number of rows in the array, and the id for the next row
+// The data store is a dynamic linked list of rows, keeping track
+// of the number of rows in the list, and the id for the next row
 typedef struct {
-    int next_row_id;    // The id of the row that will be added next
-    int row_count;      // The number of rows in the array
-    row *rows;          // A pointer to the rows in memory
+    int     next_row_id;    // The id of the row that will be added next
+    row     *first_row;      // A pointer to the first row
+    row     *last_row;       // A pointer to the last row
 } data_store;
 
 // The user can choose to add, delete, or print data or to quit
@@ -157,7 +158,7 @@ void clear_input()
 row read_row(int next_id)
 {
     char line[16] = "", temp[2];
-    row result = {0, UNK_VAL, {0}};
+    row result = {0, UNK_VAL, {0}, NULL};
     
     //store the id
     result.id = next_id;
@@ -258,6 +259,7 @@ menu_option get_menu_option()
 void add_a_row(data_store *db_data)
 {
     int row_id = 0;
+    row *new_row;
     
     if (db_data == NULL) return;
     
@@ -265,70 +267,89 @@ void add_a_row(data_store *db_data)
     row_id = db_data->next_row_id;
     db_data->next_row_id++;
     
-    // Store the data
-    db_data->row_count++;
-    db_data->rows = (row *) realloc(db_data->rows, sizeof(row) * db_data->row_count);
-    db_data->rows[db_data->row_count - 1] = read_row(row_id); // last idx = n - 1
-}
-
-int idx_of_row_with_id(data_store *db_data, int row_id)
-{
-    int i;
+    // Allocate space on the heap for the new row
+    new_row = malloc(sizeof(row));
     
-    if (db_data == NULL) return -1;
+    *new_row = read_row(row_id);
+    new_row->next = NULL; // there is nothing after this row
     
-    // Loop through each element of the array
-    for(i = 0; i < db_data->row_count; i++)
+    if (db_data->last_row == NULL)
     {
-        // is this the one we are after?
-        if (db_data->rows[i].id == row_id)
-        {
-            return i; // return the index found.
-        }
+        // The data store must be empty, new row is
+        // the start and the end.
+        db_data->first_row = new_row;
+    }
+    else
+    {
+        // The row come after the last row, so change then
+        // current last row's next
+        db_data->last_row->next = new_row;
     }
     
-    // Nothing found...
-    return -1;
+    // The new row is the last row in the list
+    db_data->last_row = new_row;
 }
 
 void delete_a_row(data_store *db_data)
 {
     int row_id;
-    int i;
-    int row_index;
+    row *current;
+    row *next;
+    row *prev;
+    
+    if (db_data == NULL) return;
     
     printf("Please enter id of row to delete: ");
     scanf("%d", &row_id);
     
-    // Get the index of the row (will test if db_data == NULL)
-    row_index = idx_of_row_with_id(db_data, row_id);
+    current = db_data->first_row;
+    prev = NULL; // There is no previous for the first row
     
-    if (row_index >= 0) // a row was found to delete...
+    while(current != NULL && current->id != row_id)
     {
-        // copy all data past the row, back over the row to delete it
-        for(i = row_index; i < db_data->row_count - 1; i++)
-        {
-            // copy data back one spot in the array (one element at a time)
-            db_data->rows[i] = db_data->rows[i+1];
-        }
-        
-        // change the row count, and resize the array
-        db_data->row_count--;
-        db_data->rows = realloc(db_data->rows, sizeof(row) * db_data->row_count);
+        prev = current;
+        current = current->next;
     }
+    
+    if ( current == NULL ) return; // No row found
+    
+    next = current->next;
+    
+    if ( prev == NULL )
+    {
+        // Deleting the first row, so change the start
+        db_data->first_row = next;
+    }
+    else
+    {
+        // Skip the row that is about to be deleted
+        prev->next = next;
+    }
+    
+    if ( current == db_data->last_row )
+    {
+        // Last row was deleted, so update the last row of the data store
+        db_data->last_row = prev;
+    }
+    
+    // Now free the current row
+    free(current);
 }
 
 void print_all_rows(const data_store *db_data)
 {
-    int i = 0;
+    row *current;
     
     if (db_data == NULL) return;
     
-    // For each row in the array
-    for (i = 0; i < db_data->row_count; i++)
+    current = db_data->first_row;
+    
+    // While there is a current node
+    while(current != NULL)
     {
         // Print the row to the Terminal
-        print_row(db_data->rows[i]);
+        print_row(*current);
+        current = current->next;
     }
 }
 
@@ -340,7 +361,7 @@ void print_all_rows(const data_store *db_data)
 int main()
 {
     menu_option opt;
-    data_store db_data = {0, 0, NULL}; 
+    data_store db_data = {0, NULL, NULL}; // id, first, last
     
     do
     {
@@ -362,20 +383,6 @@ int main()
                 break;
         }
     } while(opt != QUIT);
-    
-    // // For each row in the array
-    // for (i = 0; i < DB_SIZE; i++)
-    // {
-    //     // Read the current row's value from the Terminal
-    //     db_data[i] = read_row(i);
-    // }
-    // 
-    // // For each row in the array
-    // for (i = 0; i < DB_SIZE; i++)
-    // {
-    //     // Print the row to the Terminal
-    //     print_row(db_data[i]);
-    // }
     
     return 0;
 }

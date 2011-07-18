@@ -1,0 +1,13 @@
+Procedure: ... Work with all nodes in a Linked List
+----------------------------
+Parameters:
+ 1: List (Linked List)
+----------------------------
+Locals:
+ - Current (pointer to a Node)
+----------------------------
+Steps:
+1: Assign Current, the pointer to List's first Node 
+2: While Current is not Nothing
+3:   ... Work with Current's data
+4:   Assign Current, Current's Next
