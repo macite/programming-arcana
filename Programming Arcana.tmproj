@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/dynamic-memory/dynamic-memory.tex</string>
+	<string>programming-arcana.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -108,6 +108,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>222</integer>
+		</dict>
+		<key>programming-arcana.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>48</integer>
+				<key>line</key>
+				<integer>31</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
@@ -627,6 +641,20 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
+		<key>topics/control-flow/control-flow.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/dynamic-memory/application/using-dynamic-memory.tex</key>
 		<dict>
 			<key>caret</key>
@@ -709,9 +737,9 @@
 				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>145</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
+			<integer>0</integer>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -1429,10 +1457,27 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
+		<key>topics/type-decl/type-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>topics/dynamic-memory/dynamic-memory.tex</string>
+		<string>programming-arcana.tex</string>
+		<string>topics/type-decl/type-decl.tex</string>
+		<string>topics/control-flow/control-flow.tex</string>
 		<string>topics/dynamic-memory/concepts/issues-with-pointers.tex</string>
 		<string>code/c/types/small-db.c</string>
 		<string>todo.txt</string>
@@ -1453,6 +1498,8 @@
 		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
+	<false/>
+	<key>showFileHierarchyPanel</key>
 	<true/>
 	<key>treeState</key>
 	<dict>
@@ -1461,10 +1508,34 @@
 			<key>isExpanded</key>
 			<true/>
 			<key>subItems</key>
-			<dict/>
+			<dict>
+				<key>topics</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>programs-and-compilers</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>concepts</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{298, 2}, {1132, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
