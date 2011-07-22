@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/arrays/arrays.tex</string>
+	<string>topics/programs-and-compilers/concepts/Terminal.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -15,8 +15,6 @@
 			<string>\.(sh|sty|txt|py|jpg|png|tex|pdf|ebnf|pas|c)$</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>selected</key>
-			<true/>
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
@@ -472,14 +470,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>453</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>16</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>15</integer>
 		</dict>
 		<key>topics/arrays/c/c-stats-calc.tex</key>
 		<dict>
@@ -706,12 +704,28 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>179</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>300</integer>
+			<integer>226</integer>
 			<key>firstVisibleLine</key>
-			<integer>249</integer>
+			<integer>171</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>176</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>179</integer>
+			</dict>
 		</dict>
 		<key>topics/program-creation/application/visualise-hello-world.tex</key>
 		<dict>
@@ -994,6 +1008,166 @@
 			<integer>164</integer>
 			<key>firstVisibleLine</key>
 			<integer>78</integer>
+		</dict>
+		<key>topics/programs-and-compilers/compilers.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>54</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>12</integer>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/Challenges.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/Compiler.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>32</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/ConceptTaxonomy.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>249</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/HelloWorld.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>15</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/MachineCode.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>20</integer>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/Program.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/Terminal.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>85</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>38</integer>
 		</dict>
 		<key>topics/storing-using-data/application/CalculateChange.txt</key>
 		<dict>
@@ -1302,7 +1476,15 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>topics/arrays/arrays.tex</string>
+		<string>topics/programs-and-compilers/compilers.tex</string>
+		<string>topics/programs-and-compilers/concepts/Terminal.tex</string>
+		<string>topics/program-creation/application/design-hello-world.tex</string>
+		<string>topics/programs-and-compilers/concepts/Challenges.tex</string>
+		<string>topics/programs-and-compilers/concepts/Program.tex</string>
+		<string>topics/programs-and-compilers/concepts/MachineCode.tex</string>
+		<string>topics/programs-and-compilers/concepts/Compiler.tex</string>
+		<string>topics/programs-and-compilers/concepts/HelloWorld.tex</string>
+		<string>topics/programs-and-compilers/concepts/ConceptTaxonomy.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1327,44 +1509,6 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict>
-						<key>c</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>pointers</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>pascal</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>pointers</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
 				<key>topics</key>
 				<dict>
 					<key>isExpanded</key>
@@ -1376,28 +1520,7 @@
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
-							<dict/>
-						</dict>
-						<key>dynamic-memory</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
 							<dict>
-								<key>application</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>c</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
 								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
@@ -1407,12 +1530,20 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>type-decl</key>
+						<key>programs-and-compilers</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
-							<dict/>
+							<dict>
+								<key>concepts</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
 						</dict>
 					</dict>
 				</dict>
@@ -1420,6 +1551,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {927, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
