@@ -5,7 +5,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGrafflePro</string>
-		<string>138.17.0.133677</string>
+		<string>138.19.0.152255</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2011-05-23 11:43:41 +1000</string>
@@ -42,7 +42,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2011-07-12 16:02:49 +1000</string>
+	<string>2011-07-15 12:21:41 +1000</string>
 	<key>Modifier</key>
 	<string>Andrew Cain</string>
 	<key>NotesVisible</key>
@@ -70,8 +70,8 @@
 		</array>
 		<key>NSPaperSize</key>
 		<array>
-			<string>size</string>
-			<string>{595, 842}</string>
+			<string>coded</string>
+			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU1ZhbHVlAISECE5TT2JqZWN0AIWEASqEhAx7X05TU2l6ZT1mZn2WgVMCgUoDhg==</string>
 		</array>
 		<key>NSRightMargin</key>
 		<array>
@@ -127,7 +127,7 @@
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{178.483, 253.599}, {86, 38}}</string>
+					<string>{{161.205, 277.265}, {86, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -207,9 +207,9 @@ number of}</string>
 					<integer>129</integer>
 					<key>Points</key>
 					<array>
-						<string>{401.978, 248.517}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{235.937, 240.951}</string>
-						<string>{227.253, 320.159}</string>
+						<string>{225.115, 339.656}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -269,9 +269,9 @@ number of}</string>
 					<integer>101</integer>
 					<key>Points</key>
 					<array>
-						<string>{402.102, 484.043}</string>
+						<string>{437.396, 502.114}</string>
 						<string>{368.541, 526.924}</string>
-						<string>{329.034, 504.576}</string>
+						<string>{295.011, 485.33}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -304,7 +304,7 @@ number of}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{252.15, 396.695}, {86, 38}}</string>
+					<string>{{244.097, 435.128}, {86, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -384,9 +384,9 @@ number of}</string>
 					<integer>99</integer>
 					<key>Points</key>
 					<array>
-						<string>{402.295, 267.228}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{302.538, 292.439}</string>
-						<string>{295.772, 465.83}</string>
+						<string>{295.011, 485.33}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -466,7 +466,7 @@ number of}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{366.352, 465.153}, {67, 38}}</string>
+					<string>{{397.588, 481.447}, {67, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -546,9 +546,9 @@ by all}</string>
 					<integer>96</integer>
 					<key>Points</key>
 					<array>
-						<string>{452.768, 477.149}</string>
+						<string>{521.363, 516.036}</string>
 						<string>{388.782, 482.762}</string>
-						<string>{396.699, 448.566}</string>
+						<string>{401.21, 429.079}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -579,7 +579,7 @@ by all}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{452.768, 454.026}, {94, 38}}</string>
+					<string>{{474.363, 497.036}, {94, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -659,9 +659,9 @@ global variables}</string>
 					<integer>94</integer>
 					<key>Points</key>
 					<array>
-						<string>{458.237, 270.86}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{432.024, 346.596}</string>
-						<string>{523.91, 514.525}</string>
+						<string>{534.546, 533.964}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -741,7 +741,7 @@ global variables}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{331.52, 343.984}, {86, 38}}</string>
+					<string>{{332.998, 372.188}, {86, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -821,9 +821,9 @@ number of}</string>
 					<integer>91</integer>
 					<key>Points</key>
 					<array>
-						<string>{425.408, 270.606}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{357.807, 303.439}</string>
-						<string>{394.483, 409.606}</string>
+						<string>{401.21, 429.079}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -903,7 +903,7 @@ number of}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{480.785, 303.164}, {119, 38}}</string>
+					<string>{{503.473, 319.181}, {119, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -992,9 +992,9 @@ from Libraries}</string>
 					<integer>88</integer>
 					<key>Points</key>
 					<array>
-						<string>{483.348, 270.75}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{517.483, 306.728}</string>
-						<string>{594.71, 355.375}</string>
+						<string>{625.295, 374.642}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1084,9 +1084,9 @@ from Libraries}</string>
 					<integer>64</integer>
 					<key>Points</key>
 					<array>
-						<string>{499.043, 232.141}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{542.171, 207.775}</string>
-						<string>{595.419, 193.218}</string>
+						<string>{644.641, 179.761}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1195,9 +1195,9 @@ instructions start}</string>
 					<integer>62</integer>
 					<key>Points</key>
 					<array>
-						<string>{401.985, 240.019}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{359.695, 232.387}</string>
-						<string>{377.072, 205.522}</string>
+						<string>{393.736, 179.761}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1296,7 +1296,7 @@ file}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{567.73, 226.014}, {125, 38}}</string>
+					<string>{{570.115, 226.442}, {125, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1385,9 +1385,9 @@ Each instruction is a }</string>
 					<integer>54</integer>
 					<key>Points</key>
 					<array>
-						<string>{527.976, 248.207}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{626.278, 243.245}</string>
-						<string>{648.669, 290.328}</string>
+						<string>{657.919, 309.78}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1418,7 +1418,7 @@ Each instruction is a }</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{471.668, 356.948}, {75, 38}}</string>
+					<string>{{497.572, 386.467}, {75, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1507,9 +1507,9 @@ that is an}</string>
 					<integer>52</integer>
 					<key>Points</key>
 					<array>
-						<string>{465.049, 270.887}</string>
+						<string>{464.977, 251.387}</string>
 						<string>{465.27, 330.649}</string>
-						<string>{562.471, 422.922}</string>
+						<string>{582.848, 442.266}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1729,14 +1729,6 @@ that is an}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -1761,7 +1753,7 @@ that is an}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{385.319, 189.156}, {103, 38}}</string>
+					<string>{{399.052, 195.323}, {103, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1837,9 +1829,9 @@ array is called an}</string>
 					<integer>144</integer>
 					<key>Points</key>
 					<array>
-						<string>{354.714, 185.238}</string>
+						<string>{291.716, 179}</string>
 						<string>{423, 192}</string>
-						<string>{452.567, 244.564}</string>
+						<string>{463.5, 264}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1871,9 +1863,9 @@ array is called an}</string>
 					<integer>143</integer>
 					<key>Points</key>
 					<array>
-						<string>{309.26, 293.006}</string>
+						<string>{302.081, 321.163}</string>
 						<string>{189, 304}</string>
-						<string>{156.757, 341.936}</string>
+						<string>{140.285, 361.317}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1975,9 +1967,9 @@ array is called an}</string>
 					<integer>141</integer>
 					<key>Points</key>
 					<array>
-						<string>{309.405, 292.686}</string>
+						<string>{302.303, 320.705}</string>
 						<string>{381, 312}</string>
-						<string>{403.881, 341.92}</string>
+						<string>{418.715, 361.317}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2039,9 +2031,9 @@ array is called an}</string>
 					<integer>139</integer>
 					<key>Points</key>
 					<array>
-						<string>{262.705, 159.723}</string>
+						<string>{291.716, 179}</string>
 						<string>{218, 130.019}</string>
-						<string>{171.133, 128.558}</string>
+						<string>{113.624, 126.765}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2116,7 +2108,7 @@ elements}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108.278, 185.658}, {87, 38}}</string>
+					<string>{{95.3988, 195.505}, {87, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2192,9 +2184,9 @@ data type for a}</string>
 					<integer>135</integer>
 					<key>Points</key>
 					<array>
-						<string>{228.716, 179.949}</string>
+						<string>{291.716, 179}</string>
 						<string>{159, 181}</string>
-						<string>{152.497, 244.503}</string>
+						<string>{150.5, 264}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2254,9 +2246,9 @@ data type for a}</string>
 					<integer>133</integer>
 					<key>Points</key>
 					<array>
-						<string>{344.646, 85.5118}</string>
+						<string>{335, 64.5118}</string>
 						<string>{366, 132}</string>
-						<string>{420, 133.662}</string>
+						<string>{463.5, 135}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2337,9 +2329,9 @@ or more indexes}</string>
 					<integer>131</integer>
 					<key>Points</key>
 					<array>
-						<string>{302.883, 159.566}</string>
+						<string>{291.716, 179}</string>
 						<string>{317, 135}</string>
-						<string>{329.637, 85.5118}</string>
+						<string>{335, 64.5118}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2449,9 +2441,9 @@ element of the array}</string>
 					<integer>62</integer>
 					<key>Points</key>
 					<array>
-						<string>{280.725, 159.565}</string>
+						<string>{291.716, 179}</string>
 						<string>{251, 107}</string>
-						<string>{213.644, 67}</string>
+						<string>{200.569, 53}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2522,7 +2514,7 @@ multiple values}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{274.902, 252.314}, {87, 38}}</string>
+					<string>{{273.116, 266.829}, {87, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2598,9 +2590,9 @@ data type for a}</string>
 					<integer>52</integer>
 					<key>Points</key>
 					<array>
-						<string>{301.13, 198.45}</string>
+						<string>{291.716, 179}</string>
 						<string>{324.785, 247.327}</string>
-						<string>{287.233, 341.852}</string>
+						<string>{279.5, 361.317}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2713,14 +2705,6 @@ data type for a}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -2757,7 +2741,7 @@ data type for a}</string>
 					<array>
 						<string>{313.855, 334}</string>
 						<string>{369, 355}</string>
-						<string>{412.68, 399.93}</string>
+						<string>{431.5, 419.289}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2809,7 +2793,7 @@ data type for a}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{474.454, 251.627}, {110, 24}}</string>
+					<string>{{493.975, 267.747}, {110, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2884,9 +2868,9 @@ data type for a}</string>
 					<integer>108</integer>
 					<key>Points</key>
 					<array>
-						<string>{400.779, 230.627}</string>
+						<string>{337.785, 220.544}</string>
 						<string>{515.57, 249}</string>
-						<string>{536.174, 299.792}</string>
+						<string>{544.07, 319.255}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2948,7 +2932,7 @@ data type for a}</string>
 					<array>
 						<string>{258.57, 325}</string>
 						<string>{313.855, 334}</string>
-						<string>{322.963, 449.502}</string>
+						<string>{324.5, 469}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3000,7 +2984,7 @@ data type for a}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{96.4697, 256.905}, {127, 24}}</string>
+					<string>{{78.1012, 278.589}, {127, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3075,9 +3059,9 @@ data type for a}</string>
 					<integer>98</integer>
 					<key>Points</key>
 					<array>
-						<string>{274.787, 225.835}</string>
+						<string>{337.785, 220.544}</string>
 						<string>{177.57, 234}</string>
-						<string>{153.595, 299.785}</string>
+						<string>{146.5, 319.255}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3127,7 +3111,7 @@ data type for a}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{223.814, 279.002}, {107, 38}}</string>
+					<string>{{239.19, 256.129}, {107, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3203,9 +3187,9 @@ to declare data for}</string>
 					<integer>95</integer>
 					<key>Points</key>
 					<array>
-						<string>{323.074, 239.942}</string>
+						<string>{337.785, 220.544}</string>
 						<string>{258.57, 325}</string>
-						<string>{225.181, 399.832}</string>
+						<string>{216.5, 419.289}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3346,14 +3330,6 @@ to declare data for}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -3378,7 +3354,7 @@ to declare data for}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{168.573, 538.057}, {147, 52}}</string>
+					<string>{{152.614, 561.67}, {147, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3457,9 +3433,9 @@ to access an individual}</string>
 					<integer>117</integer>
 					<key>Points</key>
 					<array>
-						<string>{284.746, 476.806}</string>
+						<string>{291.5, 457.334}</string>
 						<string>{266, 530.856}</string>
-						<string>{196.444, 621.134}</string>
+						<string>{181.5, 640.53}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3481,7 +3457,7 @@ to access an individual}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{27.8072, 488.933}, {159, 52}}</string>
+					<string>{{8.51402, 504.926}, {159, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3560,9 +3536,9 @@ to access its value}</string>
 					<integer>115</integer>
 					<key>Points</key>
 					<array>
-						<string>{228.505, 466.067}</string>
+						<string>{291.5, 457.334}</string>
 						<string>{128, 480}</string>
-						<string>{92.487, 566.537}</string>
+						<string>{84.5, 586}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3664,7 +3640,7 @@ to access its value}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{306.979, 302.106}, {101, 52}}</string>
+					<string>{{313.428, 301.51}, {101, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -3745,9 +3721,9 @@ calling a}</string>
 					<integer>111</integer>
 					<key>Points</key>
 					<array>
-						<string>{414.693, 244.752}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{336, 348}</string>
-						<string>{225.411, 374.348}</string>
+						<string>{162.5, 389.336}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3790,7 +3766,7 @@ calling a}</string>
 					<array>
 						<string>{479, 349}</string>
 						<string>{523, 386.278}</string>
-						<string>{560.98, 399.337}</string>
+						<string>{616.709, 418.5}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3933,7 +3909,7 @@ calling a}</string>
 					<array>
 						<string>{413.873, 362.334}</string>
 						<string>{441.746, 406.629}</string>
-						<string>{393.401, 492.42}</string>
+						<string>{382.449, 511.856}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4015,7 +3991,7 @@ calling a}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{335.373, 365.606}, {102, 52}}</string>
+					<string>{{308.457, 394.191}, {102, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4096,9 +4072,9 @@ and Constants}</string>
 					<integer>103</integer>
 					<key>Points</key>
 					<array>
-						<string>{427.256, 244.851}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{413.873, 362.334}</string>
-						<string>{316.37, 438.027}</string>
+						<string>{291.5, 457.334}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4170,9 +4146,9 @@ and Constants}</string>
 					<integer>101</integer>
 					<key>Points</key>
 					<array>
-						<string>{489.22, 206.525}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{543.5, 189.417}</string>
-						<string>{559.63, 174.833}</string>
+						<string>{582.855, 153.833}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4275,9 +4251,9 @@ of operations}</string>
 					<integer>99</integer>
 					<key>Points</key>
 					<array>
-						<string>{452.311, 206.031}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{484.646, 178.667}</string>
-						<string>{489.612, 118.709}</string>
+						<string>{490.771, 104.709}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4379,9 +4355,9 @@ mathematical operators}</string>
 					<integer>97</integer>
 					<key>Points</key>
 					<array>
-						<string>{391.279, 206.129}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{334.646, 177.626}</string>
-						<string>{323.454, 118.709}</string>
+						<string>{320.794, 104.709}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4473,7 +4449,7 @@ first and then used}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{286.218, 259.903}, {73, 38}}</string>
+					<string>{{247.189, 261.532}, {73, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4553,9 +4529,9 @@ values are }</string>
 					<integer>94</integer>
 					<key>Points</key>
 					<array>
-						<string>{399.094, 244.622}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{346.46, 278}</string>
-						<string>{253.499, 270.847}</string>
+						<string>{190.5, 266}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4635,7 +4611,7 @@ values are }</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{435.895, 331.283}, {94, 52}}</string>
+					<string>{{439.578, 339.869}, {94, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4716,10 +4692,10 @@ parameters in a}</string>
 					<integer>91</integer>
 					<key>Points</key>
 					<array>
-						<string>{437.273, 244.818}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{479, 349}</string>
 						<string>{521, 425}</string>
-						<string>{562.774, 465.248}</string>
+						<string>{582.855, 484.595}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4750,7 +4726,7 @@ parameters in a}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{502.605, 280.152}, {62, 24}}</string>
+					<string>{{537.617, 298.537}, {62, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4829,9 +4805,9 @@ parameters in a}</string>
 					<integer>89</integer>
 					<key>Points</key>
 					<array>
-						<string>{459.175, 244.626}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{524.473, 287}</string>
-						<string>{559.258, 304.071}</string>
+						<string>{598.424, 323.291}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4872,9 +4848,9 @@ parameters in a}</string>
 					<integer>88</integer>
 					<key>Points</key>
 					<array>
-						<string>{366.477, 223.221}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{323.188, 221.755}</string>
-						<string>{267.334, 189.417}</string>
+						<string>{231.063, 168.417}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4977,9 +4953,9 @@ in the code}</string>
 					<integer>86</integer>
 					<key>Points</key>
 					<array>
-						<string>{420.465, 205.9}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{408.979, 181.104}</string>
-						<string>{407.09, 62}</string>
+						<string>{406.979, 55}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5072,7 +5048,7 @@ in the code}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{577.424, 203.272}, {42, 24}}</string>
+					<string>{{605.894, 215.395}, {42, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5151,9 +5127,9 @@ in the code}</string>
 					<integer>83</integer>
 					<key>Points</key>
 					<array>
-						<string>{492.473, 217.425}</string>
+						<string>{429.477, 225.354}</string>
 						<string>{580.438, 206.354}</string>
-						<string>{616.446, 236.445}</string>
+						<string>{639.565, 255.766}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5422,14 +5398,6 @@ in the code}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -5454,7 +5422,7 @@ in the code}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{225.853, 358.966}, {125, 52}}</string>
+					<string>{{219.715, 384.138}, {125, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5532,9 +5500,9 @@ element in an
 					<integer>117</integer>
 					<key>Points</key>
 					<array>
-						<string>{243.914, 285.562}</string>
+						<string>{225.036, 266.204}</string>
 						<string>{304, 347.174}</string>
-						<string>{245.099, 445.847}</string>
+						<string>{233.501, 465.276}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5556,7 +5524,7 @@ element in an
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{72.9674, 309.471}, {164, 38}}</string>
+					<string>{{68.9532, 314.292}, {164, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5634,9 +5602,9 @@ to assign to a
 					<integer>115</integer>
 					<key>Points</key>
 					<array>
-						<string>{200.851, 285.516}</string>
+						<string>{225.036, 266.204}</string>
 						<string>{161.508, 316.933}</string>
-						<string>{134.63, 381.404}</string>
+						<string>{126.516, 400.866}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5748,8 +5716,8 @@ to assign to a
 					<integer>103</integer>
 					<key>Points</key>
 					<array>
-						<string>{358.802, 140.712}</string>
-						<string>{305.377, 103}</string>
+						<string>{386.128, 160}</string>
+						<string>{275.627, 82}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5821,7 +5789,7 @@ variable }</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{300.566, 259.902}, {161, 52}}</string>
+					<string>{{318.485, 290.397}, {161, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5898,9 +5866,9 @@ a statement is needed}</string>
 					<integer>100</integer>
 					<key>Points</key>
 					<array>
-						<string>{376.776, 179.451}</string>
+						<string>{386.128, 160}</string>
 						<string>{348.627, 238}</string>
-						<string>{411.531, 321.6}</string>
+						<string>{426.128, 341}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -5950,7 +5918,7 @@ a statement is needed}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{478.332, 180.813}, {118, 52}}</string>
+					<string>{{493.413, 193.937}, {118, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -6027,9 +5995,9 @@ calculated in an}</string>
 					<integer>97</integer>
 					<key>Points</key>
 					<array>
-						<string>{449.123, 168.58}</string>
+						<string>{386.128, 160}</string>
 						<string>{525.627, 179}</string>
-						<string>{542.18, 246.718}</string>
+						<string>{546.943, 266.204}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6079,7 +6047,7 @@ calculated in an}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{167.971, 185.735}, {118, 24}}</string>
+					<string>{{155.476, 194.084}, {118, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -6154,9 +6122,9 @@ calculated in an}</string>
 					<integer>94</integer>
 					<key>Points</key>
 					<array>
-						<string>{323.131, 167.953}</string>
+						<string>{386.128, 160}</string>
 						<string>{235.627, 179}</string>
-						<string>{227.403, 246.708}</string>
+						<string>{225.036, 266.204}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6297,14 +6265,6 @@ calculated in an}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -6339,9 +6299,9 @@ calculated in an}</string>
 					<integer>151</integer>
 					<key>Points</key>
 					<array>
-						<string>{334.627, 449.679}</string>
+						<string>{358.384, 476.875}</string>
 						<string>{426.886, 451.852}</string>
-						<string>{491.976, 410.767}</string>
+						<string>{522.5, 391.5}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6365,7 +6325,7 @@ calculated in an}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{596.795, 331.889}, {75, 24}}</string>
+					<string>{{602.885, 330.409}, {75, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -6405,11 +6365,6 @@ calculated in an}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -6447,9 +6402,9 @@ calculated in an}</string>
 					<integer>149</integer>
 					<key>Points</key>
 					<array>
-						<string>{580.073, 372.342}</string>
+						<string>{522.5, 391.5}</string>
 						<string>{630.518, 355.556}</string>
-						<string>{630.871, 308.537}</string>
+						<string>{631.018, 289.037}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6499,7 +6454,7 @@ calculated in an}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{528.597, 428.562}, {127, 24}}</string>
+					<string>{{531.047, 433.742}, {127, 24}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -6539,11 +6494,6 @@ calculated in an}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -6581,9 +6531,9 @@ calculated in an}</string>
 					<integer>146</integer>
 					<key>Points</key>
 					<array>
-						<string>{563.5, 410.712}</string>
+						<string>{522.5, 391.5}</string>
 						<string>{602, 428.753}</string>
-						<string>{545.965, 474.884}</string>
+						<string>{522.5, 494.202}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6605,7 +6555,7 @@ calculated in an}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{443.097, 309.429}, {71, 38}}</string>
+					<string>{{433.922, 307.416}, {71, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -6645,11 +6595,6 @@ calculated in an}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -6688,9 +6633,9 @@ number of}</string>
 					<integer>144</integer>
 					<key>Points</key>
 					<array>
-						<string>{376.716, 331.268}</string>
+						<string>{313.716, 332}</string>
 						<string>{485.727, 330}</string>
-						<string>{510.883, 372.071}</string>
+						<string>{522.5, 391.5}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6735,14 +6680,6 @@ number of}</string>
 					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>CornerRadius</key>
@@ -6786,14 +6723,6 @@ Type}</string>
 					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>CornerRadius</key>
@@ -6824,9 +6753,9 @@ Field}</string>
 					<integer>141</integer>
 					<key>Points</key>
 					<array>
-						<string>{334.969, 450.247}</string>
+						<string>{358.64, 477.553}</string>
 						<string>{252.886, 445.859}</string>
-						<string>{270.934, 530.006}</string>
+						<string>{275.114, 549.495}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6888,9 +6817,9 @@ Field}</string>
 					<integer>139</integer>
 					<key>Points</key>
 					<array>
-						<string>{284.705, 312.723}</string>
+						<string>{313.716, 332}</string>
 						<string>{240, 283.019}</string>
-						<string>{196.633, 281.667}</string>
+						<string>{135.624, 279.765}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -6965,7 +6894,7 @@ fields}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{130.588, 348.505}, {87, 38}}</string>
+					<string>{{117.78, 360.024}, {87, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -7005,11 +6934,6 @@ fields}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -7048,9 +6972,9 @@ data type for a}</string>
 					<integer>135</integer>
 					<key>Points</key>
 					<array>
-						<string>{250.716, 332.949}</string>
+						<string>{313.716, 332}</string>
 						<string>{181, 334}</string>
-						<string>{175.189, 411.683}</string>
+						<string>{173.731, 431.182}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7110,9 +7034,9 @@ data type for a}</string>
 					<integer>131</integer>
 					<key>Points</key>
 					<array>
-						<string>{324.883, 312.566}</string>
+						<string>{313.716, 332}</string>
 						<string>{339, 288}</string>
-						<string>{351.637, 238.512}</string>
+						<string>{357, 217.512}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7222,9 +7146,9 @@ a record}</string>
 					<integer>62</integer>
 					<key>Points</key>
 					<array>
-						<string>{302.725, 312.565}</string>
+						<string>{313.716, 332}</string>
 						<string>{273, 260}</string>
-						<string>{235.644, 220}</string>
+						<string>{222.569, 206}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7295,7 +7219,7 @@ multiple fiels}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{251.408, 380.441}, {113, 52}}</string>
+					<string>{{261.956, 382.041}, {113, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -7372,9 +7296,9 @@ declare the type for}</string>
 					<integer>52</integer>
 					<key>Points</key>
 					<array>
-						<string>{217.588, 372.55}</string>
+						<string>{161.28, 379.024}</string>
 						<string>{285.307, 380.404}</string>
-						<string>{350.974, 475.448}</string>
+						<string>{364.386, 494.859}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7487,14 +7411,6 @@ declare the type for}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -7529,9 +7445,9 @@ declare the type for}</string>
 					<integer>141</integer>
 					<key>Points</key>
 					<array>
-						<string>{425.396, 431.616}</string>
+						<string>{453.694, 456.017}</string>
 						<string>{353, 450}</string>
-						<string>{380.276, 514.539}</string>
+						<string>{388.5, 534}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7583,7 +7499,7 @@ declare the type for}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{171.778, 351.658}, {87, 38}}</string>
+					<string>{{158.899, 361.505}, {87, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -7659,9 +7575,9 @@ data type for a}</string>
 					<integer>135</integer>
 					<key>Points</key>
 					<array>
-						<string>{292.216, 345.949}</string>
+						<string>{355.216, 345}</string>
 						<string>{222.5, 347}</string>
-						<string>{215.997, 410.503}</string>
+						<string>{214, 430}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7721,9 +7637,9 @@ data type for a}</string>
 					<integer>131</integer>
 					<key>Points</key>
 					<array>
-						<string>{366.383, 325.566}</string>
+						<string>{355.216, 345}</string>
 						<string>{380.5, 301}</string>
-						<string>{395.232, 292}</string>
+						<string>{418.149, 278}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7832,9 +7748,9 @@ options or flags}</string>
 					<integer>62</integer>
 					<key>Points</key>
 					<array>
-						<string>{338.964, 325.617}</string>
+						<string>{355.216, 345}</string>
 						<string>{320, 303}</string>
-						<string>{295.138, 298.501}</string>
+						<string>{242.638, 289}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -7905,7 +7821,7 @@ of related constants}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{344.773, 393.702}, {138, 38}}</string>
+					<string>{{367.337, 406.212}, {138, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -7981,9 +7897,9 @@ type to declare}</string>
 					<integer>52</integer>
 					<key>Points</key>
 					<array>
-						<string>{258.778, 377.095}</string>
+						<string>{202.399, 380.505}</string>
 						<string>{393.285, 397}</string>
-						<string>{441.515, 461.599}</string>
+						<string>{456, 481}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -8096,14 +8012,6 @@ type to declare}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -8205,14 +8113,6 @@ type to declare}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -8696,11 +8596,6 @@ Array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -8748,7 +8643,7 @@ is at index 3, etc...}</string>
 					<integer>269</integer>
 					<key>Points</key>
 					<array>
-						<string>{295.88, 458.759}</string>
+						<string>{274.167, 477.759}</string>
 						<string>{438.833, 333.667}</string>
 						<string>{448.127, 282.109}</string>
 					</array>
@@ -8799,11 +8694,6 @@ is at index 3, etc...}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -8851,7 +8741,7 @@ is at index 2}</string>
 					<integer>267</integer>
 					<key>Points</key>
 					<array>
-						<string>{225.19, 422.808}</string>
+						<string>{203.362, 441.808}</string>
 						<string>{345.485, 318.097}</string>
 						<string>{356.718, 280.527}</string>
 					</array>
@@ -8902,11 +8792,6 @@ is at index 2}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -8954,7 +8839,7 @@ is at index 1}</string>
 					<integer>265</integer>
 					<key>Points</key>
 					<array>
-						<string>{161.057, 390.858}</string>
+						<string>{137.833, 409.858}</string>
 						<string>{251.333, 317}</string>
 						<string>{259.234, 280.264}</string>
 					</array>
@@ -9005,11 +8890,6 @@ is at index 1}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -9062,9 +8942,9 @@ is at index 0}</string>
 					<integer>263</integer>
 					<key>Points</key>
 					<array>
-						<string>{103.129, 352.858}</string>
+						<string>{76.1667, 371.858}</string>
 						<string>{156.379, 315.333}</string>
-						<string>{158.722, 281.097}</string>
+						<string>{160.144, 260.32}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -9091,7 +8971,7 @@ is at index 0}</string>
 					<integer>57</integer>
 					<key>Points</key>
 					<array>
-						<string>{50.7443, 276.461}</string>
+						<string>{50.1667, 264.648}</string>
 						<string>{52.0337, 302.833}</string>
 						<string>{101.309, 303.955}</string>
 					</array>
@@ -9142,11 +9022,6 @@ is at index 0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -9216,11 +9091,6 @@ values}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -9276,7 +9146,7 @@ the array}</string>
 					<integer>259</integer>
 					<key>Points</key>
 					<array>
-						<string>{112.658, 183}</string>
+						<string>{90.3093, 164}</string>
 						<string>{141.867, 207.833}</string>
 						<string>{155.776, 257.607}</string>
 					</array>
@@ -9383,11 +9253,6 @@ the array}</string>
 										<string>1</string>
 										<key>r</key>
 										<string>1</string>
-									</dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
 									</dict>
 								</dict>
 								<key>shadow</key>
@@ -9501,11 +9366,6 @@ the array}</string>
 										<string>1</string>
 										<key>r</key>
 										<string>1</string>
-									</dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
 									</dict>
 								</dict>
 								<key>shadow</key>
@@ -9660,14 +9520,6 @@ Variable}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -9767,14 +9619,6 @@ Variable}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -9795,7 +9639,7 @@ Variable}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{197.475, 194.205}, {75, 38}}</string>
+					<string>{{219.576, 232.007}, {75, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -9831,11 +9675,6 @@ Variable}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -9889,9 +9728,9 @@ store multiple values}</string>
 					<integer>252</integer>
 					<key>Points</key>
 					<array>
-						<string>{257.375, 246.483}</string>
+						<string>{286.528, 293.738}</string>
 						<string>{226.333, 196.167}</string>
-						<string>{233.894, 167.159}</string>
+						<string>{234.146, 166.192}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -9913,7 +9752,7 @@ store multiple values}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{370.842, 184.713}, {149, 52}}</string>
+					<string>{{375.439, 180.126}, {149, 52}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -9949,11 +9788,6 @@ store multiple values}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -10008,9 +9842,9 @@ are interpreted}</string>
 					<integer>156</integer>
 					<key>Points</key>
 					<array>
-						<string>{446.799, 164.525}</string>
+						<string>{445.088, 145.667}</string>
 						<string>{450.5, 205.333}</string>
-						<string>{368.869, 260.993}</string>
+						<string>{360.906, 266.423}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -10088,14 +9922,6 @@ are interpreted}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -10123,7 +9949,7 @@ Type}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{470.595, 387.514}, {75, 38}}</string>
+					<string>{{460.389, 415.777}, {75, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -10159,11 +9985,6 @@ Type}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -10218,7 +10039,7 @@ that is an}</string>
 					<array>
 						<string>{491.053, 338.64}</string>
 						<string>{521.367, 368.667}</string>
-						<string>{493.094, 437.819}</string>
+						<string>{485.345, 456.773}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -10298,14 +10119,6 @@ that is an}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -10405,14 +10218,6 @@ Identifier}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -11019,14 +10824,6 @@ Array}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -11078,11 +10875,6 @@ Array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11131,7 +10923,7 @@ one byte (8 bits)}</string>
 					<integer>435</integer>
 					<key>Points</key>
 					<array>
-						<string>{466.599, 365.182}</string>
+						<string>{488.898, 385.021}</string>
 						<string>{449.668, 350.119}</string>
 						<string>{432.077, 325.947}</string>
 					</array>
@@ -11255,11 +11047,6 @@ one byte (8 bits)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11320,7 +11107,7 @@ element size}</string>
 					<integer>430</integer>
 					<key>Points</key>
 					<array>
-						<string>{451.037, 283.072}</string>
+						<string>{480.874, 268.635}</string>
 						<string>{435.897, 290.398}</string>
 						<string>{434.574, 305.675}</string>
 					</array>
@@ -11394,11 +11181,6 @@ element size}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11459,7 +11241,7 @@ element size}</string>
 					<integer>427</integer>
 					<key>Points</key>
 					<array>
-						<string>{407.697, 252.59}</string>
+						<string>{417.989, 238.153}</string>
 						<string>{386.439, 282.411}</string>
 						<string>{385.744, 305.675}</string>
 					</array>
@@ -11510,11 +11292,6 @@ element size}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11563,7 +11340,7 @@ arr
 					<integer>425</integer>
 					<key>Points</key>
 					<array>
-						<string>{288.307, 398.958}</string>
+						<string>{283.417, 407.715}</string>
 						<string>{315.064, 351.042}</string>
 						<string>{319.078, 325.947}</string>
 					</array>
@@ -11637,11 +11414,6 @@ arr
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11702,7 +11474,7 @@ arr + 0 *
 					<integer>422</integer>
 					<key>Points</key>
 					<array>
-						<string>{336.549, 222.108}</string>
+						<string>{339.681, 207.671}</string>
 						<string>{327.911, 261.925}</string>
 						<string>{335.744, 305.675}</string>
 					</array>
@@ -11803,11 +11575,6 @@ arr + 0 *
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -11876,11 +11643,6 @@ arr + 0 *
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -12038,11 +11800,6 @@ arr + 0 *
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -12096,7 +11853,7 @@ arr[2]}</string>
 					<integer>310</integer>
 					<key>Points</key>
 					<array>
-						<string>{171.77, 270.412}</string>
+						<string>{162.62, 261.655}</string>
 						<string>{182.857, 281.023}</string>
 						<string>{187.954, 300.01}</string>
 					</array>
@@ -12147,11 +11904,6 @@ arr[2]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -12203,9 +11955,9 @@ arr[1]}</string>
 					<integer>308</integer>
 					<key>Points</key>
 					<array>
-						<string>{119.403, 258.26}</string>
+						<string>{110.541, 249.503}</string>
 						<string>{137.871, 276.509}</string>
-						<string>{141.812, 294.07}</string>
+						<string>{142.536, 297.301}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -12254,11 +12006,6 @@ arr[1]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -12310,9 +12057,9 @@ arr[0]}</string>
 					<integer>259</integer>
 					<key>Points</key>
 					<array>
-						<string>{67.1372, 243.329}</string>
+						<string>{58.4617, 234.572}</string>
 						<string>{93.9682, 270.412}</string>
-						<string>{100.425, 297.609}</string>
+						<string>{100.995, 300.01}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -12411,14 +12158,6 @@ arr[0]}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -12952,14 +12691,6 @@ Array (arr)}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -13056,7 +12787,7 @@ Array (arr)}</string>
 					<integer>428</integer>
 					<key>Points</key>
 					<array>
-						<string>{36.6486, 148.719}</string>
+						<string>{41.7245, 136.906}</string>
 						<string>{27.5918, 169.796}</string>
 						<string>{41.7983, 187.423}</string>
 					</array>
@@ -13107,11 +12838,6 @@ Array (arr)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -13204,11 +12930,6 @@ In this array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -13327,14 +13048,6 @@ In this array}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -13918,11 +13631,6 @@ Array (Data)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -13993,11 +13701,6 @@ the value that is to be stored}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -14092,11 +13795,6 @@ want the value stored at}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -14167,11 +13865,6 @@ the array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -14224,7 +13917,7 @@ Calculated}</string>
 					<integer>194</integer>
 					<key>Points</key>
 					<array>
-						<string>{347.036, 155.906}</string>
+						<string>{356.5, 136.906}</string>
 						<string>{339.633, 170.77}</string>
 						<string>{179.809, 153.594}</string>
 						<string>{88.8082, 198.252}</string>
@@ -14249,7 +13942,7 @@ Calculated}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{373.777, 158.152}, {121, 38}}</string>
+					<string>{{393.664, 129.872}, {121, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -14289,11 +13982,6 @@ Calculated}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -14346,7 +14034,7 @@ an Expression}</string>
 					<integer>140</integer>
 					<key>Points</key>
 					<array>
-						<string>{458.677, 144.129}</string>
+						<string>{472.5, 124.818}</string>
 						<string>{417, 202.353}</string>
 						<string>{410, 228.235}</string>
 						<string>{362.353, 212.353}</string>
@@ -14441,14 +14129,6 @@ an Expression}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -14724,14 +14404,6 @@ Expression}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -14977,11 +14649,6 @@ Expression}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -15052,11 +14719,6 @@ the value that is to be stored}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -15150,11 +14812,6 @@ another array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -15224,11 +14881,6 @@ it in this array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -15276,7 +14928,7 @@ in this array}</string>
 					<integer>194</integer>
 					<key>Points</key>
 					<array>
-						<string>{343.94, 135.223}</string>
+						<string>{353.403, 116.223}</string>
 						<string>{336.536, 150.087}</string>
 						<string>{176.712, 132.911}</string>
 						<string>{113.968, 159.968}</string>
@@ -15361,14 +15013,6 @@ in this array}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -15506,7 +15150,7 @@ Expression}</string>
 					<integer>448</integer>
 					<key>Points</key>
 					<array>
-						<string>{371.707, 233.596}</string>
+						<string>{372.299, 235.997}</string>
 						<string>{358.273, 179.032}</string>
 						<string>{91.2581, 175.166}</string>
 						<string>{53.5434, 233.596}</string>
@@ -15554,7 +15198,7 @@ Expression}</string>
 					<integer>447</integer>
 					<key>Points</key>
 					<array>
-						<string>{411.789, 230.057}</string>
+						<string>{413.84, 233.288}</string>
 						<string>{384, 186.29}</string>
 						<string>{116.258, 181.452}</string>
 						<string>{93.2225, 233.288}</string>
@@ -15600,7 +15244,7 @@ Expression}</string>
 					<integer>446</integer>
 					<key>Points</key>
 					<array>
-						<string>{456.921, 233.596}</string>
+						<string>{459.258, 235.997}</string>
 						<string>{420.29, 195.968}</string>
 						<string>{153.355, 187.097}</string>
 						<string>{140.13, 233.596}</string>
@@ -15713,14 +15357,6 @@ Expression}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -16252,14 +15888,6 @@ Array (Other)}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -16777,14 +16405,6 @@ Array (Data)}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -16836,11 +16456,6 @@ Array (Data)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -16895,7 +16510,7 @@ an Expression}</string>
 					<integer>425</integer>
 					<key>Points</key>
 					<array>
-						<string>{216.303, 407.784}</string>
+						<string>{172.32, 424.675}</string>
 						<string>{242.903, 397.569}</string>
 						<string>{233.528, 374.148}</string>
 					</array>
@@ -16946,11 +16561,6 @@ an Expression}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -17019,7 +16629,7 @@ i
 					<integer>417</integer>
 					<key>Points</key>
 					<array>
-						<string>{465.823, 412.5}</string>
+						<string>{410.397, 439.292}</string>
 						<string>{486.653, 402.431}</string>
 						<string>{473.111, 374.148}</string>
 					</array>
@@ -17133,7 +16743,7 @@ i
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{17.6304, 248.726}, {155.346, 38}}</string>
+					<string>{{19.3004, 237.194}, {155.346, 38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -17169,11 +16779,6 @@ i
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -17222,7 +16827,7 @@ from array(s)}</string>
 					<integer>140</integer>
 					<key>Points</key>
 					<array>
-						<string>{126.713, 204.256}</string>
+						<string>{136.02, 185.044}</string>
 						<string>{95.3378, 269.027}</string>
 						<string>{132.838, 318.241}</string>
 					</array>
@@ -17256,9 +16861,9 @@ from array(s)}</string>
 					<integer>86</integer>
 					<key>Points</key>
 					<array>
-						<string>{129.752, 166.899}</string>
+						<string>{136.02, 185.044}</string>
 						<string>{123.067, 147.544}</string>
-						<string>{94.2466, 131.044}</string>
+						<string>{82.0198, 124.044}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -17307,11 +16912,6 @@ from array(s)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -17409,14 +17009,6 @@ Is a value.}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -17444,7 +17036,7 @@ Expression}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{332.871, 291.671}, {44, 11}}</string>
+					<string>{{330.914, 292.581}, {44, 11}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -17537,7 +17129,7 @@ Expression}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{195.329, 292.711}, {44, 11}}</string>
+					<string>{{197.719, 295.072}, {44, 11}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -17623,11 +17215,6 @@ Expression}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -17683,7 +17270,7 @@ from array elements}</string>
 						<string>{184.222, 321.214}</string>
 						<string>{194.792, 301.042}</string>
 						<string>{239.778, 291.418}</string>
-						<string>{240.818, 240.026}</string>
+						<string>{240.978, 232.135}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -17846,14 +17433,6 @@ from array elements}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -18371,14 +17950,6 @@ Array (Data)}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -18413,9 +17984,9 @@ Array (Data)}</string>
 					<integer>809</integer>
 					<key>Points</key>
 					<array>
-						<string>{432.389, 406.811}</string>
+						<string>{366.675, 427.811}</string>
 						<string>{448.786, 401}</string>
-						<string>{449.826, 373.81}</string>
+						<string>{450.632, 352.723}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -18468,11 +18039,6 @@ Array (Data)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -18528,7 +18094,7 @@ lowest index to its highest index.}</string>
 					<integer>796</integer>
 					<key>Points</key>
 					<array>
-						<string>{245, 139.233}</string>
+						<string>{309.5, 124.591}</string>
 						<string>{224, 144}</string>
 						<string>{212.448, 207.576}</string>
 					</array>
@@ -18579,11 +18145,6 @@ lowest index to its highest index.}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -18655,11 +18216,6 @@ of value (eg. 0 to 2)}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -18740,9 +18296,9 @@ an array}</string>
 					<integer>790</integer>
 					<key>Points</key>
 					<array>
-						<string>{477.434, 175.423}</string>
+						<string>{446.786, 151.212}</string>
 						<string>{497.151, 191}</string>
-						<string>{505.607, 213.391}</string>
+						<string>{509.572, 223.891}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -18774,9 +18330,9 @@ an array}</string>
 					<integer>789</integer>
 					<key>Points</key>
 					<array>
-						<string>{441.181, 175.423}</string>
+						<string>{446.786, 151.212}</string>
 						<string>{437, 193.482}</string>
-						<string>{444.786, 217.676}</string>
+						<string>{446.786, 223.891}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -18808,9 +18364,9 @@ an array}</string>
 					<integer>788</integer>
 					<key>Points</key>
 					<array>
-						<string>{396.421, 174.909}</string>
+						<string>{446.786, 151.212}</string>
 						<string>{381.35, 182}</string>
-						<string>{383.336, 213.391}</string>
+						<string>{384, 223.891}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -18859,11 +18415,6 @@ an array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -19126,14 +18677,6 @@ range of values}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -19706,7 +19249,7 @@ element}</string>
 					<integer>212</integer>
 					<key>Points</key>
 					<array>
-						<string>{252.726, 262.263}</string>
+						<string>{241.233, 286.475}</string>
 						<string>{260.321, 246.263}</string>
 						<string>{296.168, 267.102}</string>
 					</array>
@@ -19770,11 +19313,6 @@ element}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -20110,14 +19648,6 @@ For Loop\
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -20204,14 +19734,6 @@ For Loop\
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -20383,11 +19905,6 @@ For Loop\
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -20457,11 +19974,6 @@ a sequence (string) of characters}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -20532,11 +20044,6 @@ of characters}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -20584,7 +20091,7 @@ overhead}</string>
 					<integer>833</integer>
 					<key>Points</key>
 					<array>
-						<string>{472.442, 294.532}</string>
+						<string>{477.911, 280.86}</string>
 						<string>{467.398, 307.143}</string>
 						<string>{472.245, 350.728}</string>
 					</array>
@@ -21611,14 +21118,6 @@ overhead}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -22370,14 +21869,6 @@ Array}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -22918,14 +22409,6 @@ Array}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -23470,7 +22953,7 @@ Array}</string>
 						<string>{242.58, 610.1}</string>
 						<string>{313.383, 590.976}</string>
 						<string>{424.963, 612.817}</string>
-						<string>{447.763, 589.269}</string>
+						<string>{456.312, 580.441}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -23497,9 +22980,9 @@ Array}</string>
 					<integer>439</integer>
 					<key>Points</key>
 					<array>
-						<string>{242.29, 610.1}</string>
+						<string>{264.277, 630.6}</string>
 						<string>{212.7, 582.512}</string>
-						<string>{171.649, 577.848}</string>
+						<string>{146.237, 574.96}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -23548,11 +23031,6 @@ Array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -23656,14 +23134,6 @@ String values}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -23747,14 +23217,6 @@ Parameter}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -23894,14 +23356,6 @@ Instruction 5\
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -23997,14 +23451,6 @@ Procedure}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -24035,9 +23481,9 @@ Procedure}</string>
 					<integer>427</integer>
 					<key>Points</key>
 					<array>
-						<string>{223.748, 538.165}</string>
+						<string>{271.656, 558.665}</string>
 						<string>{207.156, 531.065}</string>
-						<string>{168.595, 534.801}</string>
+						<string>{143.754, 537.207}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -24086,11 +23532,6 @@ Procedure}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -24222,11 +23663,6 @@ be a String value}</string>
 												<key>r</key>
 												<string>1</string>
 											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
 										</dict>
 										<key>shadow</key>
 										<dict>
@@ -24339,11 +23775,6 @@ be a String value}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -24498,14 +23929,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -24605,14 +24028,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -24716,11 +24131,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -24834,11 +24244,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -24993,14 +24398,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -25100,14 +24497,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -25192,14 +24581,6 @@ Variable}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -25287,14 +24668,6 @@ Result}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -25382,14 +24755,6 @@ Parameter}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -25538,14 +24903,6 @@ Parameter}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -25645,14 +25002,6 @@ Function}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -25674,7 +25023,7 @@ Function}</string>
 					<integer>425</integer>
 					<key>Points</key>
 					<array>
-						<string>{133.965, 463.718}</string>
+						<string>{106.965, 484.218}</string>
 						<string>{144.464, 455.747}</string>
 						<string>{144.465, 437.809}</string>
 					</array>
@@ -25725,11 +25074,6 @@ Function}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -25845,9 +25189,9 @@ String}</string>
 					<integer>175</integer>
 					<key>Points</key>
 					<array>
-						<string>{266.827, 175.758}</string>
+						<string>{269.872, 186.258}</string>
 						<string>{257.15, 142.394}</string>
-						<string>{205.178, 146.772}</string>
+						<string>{144.069, 151.919}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -25896,11 +25240,6 @@ String}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -25999,14 +25338,6 @@ a Type}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -26097,14 +25428,6 @@ Type}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -26142,7 +25465,7 @@ Type}</string>
 						<string>{323.481, 229.007}</string>
 						<string>{349.378, 161.607}</string>
 						<string>{451.605, 175}</string>
-						<string>{499.727, 207.02}</string>
+						<string>{517.522, 218.86}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -26185,10 +25508,10 @@ Type}</string>
 					<integer>357</integer>
 					<key>Points</key>
 					<array>
-						<string>{285.291, 227.345}</string>
+						<string>{284.606, 229.012}</string>
 						<string>{307.571, 173.117}</string>
 						<string>{422.75, 181.085}</string>
-						<string>{455.661, 204.713}</string>
+						<string>{472.879, 217.074}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -26293,14 +25616,6 @@ Type}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -26432,9 +25747,9 @@ Array}</string>
 					<integer>200</integer>
 					<key>Points</key>
 					<array>
-						<string>{384.999, 435.829}</string>
+						<string>{390.791, 436.326}</string>
 						<string>{221.176, 421.765}</string>
-						<string>{177.959, 385.008}</string>
+						<string>{135.631, 349.008}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -26468,7 +25783,7 @@ Array}</string>
 					<array>
 						<string>{341.118, 316}</string>
 						<string>{379, 302.041}</string>
-						<string>{427.145, 389.523}</string>
+						<string>{453.425, 437.274}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -26607,14 +25922,6 @@ Array}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -27134,14 +26441,6 @@ Array}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -27237,14 +26536,6 @@ Array}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -27350,14 +26641,6 @@ Parameter\
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -28314,14 +27597,6 @@ Array}</string>
 							</dict>
 							<key>Style</key>
 							<dict>
-								<key>fill</key>
-								<dict>
-									<key>GradientColor</key>
-									<dict>
-										<key>w</key>
-										<string>0.666667</string>
-									</dict>
-								</dict>
 								<key>shadow</key>
 								<dict>
 									<key>Draws</key>
@@ -28848,14 +28123,6 @@ Parameter\
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -28964,14 +28231,6 @@ Parameter\
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -29086,11 +28345,6 @@ Parameter\
 												<key>r</key>
 												<string>1</string>
 											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
 										</dict>
 										<key>shadow</key>
 										<dict>
@@ -29203,11 +28457,6 @@ Parameter\
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -29362,14 +28611,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -29469,14 +28710,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -29580,11 +28813,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -29698,11 +28926,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -29857,14 +29080,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -29964,14 +29179,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -30075,11 +29282,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -30193,11 +29395,6 @@ Variable}</string>
 												<string>1</string>
 												<key>r</key>
 												<string>1</string>
-											</dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
 											</dict>
 										</dict>
 										<key>shadow</key>
@@ -30352,14 +29549,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -30459,14 +29648,6 @@ Variable}</string>
 									</dict>
 									<key>Style</key>
 									<dict>
-										<key>fill</key>
-										<dict>
-											<key>GradientColor</key>
-											<dict>
-												<key>w</key>
-												<string>0.666667</string>
-											</dict>
-										</dict>
 										<key>shadow</key>
 										<dict>
 											<key>Draws</key>
@@ -30522,11 +29703,6 @@ Variable}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -30603,11 +29779,6 @@ is passed to the\
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -30662,10 +29833,10 @@ into Parameter}</string>
 					<integer>255</integer>
 					<key>Points</key>
 					<array>
-						<string>{243.807, 227.178}</string>
+						<string>{242.523, 228.56}</string>
 						<string>{279, 189.286}</string>
 						<string>{385.284, 191.964}</string>
-						<string>{408.826, 204.842}</string>
+						<string>{427.953, 215.305}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -30729,11 +29900,6 @@ into Parameter}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -30905,14 +30071,6 @@ Instruction 3\
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -31012,14 +30170,6 @@ Function or Procedure}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -31099,14 +30249,6 @@ Function or Procedure}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -31447,14 +30589,6 @@ Function or Procedure}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -32265,6 +31399,8 @@ Read Double}</string>
 					<integer>842</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{112.929, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -32311,6 +31447,8 @@ Read Double}</string>
 					<integer>888</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 508.354}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>49.199951171875</real>
 					<key>Points</key>
@@ -32357,11 +31495,13 @@ Read Double}</string>
 					<integer>886</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 425.76}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>49.199951171875</real>
 					<key>Points</key>
 					<array>
-						<string>{356.921, 414.964}</string>
+						<string>{356.921, 414.464}</string>
 						<string>{356.921, 437.057}</string>
 					</array>
 					<key>Style</key>
@@ -32403,6 +31543,8 @@ Read Double}</string>
 					<integer>854</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{292.292, 599.55}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>49.199951171875</real>
 					<key>Points</key>
@@ -32451,12 +31593,14 @@ Read Double}</string>
 					<integer>851</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{170.296, 505.644}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>225.64288330078125</real>
 					<key>Points</key>
 					<array>
 						<string>{112.929, 366.072}</string>
-						<string>{227.663, 644.717}</string>
+						<string>{227.663, 645.217}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -32499,6 +31643,8 @@ Read Double}</string>
 					<integer>843</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -32545,11 +31691,13 @@ Read Double}</string>
 					<integer>841</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 269.98}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{227.663, 256.459}</string>
+						<string>{227.663, 255.959}</string>
 						<string>{227.663, 284.002}</string>
 					</array>
 					<key>Style</key>
@@ -32591,6 +31739,8 @@ Read Double}</string>
 					<integer>834</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 95.1956}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -32637,6 +31787,8 @@ Read Double}</string>
 					<integer>835</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 182.371}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -32683,11 +31835,13 @@ Read Double}</string>
 					<integer>857</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 717.109}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{227.663, 705.717}</string>
+						<string>{227.663, 705.217}</string>
 						<string>{227.663, 729}</string>
 					</array>
 					<key>Style</key>
@@ -32775,14 +31929,6 @@ Read Double}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -33241,6 +32387,8 @@ Populate Array}</string>
 					<integer>842</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{112.929, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -33287,11 +32435,13 @@ Populate Array}</string>
 					<integer>886</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 425.76}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>49.199951171875</real>
 					<key>Points</key>
 					<array>
-						<string>{356.921, 414.964}</string>
+						<string>{356.921, 414.464}</string>
 						<string>{356.921, 437.057}</string>
 					</array>
 					<key>Style</key>
@@ -33333,6 +32483,8 @@ Populate Array}</string>
 					<integer>854</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{292.292, 516.957}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>49.199951171875</real>
 					<key>Points</key>
@@ -33381,6 +32533,8 @@ Populate Array}</string>
 					<integer>851</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{170.297, 464.718}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>147.28570556640625</real>
 					<key>Points</key>
@@ -33429,6 +32583,8 @@ Populate Array}</string>
 					<integer>843</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -33475,11 +32631,13 @@ Populate Array}</string>
 					<integer>841</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 266.64}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{227.663, 249.778}</string>
+						<string>{227.663, 249.278}</string>
 						<string>{227.663, 284.002}</string>
 					</array>
 					<key>Style</key>
@@ -33567,14 +32725,6 @@ Populate Array}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -33616,11 +32766,13 @@ Populate Array}</string>
 					<integer>891</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.664, 556.686}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{227.663, 544.23}</string>
+						<string>{227.663, 543.73}</string>
 						<string>{227.664, 569.643}</string>
 					</array>
 					<key>Style</key>
@@ -33738,6 +32890,8 @@ total}</string>
 					<integer>889</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 271.757}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -34198,6 +33352,8 @@ Sum}</string>
 					<integer>842</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{112.929, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -34246,6 +33402,8 @@ Sum}</string>
 					<integer>854</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{292.292, 434.364}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>53.75238037109375</real>
 					<key>Points</key>
@@ -34294,12 +33452,14 @@ Sum}</string>
 					<integer>851</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
+					<key>OrthogonalBarPoint</key>
+					<string>{174.143, 449.107}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>67</real>
 					<key>Points</key>
 					<array>
 						<string>{112.929, 366.072}</string>
-						<string>{227.663, 483.23}</string>
+						<string>{227.663, 483.73}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -34342,6 +33502,8 @@ Sum}</string>
 					<integer>843</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{356.921, 329.81}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -34388,6 +33550,8 @@ Sum}</string>
 					<integer>841</integer>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{227.663, 187.701}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
@@ -34480,14 +33644,6 @@ Sum}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -35101,8 +34257,8 @@ Sum}</string>
 					<integer>177</integer>
 					<key>Points</key>
 					<array>
-						<string>{70.0359, 366.695}</string>
-						<string>{70.0359, 449.06}</string>
+						<string>{70.0359, 348.195}</string>
+						<string>{70.0359, 467.56}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -35247,8 +34403,8 @@ Sum}</string>
 					<integer>173</integer>
 					<key>Points</key>
 					<array>
-						<string>{470.22, 228.83}</string>
-						<string>{408.131, 297.272}</string>
+						<string>{486.886, 210.46}</string>
+						<string>{391.465, 315.642}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -35705,8 +34861,8 @@ Sum}</string>
 					<integer>162</integer>
 					<key>Points</key>
 					<array>
-						<string>{346.544, 194.411}</string>
-						<string>{422.389, 203.084}</string>
+						<string>{282.047, 187.036}</string>
+						<string>{486.886, 210.46}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -35738,8 +34894,8 @@ Sum}</string>
 					<integer>161</integer>
 					<key>Points</key>
 					<array>
-						<string>{297.685, 205.417}</string>
-						<string>{375.827, 297.261}</string>
+						<string>{282.047, 187.036}</string>
+						<string>{391.465, 315.642}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -35771,8 +34927,8 @@ Sum}</string>
 					<integer>160</integer>
 					<key>Points</key>
 					<array>
-						<string>{273.005, 205.485}</string>
-						<string>{188.924, 377.039}</string>
+						<string>{282.047, 187.036}</string>
+						<string>{179.882, 395.488}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -35804,8 +34960,8 @@ Sum}</string>
 					<integer>159</integer>
 					<key>Points</key>
 					<array>
-						<string>{375.826, 334.023}</string>
-						<string>{297.686, 425.866}</string>
+						<string>{391.465, 315.642}</string>
+						<string>{282.047, 444.247}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36091,8 +35247,8 @@ Sum}</string>
 					<integer>148</integer>
 					<key>Points</key>
 					<array>
-						<string>{282.047, 205.536}</string>
-						<string>{282.047, 425.747}</string>
+						<string>{282.047, 187.036}</string>
+						<string>{282.047, 444.247}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36152,8 +35308,8 @@ Sum}</string>
 					<integer>46</integer>
 					<key>Points</key>
 					<array>
-						<string>{257.969, 205.339}</string>
-						<string>{94.1137, 329.892}</string>
+						<string>{282.047, 187.036}</string>
+						<string>{70.0359, 348.195}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36301,14 +35457,6 @@ Sum}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -36360,11 +35508,6 @@ Sum}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -36418,9 +35561,9 @@ in an Array}</string>
 					<integer>225</integer>
 					<key>Points</key>
 					<array>
-						<string>{218.691, 334.561}</string>
+						<string>{157.5, 339}</string>
 						<string>{254, 332}</string>
-						<string>{280.581, 400.57}</string>
+						<string>{287.869, 419.371}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36469,11 +35612,6 @@ in an Array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -36542,11 +35680,6 @@ Is a kind of}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -36600,9 +35733,9 @@ multiple values}</string>
 					<integer>222</integer>
 					<key>Points</key>
 					<array>
-						<string>{288.913, 438.257}</string>
+						<string>{287.869, 419.371}</string>
 						<string>{291, 476}</string>
-						<string>{345.917, 477.675}</string>
+						<string>{409.406, 479.611}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36651,11 +35784,6 @@ multiple values}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -36708,9 +35836,9 @@ Characters}</string>
 					<integer>220</integer>
 					<key>Points</key>
 					<array>
-						<string>{167.639, 504.871}</string>
+						<string>{167.644, 505.939}</string>
 						<string>{167.286, 423}</string>
-						<string>{224.37, 421.282}</string>
+						<string>{287.869, 419.371}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36742,8 +35870,8 @@ Characters}</string>
 					<integer>219</integer>
 					<key>Points</key>
 					<array>
-						<string>{371.154, 511.849}</string>
-						<string>{386.236, 499.138}</string>
+						<string>{360.87, 520.516}</string>
+						<string>{409.406, 479.611}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -36805,11 +35933,6 @@ Characters}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -36907,14 +36030,6 @@ Artefact}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -36952,8 +36067,8 @@ Variable}</string>
 					<integer>216</integer>
 					<key>Points</key>
 					<array>
-						<string>{371.836, 427.446}</string>
-						<string>{349.419, 425.292}</string>
+						<string>{395.336, 429.705}</string>
+						<string>{287.869, 419.371}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37015,11 +36130,6 @@ Variable}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -37073,7 +36183,7 @@ Artefact}</string>
 					<integer>186</integer>
 					<key>Points</key>
 					<array>
-						<string>{184.505, 319.503}</string>
+						<string>{157.5, 339}</string>
 						<string>{225.369, 290}</string>
 						<string>{222.592, 260.006}</string>
 					</array>
@@ -37107,8 +36217,8 @@ Artefact}</string>
 					<integer>122</integer>
 					<key>Points</key>
 					<array>
-						<string>{125.526, 368.182}</string>
-						<string>{137.96, 356.834}</string>
+						<string>{116.03, 376.849}</string>
+						<string>{157.5, 339}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37170,11 +36280,6 @@ Artefact}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -37272,14 +36377,6 @@ Action}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -37363,14 +36460,6 @@ For Loop}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -37408,8 +36497,8 @@ Array}</string>
 					<integer>167</integer>
 					<key>Points</key>
 					<array>
-						<string>{119.02, 551.805}</string>
-						<string>{128.031, 539.968}</string>
+						<string>{112.422, 560.472}</string>
+						<string>{129.125, 538.532}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37471,11 +36560,6 @@ Array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -37544,11 +36628,6 @@ Existing Artefact}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -37600,9 +36679,9 @@ Is a}</string>
 					<integer>164</integer>
 					<key>Points</key>
 					<array>
-						<string>{176.285, 540.906}</string>
+						<string>{174.31, 540.013}</string>
 						<string>{219.757, 560.556}</string>
-						<string>{283.168, 565.504}</string>
+						<string>{346.204, 570.423}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37687,14 +36766,6 @@ Is a}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -37732,8 +36803,8 @@ String}</string>
 					<integer>110</integer>
 					<key>Points</key>
 					<array>
-						<string>{430, 578.493}</string>
-						<string>{408.537, 576.425}</string>
+						<string>{453.5, 580.757}</string>
+						<string>{346.204, 570.423}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -37795,11 +36866,6 @@ String}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -37897,14 +36963,6 @@ Artefact}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -37942,7 +37000,7 @@ Type}</string>
 					<integer>127</integer>
 					<key>Points</key>
 					<array>
-						<string>{203.358, 213.333}</string>
+						<string>{195.532, 204.667}</string>
 						<string>{215.92, 227.244}</string>
 					</array>
 					<key>Style</key>
@@ -38005,11 +37063,6 @@ Type}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -38115,14 +37168,6 @@ Term}</string>
 					</dict>
 					<key>Style</key>
 					<dict>
-						<key>fill</key>
-						<dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
-						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -38213,14 +37258,6 @@ Statement}</string>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -38252,7 +37289,7 @@ Statement}</string>
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{135.42, 459.07}</string>
+						<string>{113.466, 480.432}</string>
 						<string>{182.097, 413.653}</string>
 						<string>{149.284, 378.336}</string>
 					</array>
@@ -38377,11 +37414,6 @@ Statement}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -38589,11 +37621,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -38801,7 +37828,7 @@ to Main}</string>
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.709, 409.483}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{176.135, 415.582}</string>
 					</array>
 					<key>Style</key>
@@ -39203,9 +38230,9 @@ to Main}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -39308,15 +38335,6 @@ to Main}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -39363,7 +38381,7 @@ to Main}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{132.323, 459.07}</string>
+						<string>{118.477, 480.432}</string>
 						<string>{174.007, 394.76}</string>
 						<string>{177.697, 345.388}</string>
 					</array>
@@ -39488,11 +38506,6 @@ to Main}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -39543,7 +38556,7 @@ will end}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{219.099, 190.655}</string>
+						<string>{186.307, 169.293}</string>
 						<string>{320.408, 256.653}</string>
 						<string>{329.902, 307.939}</string>
 					</array>
@@ -39668,11 +38681,6 @@ will end}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -39787,7 +38795,7 @@ Enter value 3: 17.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{435.6, 184.865}</string>
+						<string>{445.047, 166.398}</string>
 						<string>{354.983, 342.458}</string>
 						<string>{293.493, 343.674}</string>
 					</array>
@@ -39912,11 +38920,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -39967,7 +38970,7 @@ control jumps back to step 1 }</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -40786,7 +39789,7 @@ control jumps back to step 1 }</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.323, 319.145}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{170.237, 316.164}</string>
 					</array>
 					<key>Style</key>
@@ -41247,7 +40250,7 @@ control jumps back to step 1 }</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -41670,9 +40673,9 @@ control jumps back to step 1 }</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -41775,15 +40778,6 @@ control jumps back to step 1 }</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -41872,7 +40866,7 @@ control jumps back to step 1 }</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{133.104, 456.425}</string>
+						<string>{110.415, 474.892}</string>
 						<string>{155.733, 438.007}</string>
 						<string>{159.587, 387.454}</string>
 					</array>
@@ -42017,7 +41011,7 @@ control jumps back to step 1 }</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{239.738, 198.832}</string>
+						<string>{239.444, 185.499}</string>
 						<string>{241.754, 290.503}</string>
 						<string>{266.891, 330.844}</string>
 					</array>
@@ -42142,11 +41136,6 @@ control jumps back to step 1 }</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -42282,11 +41271,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -42337,7 +41321,7 @@ data there...}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{368.294, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{438.35, 378.771}</string>
 						<string>{441.772, 341.998}</string>
 					</array>
@@ -42462,11 +41446,6 @@ data there...}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -42516,7 +41495,7 @@ prompt "Enter Value 3: "}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{284.913, 635.81}</string>
+						<string>{189.215, 631.818}</string>
 						<string>{366.506, 639.213}</string>
 						<string>{375.475, 603.125}</string>
 					</array>
@@ -42641,11 +41620,6 @@ prompt "Enter Value 3: "}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -43517,7 +42491,7 @@ basic validation}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.398, 329.085}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 335.834}</string>
 					</array>
 					<key>Style</key>
@@ -43945,7 +42919,7 @@ basic validation}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -44368,9 +43342,9 @@ basic validation}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -44472,15 +43446,6 @@ basic validation}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -44591,7 +43556,7 @@ Enter value 2: -5}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{106.758, 474.156}</string>
+						<string>{106.535, 487.489}</string>
 						<string>{108.62, 362.57}</string>
 						<string>{78.5577, 313.045}</string>
 					</array>
@@ -44716,11 +43681,6 @@ Enter value 2: -5}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -44769,7 +43729,7 @@ The value is stored in prompt}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{360.304, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{410.729, 369.513}</string>
 						<string>{394.169, 332.501}</string>
 					</array>
@@ -44894,11 +43854,6 @@ The value is stored in prompt}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -44948,7 +43903,7 @@ be converted to a String value}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{370.962, 195.809}</string>
+						<string>{422.466, 168.465}</string>
 						<string>{282.486, 242.781}</string>
 						<string>{262.467, 322.119}</string>
 					</array>
@@ -45073,11 +44028,6 @@ be converted to a String value}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -45132,7 +44082,7 @@ Enter value 3:
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -45951,7 +44901,7 @@ Enter value 3:
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 324.39}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 326.219}</string>
 					</array>
 					<key>Style</key>
@@ -46412,7 +45362,7 @@ Enter value 3:
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -46835,9 +45785,9 @@ Enter value 3:
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -46940,15 +45890,6 @@ Enter value 3:
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -46995,7 +45936,7 @@ Enter value 3:
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{219.099, 190.655}</string>
+						<string>{186.307, 169.293}</string>
 						<string>{320.408, 256.653}</string>
 						<string>{329.902, 307.939}</string>
 					</array>
@@ -47120,11 +46061,6 @@ Enter value 3:
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -47238,7 +46174,7 @@ Enter value 2: -5}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{435.6, 184.865}</string>
+						<string>{445.047, 166.398}</string>
 						<string>{354.983, 342.458}</string>
 						<string>{293.493, 343.674}</string>
 					</array>
@@ -47363,11 +46299,6 @@ Enter value 2: -5}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -47418,7 +46349,7 @@ control jumps back to step 1 }</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -48237,7 +47168,7 @@ control jumps back to step 1 }</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.323, 319.145}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{170.237, 316.164}</string>
 					</array>
 					<key>Style</key>
@@ -48698,7 +47629,7 @@ control jumps back to step 1 }</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -49121,9 +48052,9 @@ control jumps back to step 1 }</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -49226,15 +48157,6 @@ control jumps back to step 1 }</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -49325,7 +48247,7 @@ control jumps back to step 1 }</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{136.136, 454.613}</string>
+						<string>{110.415, 473.986}</string>
 						<string>{155.733, 439.852}</string>
 						<string>{159.587, 373.19}</string>
 					</array>
@@ -49479,7 +48401,7 @@ control jumps back to step 1 }</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{239.738, 198.832}</string>
+						<string>{239.444, 185.499}</string>
 						<string>{241.754, 290.503}</string>
 						<string>{266.891, 330.844}</string>
 					</array>
@@ -49604,11 +48526,6 @@ control jumps back to step 1 }</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -49743,11 +48660,6 @@ Enter value 2: -5}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -49798,7 +48710,7 @@ data there...}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{368.294, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{438.35, 378.771}</string>
 						<string>{441.772, 341.998}</string>
 					</array>
@@ -49923,11 +48835,6 @@ data there...}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -49977,7 +48884,7 @@ prompt "Enter Value 2: "}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{284.913, 635.81}</string>
+						<string>{189.215, 631.818}</string>
 						<string>{366.506, 639.213}</string>
 						<string>{375.475, 603.125}</string>
 					</array>
@@ -50102,11 +49009,6 @@ prompt "Enter Value 2: "}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -50157,7 +49059,7 @@ basic validation}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.828, 357.237}</string>
+						<string>{96.328, 357.237}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -50976,7 +49878,7 @@ basic validation}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.398, 329.085}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 335.834}</string>
 					</array>
 					<key>Style</key>
@@ -51404,7 +50306,7 @@ basic validation}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -51827,9 +50729,9 @@ basic validation}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -51931,15 +50833,6 @@ basic validation}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -52049,7 +50942,7 @@ Enter value 1: 10.0}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{106.758, 474.156}</string>
+						<string>{106.535, 487.489}</string>
 						<string>{108.62, 362.57}</string>
 						<string>{78.5577, 313.045}</string>
 					</array>
@@ -52174,11 +51067,6 @@ Enter value 1: 10.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -52227,7 +51115,7 @@ The value is stored in prompt}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{360.304, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{410.729, 369.513}</string>
 						<string>{394.169, 332.501}</string>
 					</array>
@@ -52352,11 +51240,6 @@ The value is stored in prompt}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -52406,7 +51289,7 @@ be converted to a String value}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{370.962, 195.809}</string>
+						<string>{422.466, 168.465}</string>
 						<string>{282.486, 242.781}</string>
 						<string>{262.467, 322.119}</string>
 					</array>
@@ -52531,11 +51414,6 @@ be converted to a String value}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -52590,7 +51468,7 @@ Enter value 2:
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -53409,7 +52287,7 @@ Enter value 2:
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 324.39}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 326.219}</string>
 					</array>
 					<key>Style</key>
@@ -53870,7 +52748,7 @@ Enter value 2:
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -54293,9 +53171,9 @@ Enter value 2:
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -54398,15 +53276,6 @@ Enter value 2:
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -54453,7 +53322,7 @@ Enter value 2:
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{219.099, 190.655}</string>
+						<string>{186.307, 169.293}</string>
 						<string>{320.408, 256.653}</string>
 						<string>{329.902, 307.939}</string>
 					</array>
@@ -54578,11 +53447,6 @@ Enter value 2:
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -54695,7 +53559,7 @@ Enter value 1: 10.0}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{435.6, 184.865}</string>
+						<string>{445.047, 166.398}</string>
 						<string>{354.983, 342.458}</string>
 						<string>{293.493, 343.674}</string>
 					</array>
@@ -54820,11 +53684,6 @@ Enter value 1: 10.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -54875,7 +53734,7 @@ control jumps back to step 1 }</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -55694,7 +54553,7 @@ control jumps back to step 1 }</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.323, 319.145}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{170.237, 316.164}</string>
 					</array>
 					<key>Style</key>
@@ -56155,7 +55014,7 @@ control jumps back to step 1 }</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -56578,9 +55437,9 @@ control jumps back to step 1 }</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -56683,15 +55542,6 @@ control jumps back to step 1 }</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -56782,7 +55632,7 @@ control jumps back to step 1 }</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{239.738, 198.832}</string>
+						<string>{239.444, 185.499}</string>
 						<string>{241.754, 290.503}</string>
 						<string>{266.891, 330.844}</string>
 					</array>
@@ -56907,11 +55757,6 @@ control jumps back to step 1 }</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -57023,7 +55868,7 @@ Enter value 1: 10.0}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{129.828, 456.425}</string>
+						<string>{110.415, 474.892}</string>
 						<string>{161.092, 426.685}</string>
 						<string>{159.95, 360.721}</string>
 					</array>
@@ -57157,11 +56002,6 @@ Enter value 1: 10.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -57212,7 +56052,7 @@ data there...}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{368.294, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{438.35, 378.771}</string>
 						<string>{441.772, 341.998}</string>
 					</array>
@@ -57337,11 +56177,6 @@ data there...}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -57396,9 +56231,9 @@ prompt "Enter Value 1: "}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{284.913, 635.81}</string>
+						<string>{189.215, 631.818}</string>
 						<string>{366.506, 639.213}</string>
-						<string>{375.475, 603.125}</string>
+						<string>{389.075, 548.409}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -57521,11 +56356,6 @@ prompt "Enter Value 1: "}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -57576,7 +56406,7 @@ basic validation}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.828, 357.237}</string>
+						<string>{96.328, 357.237}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -58395,7 +57225,7 @@ basic validation}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.398, 329.085}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 335.834}</string>
 					</array>
 					<key>Style</key>
@@ -58861,7 +57691,7 @@ basic validation}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -59284,9 +58114,9 @@ basic validation}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -59389,15 +58219,6 @@ basic validation}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -59444,7 +58265,7 @@ basic validation}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{106.758, 474.156}</string>
+						<string>{106.535, 487.489}</string>
 						<string>{108.62, 362.57}</string>
 						<string>{78.5577, 313.045}</string>
 					</array>
@@ -59569,11 +58390,6 @@ basic validation}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -59622,7 +58438,7 @@ The value is stored in prompt}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{360.304, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{410.729, 369.513}</string>
 						<string>{394.169, 332.501}</string>
 					</array>
@@ -59747,11 +58563,6 @@ The value is stored in prompt}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -59801,7 +58612,7 @@ be converted to a String value}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{370.962, 195.809}</string>
+						<string>{422.466, 168.465}</string>
 						<string>{282.486, 242.781}</string>
 						<string>{262.467, 322.119}</string>
 					</array>
@@ -59926,11 +58737,6 @@ be converted to a String value}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -59985,7 +58791,7 @@ Enter value 1:
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -60804,7 +59610,7 @@ Enter value 1:
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 324.39}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 326.219}</string>
 					</array>
 					<key>Style</key>
@@ -61265,7 +60071,7 @@ Enter value 1:
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -61688,9 +60494,9 @@ Enter value 1:
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -61793,15 +60599,6 @@ Enter value 1:
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -61848,7 +60645,7 @@ Enter value 1:
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{354.383, 425.455}</string>
+						<string>{348.286, 438.788}</string>
 						<string>{383.796, 361.133}</string>
 						<string>{367.236, 324.121}</string>
 					</array>
@@ -61973,11 +60770,6 @@ Enter value 1:
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -62027,7 +60819,7 @@ and the body of the loop is entered.}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{377.677, 195.809}</string>
+						<string>{420, 168.465}</string>
 						<string>{322.269, 231.607}</string>
 						<string>{302.25, 310.945}</string>
 					</array>
@@ -62152,11 +60944,6 @@ and the body of the loop is entered.}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -62208,7 +60995,7 @@ of the array}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -63028,7 +61815,7 @@ of the array}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.323, 319.159}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{171.354, 316.046}</string>
 					</array>
 					<key>Style</key>
@@ -63489,7 +62276,7 @@ of the array}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -63912,9 +62699,9 @@ of the array}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -64017,15 +62804,6 @@ of the array}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -64077,9 +62855,9 @@ of the array}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{353.7, 418.621}</string>
+						<string>{372.906, 438.139}</string>
 						<string>{252.674, 315.954}</string>
-						<string>{146.135, 308.179}</string>
+						<string>{83.2853, 303.593}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -64202,11 +62980,6 @@ of the array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -64263,9 +63036,9 @@ an array of characters}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{91.4351, 456.395}</string>
+						<string>{109.243, 475.913}</string>
 						<string>{33.3513, 392.733}</string>
-						<string>{52.9852, 328.85}</string>
+						<string>{76.2212, 346.87}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -64294,7 +63067,7 @@ an array of characters}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{109.974, 356.156}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{13.1395, 298.256}</string>
 						<string>{119.241, 245.169}</string>
 					</array>
@@ -65113,7 +63886,7 @@ an array of characters}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 320.357}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.449, 317.957}</string>
 					</array>
 					<key>Style</key>
@@ -65540,9 +64313,9 @@ an array of characters}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{198.194, 208.804}</string>
+						<string>{217.09, 183.908}</string>
 						<string>{174.217, 240.395}</string>
-						<string>{153.224, 249.394}</string>
+						<string>{84.618, 278.802}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -65593,11 +64366,6 @@ an array of characters}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -65760,7 +64528,7 @@ and space is allocated for i, and prompt}</string>
 					<integer>11</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 405.041}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.766, 405.988}</string>
 					</array>
 					<key>Style</key>
@@ -66167,11 +64935,6 @@ and space is allocated for i, and prompt}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -66332,9 +65095,9 @@ by reference.}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -66436,15 +65199,6 @@ by reference.}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -66606,9 +65360,9 @@ by reference.}</string>
 					<integer>12</integer>
 					<key>Points</key>
 					<array>
-						<string>{162.34, 190.655}</string>
+						<string>{164.639, 165.759}</string>
 						<string>{152.081, 301.796}</string>
-						<string>{124.775, 355.967}</string>
+						<string>{121.274, 362.913}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -66659,11 +65413,6 @@ by reference.}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -66832,7 +65581,7 @@ the last is my_data[1]}</string>
 					<integer>12</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.709, 409.537}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.769, 415.621}</string>
 					</array>
 					<key>Style</key>
@@ -67218,11 +65967,6 @@ the last is my_data[1]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -67383,9 +66127,9 @@ Local Variable}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -67487,15 +66231,6 @@ Local Variable}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -67789,7 +66524,7 @@ Steps:\
 					<integer>14</integer>
 					<key>Points</key>
 					<array>
-						<string>{164.651, 216.668}</string>
+						<string>{164.649, 216.168}</string>
 						<string>{165.506, 423.161}</string>
 					</array>
 					<key>Style</key>
@@ -68103,14 +66838,6 @@ Steps:\
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -68142,7 +66869,7 @@ Steps:\
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 308.799}</string>
+						<string>{121.882, 307.236}</string>
 						<string>{263.847, 315.954}</string>
 						<string>{318.034, 394.772}</string>
 					</array>
@@ -68382,7 +67109,7 @@ Steps:\
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{410.81, 166.334}</string>
+						<string>{419.156, 150.887}</string>
 						<string>{366.803, 247.783}</string>
 						<string>{260.302, 311.522}</string>
 					</array>
@@ -68435,11 +67162,6 @@ Steps:\
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -68561,7 +67283,7 @@ result returned by the Sum function}</string>
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{431.188, 420.79}</string>
+						<string>{419.156, 436.237}</string>
 						<string>{445.464, 402.463}</string>
 						<string>{412.505, 399.827}</string>
 					</array>
@@ -68614,11 +67336,6 @@ result returned by the Sum function}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -68889,7 +67606,7 @@ Sum is 22.21}</string>
 					<integer>0</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -69291,9 +68008,9 @@ Sum is 22.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -69396,15 +68113,6 @@ Sum is 22.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -69451,7 +68159,7 @@ Sum is 22.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.326, 308.799}</string>
+						<string>{121.882, 307.236}</string>
 						<string>{263.847, 315.954}</string>
 						<string>{318.034, 394.772}</string>
 					</array>
@@ -69484,7 +68192,7 @@ Sum is 22.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.327, 321.677}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{177.619, 320.752}</string>
 					</array>
 					<key>Style</key>
@@ -69722,7 +68430,7 @@ Sum is 22.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{410.81, 166.334}</string>
+						<string>{419.156, 150.887}</string>
 						<string>{366.803, 247.783}</string>
 						<string>{260.302, 311.522}</string>
 					</array>
@@ -69775,11 +68483,6 @@ Sum is 22.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -69901,7 +68604,7 @@ where the function was called}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{377.382, 420.79}</string>
+						<string>{378.763, 436.237}</string>
 						<string>{370.251, 340.973}</string>
 						<string>{328.268, 321.517}</string>
 					</array>
@@ -69954,11 +68657,6 @@ where the function was called}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -70138,9 +68836,9 @@ Total becomes the value returned}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{119.974, 173.561}</string>
+						<string>{151.147, 155.364}</string>
 						<string>{81.4353, 196.059}</string>
-						<string>{82.3969, 221.057}</string>
+						<string>{84.618, 278.802}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -70263,11 +68961,6 @@ Total becomes the value returned}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -70381,7 +69074,7 @@ Enter value 3: 17.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8321, 359.634}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -71217,7 +69910,7 @@ Enter value 3: 17.21}</string>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -71640,9 +70333,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -71745,15 +70438,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -71800,7 +70484,7 @@ Enter value 3: 17.21}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{138.45, 315.767}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 300.555}</string>
 					</array>
 					<key>Style</key>
@@ -72029,7 +70713,7 @@ Enter value 3: 17.21}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{402.078, 166.334}</string>
+						<string>{419.156, 150.887}</string>
 						<string>{366.493, 198.522}</string>
 						<string>{377.529, 295.758}</string>
 					</array>
@@ -72082,11 +70766,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -72208,7 +70887,7 @@ so the body will now be skipped}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{379.121, 420.79}</string>
+						<string>{378.763, 436.237}</string>
 						<string>{381.089, 336.047}</string>
 						<string>{339.106, 316.591}</string>
 					</array>
@@ -72261,11 +70940,6 @@ so the body will now be skipped}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -72425,9 +71099,9 @@ and control returns to step 2}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{152.15, 175.995}</string>
+						<string>{150.162, 157.798}</string>
 						<string>{161.877, 265.025}</string>
-						<string>{147.208, 277.49}</string>
+						<string>{146.805, 277.833}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -72550,11 +71224,6 @@ and control returns to step 2}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -72669,7 +71338,7 @@ Enter value 3: 17.21}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8321, 359.634}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -73409,7 +72078,7 @@ Enter value 3: 17.21}</string>
 					<integer>2</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -73747,7 +72416,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3761, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3762, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -73755,7 +72424,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>2</integer>
 					<key>Rotation</key>
-					<real>269.9786376953125</real>
+					<real>269.97869873046875</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -73832,9 +72501,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -73936,15 +72605,6 @@ Enter value 3: 17.21}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -74169,7 +72829,7 @@ Enter value 3: 17.21}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{394.398, 175.862}</string>
+						<string>{408.861, 153.877}</string>
 						<string>{333.798, 267.98}</string>
 						<string>{324.366, 306.404}</string>
 					</array>
@@ -74222,11 +72882,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -74277,7 +72932,7 @@ total + data[2] has the value 22.21}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{143.858, 462.008}</string>
+						<string>{106.535, 480.475}</string>
 						<string>{161.154, 453.45}</string>
 						<string>{160.012, 387.486}</string>
 					</array>
@@ -74402,11 +73057,6 @@ total + data[2] has the value 22.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -74565,7 +73215,7 @@ to find its value - reading 17.21}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{408.425, 421.04}</string>
+						<string>{413.708, 436.487}</string>
 						<string>{385.03, 352.636}</string>
 						<string>{382.455, 317.083}</string>
 					</array>
@@ -74618,11 +73268,6 @@ to find its value - reading 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -74790,9 +73435,9 @@ data array - i is 2, so data[2]}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.334, 165.001}</string>
+						<string>{144.743, 154.623}</string>
 						<string>{162.369, 269.653}</string>
-						<string>{147.112, 291.675}</string>
+						<string>{146.805, 292.118}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -74915,11 +73560,6 @@ data array - i is 2, so data[2]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -75363,7 +74003,7 @@ Enter value 3: 17.21}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.316, 316.908}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{177.126, 310.407}</string>
 					</array>
 					<key>Style</key>
@@ -75828,7 +74468,7 @@ Enter value 3: 17.21}</string>
 					<integer>3</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -76251,9 +74891,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -76356,15 +74996,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -76411,7 +75042,7 @@ Enter value 3: 17.21}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{138.45, 315.767}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 300.555}</string>
 					</array>
 					<key>Style</key>
@@ -76640,7 +75271,7 @@ Enter value 3: 17.21}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{402.078, 166.334}</string>
+						<string>{419.156, 150.887}</string>
 						<string>{366.493, 198.522}</string>
 						<string>{377.529, 295.758}</string>
 					</array>
@@ -76693,11 +75324,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -76819,7 +75445,7 @@ so it runs the body again}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{379.121, 420.79}</string>
+						<string>{378.763, 436.237}</string>
 						<string>{381.089, 336.047}</string>
 						<string>{339.106, 316.591}</string>
 					</array>
@@ -76872,11 +75498,6 @@ so it runs the body again}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -77036,9 +75657,9 @@ and control returns to step 2}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{152.15, 175.995}</string>
+						<string>{150.162, 157.798}</string>
 						<string>{161.877, 265.025}</string>
-						<string>{147.208, 277.49}</string>
+						<string>{146.805, 277.833}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -77161,11 +75782,6 @@ and control returns to step 2}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -77280,7 +75896,7 @@ Enter value 3: 17.21}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8321, 359.634}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -78020,7 +76636,7 @@ Enter value 3: 17.21}</string>
 					<integer>4</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -78358,7 +76974,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.376, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3761, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -78366,7 +76982,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>4</integer>
 					<key>Rotation</key>
-					<real>269.97857666015625</real>
+					<real>269.9786376953125</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -78443,9 +77059,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -78547,15 +77163,6 @@ Enter value 3: 17.21}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -78780,7 +77387,7 @@ Enter value 3: 17.21}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{394.398, 175.862}</string>
+						<string>{408.861, 153.877}</string>
 						<string>{333.798, 267.98}</string>
 						<string>{324.366, 306.404}</string>
 					</array>
@@ -78833,11 +77440,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -78888,7 +77490,7 @@ total + data[1] has the value 5.0}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{132.654, 462.008}</string>
+						<string>{106.535, 480.475}</string>
 						<string>{158.691, 443.598}</string>
 						<string>{157.549, 377.634}</string>
 					</array>
@@ -79013,11 +77615,6 @@ total + data[1] has the value 5.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -79176,7 +77773,7 @@ to find its value - reading -5}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{408.425, 421.04}</string>
+						<string>{413.708, 436.487}</string>
 						<string>{385.03, 352.636}</string>
 						<string>{382.455, 317.083}</string>
 					</array>
@@ -79229,11 +77826,6 @@ to find its value - reading -5}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -79401,9 +77993,9 @@ data array - i is 1, so data[1]}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.334, 165.001}</string>
+						<string>{144.743, 154.623}</string>
 						<string>{162.369, 269.653}</string>
-						<string>{147.112, 291.675}</string>
+						<string>{146.805, 292.118}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -79526,11 +78118,6 @@ data array - i is 1, so data[1]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -79974,7 +78561,7 @@ Enter value 3: 17.21}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.316, 316.908}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{177.126, 310.407}</string>
 					</array>
 					<key>Style</key>
@@ -80439,7 +79026,7 @@ Enter value 3: 17.21}</string>
 					<integer>5</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -80862,9 +79449,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -80967,15 +79554,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -81022,7 +79600,7 @@ Enter value 3: 17.21}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{138.45, 315.767}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 300.555}</string>
 					</array>
 					<key>Style</key>
@@ -81251,7 +79829,7 @@ Enter value 3: 17.21}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{402.078, 166.334}</string>
+						<string>{419.156, 150.887}</string>
 						<string>{366.493, 198.522}</string>
 						<string>{377.529, 295.758}</string>
 					</array>
@@ -81304,11 +79882,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -81430,7 +80003,7 @@ so it runs the body again}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{379.121, 420.79}</string>
+						<string>{378.763, 436.237}</string>
 						<string>{381.089, 336.047}</string>
 						<string>{339.106, 316.591}</string>
 					</array>
@@ -81483,11 +80056,6 @@ so it runs the body again}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -81647,9 +80215,9 @@ and control returns to step 2}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{152.15, 175.995}</string>
+						<string>{150.162, 157.798}</string>
 						<string>{161.877, 265.025}</string>
-						<string>{147.208, 277.49}</string>
+						<string>{146.805, 277.833}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -81772,11 +80340,6 @@ and control returns to step 2}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -81891,7 +80454,7 @@ Enter value 3: 17.21}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8321, 359.634}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -82631,7 +81194,7 @@ Enter value 3: 17.21}</string>
 					<integer>6</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -82969,7 +81532,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3758, 408.396}, {215.235, 15}}</string>
+					<string>{{99.376, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -82977,7 +81540,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>6</integer>
 					<key>Rotation</key>
-					<real>269.978515625</real>
+					<real>269.97857666015625</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -83054,9 +81617,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -83158,15 +81721,6 @@ Enter value 3: 17.21}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -83391,7 +81945,7 @@ Enter value 3: 17.21}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{394.398, 175.862}</string>
+						<string>{408.861, 153.877}</string>
 						<string>{333.798, 267.98}</string>
 						<string>{324.366, 306.404}</string>
 					</array>
@@ -83444,11 +81998,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -83499,7 +82048,7 @@ total + data[0] has the value 10.0}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{125.949, 462.008}</string>
+						<string>{106.535, 480.475}</string>
 						<string>{157.213, 432.268}</string>
 						<string>{156.071, 366.304}</string>
 					</array>
@@ -83624,11 +82173,6 @@ total + data[0] has the value 10.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -83678,7 +82222,7 @@ to find its value - reading 10.0}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{102.991, 356.163}</string>
+						<string>{96.9359, 359.663}</string>
 						<string>{123.453, 344.335}</string>
 						<string>{152.764, 341.379}</string>
 						<string>{159.414, 356.413}</string>
@@ -83785,7 +82329,7 @@ to find its value - reading 10.0}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{408.425, 421.04}</string>
+						<string>{413.708, 436.487}</string>
 						<string>{385.03, 352.636}</string>
 						<string>{382.455, 317.083}</string>
 					</array>
@@ -83838,11 +82382,6 @@ to find its value - reading 10.0}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -84010,9 +82549,9 @@ data array - i is 0, so data[0]}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{143.741, 169.893}</string>
+						<string>{141.925, 159.515}</string>
 						<string>{162.369, 276.355}</string>
-						<string>{147.179, 291.74}</string>
+						<string>{146.805, 292.118}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -84135,11 +82674,6 @@ data array - i is 0, so data[0]}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -84252,7 +82786,7 @@ Enter value 3: 17.21}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{96.4399, 359.6}</string>
+						<string>{96.9359, 359.663}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -84583,7 +83117,7 @@ Enter value 3: 17.21}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{147.316, 316.908}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{177.126, 310.407}</string>
 					</array>
 					<key>Style</key>
@@ -85048,7 +83582,7 @@ Enter value 3: 17.21}</string>
 					<integer>7</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -85471,9 +84005,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -85576,15 +84110,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -85631,7 +84156,7 @@ Enter value 3: 17.21}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{138.45, 315.767}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 300.555}</string>
 					</array>
 					<key>Style</key>
@@ -85860,7 +84385,7 @@ Enter value 3: 17.21}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{408.257, 421.04}</string>
+						<string>{413.708, 436.487}</string>
 						<string>{359.906, 284.039}</string>
 						<string>{314.475, 294.438}</string>
 					</array>
@@ -85913,11 +84438,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -86077,9 +84597,9 @@ over each element of the array}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{136.082, 173.561}</string>
+						<string>{130.95, 155.364}</string>
 						<string>{161.877, 265.025}</string>
-						<string>{147.208, 277.49}</string>
+						<string>{146.805, 277.833}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -86202,11 +84722,6 @@ over each element of the array}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -86320,7 +84835,7 @@ Enter value 3: 17.21}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8321, 359.634}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{24.4915, 350.44}</string>
 						<string>{19.2376, 247.892}</string>
 						<string>{122.689, 246.647}</string>
@@ -87060,7 +85575,7 @@ Enter value 3: 17.21}</string>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -87398,7 +85913,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{99.3757, 408.396}, {215.235, 15}}</string>
+					<string>{{99.3758, 408.396}, {215.235, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -87406,7 +85921,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>8</integer>
 					<key>Rotation</key>
-					<real>269.97848510742188</real>
+					<real>269.978515625</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -87483,9 +85998,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -87588,15 +86103,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -87643,7 +86149,7 @@ Enter value 3: 17.21}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{115.073, 459.07}</string>
+						<string>{118.477, 486.414}</string>
 						<string>{102.939, 361.576}</string>
 						<string>{114.185, 299.297}</string>
 					</array>
@@ -87674,7 +86180,7 @@ Enter value 3: 17.21}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{133.421, 315.701}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 290.703}</string>
 					</array>
 					<key>Style</key>
@@ -88030,11 +86536,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -88150,7 +86651,7 @@ Enter value 3: 17.21}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -88886,7 +87387,7 @@ Enter value 3: 17.21}</string>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -89224,7 +87725,7 @@ Enter value 3: 17.21}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{94.0545, 402.713}, {226.601, 15}}</string>
+					<string>{{94.0546, 402.713}, {226.601, 15}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -89232,7 +87733,7 @@ Enter value 3: 17.21}</string>
 					<key>Layer</key>
 					<integer>9</integer>
 					<key>Rotation</key>
-					<real>270.12939453125</real>
+					<real>270.12942504882812</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -89309,9 +87810,9 @@ Enter value 3: 17.21}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -89414,15 +87915,6 @@ Enter value 3: 17.21}</string>
 								Yy4sIDIwMDgA
 								</data>
 							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
-							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
 						</dict>
@@ -89469,7 +87961,7 @@ Enter value 3: 17.21}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{133.421, 315.701}</string>
+						<string>{121.882, 322.454}</string>
 						<string>{176.141, 290.703}</string>
 					</array>
 					<key>Style</key>
@@ -89731,7 +88223,7 @@ Enter value 3: 17.21}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{137.076, 459.07}</string>
+						<string>{118.477, 480.432}</string>
 						<string>{168.266, 423.247}</string>
 						<string>{149.653, 371.218}</string>
 					</array>
@@ -89856,11 +88348,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -89911,7 +88398,7 @@ user.}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{127.395, 176.509}</string>
+						<string>{182.683, 149.166}</string>
 						<string>{100.043, 190.037}</string>
 						<string>{93.0017, 221.592}</string>
 					</array>
@@ -90036,11 +88523,6 @@ user.}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -90156,7 +88638,7 @@ Enter value 3: 17.21}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{430.758, 421.143}</string>
+						<string>{418.477, 437.875}</string>
 						<string>{445.464, 401.107}</string>
 						<string>{415.002, 400.977}</string>
 					</array>
@@ -90281,11 +88763,6 @@ Enter value 3: 17.21}</string>
 						<dict>
 							<key>Draws</key>
 							<string>NO</string>
-							<key>GradientColor</key>
-							<dict>
-								<key>w</key>
-								<string>0.666667</string>
-							</dict>
 						</dict>
 						<key>shadow</key>
 						<dict>
@@ -90335,7 +88812,7 @@ the array of data (by reference)}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{95.8328, 359.372}</string>
+						<string>{121.274, 362.913}</string>
 						<string>{21.0432, 348.962}</string>
 						<string>{15.7893, 246.414}</string>
 						<string>{119.241, 245.169}</string>
@@ -91071,7 +89548,7 @@ the array of data (by reference)}</string>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{146.719, 402.618}</string>
+						<string>{121.274, 404.212}</string>
 						<string>{175.397, 400.822}</string>
 					</array>
 					<key>Style</key>
@@ -91417,7 +89894,7 @@ the array of data (by reference)}</string>
 					<key>Layer</key>
 					<integer>10</integer>
 					<key>Rotation</key>
-					<real>270.23037719726562</real>
+					<real>270.2303466796875</real>
 					<key>Shape</key>
 					<string>AdjustableArrow</string>
 					<key>ShapeData</key>
@@ -91494,9 +89971,9 @@ the array of data (by reference)}</string>
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAD21gABAAAA
-								ANMtYXBwbAAA
-								AAAAAAAAAAAA
-								AAAAAAAAAAAA
+								ANMtYXBwbHuB
+								R48ySeTZc+ut
+								LOki444AAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
 								AAAAAAAAAAAA
@@ -91598,15 +90075,6 @@ the array of data (by reference)}</string>
 								QXBwbGUsIElu
 								Yy4sIDIwMDgA
 								</data>
-							</dict>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.501961</string>
-								<key>g</key>
-								<string>0.25098</string>
-								<key>r</key>
-								<string>0</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.70634919404983521</real>
@@ -91902,7 +90370,7 @@ Steps:\
 					<integer>12</integer>
 					<key>Points</key>
 					<array>
-						<string>{164.395, 183.526}</string>
+						<string>{164.393, 183.026}</string>
 						<string>{165.251, 418.71}</string>
 					</array>
 					<key>Style</key>
@@ -92203,14 +90671,6 @@ Steps:\
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
-					<key>fill</key>
-					<dict>
-						<key>GradientColor</key>
-						<dict>
-							<key>w</key>
-							<string>0.666667</string>
-						</dict>
-					</dict>
 					<key>shadow</key>
 					<dict>
 						<key>Draws</key>
@@ -99531,13 +97991,9 @@ Steps:\
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>22</integer>
+		<integer>20</integer>
 		<key>ExpandedCanvases</key>
 		<array>
-			<dict>
-				<key>name</key>
-				<string>Visualise Sum</string>
-			</dict>
 			<dict>
 				<key>name</key>
 				<string>Visualise C Concat</string>
@@ -99560,9 +98016,9 @@ Steps:\
 		<key>SmallIcons</key>
 		<true/>
 		<key>VisibleRegion</key>
-		<string>{{-17, 194.581}, {593.596, 354.68}}</string>
+		<string>{{-85, 150.909}, {730.303, 436.364}}</string>
 		<key>Zoom</key>
-		<real>2.0299999713897705</real>
+		<real>1.6499999761581421</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>

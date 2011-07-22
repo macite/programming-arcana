@@ -19,4 +19,5 @@ code/pascal/array/ArrayTest
 code/pascal/types/TestUnion
 code/c/types/SmallDB
 code/c/pointers/LinkedListTest
+/.programming-arcana.*
 /syntax-out/
