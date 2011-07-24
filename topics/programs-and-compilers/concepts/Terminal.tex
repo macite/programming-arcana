@@ -2,11 +2,9 @@
 \subsection{Terminal} % (fold)
 \label{sub:terminal}
 
-Once you have written some source code, you need to be able to compile it. This means, you need to run the \textbf{compiler}, and give it your source code files to compile. The best way to do this when you really want to learn about programming, is to run the compiler directly yourself.
+Once you have written some source code, you need to be able to compile it. This means, you need to run the \textbf{compiler}, and give it your source code files to compile. The best way to do this when you really want to learn about programming, is to run the compiler directly yourself. To do this you needed to use a \textbf{Terminal} program.
 
-The problem with compilers is that they are not large programs with graphical user interfaces. They are small programs that must be given the files to compile when they start, and stop once these files are compiled. While there are tools around that hide the compiler from you, the best way to really learn how these tools work is to interact with them yourself. To do this you needed to user a \textbf{Terminal} program.
-
-The Terminal is a program that gives you \textbf{command line access} to the computer. With command line access you can enter text commands to start programs. These programs can output details back to the Terminal for you to read, and interactive programs can also read input from you via this same Terminal.
+The Terminal is a program that gives you command line access to the computer. With command line access you can enter text commands to start programs. These programs can output details back to the Terminal for you to read, and interactive programs can also read input from you via this same Terminal.
 
 \begin{figure}[h]
    \centering
@@ -54,7 +52,7 @@ A shell program is very simple. It provides a text prompt at which you can enter
 \subsubsection{Using Bash} % (fold)
 \label{ssub:bash}
 
-To get started using the Terminal, you will need to know some details of how Bash works, and some of the most basic bash commands.
+To get started using Terminal you will need to know some Bash commands, see \tref{tbl:bash-commands}.
 
 \begin{table}[h]
   \centering
@@ -76,20 +74,70 @@ To get started using the Terminal, you will need to know some details of how Bas
     \hline
     Create a Directory & \texttt{mkdir} & Makes a new directory. \\
     \hline
-    
-    
   \end{tabular}
+  \caption{Some bash commands to get you started}
+  \label{tbl:bash-commands}
 \end{table}
 
 To get started with Bash, you need to understand a little bit about the \textbf{file system}. Each operating system needs a way of storing its files, and there are going to be lots of files stored on a computer. This means that it would be cumbersome to try and keep these all in one place. Instead, the Operating System places files in \textbf{directories} (also known as \emph{Folders}). A directory can contain files, and other directories. 
 
-When you are working in Bash, you will have a \textbf{working directory}. This is the directory where Bash will start searching for the files you are interacting with. The standard way of working with Bash is to \emph{change} to the directory with the files you want to work with, and then you can use the filenames directly.
+When you are working in Bash, you will have a \textbf{working directory}. This is the directory where Bash will start searching for the files you are interacting with. To start working with the compiler you will need to be able to use the \textbf{change directory} command to move to the directory that contains your source code files.
+
+With the \textbf{Change Directory} command you tell Bash which directory you want to move into, with the different parts of this path being separated by forward slashes (/). Example commands to move to your Documents directory are shown in \tref{tbl:dirs}, with screenshots for Linux in \fref{fig:linux-files}, Mac OS in \fref{fig:mac-files}, and Windows in \fref{fig:win-files}.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|l|}
+  \hline
+  \textbf{Operating System} & \textbf{CD Command}  \\
+  \hline
+  \emph{Linux} & \texttt{cd /home/\emph{uname}/Documents} \\
+  or & \texttt{cd \textasciitilde/Documents} \\
+  \hline
+  \emph{Mac OS} & \texttt{cd /Users/\emph{uname}/Documents} \\
+  or & \texttt{cd \textasciitilde/Documents} \\
+  \hline
+  \emph{Windows 7} & \texttt{cd /c/Users/\emph{uname}/Documents} \\
+  or & \texttt{cd /c/Users/\emph{uname}/My{\textbackslash} Documents} \\
+  \hline
+  \emph{Windows XP} & \texttt{cd /c/Documents{\textbackslash} and{\textbackslash} Settings/\emph{uname}/My{\textbackslash} Documents} \\
+  \hline
+\end{tabular}
+  \caption{CD command to move into your documents directory on various Operating Systems. In these examples \texttt{\emph{uname}} should be replaced by your user name. The examples in \fref{fig:linux-files}, \fref{fig:mac-files}, and \fref{fig:win-files} are for the user \texttt{acain}.}
+  \label{tbl:dirs}
+\end{table}
 
 \mynote{
 \begin{itemize}
   \item You can find many resources on using Bash on the web, a simple overview of the basic commands can be found at \url{http://swinbrain.ict.swin.edu.au/wiki/Getting_started_with_Bash}.
+  \item After you run the \texttt{cd} command, you can check which directory you are in using the \textbf{pwd} command. To do this just type \texttt{pwd} and press enter.
+  \item Once you get used to the \texttt{cd} command you can start exploring the other commands.
 \end{itemize}
 }
+
+\begin{figure}[p]
+   \centering
+   \includegraphics[width=0.9\textwidth]{./topics/programs-and-compilers/images/LinuxFiles} 
+   \caption{Changing directories in Linux (Ubuntu)}
+   \label{fig:linux-files}
+\end{figure}
+
+\begin{figure}[p]
+   \centering
+   \includegraphics[width=0.9\textwidth]{./topics/programs-and-compilers/images/MacFiles} 
+   \caption{Changing directories in MacOS}
+   \label{fig:mac-files}
+\end{figure}
+
+
+\begin{figure}[p]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/programs-and-compilers/images/WindowsFiles} 
+   \caption{Changing directories in Windows}
+   \label{fig:win-files}
+\end{figure}
+
+
 
 % subsubsection bash (end)
 

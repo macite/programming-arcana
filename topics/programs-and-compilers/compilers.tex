@@ -29,35 +29,13 @@ This chapter introduces several new concepts:
 % \input{topics/programs-and-compilers/concepts/Challenges}
 \input{topics/programs-and-compilers/concepts/Terminal}
 \input{topics/programs-and-compilers/concepts/HelloWorld}
+\input{topics/programs-and-compilers/concepts/Compiling}
 \input{topics/programs-and-compilers/concepts/ConceptTaxonomy}
 
 % section concepts_related_to_building_programs (end)
 
 
 % subsection source_code (end)
-\clearpage
-\subsection{Compiling Code} % (fold)
-\label{sub:compiling_code}
-
-The compiler's job is to convert your source code into machine code. To do this the compiler needs a way of understanding the tasks you want the computer to perform, and the order you want them to be performed in. To help with this task the designers of the compiler define rules for how the source code for their compiler must be written. These rules define the \textbf{syntax} for the \emph{programming language} the compiler understands.
-
-When you run the compiler you will pass to it two things: options, and the file or files you want converted to machine code. The compiler will read the files you pass it and use the language's syntax to determine the tasks you want performed. Once it has built up a model of the program it will the write machine code instructions into a program file. When the compiler finishes you can then run the program file and see the computer perform the tasks coded in the source code.
-
-\begin{multicols}{2}
-  \bashcode{lst:compile-hello-world-c}{Compiling C code.}{code/c/program-creation/compile-hello-world.sh}
-  \columnbreak
-  \bashcode{lst:compile-hello-world-pas}{Compiling Pascal code.}{code/pascal/program-creation/compile-hello-world.sh}
-\end{multicols}
-
-\csection{There are many different C compilers. The one we have used in Listing \ref{lst:compile-hello-world-c} is the \textbf{gcc} compiler, the \textbf{GNU C Compiler}. When you call the compiler you can use the \emph{-o name} option to tell it the name of the program file to create. In our example this will compile the code in \emph{helloworld.c} and save the machine code into a program called \emph{hello}.}
-
-\passection{Listing \ref{lst:compile-hello-world-pas} shows the instructions to run the \textbf{fpc} compiler. FPC is the \textbf{Free Pascal Compiler}, which can compile a number of different versions of the Pascal language. The \emph{-S2} option is used to tell FPC to compile using the latest `Free Pascal' version of the language. In our example this will compile the code in \emph{HelloWorld.pas} and save the machine code into a program called \emph{HelloWorld}, which it gets from the name of the Pascal file.}
-
-If the source code you try to compile does not follow all of the rules of the language then the compiler will end with an error message. These errors, called \textbf{syntax errors}, could be as small as missing a semicolon (;), or misspelling a name. When the compiler encounters these issues it does not create the executable program, but instead returns a list showing where it got to before it found an error. You can use these error messages to fix the mistakes, and then run the compiler again to generate your program.
-
-
-
-% section the_compiler (end)
 
 \section{Getting Setup} % (fold)
 \label{sec:getting_setup}

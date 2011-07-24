@@ -1,7 +1,7 @@
 \subsection{Designing Morse Calling} % (fold)
 \label{sub:designing_morse_calling}
 
-Table \ref{tbl:procedure-decl-morse_calling} contains a description of the next program we are going to design. This program will output a message in Morse Code to the console. In designing this program we will make use of the concepts introduced in this chapter; we will divide the program's code into a number of procedures each with the instructions to get the computer to perform a single task.
+Table \ref{tbl:procedure-decl-morse_calling} contains a description of the next program we are going to design. This program will output a message in Morse Code to the Terminal. In designing this program we will make use of the concepts introduced in this chapter; we will divide the program's code into a number of procedures each with the instructions to get the computer to perform a single task.
 
 \begin{table}[h]
 \centering
@@ -11,7 +11,7 @@ Table \ref{tbl:procedure-decl-morse_calling} contains a description of the next 
   \hline
   \textbf{Name} & \emph{Morse Calling} \\
   \\
-  \textbf{Description} & Displays the morse code for `\emph{Calling Anyone}' on the console. \\
+  \textbf{Description} & Displays the morse code for `\emph{Calling Anyone}' on the Terminal. \\
   \hline
 \end{tabular}
 \caption{Description of the Morse Calling program.}
@@ -38,7 +38,7 @@ Finally you can test your program by running it and observing the output. If the
 \subsection{Understanding Morse Calling} % (fold)
 \label{ssub:understanding_morse_calling}
 
-Understanding the problem is the first step toward creating a solution. In this case you need to understand Morse Code so that you can work out what needs to be written to the Terminal. Wikipedia describes Morse Code as a sequence of long and short signals used to encode textual data. When we write this out to the console the short signals can be represented using a dot (.), the long signals using a dash (-). Table \ref{tbl:procedure-decl-morse-codes} contains the Morse code signals for letters, numbers, and some punctuation.
+Understanding the problem is the first step toward creating a solution. In this case you need to understand Morse Code so that you can work out what needs to be written to the Terminal. Wikipedia describes Morse Code as a sequence of long and short signals used to encode textual data. When we write this out to the Terminal the short signals can be represented using a dot (.), the long signals using a dash (-). Table \ref{tbl:procedure-decl-morse-codes} contains the Morse code signals for letters, numbers, and some punctuation.
 
 \begin{table}[htbp]
   \centering
@@ -103,7 +103,7 @@ Having finished the analysis of the problem, the next step is to design the solu
   \end{itemize}
 \end{itemize}
 
-\csection{In C the procedure to write data to the console is the \texttt{printf} procedure from \texttt{stdio.h}.}
+\csection{In C the procedure to write data to the Terminal is the \texttt{printf} procedure from \texttt{stdio.h}.}
 \passection{In Pascal there are two procedures to write data to the Terminal, \texttt{Write} and \texttt{WriteLn}.}
 
 The pseudocode for the \emph{Morse Calling} program is shown in Listing \ref{lst:procedure-decl-MorseCalling-pseudo}, with pseudocode for the \emph{Signal C} procedure in Listing \ref{lst:procedure-decl-signalc-pseudo}, \emph{Signal Q} in Listing \ref{lst:procedure-decl-signalq-pseudo}, and Listing \ref{lst:procedure-decl-shortsignal-pseudo} showing the pseudocode for the \emph{Short Signal} procedure.

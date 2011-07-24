@@ -1,5 +1,5 @@
 /*
-* Program to signal SOS to the console.
+* Program to signal SOS to the Terminal.
 */
 
 #include <stdio.h>

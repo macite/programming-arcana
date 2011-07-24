@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/programs-and-compilers/concepts/Terminal.tex</string>
+	<string>topics/programs-and-compilers/concepts/Compiling.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,6 +23,34 @@
 	<integer>216</integer>
 	<key>metaData</key>
 	<dict>
+		<key>code/c/program-creation/compile-output-test.sh</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>29</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>code/c/program-creation/hello-world.c</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>code/c/storing-using-data/assignment-test.c</key>
 		<dict>
 			<key>caret</key>
@@ -709,7 +737,7 @@
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>226</integer>
+			<integer>139</integer>
 			<key>firstVisibleLine</key>
 			<integer>171</integer>
 			<key>selectFrom</key>
@@ -1067,6 +1095,20 @@
 				<integer>1</integer>
 			</dict>
 		</dict>
+		<key>topics/programs-and-compilers/concepts/Compiling.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/programs-and-compilers/concepts/ConceptTaxonomy.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1125,36 +1167,6 @@
 			<key>firstVisibleLine</key>
 			<integer>20</integer>
 		</dict>
-		<key>topics/programs-and-compilers/concepts/Program.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-		</dict>
 		<key>topics/programs-and-compilers/concepts/Terminal.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1167,7 +1179,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>38</integer>
+			<integer>35</integer>
 		</dict>
 		<key>topics/storing-using-data/application/CalculateChange.txt</key>
 		<dict>
@@ -1478,9 +1490,10 @@
 	<array>
 		<string>topics/programs-and-compilers/compilers.tex</string>
 		<string>topics/programs-and-compilers/concepts/Terminal.tex</string>
+		<string>code/c/program-creation/hello-world.c</string>
 		<string>topics/program-creation/application/design-hello-world.tex</string>
-		<string>topics/programs-and-compilers/concepts/Challenges.tex</string>
-		<string>topics/programs-and-compilers/concepts/Program.tex</string>
+		<string>code/c/program-creation/compile-output-test.sh</string>
+		<string>topics/programs-and-compilers/concepts/Compiling.tex</string>
 		<string>topics/programs-and-compilers/concepts/MachineCode.tex</string>
 		<string>topics/programs-and-compilers/concepts/Compiler.tex</string>
 		<string>topics/programs-and-compilers/concepts/HelloWorld.tex</string>
@@ -1509,19 +1522,19 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>topics</key>
+				<key>code</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>arrays</key>
+						<key>c</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>concepts</key>
+								<key>program-creation</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1530,6 +1543,29 @@
 								</dict>
 							</dict>
 						</dict>
+						<key>pascal</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>program-creation</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+				<key>topics</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
 						<key>programs-and-compilers</key>
 						<dict>
 							<key>isExpanded</key>
@@ -1551,6 +1587,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 1414}}</string>
+	<string>{{0, 4}, {1280, 874}}</string>
 </dict>
 </plist>
