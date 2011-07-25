@@ -1,0 +1,65 @@
+\clearpage
+\subsection{Installing GCC} % (fold)
+\label{sub:installing_gcc}
+
+You can get the gcc compiler for Linux, Mac OS, and Windows. The following section describe where it is you can find these programs, and how to install them.
+
+\subsubsection{Installing gcc on Linux} % (fold)
+\label{ssub:linux}
+
+It should be relatively easy to install \textbf{gcc} for Linux. If gcc is not already installed on your machine you should check with the Linux distribution on how to install the build tools. To install this on Ubuntu linux use the command shown in \lref{lst:apt-get-gcc}.
+
+\bashcode{lst:apt-get-gcc}{The command line instruction to install gcc on Ubuntu}{topics/programs-and-compilers/c/apt-get-gcc.txt}
+
+% subsubsection linux (end)
+
+\subsubsection{Installing gcc on Mac OS} % (fold)
+\label{ssub:installing_gcc_on_mac_os}
+
+To install \textbf{gcc} on Mac OS you need to install the \textbf{XCode} developer tools. You can get the latest version of XCode from the \textbf{Mac App Store} (yes it is free).
+
+XCode links:
+\begin{itemize}
+  \item Apple's XCode website \url{http://developer.apple.com/xcode/}
+  \item XCode in the Mac App Store  \url{http://itunes.apple.com/au/app/xcode/id448457090?mt=12}
+\end{itemize}
+
+
+% subsubsection installing_gcc_on_mac_os (end)
+
+\subsubsection{Installing gcc on Windows} % (fold)
+\label{ssub:installing_gcc_on_windows}
+
+To get \textbf{gcc} on Windows you need to install the \textbf{MinGW} program. This includes the MinGW Shell, the Terminal equivalent for Windows. Read the Getting Started page from the links below, and follow the steps for the \textbf{Graphical User Interface Installer}. When following the installer make sure that you choose to install the MinGW Shell as well as the C compiler.
+
+\begin{itemize}
+  \item The project's Website \url{www.mingw.org}
+  \item Instructions for installing MinGW: \url{http://www.mingw.org/wiki/Getting_Started}
+  \item Follow the link from the Getting Started article, or download MinGW from Source Forge at \url{http://sourceforge.net/projects/mingw/}
+  \item It is a good idea to restart after installing MinGW to make sure all its settings are applied.
+\end{itemize}
+
+% subsubsection installing_gcc_on_windows (end)
+\clearpage
+\subsubsection{Testing gcc has installed} % (fold)
+\label{ssub:testing_your_install}
+
+To test that you have successfully installed gcc you can do the following:
+\begin{enumerate}
+  \item Open a Terminal window. (See the notes on the \nameref{sub:terminal} page for the location of the Terminal program)
+  \item At the terminal type \textbf{\texttt{gcc}}. You should see something similar to \fref{fig:gcc-install}. If you see the message `\texttt{-bash: gcc: command not found}' this means the install has not worked correctly. Please review the install steps for your Operating System or get someone to check your install.
+\end{enumerate}
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.5\textwidth]{./topics/programs-and-compilers/images/gccInstall} 
+   \caption{Testing gcc has been installed}
+   \label{fig:gcc-install}
+\end{figure}
+
+Once you have got this working you can move on to installing a text editor.
+
+
+% subsection testing_your_install (end)
+
+% subsection installing_gcc (end)

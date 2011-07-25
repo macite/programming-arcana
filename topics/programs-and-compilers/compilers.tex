@@ -1,11 +1,24 @@
 \chapter{Building Programs} % (fold)
 \label{cha:building programs}
 
-Welcome to the Programming Arcana\footnote{Arcana is defined as secrets or mysteries, Wiktionary defines it as ``specialized knowledge that is mysterious to the uninitiated.''. This fits well with the idea of programming, and we just think its a cool word to describe the \emph{magic} of programming!}, a book about learning to program. This book contains a number of lessons that take you from knowing nothing, or little, about programming to a position where the mysteries are revealed. By the end of the material you will be able to create your own programs and you will be ready to start learning other programming languages and approaches to software development.
+\begin{quote}
+  %\frakfamily\selectfont\Large
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \renewcommand{\LettrineFontHook}{\color{red}}
+  \lettrine[image=true,lines=3,lhang=.2, loversize=.25, findent=0.1em]
+  {W}{elcome} neophyte! So you seek to master the art of Magic? To work magic you must learn the structure of incantations, and how to use a wand to convert these into magic energy. 
+  
+  Let us begin with a simple spell, a spell that will greet the world around you! Utter these words, and wave your wand\ldots
+\end{quote}
+
+\bigskip
+
+Welcome to the Programming Arcana\footnote{Arcana is defined as secrets or mysteries, Wiktionary defines it as ``specialized knowledge that is mysterious to the uninitiated.''. This fits well with the idea of programming, and we think its a cool word to describe the \emph{magic} of programming!}, a book about learning to program. This book contains a number of chapters that take you from knowing nothing, or little, about programming to a position where the mysteries are revealed. By the end of the material you will be able to create your own programs and you will be ready to start learning other programming languages and approaches to software development.
 
 This book is divided into a number of chapters, each of which introduces you to a programming task and the arcane knowledge that must be attained to understand how the task is accomplished. As with any arcane knowledge there are special terms that are used by those who know its secrets. In each chapter you will be introduced to the terms you need to understand in order to perform the current task. This will provide you with the tools you need to describe programs to other software developers, and will help you understand how the structures within your programs work to achieve their goals.
 
-Like magic, you must learn the structure of source code, and how to use tools to convert these into executable programs. Let us begin with a simple program, a program that will greet the world.
+Like magic, you must learn the structure of source code, and how to use tools to convert these into programs. Let us begin with a simple program, a program that will greet the world.
 
 \minitoc
 
@@ -16,12 +29,31 @@ Like magic, you must learn the structure of source code, and how to use tools to
 \section{Concepts Related to Building Programs} % (fold)
 \label{sec:concepts_related_to_building_programs}
 
-This chapter introduces several new concepts:
+In this chapter you will learn about the basic tools you need to use to create your own programs. You will see an example program, and then use these tools to convert that code into an executable program. You will then be able to run the program you created, and see it perform the tasks you coded.
+
+This chapter provides a background on what programs are, and the general processes of how they are created. This will introduce you to the tools you will be using, and fill in some details of what they are doing and how to use them. The topics covered include the following:
 \begin{itemize}
-  \item \nameref{sub:hello world}: A \emph{classic} program used to check that you have everything working correctly.
+  \item \nameref{sub:what_is_a_program_}: This section introduces you to the idea of what a program is, and what it contains. You will need to be familiar with programs and what they are, as you will need to be able to create your own.
+  \item \nameref{sub:machine_code}: Talks about the kinds of instructions the computer understands, and why it is not very productive to work at this level. You need to understand that this exists behind the scenes, but do not need to be overly familiar with it.
+  \item \nameref{sub:assembly}: The next level of language is called Assembly. It is very close to machine code, but much easier to understand and use. However, this is still too low a level to be very productive. Just like machine code, you only need to know this exists
+  \item \nameref{sub:source_code_and_the_compiler}: This is the level we are going to be working with in this book. This code is much easier to work with than assembly, and allows you to create your own programs reasonably quickly once you have learnt the basics. These are the tools you are going to be working with throughout this text.
+  \item \nameref{sub:terminal}: This is a command line environment that lets you issue text commands to the user. You will use this to create and run your programs.
+  \item \nameref{sub:hello world}: A \emph{classic} program used to check that you have everything working correctly. This section shows you the code that you can use this to check that you have all the tools setup correctly, and to check their usage.
+  \item \nameref{sub:compiling_code}: This final section will show you how to use these tools to compile and run your own Hello World program. \fref{fig:run-1-helloworld} shows the Hello World program running from the Terminal.
 \end{itemize}
 
+Before getting into these details the next section provides you will an outline of the book, and how you can go about reading it.
 
+\begin{figure}[b]
+   \centering
+   \includegraphics[width=0.7\textwidth]{./topics/programs-and-compilers/images/HelloWorld} 
+   \caption{Hello World run from the Terminal}
+   \label{fig:run-1-helloworld}
+\end{figure}
+
+
+\input{topics/programs-and-compilers/concepts/BookOverview}
+\input{topics/programs-and-compilers/concepts/ConceptTaxonomy}
 \input{topics/programs-and-compilers/concepts/Program}
 \input{topics/programs-and-compilers/concepts/MachineCode}
 \input{topics/programs-and-compilers/concepts/Assembly}
@@ -29,34 +61,38 @@ This chapter introduces several new concepts:
 % \input{topics/programs-and-compilers/concepts/Challenges}
 \input{topics/programs-and-compilers/concepts/Terminal}
 \input{topics/programs-and-compilers/concepts/HelloWorld}
-\input{topics/programs-and-compilers/concepts/Compiling}
-\input{topics/programs-and-compilers/concepts/ConceptTaxonomy}
+\input{topics/programs-and-compilers/concepts/Summary}
+
 
 % section concepts_related_to_building_programs (end)
 
+% ========================
+% = Using these concepts =
+% ========================
 
-% subsection source_code (end)
+\clearpage
+\section{Using these concepts: Compiling a Program} % (fold)
+\label{sec:using_these_concepts_compiling_a_program}
 
-\section{Getting Setup} % (fold)
-\label{sec:getting_setup}
+\input{topics/programs-and-compilers/application/using-programs-and-compilers}
 
-To create programs you are going to need a couple of tools.
+% section using_these_concepts_compiling_a_program (end)
 
-\begin{itemize}
-  \item A \textbf{compiler} to convert your source code into machine code.
-  \item A \textbf{text editor} to enter your code into.
-  \item A \textbf{shell} to interact with your computer.
-\end{itemize}
+% =============
+% = C Section =
+% =============
+\clearpage
+\def\pageLang{c}
+\section{Building Programs in C} % (fold)
+\label{sec:building_programs_in_c}
+
+\input{topics/programs-and-compilers/c/HelloWorldC}
+\input{topics/programs-and-compilers/c/InstallingCompiler}
+\input{topics/programs-and-compilers/c/TextEditor}
+\input{topics/programs-and-compilers/c/SwinGameHelloWorld}
 
 
+% section building_programs_in_c (end)
 
-% section getting_setup (end)
-
-\section{Summary} % (fold)
-\label{sec:summary-compilers}
-
-Computers can execute \textbf{machine code}, but this isn't very friendly for people to read or create. \textbf{Assembler code} provided the first layer of abstraction over machine code, giving symbolic names to the machine code instructions. This was a little easier to work with, but still required considerable work to create programs of even simple functionality. Most modern programs are written from \textbf{third generation languages} such as \textbf{C} and \textbf{Pascal}. With these languages the develop writes source code that is converted by a \textbf{compiler} into machine code.
-
-% section summary (end)
 
 % chapter building_programs (end)
