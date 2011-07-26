@@ -91,8 +91,55 @@ Before getting into these details the next section provides you will an outline 
 \input{topics/programs-and-compilers/c/TextEditor}
 \input{topics/programs-and-compilers/c/SwinGameHelloWorld}
 
-
 % section building_programs_in_c (end)
 
+% ===================================
+% = Understanding Building Programs =
+% ===================================
+
+\clearpage
+\def\pageLang{}
+\section{Understanding Program Compilation} % (fold)
+\label{sec:understanding_program_compilation}
+
+An in depth look at how programs and compilers work is beyond the scope of this book. Instead, this chapter focuses on two aspects that can help you understand why we need compilers, and how these are able to help us. These topics are \nameref{sub:levels_of_abstraction}, followed by \nameref{sub:computers_and_intelligent_behaviour}.
+
+\subsection{Levels of Abstraction} % (fold)
+\label{sub:levels_of_abstraction}
+
+Programs are very complicated. Trying to keep all of the details about how it works in focus all of the time would take a large amount of effort, and slow you down. As humans we have developed strategies for dealing with these kinds of situations. What we do is create \emph{layers} of abstraction.
+
+A layer, or level, of abstraction provides a means of managing details at a similar level of detail. This means that all aspects of that level are similar, and related to each other. When you are working at a certain level, you think in terms of the tools and artefacts that are available to you. 
+
+These levels build on top of each other, with each layer being built on top of the lower layer, and providing the foundation for the next higher layer. Within a layer of abstraction you do not need to think about the lower levels of abstraction, most of the time. However, it is always good to know the details of at least one level of abstraction below the level you are working at.
+
+\subsubsection{Programming Abstraction Levels} % (fold)
+\label{ssub:programming_abstraction_levels}
+
+Computers are unintelligent. This is one of the first, and most important, things you need to understand when starting to create your own programs. A computer is a machine that can be programmed using \nameref{sub:machine_code}. These binary commands instruct the computer to perform basic actions such as adding numbers, reading values from memory, storing values in memory, jumping to new instructions elsewhere in memory, and other simple tasks. While this is a very low level, it is not the lowest level of abstraction.
+
+Below machine code, there is the abstraction for \textbf{binary}. This is the idea that you can have a number system based on two digits, 0 and 1. The machine code level builds on this idea, creating a set of instructions that can be used to tell the computer what to do. Below binary there is the concept of \textbf{gates}, which are themselves built on top of \textbf{electronic circuits}, which in turn are made from \textbf{discrete electronic components}. Even these low level electronic components are based upon something else, but to discuss this we would need to delve into the realm of \textbf{semiconductors} and \textbf{Quantum Mechanics}. From machine code you can also work up to \nameref{sub:assembly}, and then to \nameref{sub:source_code_and_the_compiler}.
+
+Whenever you are working on something you need to be able to work at that level of abstraction, and have an understanding of the level below, and the level above. For programming this means that you will need to understand of the tools provided to you by the language (a level below), and you need to understand the features and functions of the program you are creating (a level above).
+
+In this book the \emph{Understanding} section of each chapter will help you see how the concepts covered work at a lower level of abstraction. Often this means these sections are very detailed. You should read these sections to understand how the abstractions (concepts) covered in the chapter work, at a level of abstraction lower than you will be working at.
+
+% subsubsection programming_abstraction_levels (end)
+% subsection levels_of_abstraction (end)
+\clearpage
+\subsection{Computers and Intelligent Behaviour} % (fold)
+\label{sub:computers_and_intelligent_behaviour}
+
+If computers are unintelligent, how can they do the awesome things they do?
+
+That is a good question. Computers are unintelligent, but programs are not. The computer does not \emph{know} what it is doing. It is following a set of steps that was coded into the program being executed. These steps, however, were created by people, software developers. When a computer does something cool, its because a person told it to do that.
+
+This is why it can be really great fun to be a software developer. You get to make computers do things you want them to. This creativity can be really exhilarating when you finally get your program to do exactly what you want.
+
+
+
+% subsection computers_and_intelligent_behaviour (end)
+
+% section understanding_ (end)
 
 % chapter building_programs (end)
