@@ -42,8 +42,6 @@ This chapter provides a background on what programs are, and the general process
   \item \nameref{sub:compiling_code}: This final section will show you how to use these tools to compile and run your own Hello World program. \fref{fig:run-1-helloworld} shows the Hello World program running from the Terminal.
 \end{itemize}
 
-Before getting into these details the next section provides you will an outline of the book, and how you can go about reading it.
-
 \begin{figure}[b]
    \centering
    \includegraphics[width=0.7\textwidth]{./topics/programs-and-compilers/images/HelloWorld} 
@@ -52,8 +50,6 @@ Before getting into these details the next section provides you will an outline 
 \end{figure}
 
 
-\input{topics/programs-and-compilers/concepts/BookOverview}
-\input{topics/programs-and-compilers/concepts/ConceptTaxonomy}
 \input{topics/programs-and-compilers/concepts/Program}
 \input{topics/programs-and-compilers/concepts/MachineCode}
 \input{topics/programs-and-compilers/concepts/Assembly}
@@ -136,10 +132,64 @@ That is a good question. Computers are unintelligent, but programs are not. The 
 
 This is why it can be really great fun to be a software developer. You get to make computers do things you want them to. This creativity can be really exhilarating when you finally get your program to do exactly what you want.
 
-
-
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/programs-and-compilers/diagrams/ProgramIntelligence} 
+   \caption{Computers are unintelligent, any interesting behaviour comes from programs created by software developers}
+   \label{fig:program-intelligence}
+\end{figure}
 % subsection computers_and_intelligent_behaviour (end)
-
 % section understanding_ (end)
+
+% ============
+% = Examples =
+% ============
+
+\clearpage
+\section{Exercises on Building Programs} % (fold)
+\label{sec:examples_and_exercises_on_building_programs}
+
+Read over the concepts in this chapter and answer the following questions:
+\begin{enumerate}
+  \item What is a \nameref{sub:what_is_a_program_}? What does it contain?
+  \item What is \nameref{sub:machine_code}?
+  \item Can you write programs in Machine Code? Explain any issues associated with this.
+  \item What is \nameref{sub:assembly}?
+  \item Can you write programs in Assembly? Explain any issues associated with this.
+  \item What tool is used to convert Assembly to Machine Code?
+  \item What is Source Code?
+  \item What are the advantages of programming at a Source Code level?
+  \item What tool is used to convert Source Code to Machine Code?
+  \item Why do you need to convert Source Code and Assembly to Machine Code?
+  \item What is the \nameref{sub:terminal}? 
+  \item What is Bash?
+  \item Which command is used to change directories in Bash?
+  \item With Bash, how can you check which directory is the current working directory?
+  \item How can you list all of the files in the current directory?
+  \item Why program `Hello World'? What does it do for you?
+  \item What is the name of the C or Pascal compiler we will be using in this book?
+  \item How intelligent is your computer?
+\end{enumerate}
+
+\bigskip
+Apply what you have learnt to the following tasks:
+
+\begin{enumerate}
+  \item Enter the code, compile, and run the `Hello World' program.
+  \item Try changing the code to output a different message. After you have made the changes you will need to re-compile and run the program.
+\end{enumerate}
+
+\bigskip
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+\begin{enumerate}
+  \item What is the difference between a compiler and an interpreter? How are programs of interpreted languages, such as Python, executed?
+  \item If you compile a program for an Intel CPU on UNIX, can you run this on a UNIX machine that has a PowerPC CPU?
+  \item If you compile a program on a Windows machine can you run the resulting program on a UNIX machine with the same CPU architecture?
+  \item What is a fat, or Universal, binary?
+  \item What is a Virtual Machine?
+\end{enumerate}
+
+% section examples_and_exercises_on_building_programs (end)
+
 
 % chapter building_programs (end)

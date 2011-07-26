@@ -3,7 +3,8 @@
 
 \input{preamble/preamble}
 
-\includeonly{topics/programs-and-compilers/compilers}
+% \includeonly{topics/preface/preface}
+% \includeonly{topics/programs-and-compilers/compilers}
 % \includeonly{topics/program-creation/program-creation}
 % \includeonly{topics/procedure-decl/procedure-decl}
 % \includeonly{topics/storing-using-data/storing-using-data}
@@ -13,15 +14,16 @@
 % \includeonly{topics/dynamic-memory/dynamic-memory}
 
 \begin{document}
-  % bring the style into effect
-  \input{preamble/title}
-  
   \dominitoc 
   \dominilof 
   \dominilot
   
   \faketableofcontents
+  \frontmatter
+  \input{preamble/title}
   
+  \mainmatter
+  \include{topics/preface/preface}
   \include{topics/programs-and-compilers/compilers}
   \include{topics/program-creation/program-creation}
   \include{topics/procedure-decl/procedure-decl}

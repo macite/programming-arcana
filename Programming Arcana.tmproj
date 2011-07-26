@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/programs-and-compilers/compilers.tex</string>
+	<string>programming-arcana.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -51,6 +51,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>preamble/preamble.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>19</integer>
+		</dict>
 		<key>preamble/tikz-style.tex</key>
 		<dict>
 			<key>caret</key>
@@ -64,6 +78,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>222</integer>
+		</dict>
+		<key>programming-arcana.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
@@ -581,6 +609,48 @@
 				<integer>30</integer>
 			</dict>
 		</dict>
+		<key>topics/preface/BookOverview.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>278</integer>
+			<key>firstVisibleLine</key>
+			<integer>12</integer>
+		</dict>
+		<key>topics/preface/ConceptTaxonomy.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>34</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>5</integer>
+		</dict>
+		<key>topics/preface/preface.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/procedure-decl/application/visualise-procedures.tex</key>
 		<dict>
 			<key>caret</key>
@@ -979,70 +1049,72 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/programs-and-compilers/c/InstallingCompiler.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>33</integer>
-				<key>line</key>
-				<integer>54</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>9</integer>
-		</dict>
-		<key>topics/programs-and-compilers/c/SwinGameHelloWorld.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>63</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>12</integer>
-		</dict>
-		<key>topics/programs-and-compilers/c/apt-get-gcc.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>36</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/programs-and-compilers/compilers.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>138</integer>
+				<integer>42</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>104</integer>
+			<integer>37</integer>
 		</dict>
 		<key>topics/programs-and-compilers/concepts/Challenges.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>8</integer>
+				<integer>18</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/Terminal.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>42</integer>
+		</dict>
+		<key>topics/programs-and-compilers/concepts/summary.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1357,9 +1429,14 @@
 	<key>openDocuments</key>
 	<array>
 		<string>topics/programs-and-compilers/compilers.tex</string>
-		<string>topics/programs-and-compilers/c/InstallingCompiler.tex</string>
-		<string>topics/programs-and-compilers/c/SwinGameHelloWorld.tex</string>
-		<string>topics/programs-and-compilers/c/apt-get-gcc.txt</string>
+		<string>programming-arcana.tex</string>
+		<string>preamble/preamble.tex</string>
+		<string>topics/preface/preface.tex</string>
+		<string>topics/programs-and-compilers/concepts/Challenges.tex</string>
+		<string>topics/preface/BookOverview.tex</string>
+		<string>topics/preface/ConceptTaxonomy.tex</string>
+		<string>topics/programs-and-compilers/concepts/summary.tex</string>
+		<string>topics/programs-and-compilers/concepts/Terminal.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1384,43 +1461,12 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
+				<key>preamble</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
-					<dict>
-						<key>c</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>program-creation</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>pascal</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>program-creation</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-					</dict>
+					<dict/>
 				</dict>
 				<key>topics</key>
 				<dict>
@@ -1428,7 +1474,7 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>program-creation</key>
+						<key>preface</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1441,20 +1487,6 @@
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>application</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>c</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
 								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
@@ -1470,6 +1502,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 1414}}</string>
+	<string>{{0, 4}, {1163, 874}}</string>
 </dict>
 </plist>
