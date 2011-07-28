@@ -22,12 +22,12 @@ As before, the process to design and implement this program will follow a number
 \begin{enumerate}
   \item Understand the problem, and get some ideas on the tasks that need to be performed.
   \item Choose the artefacts we will create and use
-  \item Design the control flow for the procedural\footnote{The Program, and any Functions and Procedures.} artefacts
+  \item Design the control flow for the procedural\footnote{The program, and any Functions and Procedures.} artefacts
   \item Map these artefacts to code
   \item Compile and run the program
 \end{enumerate}
 
-The new step in this process will involve designing the flow of the instructions within the Program, and the Functions and Procedures that need to be created. Previously each artefact had a sequential flow of instructions, the introduction of the control flow statements has made it possible to add branches and loops to this sequence. The order of these actions needs to be considered for each sequence of instructions in your code.
+The new step in this process will involve designing the flow of the instructions within the program, and the Functions and Procedures that need to be created. Previously each artefact had a sequential flow of instructions, the introduction of the control flow statements has made it possible to add branches and loops to this sequence. The order of these actions needs to be considered for each sequence of instructions in your code.
 
 % subsection designing_guess_that_number (end)
 
@@ -79,7 +79,7 @@ The Structure Chart showing these artefacts is shown in Figure \ref{fig:guess-ga
 \subsection{Designing Control Flow for Perform Guess} % (fold)
 \label{sub:designing_control_flow_for_perform_guess}
 
-Having chosen the artefacts to build, the next step is to design the control flow that will enable these Functions and Procedures, and the Program itself, to achieve their goals. Each has a responsibility that it must meet in order for the overall solution to work. 
+Having chosen the artefacts to build, the next step is to design the control flow that will enable these Functions and Procedures, and the program itself, to achieve their goals. Each has a responsibility that it must meet in order for the overall solution to work. 
 
 This section will go through designing the logic for the \texttt{Perform Guess} Function. It will cover the following points: 
 \begin{itemize}
@@ -532,7 +532,7 @@ The flowchart for \texttt{Play Game} includes a \nameref{sub:post_test_loop}, wh
 \subsection{Designing the Control Flow for Main} % (fold)
 \label{sub:designing_the_control_flow_for_main}
 
-The last Procedure is \texttt{Main}. This is responsible for coordinating the actions of the Program. It will call \texttt{Play Game} in a loop that repeatedly plays the game until the user decides to quit. \texttt{Main} will have one local variable called \texttt{again}. This will store a character, and will be used to store the value read from the user's response to the `\emph{play again}' prompt.
+The last Procedure is \texttt{Main}. This is responsible for coordinating the actions of the program. It will call \texttt{Play Game} in a loop that repeatedly plays the game until the user decides to quit. \texttt{Main} will have one local variable called \texttt{again}. This will store a character, and will be used to store the value read from the user's response to the `\emph{play again}' prompt.
 
 \begin{figure}[htbp]
    \centering

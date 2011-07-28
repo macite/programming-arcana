@@ -1,10 +1,20 @@
 \chapter{Program Creation} % (fold)
 \label{cha:program_creation}
 
+\begin{quote}
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \lettrine[image=true,lines=3,lraise=0.1]
+  {C}{asting} spells crafted by others is alright, but the true power of magic can only be realised by crafting your own spells. You have done well mastering the tools, so now let us turn our attention to the study of the arcane knowledge of spell craft. To create your own spells you need to know\ldots
+\end{quote}
+
+\bigskip
+
+Compiling programs crafted by others is alright, but the true power of programming can only be realised by learning to craft your own programs. \cref{cha:building programs} introduced you to the tools you need to compile programs from source code, so now we can turn our attention to the study program creation.
 
 This chapter introduces the artefacts used to create programs, and how you can code these using a programming language. You will start by learning to create simple programs that output information to the Terminal.
 
-At the end of this material you will be able to write the code needed to declare a program, convert this code into an executable program using a compiler, and then run the program you created.
+When you have understood the material in this chapter you will be able to write the code needed to declare a program, convert this code into an executable program using a compiler, and then run the program you created. You will have made those first important steps in your journey to master this arcane knowledge. 
 
 \minitoc
 
@@ -15,11 +25,11 @@ At the end of this material you will be able to write the code needed to declare
 \section{Program Creation Concepts} % (fold)
 \label{sec:program_creation_concepts}
 
-Our first program is going to display some text to the Terminal. In this section you will be introduced to the programming artefacts and terminology you will need to use to create this program. This first step is important and will require you to have installed a C or Pascal compiler, see Appendix \ref{chap:InstallingTools} for instructions.
+Our first program is going to display some text to the Terminal. In this section you will be introduced to the programming artefacts and terminology you will need to use to create this program. This first step is important and will require you to have installed a C or Pascal compiler, see \cref{cha:building programs} for instructions.
 
-A programming artefact is something that can be created and used within your code. In this chapter we will look at creating Programs, and using a number of other artefacts. The following \textbf{artefacts} will be covered in this chapter:
+A programming \textbf{artefact} is something that can be created and used within your code. In this chapter we will look at creating Programs, and using a number of other artefacts. The following artefacts will be covered in this chapter:
 \begin{itemize}
-  \item \nameref{sub:program}: You declare a Program to get the compiler to write a file the user can execute.
+  \item \nameref{sub:program}: You declare a Program to get the compiler to write a file that can be executed.
   \item \nameref{sub:procedure}: You can call Procedures to perform actions within the program.
   \item \nameref{sec:program-creation-library}: The program can use code from other Libraries. These libraries contain reusable Procedures and Types. 
   \item \nameref{sub:type}: A Type defines how data is interpreted by the program. The language will support a number of basic types by default, and Libraries can add other types. 
