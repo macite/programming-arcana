@@ -11,7 +11,7 @@ This Section will help you answer the following questions:
 
 When you are writing the code, the internal details of how a Procedure works are important. But, it is equally important to be able to picture how these procedures interact within the program as a whole. One technique for visualising this is to draw a \textbf{Structure Chart}.
 
-A \emph{Structure Chart} is a diagram that has two elements: rectangles representing the procedures in your code, and arrows representing calls. The Structure Chart for the Morse Calling program is shown in Figure \ref{fig:procedure-decl-morsecalling-structure}. In this you can see that the Morse Calling program has four main procedures that implement its functionality, in addition to the Program's main logic: the \texttt{Signal C}, \texttt{Signal Q}, \texttt{Long Signal}, and \texttt{Short Signal} procedures. It also shows that the program's main logic calls \texttt{Signal C} and \texttt{Signal Q}, that \texttt{Signal C} calls \texttt{Long Signal} and \texttt{Short Signal}, as does \texttt{Signal Q}.
+A \emph{Structure Chart} is a diagram that has two elements: rectangles representing the procedures in your code, and arrows representing calls. The Structure Chart for the Morse Calling program is shown in Figure \ref{fig:procedure-decl-morsecalling-structure}. In this you can see that the Morse Calling program has four main procedures that implement its functionality, in addition to the program's main logic: the \texttt{Signal C}, \texttt{Signal Q}, \texttt{Long Signal}, and \texttt{Short Signal} procedures. It also shows that the program's main logic calls \texttt{Signal C} and \texttt{Signal Q}, that \texttt{Signal C} calls \texttt{Long Signal} and \texttt{Short Signal}, as does \texttt{Signal Q}.
 
 \begin{figure}[htbp]
    \centering
@@ -22,9 +22,9 @@ A \emph{Structure Chart} is a diagram that has two elements: rectangles represen
 
 The rectangles in the Structure Chart represent the Procedures. As the name of the procedure should reflect its task/actions this means that the reader of the diagram can get some insight into what the program is doing, and how it is achieving its tasks. From Morse Calling's Structure Chart you can see that the program is Signalling the character's \emph{C} and \emph{Q}, which internally use \emph{Long} and \emph{Short} signals to achieve their tasks.
 
-The arrows in the Structure Chart show Procedure Calls. The arrow from the \texttt{Signal C} procedure to \texttt{Long Signal} tells us that somewhere in the code for \texttt{Signal C} there is one or more calls to \texttt{Long Signal}. There is no indication of the order, or frequency, of these calls. Its just simply saying that \texttt{Signal C} calls \texttt{Long Signal}.
+The arrows in the Structure Chart show procedure calls. The arrow from the \texttt{Signal C} procedure to \texttt{Long Signal} tells us that somewhere in the code for \texttt{Signal C} there is one or more calls to \texttt{Long Signal}. There is no indication of the order, or frequency, of these calls. Its just simply saying that \texttt{Signal C} calls \texttt{Long Signal}.
 
-The Structure Chart is useful for getting an overall picture of how the program is structured. It can help the designer communicate such things as \emph{What Procedures are there in this program?} and \emph{How are these Procedures related to each other?} It helps developers new to the project to get a feeling for how the code is distributed within the solution, and to know where the core logic can be found. It also provides a means of determining the impact of changing the functionality of the tasks in the Program. For example, if you change how \texttt{Long Signal} works that may impact on \texttt{Signal C} and on \texttt{Signal Q}. Any changes you made here would mean you needed to test that \texttt{Signal C} and \texttt{Signal Q} still worked as expected.
+The Structure Chart is useful for getting an overall picture of how the program is structured. It can help the designer communicate such things as \emph{What Procedures are there in this program?} and \emph{How are these Procedures related to each other?} It helps developers new to the project to get a feeling for how the code is distributed within the solution, and to know where the core logic can be found. It also provides a means of determining the impact of changing the functionality of the tasks in the program. For example, if you change how \texttt{Long Signal} works that may impact on \texttt{Signal C} and on \texttt{Signal Q}. Any changes you made here would mean you needed to test that \texttt{Signal C} and \texttt{Signal Q} still worked as expected.
 
 \bigskip
 
@@ -32,12 +32,12 @@ The Structure Chart is a great communication tool for getting an overall picture
 
 % sub:visualising_morse_calling (end)
 
-\subsection{Visualising Procedure Calls in Morse Calling} % (fold)
+\subsection{Visualising procedure calls in Morse Calling} % (fold)
 \label{sub:visualising_procedure_calls_in_morse_calling}
 
 The Structure Chart communicates the static structure of the solution, showing the Procedures and their relationships but lacking any details on how this structure works dynamically. This dynamic information can be captured in a \textbf{Sequence Diagram}, which works together with the Structure Chart to complete the overview of the program's structure and dynamic behaviour.
 
-Figure \ref{fig:procedure-decl-morsecalling-sequence} shows the \emph{Sequence Diagram} for the Morse Calling program. This shows the \emph{Procedure Calls} that will occur within an execution of the program's code. The Sequence Diagram shows the order in which Procedure Calls occur, with time travelling down the page and the calls travelling across. 
+Figure \ref{fig:procedure-decl-morsecalling-sequence} shows the \emph{Sequence Diagram} for the Morse Calling program. This shows the \emph{procedure calls} that will occur within an execution of the program's code. The Sequence Diagram shows the order in which procedure calls occur, with time travelling down the page and the calls travelling across. 
 
 \begin{figure}[htbp]
    \centering
@@ -48,7 +48,7 @@ Figure \ref{fig:procedure-decl-morsecalling-sequence} shows the \emph{Sequence D
 
 You start reading this diagram from the top, with each arrow representing the call to a Procedure, and the thin vertical rectangles representing the time taken for the called procedure to complete its task. Reading the Sequence Diagram for Morse Calling you can see that the first thing to occur is the \texttt{Main} body of the program's code is started. The arrow from the far left indicates that something, in this case being the user launching the program, starts this code running.
 
-The first thin vertical rectangle is the program's main instructions, and its first action is to call \texttt{Signal C} as shown by the arrow pointing to the second vertical bar. This is our first Procedure Call, the program's instructions call \texttt{Signal C}. Notice that at this point there are two vertical bars. These represent the two frames on the Stack, and show us that when \texttt{Signal C} finishes the execution will return to the Program's main instructions.
+The first thin vertical rectangle is the program's main instructions, and its first action is to call \texttt{Signal C} as shown by the arrow pointing to the second vertical bar. This is our first procedure call, the program's instructions call \texttt{Signal C}. Notice that at this point there are two vertical bars. These represent the two frames on the Stack, and show us that when \texttt{Signal C} finishes the execution will return to the program's main instructions.
 
 Within \texttt{Signal C} the first action is to call \texttt{Long Signal}, as shown be the arrow. Time-wise this is the second procedure call. First the Main code called \texttt{Signal C}, which in turn called \texttt{Long Signal}. The details on the diagram show us that \texttt{Long Signal} does not call any other procedures that we created. Notice that we have avoided putting in the call to the output procedure to allow us to focus on the Procedures we have created. At this point there are three frame's on the Stack, the first for the \texttt{Main} code, second for \texttt{Signal C}, and third for \texttt{Long Signal}. You can see these if you turn your head on the side. Notice the notice that the vertical bars will mirror the stack.
 
@@ -56,7 +56,7 @@ As \texttt{Long Signal} does not call any other Procedures that we created there
 
 The next instruction in \texttt{Signal C} is the call to \texttt{Short Signal}. Once again this is shown with the calling arrow, and a vertical bar is added to show the steps of the \texttt{Short Signal} executing. \texttt{Short Signal} does not call any other Procedures we created so it ends without any additional calls occurring, and control returns to \texttt{Signal C}.
 
-This process continues, with the diagram showing that \texttt{Long Signal} is called again followed by a call to \texttt{Short Signal}, and then \texttt{Signal C} ends. At this point control returns to the program's main code, where the next call starts \texttt{Signal Q} running. Within \texttt{Signal Q} you can see two calls to \texttt{Long Signal}, followed by a call to \texttt{Short Signal}, and a final call to \texttt{Long Signal}. When the final call to \texttt{Long Signal} ends this marks the end of the \texttt{Signal Q} procedures, and the end of the Program's instructions as a whole.
+This process continues, with the diagram showing that \texttt{Long Signal} is called again followed by a call to \texttt{Short Signal}, and then \texttt{Signal C} ends. At this point control returns to the program's main code, where the next call starts \texttt{Signal Q} running. Within \texttt{Signal Q} you can see two calls to \texttt{Long Signal}, followed by a call to \texttt{Short Signal}, and a final call to \texttt{Long Signal}. When the final call to \texttt{Long Signal} ends this marks the end of the \texttt{Signal Q} procedures, and the end of the program's instructions as a whole.
 
 As you can see from the above text the Sequence Diagram communicates a large amount of detail in a relatively small space. Trying to communicate the calling sequence in words is far harder than doing so in a diagram like this. The Sequence Digram allows software designers to communicate the dynamic behaviour of a software solution.
 
@@ -68,7 +68,7 @@ Together \emph{Structure Charts} and \emph{Sequence Diagrams} allow Software Des
 
 % subsection visualising_procedure_calls_in_morse_calling (end)
 
-\subsection{Procedure Calls in Action} % (fold)
+\subsection{procedure calls in Action} % (fold)
 \label{sub:procedure_calls_in_action}
 
 The Sequence Diagram gives you a way of visualising what happens at run time, but let us return to our virtual computer and see how these actions actually work within the computer. 
@@ -351,8 +351,8 @@ The key messages to take away from this Section are:
 \begin{itemize}
   \item A Procedure has the responsibility to perform a given task.
   \item The Procedure's name should reflect the task it performs.
-  \item A \textbf{Structure Chart} shows the Procedures in a program, and how they are connected by Procedure Calls.
-  \item The dynamic behaviour of the program can be shown using a \textbf{Sequence Diagram}, this sequence of Procedure Calls within the program.
+  \item A \textbf{Structure Chart} shows the Procedures in a program, and how they are connected by procedure calls.
+  \item The dynamic behaviour of the program can be shown using a \textbf{Sequence Diagram}, this sequence of procedure calls within the program.
   \item When a Procedure is called its instructions are followed. These instructions get the computer to perform the task the Procedure is responsible for.
   \item Procedures should cause \textbf{side effects}, changing something as a result of being called.
   \item Making sure each Procedure performs a \textbf{single task} will make your job easier.

@@ -1,0 +1,94 @@
+Read over the concepts in this chapter and answer the following questions:
+\begin{enumerate}
+  \item What is a \nameref{sub:variable}?
+  \item What is the relationship between a variable and a value?
+  \item What is the relationship between a variable and a type?
+  \item Where can you use variables? Think both reading the value, and storing a new value.
+  \item What does it mean if a variable appears on the right hand side of an assignment? What will happen to this variable when the code is run?
+  \item What does it mean if a variable appears on the left hand side of an assignment? What will happen to this variable when the code is run?
+  \item What is a \nameref{sub:constant}? How does it differ from a variable?
+  \item What is a local variable? What code can access the value in a local variable?
+  \item What is a global variable? What code can access the value in a global variable?
+  \item Why is it considered good practice to use local variable, but not global variables?
+  \item How do parameters help make procedures more powerful?
+  \item What are the two parameter passing mechanisms for passing parameters? How are they different?
+  \item When would you use each of the parameter passing mechanisms? For what kind of parameters?
+  \item How does the Terminal input procedure store a value in the variable you pass to it? What kind of parameter passing is involved here?
+  \item What statement was introduced in this chapter?
+  \item What does this statement allow you to do?
+  \item What is a function? How does it differ from a procedure?
+  \item A procedure call is a statement. What is a function call? Why is this different?
+  \item What does it mean when you say a function returns a value? 
+  \item What are the values of the following expressions?
+  
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|l|}
+      \hline
+      \textbf{Question} & \textbf{Expression} & \textbf{Given} \\
+      \hline
+      (a) & \texttt{5} & \\
+      \hline
+      (b) & \texttt{a} & \texttt{a} is 2.5 \\
+      \hline
+      (c) & \texttt{1 + 2 * 3} & \\
+      \hline
+      (d) & \texttt{a + b} & \texttt{a} is 1 and \texttt{b} is 2 \\
+      \hline
+      (e) & \texttt{2 * a} & \texttt{a} is 3 \\
+      \hline
+      (f) & \texttt{a * 2 + b} & \texttt{a} is 1.5 and \texttt{b} is 2\\
+      \hline
+      (g) & \texttt{a + 2 * b} & \texttt{a} is 1.5 and \texttt{b} is 2 \\
+      \hline
+      (h) & \texttt{(a + b) * c} & \texttt{a} is 1, b is 1 and \texttt{c} is 5 \\
+      \hline
+      (i) & \texttt{a + b * 2} & \texttt{a} is 1.0 and \texttt{b} is 2\\
+      \hline
+    \end{tabular}    
+  \end{table}
+\end{enumerate}
+
+
+\clearpage
+Apply what you have learnt to the following tasks:
+\begin{enumerate}
+  \item Take the times table program from \sref{sub:times_table} and re-implement it so that there are two procedures: \texttt{Print Times Table}, and \texttt{Print Times Table Line}. Use these to print the 42, 73, and 126 times tables, as well as printing a times table the user requests.
+  \begin{itemize}
+    \item The \texttt{Print Times Table Line} procedure will take two parameters. The first will be the number, the second will be the times. This will output a single line for the table, e.g. ` 1 x 73 = 73'. 
+    \item The \texttt{Print Times Table} procedure will have a single parameter called \texttt{number}. It will output a header for the table, and then call \texttt{Print Times Table Line} ten times. In each call it will pass 1, 2, 3, etc. for the times parameter, and pass across its \texttt{number} value to the \texttt{number} parameter. After printing the last line it will output a footer for the table.
+  \end{itemize}
+  \item Correct and then implement the Trapezoid Area procedure from \sref{sub:hand_execution_with_variables}. Adjust the implementation to call a \texttt{Trapezoid Area} function that is passed the two base values and the height, and returns the area. Create a small program to test this procedure.
+  \item Implement the Change Calculation program, and test it function as you expect.
+  \item Revisit your Circle Dimensions program from \cref{cha:program_creation} and adjust its implementation to make use of functions and procedures.
+  \item Design the structure and then the code for a program that converts temperatures from Celsius to Fahrenheit. This should read the value to convert from the user, and output the results to the Terminal.
+  \item Take the adjusted Face Shape program from \cref{cha:procedure_declaration}, and re-implement it so that the \texttt{Draw Face} procedure takes in an x and y coordinate for the location where the face will be drawn. Adjust the coordinates of the face's components in \texttt{Draw Face}, by the amounts in the \texttt{x} and \texttt{y} parameters. Use your new procedure to draw three faces to the screen at different positions.
+  \item Write a \texttt{Swap} procedure that takes in two integer parameters (passed by reference) and swaps their values. Write a program to test this procedure. This should work so that if you call \texttt{Swap(a, b);} that the values in the \texttt{a} and \texttt{b} variables are swapped over. You can test this by printing the values before and after the call to the \texttt{Swap} procedure.
+  \item Write a small program to experiment with parameter passing. Create in this program a procedure called \texttt{Print It} that takes a integer parameter and prints it to the Terminal. Also create a  \textbf{Double It} procedure that takes an integer parameter passed by reference\footnote{If you are using C, you will need to do this with C++. With C++ your compiler is now g++, rather than gcc.} and has its value doubled in the procedure. Try the following (not all will work):
+  \begin{enumerate}
+    \item Call \texttt{Print It}, passing in a literal value like \texttt{5}.
+    \item Call \texttt{Double It}, passing in a literal value like \texttt{5}.
+    \item Call \texttt{Print It}, passing in a calculated expression like \texttt{a + b}.
+    \item Call \texttt{Double It}, passing in a calculated expression like \texttt{a + b}.
+    \item Call \texttt{Print It}, passing in a variable's value.
+    \item Call \texttt{Double It}, passing in a variable's value.
+  \end{enumerate}
+  
+  \clearpage
+  \item Watch \url{http://www.youtube.com/watch?v=y2R3FvS4xr4}, which clearly demonstrates the importance of being able to calculate the airspeed velocity of a swallow. This can be calculated using an equation based on the Strouhal Number, see \url{http://www.style.org/strouhalflight}. Use this information to create a program that can be used to calculate the airspeed velocity of African and European Swallows. Use the following values:
+  \begin{itemize}
+    \item Strouhal Number of 0.33
+    \item African Swallow: frequency 15hz, amplitude 21cm
+    \item European Swallow: frequency 14hz, amplitude 22cm
+  \end{itemize}
+\end{enumerate}
+
+\bigskip
+
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+
+\begin{enumerate}
+  \item Further adjust your Face Drawing program so that the caller can pass in a custom color, width, and height for the face.
+  
+\end{enumerate}
+

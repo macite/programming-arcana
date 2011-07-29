@@ -108,8 +108,22 @@ Having finished the analysis of the problem, the next step is to design the solu
 
 The pseudocode for the \emph{Morse Calling} program is shown in Listing \ref{lst:procedure-decl-MorseCalling-pseudo}, with pseudocode for the \emph{Signal C} procedure in Listing \ref{lst:procedure-decl-signalc-pseudo}, \emph{Signal Q} in Listing \ref{lst:procedure-decl-signalq-pseudo}, and Listing \ref{lst:procedure-decl-shortsignal-pseudo} showing the pseudocode for the \emph{Short Signal} procedure.
 
+\mynote{
+Have a look over the procedures and the Morse Calling Program and note the following things:
+\begin{itemize}
+  \item The procedures appear within the program.
+  \item The name of the procedure indicates what it does.
+  \item \texttt{Short Signal} is called by the \texttt{Signal C} and \texttt{Signal Q} procedures.
+  \item \texttt{Short Signal} is not directly called by the program.
+  \item The \texttt{SignalC} Procedure calls the \texttt{Long Signal} and \texttt{Short Signal} procedures.
+  \item In the C or Pascal code, the Procedure's declaration must appear before its use, so \texttt{Short Signal} and \texttt{Long Signal} will need to appear at the top of the code, \texttt{Signal C} and \texttt{Signal Q} in the middle, and the program's instructions at the end.
+\end{itemize}
+}
+
 \clearpage
+
 \pseudocode{lst:procedure-decl-MorseCalling-pseudo}{Pseudocode for Morse Calling program.}{./topics/procedure-decl/application/MorseCalling.txt}
+
 
 \pseudocode{lst:procedure-decl-signalc-pseudo}{Pseudocode for the Signal C procedure.}{./topics/procedure-decl/application/SignalC.txt}
 
@@ -119,21 +133,9 @@ The pseudocode for the \emph{Morse Calling} program is shown in Listing \ref{lst
 
 \pseudocode{lst:procedure-decl-longsignal-pseudo}{Pseudocode for the Long Signal procedure.}{./topics/procedure-decl/application/LongSignal.txt}
 
-\mynote{
-Have a look over the Procedures and the Morse Calling Program and note the following things:
-\begin{itemize}
-  \item The Procedures appear within the program.
-  \item The name of the procedure indicates what it does.
-  \item \texttt{Short Signal} is called by the \texttt{Signal C} and \texttt{Signal Q} procedures.
-  \item \texttt{Short Signal} is not directly called by the program.
-  \item The \texttt{SignalC} Procedure calls the \texttt{Long Signal} and \texttt{Short Signal} procedures.
-  \item In the C or Pascal code, the Procedure's declaration must appear before its use, so \texttt{Short Signal} and \texttt{Long Signal} will need to appear at the top of the code, \texttt{Signal C} and \texttt{Signal Q} in the middle, and the program's instructions at the end.
-\end{itemize}
-}
-
 % subsection choosing_artefacts (end)
 
-\clearpage
+% \clearpage
 \subsection{Writing the Code for Morse Calling} % (fold)
 \label{sub:writing_the_code_for_morse_calling}
 
@@ -157,6 +159,8 @@ Remember the basic process for reading the Syntax Diagrams is to:
 }
 
 % subsection writing_the_code_for_morse_calling (end)
+
+\clearpage
 \subsection{Compiling and Running Morse Calling} % (fold)
 \label{sub:compiling_and_running_morse_calling}
 

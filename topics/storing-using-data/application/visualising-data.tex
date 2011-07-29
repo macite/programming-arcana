@@ -34,7 +34,7 @@ To get started understanding this let us return to the Conceptual Computer we ha
 \subsubsection{Test Assignment's Program Launches, putting Main on the Stack.} % (fold)
 \label{ssub:test_assignment_s_program_launches_putting_main_on_the_stack_}
 
-When the Program starts space is allocated on the Stack for the Program's Main Function or Procedure. When a Function or Procedure has \nameref{sub:local_variable}s, these are also allocated onto the Stack.
+When the program starts space is allocated on the Stack for the program's Main Function or Procedure. When a Function or Procedure has \nameref{sub:local_variable}s, these are also allocated onto the Stack.
 
 \begin{figure}[htbp]
    \centering
@@ -45,10 +45,10 @@ When the Program starts space is allocated on the Stack for the Program's Main F
 
 \mynote{
 \begin{itemize}
-  \item The Program's instructions are loaded into memory when the program is executed.
+  \item The program's instructions are loaded into memory when the program is executed.
   \item In Figure \ref{fig:vis-data-local-1} the indicated areas show the following:
   \begin{enumerate}
-    \item When the Program starts, \texttt{Main} is loaded onto the Stack. This keeps track of all of the details related to the execution of \texttt{Main}.
+    \item When the program starts, \texttt{Main} is loaded onto the Stack. This keeps track of all of the details related to the execution of \texttt{Main}.
     \item The Variables that are declared in \texttt{Main} are allocated space on the Stack.
   \end{enumerate}
   \item The two aspects of the Variable are shown in the illustration. The \textbf{variable} is the box drawn next to its name. The \textbf{value} is then written within the Variable.
@@ -79,7 +79,7 @@ The first action of this program is to store the value 23 in the \texttt{val} Va
     \item The value of the Expression is the Literal value 23.
     \item 23 is stored in the \texttt{val} Variable.
   \end{enumerate}
-  \item Once this line of the Program has executed the \texttt{val} variable now has the value 23.
+  \item Once this line of the program has executed the \texttt{val} variable now has the value 23.
 \end{itemize}
 }
 
@@ -104,7 +104,7 @@ The next step in the program is to store the value \texttt{1 + val / 100} in the
   \begin{enumerate}
     \item The \nameref{sub:assignment_statement} is executed. As before, this needs to evaluate the Expression on the right hand side and store the result in the Variable on the left hand side.
     \item The first step to performing the assignment is to evaluate the expression. This requires the value from the \texttt{val} Variable.
-    \item Within the Expression the value of \texttt{val} is read. At this point in the Program \texttt{val} has the value 23.
+    \item Within the Expression the value of \texttt{val} is read. At this point in the program \texttt{val} has the value 23.
     \item The Expression is now \texttt{1 + 23 / 100}, giving the result \texttt{1.23}.
     \item The calculated value is then stored in the \texttt{range} Variable.
   \end{enumerate}
@@ -117,7 +117,7 @@ The next step in the program is to store the value \texttt{1 + val / 100} in the
 \subsubsection{The values of the Variables are output to the Terminal.} % (fold)
 \label{ssub:the_values_of_the_variables_are_output_to_the_terminal_}
 
-The third, and final, instruction in the Program's main function or procedure is to output the values of each of these variables to the Terminal. This uses the values from within the Variables to determine what is output.
+The third, and final, instruction in the program's main function or procedure is to output the values of each of these variables to the Terminal. This uses the values from within the Variables to determine what is output.
 
 \begin{figure}[htbp]
    \centering
@@ -178,8 +178,8 @@ When the program is executed the Operating System allocates it space in memory. 
 \begin{itemize}
   \item In Figure \ref{fig:vis-globals-1} the indicated areas show the following:
   \begin{enumerate}
-    \item The Program's memory is allocated by the Operation System, and divided into areas to store different kinds of values.
-    \item The Program's instructions are loaded into the \textbf{Code Area}.
+    \item The program's memory is allocated by the Operation System, and divided into areas to store different kinds of values.
+    \item The program's instructions are loaded into the \textbf{Code Area}.
     \item The \textbf{Stack} is used to manage the execution of Functions and Procedures.
     \item \textbf{Global} Variables are stored in their own area of memory.
   \end{enumerate}
@@ -300,7 +300,7 @@ The commands in \texttt{Test Params} are executed one at a time. These instructi
 \subsubsection{Control returns to Main when Test Params ends} % (fold)
 \label{ssub:control_returns_to_main_when_test_params_ends}
 
-When \texttt{Test Params} ends control returns to the Program's main code. The space allocated to \texttt{Test Params} is now released, including the space allocated to the \texttt{val} Parameter and the \texttt{local} Variable.
+When \texttt{Test Params} ends control returns to the program's main code. The space allocated to \texttt{Test Params} is now released, including the space allocated to the \texttt{val} Parameter and the \texttt{local} Variable.
 
 \begin{figure}[htbp]
    \centering
@@ -687,7 +687,7 @@ Now that the memory has been initialised it is time to run each instruction in t
   \item Step 8 outputs the area to the Terminal, displaying `\emph{Trapezoid area is 42}'. See Figure \ref{fig:hand-exe-5}.
 \end{enumerate} 
 
-At this point the Procedure has ended, and you have collected all of the details about how the program actually works. You need to use this information to determine where the error is. If this failed to find the problem then the problem may be located elsewhere in the Program's code, or you have misread something. Getting someone else to help you debug your programs is always a good option, they are likely to see things that you may miss as the code's developer.
+At this point the Procedure has ended, and you have collected all of the details about how the program actually works. You need to use this information to determine where the error is. If this failed to find the problem then the problem may be located elsewhere in the program's code, or you have misread something. Getting someone else to help you debug your programs is always a good option, they are likely to see things that you may miss as the code's developer.
 
 \mynote{
 \begin{itemize}

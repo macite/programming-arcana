@@ -227,7 +227,7 @@
 \tikzstyle{pseudo-fancytitle} =[fill=pseudo-color, text=white]
 
 \newcommand{\pseudosection}[1] {%
-\begin{figure}[htbp]%
+% \begin{figure}[htbp]%
 \begin{tikzpicture}%
 \node [pseudo-mybox] (box){%
     \begin{minipage}{0.95\textwidth}%
@@ -238,7 +238,7 @@
 \node[pseudo-fancytitle, right=10pt] at (box.north west) {Pseudocode};
 \node[pseudo-fancytitle, rounded corners] at (box.east) {$\clubsuit$};
 \end{tikzpicture}%
-\end{figure}%
+% \end{figure}%
 }
 
 \newcommand{\lpseudosection}[1] {%

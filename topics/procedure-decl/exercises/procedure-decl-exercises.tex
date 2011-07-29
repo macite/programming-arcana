@@ -1,7 +1,95 @@
 \subsection{Scene Drawing} % (fold)
 \label{sub:scene_drawing}
 
-Rewrite the code in the Scene Drawing program to make use of Procedures.
+Read over the concepts in this chapter and answer the following questions:
+\begin{enumerate}
+  \item What is a \nameref{sub:program}? What does it contain?
+  \item What is a \nameref{sub:procedure}? What does it contain?
+  \item If \texttt{Main} calls \texttt{Draw Scene}, and \texttt{Draw Scene} calls \texttt{Draw Sun}, what order must these procedures be declared in your program's code?
+  \item Why create your own procedure? Why not just code all the instructions in the one main procedure?
+  \item It is stated that a procedure should have a side effect, what does this mean?
+  \item Examine the `Tell Joke' program, see \sref{sub:knock_knock}, then answer the following questions.
+  \begin{enumerate}
+    \item How many times is the \texttt{Ha} procedure called?
+    \item How many times is the \texttt{Ha} procedure written? What does this mean for the use of procedures in our code?
+    \item At its deepest, how many stack frames will be on the stack when the `Tell Joke' program is run?
+    \item Which procedures call \texttt{Pause For Dramatic Effect}?
+    \item What does the name of each procedure tell us?
+  \end{enumerate}
+  \item Picture yourself in the following scenario, and then answer the following questions.
+  \begin{quote}
+    As a graduate you start work as a software developer in a startup building some really cool software. The project that you are working on has around 100 features, which are implemented in 10,000 procedures. You are asked to fix a specific bug in the program. 
+    \begin{itemize}
+      \item This bug effects just a single feature. 
+      \item The other developers believe that the issue is located in a single procedure but they want you to learn how the program is structured, so they will not tell you which procedure it is. 
+      \item You have played with the software and you know how to cause the bug.
+      \item There are about four or five steps from the program's start, up to the point where the bug occurs.    
+    \end{itemize}
+  \end{quote}
+  \begin{enumerate}
+    \item When you get the code, what strategy would you use to locate the one procedure that has the bug?
+    \item Would you need to understand all ten thousand procedure? Explain your reasoning.
+    \item Do you think you would need to read the procedures called by the procedure with the bug? Explain your reasoning.
+    \item When you understand the section of the code related to the bug you will need to implementing a fix. Explain why you would be able to focus your attention to this one procedure when you are implementing the fix.
+    \item How would you test that your fix has solved the problem?
+    \item The next bug you need to fix occurs across a number of different features of the program. The cause is still expected to exist within a single procedure. How would this change the way that you approach locating and fixing the bug?
+  \end{enumerate}
+  
+\end{enumerate}
 
+\bigskip
+Apply what you have learnt to the following tasks:
+\begin{enumerate}
+  \item Create a Morse SOS program that outputs the morse code for the distress signal to the Terminal. See \tref{tbl:procedure-decl-morse_sos}.
+  
+  \begin{table}[h]
+  \centering
+  \begin{tabular}{l|p{10cm}}
+    \hline
+    \multicolumn{2}{c}{\textbf{Program Description}} \\
+    \hline
+    \textbf{Name} & \emph{Morse SOS} \\
+    \\
+    \textbf{Description} & Displays the morse code for a distress signal on the Terminal. \\
+    \hline
+  \end{tabular}
+  \caption{Description of the Morse SOS program.}
+  \label{tbl:procedure-decl-morse_sos}
+  \end{table}
+  
+  \item Create a Morse Name program that outputs your name in morse code to the Terminal. See \tref{tbl:procedure-decl-morse_name}.
+  
+  \begin{table}[h]
+  \centering
+  \begin{tabular}{l|p{10cm}}
+    \hline
+    \multicolumn{2}{c}{\textbf{Program Description}} \\
+    \hline
+    \textbf{Name} & \emph{Morse Name} \\
+    \\
+    \textbf{Description} & Displays the morse code for your name on the Terminal. \\
+    \hline
+  \end{tabular}
+  \caption{Description of the Morse Name program.}
+  \label{tbl:procedure-decl-morse_name}
+  \end{table}
+  
+  \item Update your Morse SOS program to use SwinGame, and either flash the screen to signal your message or play morse code sound effects.
+  \item Update your Morse Name program to use SwinGame, and either flash the screen to signal your message or play morse code sound effects.
+  
+  \item Take the Seventy Three Times Table program from \cref{cha:program_creation}, and re-implement so that it has a \texttt{Print Times Table} procedure.
+  \item Take the Face Shape program from \cref{cha:program_creation}, and re-implement so that the face is drawn in a \texttt{Draw Face} procedure.
+  \item Download the code for the Scene Drawing program from the website, and rewrite it to make use of Procedures.
+\end{enumerate}
+
+\bigskip
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+\begin{enumerate}
+  \item Are the procedures in the libraries any different from the procedures you create?
+  \item Explore the procedures that are available to you in the standard library that comes with your language. Name some of the procedures you think will be useful to know about in the future.
+  \item Explore the procedures that are available to you in the SwinGame library. Name some of the procedures you think will be useful to know about in the future.
+  \item Why must procedures have side effects?
+  \item How should procedures be named?
+\end{enumerate}
 
 % subsection scene_drawing (end)

@@ -13,7 +13,7 @@
   \item Following the Function's name is the list of \emph{arguments}, these are the values (or variables) that are being passed to the called Function.
   \item The return type of the Function determines where the Function may be called. 
   \begin{itemize}
-    \item Procedure, \texttt{void} Functions, can only be called in a \nameref{sub:procedure call} \nameref{sec:program-creation-statement}.
+    \item Procedure, \texttt{void} Functions, can only be called in a \nameref{sub:procedure call} \nameref{sub:statement}.
     \item Other Functions can be used in Expressions, see \nameref{sub:expressions_with_variables_}. In these cases the type of data returned by the Function will determine the type of the Function Call.
   \end{itemize}
   \item In Listing \ref{clst:test-fn-call} the values of the inner function calls are passed to the arguments of the outer calls. This means that \texttt{square(5)} is calculated first then \texttt{sqaure(4)}. The results of these two Function Calls are then passed as the \emph{arguments} into the call to the \texttt{sum} Function. In this case the Function call will be \texttt{sum(25, 16)} with \texttt{25} being the result returned by \texttt{square(5)} and \texttt{16} being the result returned by \texttt{square(4)}.

@@ -1,9 +1,20 @@
 \chapter{Storing and Using Data} % (fold)
 \label{cha:storing_and_using_data}
 
+\begin{quote}
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \lettrine[image=true,lines=3,lraise=0.1]
+  {N}{ow} it is time to turn your attention to a the finer details of spell craft. So far the magic you are working has not made use of material components. Fetch the Dragon scales from off the chest in the corner, and place them in that goblet. Prepare you wand, and\ldots
+  \ldots
+\end{quote}
+
+\bigskip
+
+
 So far our programs have only been able to work with Literal values. This Chapter introduces new artefacts you can use to store data, and from which you can read the value stored called Variables and Constants. It will also introduce a new artefact that can be used to calculate values called a Function. Using these artefacts you will see how you can store and manipulate values in your code.
 
-At the end of this material you will be able to write code that uses Variable and Constants to stores and manipulates data. You will be able to share data between different Procedures, and create and use Functions to calculate values.
+When you have understood the material in this chapter you will be able to write code that uses Variable and Constants to stores and manipulates data. You will be able to share data between different Procedures, and create and use Functions to calculate values.
 
 \minitoc
 
@@ -22,13 +33,13 @@ This next step introduces the idea of creating your own artefacts that can be us
 In this Chapter you will learn how to create the following programming \textbf{artefacts}:
 \begin{itemize}
   \item \nameref{sub:variable}: You can \textbf{store} a value in a Variable, and \textbf{retrieve} the value from the Variable.
-  \item \nameref{sub:constants}: Is similar to a Variable, except that its value cannot change after it is declared.
+  \item \nameref{sub:constant}: Is similar to a Variable, except that its value cannot change after it is declared.
   \item \nameref{sub:function}: Is similar to a \nameref{sub:procedure}, but is used to calculate a value rather than to produce a side effect.
 \end{itemize}
 
 You will learn about the following \textbf{terminology}:
 \begin{itemize}
-  \item \nameref{sub:global_variable}: Variables declared within the Program's code are called Global Variables.
+  \item \nameref{sub:global_variable}: Variables declared within the program's code are called Global Variables.
   \item \nameref{sub:local_variable}: Variables declared within a Function or Procedure are called Local Variables.
   \item \nameref{sub:parameter}: Parameters are variables that allow values to be passed into a Function or Procedure.
   \item \nameref{sub:expressions_with_variables_}: See how Functions, Constant, and Variables can be used in Expressions.
@@ -50,13 +61,13 @@ You may need to revise the following programming artefacts:
 
 The following programming terminology will also be used in this Chapter:
 \begin{itemize}
-  \item \nameref{sec:program-creation-statement}: An instruction performed in your code.
+  \item \nameref{sub:statement}: An instruction performed in your code.
   \item \nameref{sub:identifier}: The name of an artefact, or the text used to identify something meaningful to the language.
 \end{itemize}
 
 This material also requires that you have a good understanding of the following actions:
 \begin{itemize}
-  \item \nameref{sub:procedure call}: A Procedure Call is an instruction to run a Procedure.
+  \item \nameref{sub:procedure call}: A procedure call is an instruction to run a Procedure.
 \end{itemize}
 
 \clearpage
@@ -182,14 +193,16 @@ Variables, Constants, and Functions give us the ability to work with data in new
 \section{Data Exercises} % (fold)
 \label{sec:data_exercises}
 
+\input{topics/storing-using-data/exercises/data-exercises}
+
 % section data_exercises (end)
 
 % ===========
 % = Project =
 % ===========
-\clearpage
-\section{Data in the Project} % (fold)
-\label{sec:data_in_the_project}
+% \clearpage
+% \section{Data in the Project} % (fold)
+% \label{sec:data_in_the_project}
 
 % section data_in_the_project (end)
 

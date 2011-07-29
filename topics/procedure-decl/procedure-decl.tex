@@ -1,9 +1,18 @@
 \chapter{Procedure Declaration} % (fold)
 \label{cha:procedure_declaration}
 
-Programs contain a sequence of instructions, with each instruction \emph{commanding} the computer to perform an action. While it is possible to have just a single long list of instructions, this quickly becomes difficult to understand, hard to extend, and frustrating to maintain. Rather than coding all of a Program's instructions in a single list, Software Developers arrange a Program's instructions in meaningful groups that can be called when those steps need to be performed. These groups are called \emph{Procedures}. Within a Program, each Procedure is designed to get the computer to perform a single task, and therefore only contains the instructions related to that task.
+\begin{quote}
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \lettrine[image=true,lines=3,lraise=0.1]
+  {Y}{our} spell casting is really coming along. As you know, your spells contain a sequence of incantations. I will now teach you a technique to combine incantations into groups. This will make your spells faster to cast, and easier to use. Now get your wand, and try casting your spell like this\ldots
+\end{quote}
 
-By the end of this material you will be able to create and call simple Procedures of your own. 
+\bigskip
+
+Programs contain a sequence of instructions, with each instruction \emph{commanding} the computer to perform an action. While it is possible to have just a single long list of instructions, this quickly becomes difficult to understand, hard to extend, and frustrating to maintain. Rather than coding all of a program's instructions in a single list, Software Developers arrange a program's instructions in meaningful groups that can be called when those steps need to be performed. These groups are called \emph{Procedures}. Within a Program, each Procedure is designed to get the computer to perform a single task, and therefore only contains the instructions related to that task.
+
+When you have understood the material in this chapter you will be able to create and call simple Procedures of your own creation. This will help make your programs faster and easier to write.
 
 \minitoc
 
@@ -14,16 +23,16 @@ By the end of this material you will be able to create and call simple Procedure
 \section{Procedure Declaration Concepts} % (fold)
 \label{sec:procedure_declaration_concepts}
 
-Chapter \ref{cha:program_creation} \nameref{cha:program_creation} introduced the idea of creating your own Programs as a sequence of instructions, \nameref{sec:program-creation-statement}s. The instructions in these programs called existing \nameref{sub:procedure}s that performed tasks for the Program. The code you wrote sequenced these procedures to produce a desired output.
+Chapter \ref{cha:program_creation} \nameref{cha:program_creation} introduced the idea of creating your own Programs as a sequence of instructions, \nameref{sub:statement}s. The instructions in these programs called existing \nameref{sub:procedure}s that performed tasks for the program. The code you wrote sequenced these procedures to produce a desired output.
 
-As you learnt in Chapter \ref{cha:program_creation}, \nameref{sub:procedure}s are designed to perform a single task that can be called when you want that task performed. Using Procedures from Libraries is an important task, but what about the tasks related to the Program we are creating? Can we create our own procedures that help us to model the actions we want performed in the code?
+As you learnt in Chapter \ref{cha:program_creation}, \nameref{sub:procedure}s are designed to perform a single task that can be called when you want that task performed. Using Procedures from Libraries is an important task, but what about the tasks related to the program we are creating? Can we create our own procedures that help us to model the actions we want performed in the code?
 
 The simple answer is \emph{yes}. Yes you can, and should, create your own procedures. These procedures enable you to model the processes related to your program, capturing the individual tasks in the Procedures your create. 
 
 In this Chapter you will learn how to create the following programming \textbf{artefacts}:
 
 \begin{itemize}
-  \item \nameref{sub:program_with_procedures_}: Lets you create Procedures in your Program's code.
+  \item \nameref{sub:program_with_procedures_}: Lets you create Procedures in your program's code.
   \item \nameref{sub:proc_decl-procedure_declarations}: Declare the actions the Procedure will perform.
 \end{itemize}
 
@@ -31,13 +40,13 @@ In this Chapter you will learn how to create the following programming \textbf{a
 
 You may need to revise the following programming terminology:
 \begin{itemize}
-  \item \nameref{sec:program-creation-statement}: An instruction performed in your code.
+  \item \nameref{sub:statement}: An instruction performed in your code.
   \item \nameref{sub:identifier}: The name of an artefact, or the text used to identify something meaningful to the language.
 \end{itemize}
 
 This material also requires that you have a good understanding of the following actions:
 \begin{itemize}
-  \item \nameref{sub:procedure call}: A Procedure Call is an instruction to run a Procedure.
+  \item \nameref{sub:procedure call}: A procedure call is an instruction to run a Procedure.
 \end{itemize}
 
 By the end of this material we will have worked through an example where you create a program that writes a small Morse Code message to the Terminal. This program will break the functionality across a number of procedures, making it easy to extend to output other messages. The output of the program is shown in Figure \ref{fig:procedure-decl-morse_calling}.
@@ -160,9 +169,9 @@ Procedures give us a means of modelling the tasks we want the computer to perfor
 % ===================
 % = Project Section =
 % ===================
-\clearpage
-\section{Procedure Declaration Project} % (fold)
-\label{sec:procedure_declaration_project}
+% \clearpage
+% \section{Procedure Declaration Project} % (fold)
+% \label{sec:procedure_declaration_project}
 
 
 

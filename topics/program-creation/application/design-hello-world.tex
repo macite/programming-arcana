@@ -66,14 +66,14 @@ The design of \emph{Output Test} requires:
 
 \begin{itemize}
   \item The \textbf{creation} of a \nameref{sub:program}. This Program will contain the instructions to write the three messages to the Terminal.
-  \item The \textbf{use} of a procedure to write to the Terminal. Programming languages provide a standard \nameref{sec:program-creation-library} that, amongst other things, contains procedures to write data to the Terminal. This means you can call one of these procedures, passing it the data you want written to the Terminal, and let it take care of the details of how this is done.
+  \item The \textbf{use} of a procedure to write to the Terminal. Programming languages provide a standard \nameref{sub:library} that, amongst other things, contains procedures to write data to the Terminal. This means you can call one of these procedures, passing it the data you want written to the Terminal, and let it take care of the details of how this is done.
 \end{itemize}
 
 \bigskip
 
 The design for this program can be documented using a language neutral \textbf{pseudocode}. This isn't code, just a structured textural description of how the program is intended to work. It gives us a way of reasoning about the program we are creating that is independent of the language used to implement it. As this isn't really code it means we can write it without having to worry about the syntax of a specific programming language.
 
-Listing \ref{lst:program-creation-hello-pseudo} shows the pseudocode for the \emph{Output Test} program. This represents the \textbf{Program} that needs to be created, and shows the three \textbf{Procedure Calls} that need to be made. 
+Listing \ref{lst:program-creation-hello-pseudo} shows the pseudocode for the \emph{Output Test} program. This represents the \textbf{Program} that needs to be created, and shows the three \textbf{procedure calls} that need to be made. 
 
 \pseudocode{lst:program-creation-hello-pseudo}{Pseudocode for the Output Test program.}{./topics/program-creation/application/HelloWorld.txt}
 
@@ -143,7 +143,7 @@ Listing \ref{lst:program-creation-hello-pseudo3} shows the pseudocode for the Ou
 
 \pseudocode{lst:program-creation-hello-pseudo3}{Pseudocode for the \emph{Output Test} program (repeated from Listing \ref{lst:program-creation-hello-pseudo})}{./topics/program-creation/application/HelloWorld.txt}
 
-The pseudocode also indicates that you need to find the rules related to \nameref{sub:procedure call}s. For this Program you need to code three procedure calls within the Program's instructions. The language's syntax will tell you how you code these instructions, the Syntax for the Program will show you where these instructions are written.
+The pseudocode also indicates that you need to find the rules related to \nameref{sub:procedure call}s. For this Program you need to code three procedure calls within the program's instructions. The language's syntax will tell you how you code these instructions, the Syntax for the program will show you where these instructions are written.
 
 % subsubsection using_the_syntax_diagrams (end)
 
@@ -157,7 +157,7 @@ The C and Pascal Syntax needed to create a program are shown in Section \ref{sec
   \item Have a quick look at the Syntax Diagram and the rules it contains. Read each rule, and get a basic feel for how it is going to come together for your program.
   \item Read the example to see one way of using the Rule. The Syntax Diagram can be used to create any number of variations of the rule, the example gives you at least one way these rules can be coded.
   \item Return to the diagram and make sure you can match each part of the example back to the rule that created it.
-  \item Now look up any related rules that are not explained on this rule's page. For example, a \nameref{sub:program} will use the \nameref{sec:program-creation-statement} rule to code its instructions. The actual rule for a Statement will have its own page. When you read the rules for a Program you will need to also find the page with the rules for a Statement so that you know how to code these within the Program.
+  \item Now look up any related rules that are not explained on this rule's page. For example, a \nameref{sub:program} will use the \nameref{sub:statement} rule to code its instructions. The actual rule for a Statement will have its own page. When you read the rules for a Program you will need to also find the page with the rules for a Statement so that you know how to code these within the program.
 \end{enumerate}
 
 As you follow this process it is also a good idea to try to use these rules in your own program. Have your code editor open, and see if you can follow the rules or mimic the examples to start building your own program's code. You can also try typing in some of the examples to see how they work.
