@@ -13,18 +13,40 @@ Read over the concepts in this chapter and answer the following questions:
   \item What are the three broad kinds of \nameref{sub:type}s that a language will provide?
   \item What are the names of the types in the language you are using? Name the main type you are likely to work with for each of the broad kinds of types.
   \item What are the values of the following expressions? Which types could these values be used with (possibly multiple)? Note: some answers are dependent of the language you are using.
+  \begin{multicols}{3}
   \begin{enumerate}
     \item 5
     \item 3 + 5 * 2
+    \item (3 + 5) * 2
     \item 3.1415
     \item 1 / 2 
     \item 1.0 / 2.0
-    \item "Fred Smith" (C) or 'Fred Smith' (Pascal)
+    \item 2 + 1 / 2.0 * 6
+    \item "Fred Smith" (C)
+    \item 'Fred Smith' (Pascal)
   \end{enumerate} 
-  \item What is a literal value?
+  \end{multicols}
   \item Where can statements be coded in your program?
   \item What is the role of an \nameref{sub:identifier}? What artefacts be be identified?
   \item What is a keyword?
+  \item Which of the following are valid identifiers?
+  \begin{multicols}{4}
+    \ttfamily
+    \begin{enumerate}
+      \item hello
+      \item \_123
+      \item fred
+      \item my name
+      \item my\_name
+      \item begin
+      \item void
+      \item Main
+      \item 1234
+      \item a1
+      \item 3.1415
+      \item WOW\_COOL
+    \end{enumerate}
+  \end{multicols}
   \item What is a \nameref{sub:library}, and what does it contain?
   \item What happens to \nameref{sub:comments} when you code is compiled? Why do languages include these? Why are they considered important by good developers?
   \item What is the stack? What does it keep track of when your program is running?

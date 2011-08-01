@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>programming-arcana.tex</string>
+	<string>topics/dynamic-memory/concepts/pointer.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -56,9 +56,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -507,6 +507,20 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
+		<key>topics/dynamic-memory/concepts/pointer.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>28</integer>
+				<key>line</key>
+				<integer>56</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>26</integer>
+		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
 			<key>caret</key>
@@ -608,6 +622,20 @@
 				<key>line</key>
 				<integer>54</integer>
 			</dict>
+		</dict>
+		<key>topics/procedure-decl/exercises/procedure-decl-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>54</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>35</integer>
 		</dict>
 		<key>topics/program-creation/c/identifier.tex</key>
 		<dict>
@@ -712,14 +740,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>303</integer>
 				<key>line</key>
-				<integer>83</integer>
+				<integer>61</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>320</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>32</integer>
 		</dict>
 		<key>topics/program-creation/examples/seven-times.txt</key>
 		<dict>
@@ -762,6 +790,34 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>topics/program-creation/exercises/exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>39</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/program-creation/program-creation.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>39</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
 		</dict>
 		<key>topics/storing-using-data/application/CalculateChange.txt</key>
 		<dict>
@@ -993,10 +1049,76 @@
 				<integer>215</integer>
 			</dict>
 		</dict>
+		<key>topics/type-decl/concepts/enum.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<key>topics/type-decl/concepts/expression-with-types.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>183</integer>
+				<key>line</key>
+				<integer>92</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>48</integer>
+		</dict>
+		<key>topics/type-decl/concepts/union.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>200</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>programming-arcana.tex</string>
+		<string>topics/program-creation/program-creation.tex</string>
+		<string>topics/program-creation/examples/program-creation-examples.tex</string>
+		<string>topics/type-decl/concepts/expression-with-types.tex</string>
+		<string>topics/type-decl/concepts/enum.tex</string>
+		<string>topics/type-decl/concepts/union.tex</string>
+		<string>topics/dynamic-memory/concepts/pointer.tex</string>
+		<string>topics/procedure-decl/exercises/procedure-decl-exercises.tex</string>
+		<string>topics/program-creation/exercises/exercises.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1032,7 +1154,15 @@
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
-							<dict/>
+							<dict>
+								<key>array</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
 						</dict>
 					</dict>
 				</dict>
@@ -1057,49 +1187,13 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>program-creation</key>
+						<key>type-decl</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>programs-and-compilers</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict/>
-						</dict>
-						<key>storing-using-data</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>application</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>examples</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>exercises</key>
+								<key>concepts</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1114,6 +1208,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1440, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
