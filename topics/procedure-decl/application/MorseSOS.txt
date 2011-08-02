@@ -2,10 +2,10 @@
 Program: MorseSOS
 ----------------------------
 Procedures:
-*  Short Signal
-*  Long Signal
-*  Signal S
-*  Signal O
+-  Short Signal
+-  Long Signal
+-  Signal S
+-  Signal O
 ----------------------------
 Steps:
 1: Call Signal S

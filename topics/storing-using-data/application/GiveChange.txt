@@ -1,0 +1,12 @@
+Procedure: Give Change
+----------------------------
+Parameters:
+ 1: Change Value (Integer - by ref)
+ 2: Coin Value (Integer)
+ 2: Coin Description (String)
+Variables:
+ - To Give (Integer)
+Steps:
+ 1: To Give = Coins to Give ( Change Value, Coin Value )
+ 2: Change Value = Change Value - To Give * Coin Value
+ 3: Output Number Given, ' x ', and the Coin Description

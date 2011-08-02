@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>topics/dynamic-memory/concepts/pointer.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -12,7 +10,7 @@
 			<key>name</key>
 			<string>Programming Arcana</string>
 			<key>regexFileFilter</key>
-			<string>\.(sh|sty|txt|py|jpg|png|tex|pdf|ebnf|pas|c)$</string>
+			<string>\.(cpp|sh|sty|txt|py|jpg|png|tex|pdf|ebnf|pas|c)$</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
@@ -45,20 +43,6 @@
 				<integer>30</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>programming-arcana.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -507,20 +491,6 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
-		<key>topics/dynamic-memory/concepts/pointer.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>28</integer>
-				<key>line</key>
-				<integer>56</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>26</integer>
-		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
 			<key>caret</key>
@@ -735,20 +705,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/program-creation/examples/program-creation-examples.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>303</integer>
-				<key>line</key>
-				<integer>61</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>320</integer>
-			<key>firstVisibleLine</key>
-			<integer>32</integer>
-		</dict>
 		<key>topics/program-creation/examples/seven-times.txt</key>
 		<dict>
 			<key>caret</key>
@@ -799,34 +755,6 @@
 				<integer>20</integer>
 				<key>line</key>
 				<integer>39</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/program-creation/program-creation.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>39</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>9</integer>
-		</dict>
-		<key>topics/storing-using-data/application/CalculateChange.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>15</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1079,47 +1007,7 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/concepts/expression-with-types.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>183</integer>
-				<key>line</key>
-				<integer>92</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>48</integer>
-		</dict>
-		<key>topics/type-decl/concepts/union.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>200</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>programming-arcana.tex</string>
-		<string>topics/program-creation/program-creation.tex</string>
-		<string>topics/program-creation/examples/program-creation-examples.tex</string>
-		<string>topics/type-decl/concepts/expression-with-types.tex</string>
-		<string>topics/type-decl/concepts/enum.tex</string>
-		<string>topics/type-decl/concepts/union.tex</string>
-		<string>topics/dynamic-memory/concepts/pointer.tex</string>
-		<string>topics/procedure-decl/exercises/procedure-decl-exercises.tex</string>
-		<string>topics/program-creation/exercises/exercises.tex</string>
-	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -1132,8 +1020,6 @@
 		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
-	<key>showFileHierarchyPanel</key>
 	<true/>
 	<key>treeState</key>
 	<dict>
@@ -1149,13 +1035,13 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>pascal</key>
+						<key>c</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>array</key>
+								<key>storing-using-data</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1172,13 +1058,20 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
+						<key>dynamic-memory</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
 						<key>procedure-decl</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>exercises</key>
+								<key>application</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1187,7 +1080,7 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>type-decl</key>
+						<key>program-creation</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1202,12 +1095,48 @@
 								</dict>
 							</dict>
 						</dict>
+						<key>storing-using-data</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>application</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>c</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>concepts</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 1414}}</string>
+	<string>{{10, 4}, {1178, 874}}</string>
 </dict>
 </plist>

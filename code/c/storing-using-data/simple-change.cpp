@@ -1,5 +1,5 @@
 /*
-* Program: simple-change.c
+* Program: simple-change.cpp
 * Calculate the ideal change for a given transaction.
 */
 #include <stdio.h>
@@ -16,14 +16,14 @@ int coins_to_give(int change, int coin_value)
     return change / coin_value;
 }
 
-int give_change(int change_value, int coin_value, const char *coin_desc)
+void give_change(int &change_value, int coin_value, const char *coin_desc)
 {
     int to_give;
     
     to_give = coins_to_give(change_value, coin_value);
-    printf("%d x %s, ", to_give, coin_desc);
+    change_value = change_value - to_give * coin_value;
     
-    return change_value - to_give * coin_value;;
+    printf("%d x %s, ", to_give, coin_desc);
 }
 
 int get_change_value()
@@ -46,12 +46,12 @@ int main()
     change_value = get_change_value();
     
     printf("Change: ");
-    change_value = give_change(change_value, TWO_DOLLARS,  "$2");
-    change_value = give_change(change_value, ONE_DOLLAR,   "$1");
-    change_value = give_change(change_value, FIFTY_CENTS,  "50c");
-    change_value = give_change(change_value, TWENTY_CENTS, "20c");
-    change_value = give_change(change_value, TEN_CENTS,    "10c");
-    change_value = give_change(change_value, FIVE_CENTS,   "5c");
+    give_change(change_value, TWO_DOLLARS,  "$2");
+    give_change(change_value, ONE_DOLLAR,   "$1");
+    give_change(change_value, FIFTY_CENTS,  "50c");
+    give_change(change_value, TWENTY_CENTS, "20c");
+    give_change(change_value, TEN_CENTS,    "10c");
+    give_change(change_value, FIVE_CENTS,   "5c");
     printf("\n");
     
     return 0;

@@ -1,0 +1,12 @@
+Function: Get Change Value
+----------------------------
+Returns: An Integer - the value of the change to give in cents
+Variables:
+ - Cost of Item (Integer)
+ - Payment (Integer)
+Steps:
+ 1: Output 'Cost of item (in cents): '
+ 2: Read a number into Cost of Item
+ 3: Output 'Amount paid (in cents): '
+ 4: Read a number into Payment
+ 5: Return the result, Payment - Cost of Item

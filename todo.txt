@@ -22,3 +22,6 @@
 * Ptr exerc: Implement "fast delete" and "ordered delete", add menu option to select
 
 * Underline variables in the flow charts
+
+* Literal in data chapter
+* Add Entry Point (Main): heading to pseudocode

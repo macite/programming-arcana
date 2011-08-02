@@ -1,9 +1,11 @@
-\subsection{Implementing Simple Change in C} % (fold)
+\subsection{Implementing Change Calculator in C} % (fold)
 \label{sub:implementing_simple_change_in_c}
 
-Section \ref{sec:using_these_concepts_storing_using_data} of this chapter introduced the `Simple Change Calculator' program, and its design. Its implementation requires the definition of a Function as well as a Procedure in the program's code. The Procedure and Function accepted parameters, and the program's code uses Local Variables. This section of the chapter introduces the C syntax rules for implementing these concepts using the C language. The C implementation of the Simple Change Calculator are shown in Listing \ref{lst:storing-data-c-simple-change}.
+Section \ref{sec:using_these_concepts_storing_using_data} of this chapter introduced the `Change Calculator' program, and its design. Its implementation requires the definition of functions as well as procedures. These functions and procedures accepted parameters and use local variables. 
 
-\straightcode{\ccode{lst:storing-data-c-simple-change}{C code for the Simple Change Calculator}{code/c/storing-using-data/simple-change.c}}
+This section of the chapter introduces the C syntax rules for implementing these concepts using the C language. The C implementation of the Change Calculator is shown in Listing \ref{lst:storing-data-c-simple-change}. To get support for pass by reference you need to use C++, an extended version of the C language. This means that the C version is an alternate design, with \texttt{Give Change} becoming a function so that it can return the new change value. The C++ implementation is shown in \sref{sub:implementing_change_calculator_using_cpp}.
+
+\straightcode{\ccode{lst:storing-data-c-simple-change}{C code for the Change Calculator}{code/c/storing-using-data/simple-change.c}}
 
 \mynote{
 \begin{itemize}
@@ -12,11 +14,30 @@ Section \ref{sec:using_these_concepts_storing_using_data} of this chapter introd
   \item Run the resulting program using \bashsnipet{./SimpleChange}.
   \item Perform each of the Test Cases from Table \ref{tab:simple_change_test_data} and check that the output matches the expected values.
   \item Look over the code and examine how the Variables, Parameters, Constants, and Function are being used.
+  \item The c-string parameter should be coded as \csnipet{const char *coin\_desc} to allow you to pass literal values to it.
   \item Notice how the indentation makes it easy to see where each Function and Procedure starts and ends. Always lay your code out so that it is easy to see its structure.
   \item See how the Function and Procedure are declared before they are used. This is important as the C compiler reads the code from the start, and must know about the artefacts before you use them.
 \end{itemize}
 }
 
-
-
 % subsection implementing_simple_change_in_c (end)
+
+\clearpage
+\subsection{Implementing Change Calculator using C++} % (fold)
+\label{sub:implementing_change_calculator_using_cpp}
+
+C++ contains a number of extensions that can make programming in C easier. One of these extensions is the ability to use pass by reference. The code in \lref{lst:storing-data-cpp-simple-change} shows the C++ implementation of the Change Calculator. In this code \texttt{Give Change} is a procedure with the \texttt{change\_value} parameter being passed by reference.
+
+\straightcode{\ccode{lst:storing-data-cpp-simple-change}{C++ code for the Change Calculator}{code/c/storing-using-data/simple-change.cpp}}
+
+\mynote{
+\begin{itemize}
+  \item Save the C++ code in a file named \texttt{simple-change.cpp}.
+  \item Compile this using \bashsnipet{g++ -o SimpleChange simple-change.cpp}.
+  \item Run the resulting program using \bashsnipet{./SimpleChange}.
+  \item Perform each of the Test Cases from Table \ref{tab:simple_change_test_data} and check that the output matches the expected values.
+  \item Look over the code and examine how the Variables, Parameters, Constants, and Function are being used.
+\end{itemize}
+}
+
+% subsection implementing_change_calculator_using_c_ (end)

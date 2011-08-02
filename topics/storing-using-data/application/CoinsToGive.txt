@@ -1,0 +1,8 @@
+Function: Coins to Give
+----------------------------
+Returns: An Integer - the number of coins to give in change
+Parameters:
+ 1: Change (Integer)
+ 2: Coin Value (Integer)
+Steps:
+ 1: Return the result of Change divided by Coin Value
