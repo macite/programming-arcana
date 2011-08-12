@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/storing-using-data/storing-using-data.tex</string>
+	<string>programming-arcana.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,36 +23,6 @@
 	<integer>249</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/array/simple-stats.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>38</integer>
-				<key>line</key>
-				<integer>47</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>26</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>47</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>38</integer>
-				<key>line</key>
-				<integer>47</integer>
-			</dict>
-		</dict>
 		<key>preamble/commands.tex</key>
 		<dict>
 			<key>caret</key>
@@ -61,6 +31,20 @@
 				<integer>30</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>programming-arcana.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -514,28 +498,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>22</integer>
 				<key>line</key>
-				<integer>168</integer>
+				<integer>151</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>132</integer>
-		</dict>
-		<key>topics/control-flow/exercises/exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>45</integer>
-				<key>line</key>
-				<integer>108</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>116</integer>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -638,20 +608,6 @@
 				<key>line</key>
 				<integer>54</integer>
 			</dict>
-		</dict>
-		<key>topics/procedure-decl/exercises/procedure-decl-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>54</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>35</integer>
 		</dict>
 		<key>topics/program-creation/c/identifier.tex</key>
 		<dict>
@@ -793,40 +749,12 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/program-creation/exercises/exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>39</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/storing-using-data/c/c-function-call.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/storing-using-data/c/c-input.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>10</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
@@ -993,50 +921,6 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/storing-using-data/exercises/data-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>91</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>90</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>91</integer>
-			</dict>
-		</dict>
-		<key>topics/storing-using-data/storing-using-data.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>179</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/type-decl/application/using-custom-types.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1100,12 +984,7 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>topics/control-flow/exercises/exercises.tex</string>
-		<string>topics/storing-using-data/exercises/data-exercises.tex</string>
-		<string>topics/storing-using-data/storing-using-data.tex</string>
-		<string>topics/storing-using-data/c/c-input.tex</string>
-		<string>code/c/array/simple-stats.c</string>
-		<string>topics/control-flow/control-flow.tex</string>
+		<string>programming-arcana.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1130,18 +1009,62 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
+				<key>code</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
 				<key>topics</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
+						<key>procedure-decl</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>program-creation</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 						<key>storing-using-data</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
+								<key>examples</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
 								<key>exercises</key>
 								<dict>
 									<key>isExpanded</key>
@@ -1157,6 +1080,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1440, 874}}</string>
+	<string>{{0, 4}, {2560, 1414}}</string>
 </dict>
 </plist>

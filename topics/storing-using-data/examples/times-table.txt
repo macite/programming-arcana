@@ -2,7 +2,7 @@
 Program: Times Table
 ----------------------------
 Variables:
-* number (Integer)
+- number (Integer)
 Steps:
  1: Output 'Times Table' to the Terminal
  2: Output 'Enter number: ' to the Terminal

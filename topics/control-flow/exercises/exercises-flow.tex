@@ -95,9 +95,13 @@ Read over the concepts in this chapter and answer the following questions:
 Apply what you have learnt to the following tasks:
 \begin{enumerate}
   \item Write a small program that will print the message `Hello World' to the screen `1 MILLION TIMES'... mmmmwwwahahahah\footnote{Dr Evil, Austin Powers, 1997}.
+  \item Revisit your Circle Dimensions program from \cref{cha:storing_and_using_data} and adjust its implementation to make use of looping statements. The new output should output the radius, circle area, diameter, and circumference of circles with radius from 1.0cm to 1.0m at 0.25cm increments.
+  \item Take your Times Table program from \cref{cha:storing_and_using_data}, and change it so that you can print a variable number of times. For example, have it print the 5 times table from 1 x 5 to 10 x 5, the 73 times table from 1 x 73 to 73 * 73, and the 42 times table from 1 x 42 to 7 * 42.  
   \item Write a function called \texttt{Read Integer} that will read a number from the user. If the user does not enter a number the function will output the message `Please enter a number.', and will repeatedly ask the user to enter a number until they do so. Write a small program that tests if your function works correctly.
   
-  \csection{You can use \texttt{scanf(" \%d", \&result) != 1} to read in the value entered into a \texttt{result} variable, and to check if it was a number\footnote{The \texttt{scanf} function returns the number of values successfully read. See \nameref{sub:c_terminal_input}.}, and you can use \texttt{scanf("\%*[\textasciicircum \textbackslash n]");} to flush the input when you get something other than a number.}
+  \begin{figure}[h]
+    \csection{You can use \texttt{scanf(" \%d", \&result) != 1} to read in the value entered into a \texttt{result} variable, and to check if it was a number\footnote{The \texttt{scanf} function returns the number of values successfully read. See \nameref{sub:c_terminal_input}.}, and you can use \texttt{scanf("\%*[\textasciicircum \textbackslash n]");} to flush the input when you get something other than a number.}    
+  \end{figure}
   
   \item Use your \texttt{Read Integer} function to read two values from the user, and then output the larger of the two values.
   
@@ -106,14 +110,17 @@ Apply what you have learnt to the following tasks:
   \item Update your \emph{custom message} program, and have it ask the user if they want to quit at the end, allowing them to print multiple message values.
   
   \item Implement the Guess that Number program, and test that your implementation works successfully.
-  \item Take your \emph{Times Table} program from \cref{cha:storing_and_using_data}, and change it so that you can print a variable number of times. For example, have it print the 5 times table from 1 x 5 to 10 x 5, the 73 times table from 1 x 73 to 73 * 73, and the 42 times table from 1 x 42 to 7 * 42.
   \item Download a blank SwinGame project, compile and run it. Checkout the frame rate, this tells you how many times each second the while loop in your main code is running.
   \item Take the adjusted Face Shape program from \cref{cha:storing_and_using_data}, and re-implement it so that it draws a new randomly places face each time through the loop in \texttt{Main}. SwinGame include a \texttt{rnd} function that can be used to generate a random number between 0 and 1, you can then multiply this by the Screen Width or Screen Height to get a random position.
+\end{enumerate}
   
-  
-  \clearpage
+\clearpage
+
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+
+\begin{enumerate}
   \item Implement a Number Guesser program that will guess numbers between 1 and 100. See the program description in \tref{tbl:number_guesser}
-  
+
   \begin{table}[htbp]
   \centering
   \begin{tabular}{l|p{10cm}}
@@ -123,20 +130,20 @@ Apply what you have learnt to the following tasks:
     \textbf{Name} & \emph{Number Guesser} \\
     \\
     \textbf{Description} & This program will work to \emph{guess} a number that the player is thinking of between 1 and 100. This will prompt the user to think of a number, and it will then guess using the following algorithm. The first guess will be 50 (the point half way between 1 and 100). The user will then enter a character to tell the computer how that value relates to the target value: `E' for equal, `L' for your guess is less than the target, and `G' for your guess is greater than the target. \newline
-    
+
     When the guess is equal, a success message is output. \newline
-    
+
     When the guess is less than the target the computer will take another guess that is half way between the guess and the pervious upper value (e.g. 1-100 = 50, 50-100 = 75, 75-100 = 87, 25-50 = 37, etc). \newline
-    
+
     When the guess is larger than the target the computer will take another guess that is half way between the guess and the pervious lower value (e.g. 1-100 = 50, 1-50 = 25, 1-25 = 12, 50-75 = 62, etc). \newline
-    
+
     Once the number is guessed (or the computer determines the player is cheating...) the program asks if the user wants to play again, and the process is repeated or the program quits.\\
     \hline
   \end{tabular}
   \caption{Description of the Number Guesser program.}
   \label{tbl:number_guesser}
   \end{table}
-  
+
   \item Create a SwinGame project called \emph{Key Test}. See the description in \tref{tbl:key_test}.
   \begin{table}[htbp]
   \centering
@@ -152,19 +159,13 @@ Apply what you have learnt to the following tasks:
   \caption{Description of the Key Test program.}
   \label{tbl:key_test}
   \end{table}
-  
+
+  \item Extend the \emph{Key Test} program to draw other shapes when different keys are held down. For example, draw a filled circle when the user holds down the \textbf{c} key.
+
   \csection{You can call \texttt{key\_down(VK\_R)} to test if the `r' key is held down, then only draw the rectangle \emph{if} this key is held down.}
   
-  \item Extend the \emph{Key Test} program to draw other shapes when different keys are held down. For example, draw a filled circle when the user holds down the \textbf{c} key.
-  
-\end{enumerate}
-
-\clearpage
-
-If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
-
-\begin{enumerate}
-  \item Color can be represented as consisting of three components: hue, saturation, and brightness. The hue component represents the color, the saturation is how much of this color is added to the white point, and the white point is controlled by the brightness and moves from black through grey to white. An illustration of this is shown in \fref{fig:color_wheel}.
+  \clearpage
+  \item Color can be rep  resented as consisting of three components: hue, saturation, and brightness. The hue component represents the color, the saturation is how much of this color is added to the white point, and the white point is controlled by the brightness and moves from black through grey to white. An illustration of this is shown in \fref{fig:color_wheel}.
 
 \begin{figure}[htbp]
    \centering

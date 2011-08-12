@@ -1,0 +1,16 @@
+----------------------------
+Program: Times Table
+----------------------------
+Variables:
+- number (Integer)
+- i (Integer)
+Steps:
+ 1: Output 'Times Table' to the Terminal
+ 2: Output 'Enter number: ' to the Terminal
+ 3: Read input into number
+ 4: Output '-----------------' to the Terminal
+ 5: Assign i, the value 1
+ 6: While i is less than 10
+ 7:     Output i ' x ' number ' = ', and i * number to the Terminal
+ 8:     Assign i, the value i + 1
+ 9: Output '-----------------' to the Terminal
