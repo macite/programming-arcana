@@ -75,8 +75,8 @@ void populate_array(double data[], int size)
     }
 }
 
-// Implements a simple guessing game. The program generates
-// a random number, and the player tries to guess it.
+// Implements a statistics calculator. The program reads in values entered by the user
+// and then calculates the sum, mean, variance, and max
 int main()
 {
     double data[DATA_SIZE];

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>programming-arcana.tex</string>
+	<string>topics/type-decl/exercises/type-exercises.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -20,7 +20,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>249</integer>
+	<integer>228</integer>
 	<key>metaData</key>
 	<dict>
 		<key>preamble/commands.tex</key>
@@ -31,20 +31,6 @@
 				<integer>30</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>programming-arcana.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -426,14 +412,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>453</integer>
+				<integer>187</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>15</integer>
+			<integer>0</integer>
 		</dict>
 		<key>topics/arrays/c/c-stats-calc.tex</key>
 		<dict>
@@ -493,20 +479,6 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
-		<key>topics/control-flow/control-flow.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>151</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>116</integer>
-		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
 			<key>caret</key>
@@ -537,20 +509,6 @@
 				<integer>30</integer>
 			</dict>
 		</dict>
-		<key>topics/procedure-decl/examples/MorseCalling.pas</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>27</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/procedure-decl/examples/MorseCalling.txt</key>
 		<dict>
 			<key>caret</key>
@@ -579,35 +537,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/procedure-decl/examples/morse-calling.c</key>
+		<key>topics/procedure-decl/exercises/procedure-decl-exercises.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>13</integer>
 				<key>line</key>
 				<integer>54</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>42</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>54</integer>
-			</dict>
+			<integer>35</integer>
 		</dict>
 		<key>topics/program-creation/c/identifier.tex</key>
 		<dict>
@@ -743,6 +685,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/program-creation/exercises/exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>39</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -921,6 +877,66 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
+		<key>topics/storing-using-data/exercises/data-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>114</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>451</integer>
+			<key>firstVisibleLine</key>
+			<integer>92</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>111</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>114</integer>
+			</dict>
+		</dict>
+		<key>topics/storing-using-data/storing-using-data.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>73</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>73</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+		</dict>
 		<key>topics/type-decl/application/using-custom-types.tex</key>
 		<dict>
 			<key>caret</key>
@@ -981,10 +997,42 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
+		<key>topics/type-decl/exercises/type-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>181</integer>
+				<key>line</key>
+				<integer>44</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>55</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
+		</dict>
+		<key>topics/type-decl/type-decl.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>96</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>96</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>programming-arcana.tex</string>
+		<string>topics/type-decl/type-decl.tex</string>
+		<string>topics/type-decl/exercises/type-exercises.tex</string>
+		<string>topics/storing-using-data/exercises/data-exercises.tex</string>
+		<string>topics/storing-using-data/storing-using-data.tex</string>
+		<string>topics/arrays/arrays.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1009,7 +1057,7 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
+				<key>preamble</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
@@ -1022,35 +1070,12 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>procedure-decl</key>
+						<key>arrays</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
-							<dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>program-creation</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
+							<dict/>
 						</dict>
 						<key>storing-using-data</key>
 						<dict>
@@ -1058,13 +1083,21 @@
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>examples</key>
+								<key>exercises</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
 									<key>subItems</key>
 									<dict/>
 								</dict>
+							</dict>
+						</dict>
+						<key>type-decl</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
 								<key>exercises</key>
 								<dict>
 									<key>isExpanded</key>
@@ -1080,6 +1113,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {2560, 1414}}</string>
+	<string>{{689, 4}, {720, 874}}</string>
 </dict>
 </plist>

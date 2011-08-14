@@ -63,6 +63,7 @@ C and Pascal differ in the amount of support they have for working with arrays. 
 
 % subsubsection calculating_sum (end)
 
+\clearpage
 \subsubsection{Calculating Mean} % (fold)
 \label{ssub:calculating_mean}
 
@@ -78,6 +79,7 @@ The length of the array can be calculated in Pascal using its \texttt{Length} fu
 
 % subsubsection calculating_mean (end)
 
+\clearpage
 \subsubsection{Calculating Maximum} % (fold)
 \label{ssub:calculating_maximum}
 
@@ -99,6 +101,7 @@ One of the important differences between \texttt{Maximum} and \texttt{Sum} is th
 
 % subsubsection calculating_maximum (end)
 
+\clearpage
 \subsubsection{Calculating Variance} % (fold)
 \label{ssub:calculating_variance}
 
@@ -126,6 +129,7 @@ The matching Pseudocode for this is shown in \lref{plst:variance}. In this case 
 
 % subsection understanding_the_statistics_calculator (end)
 
+\clearpage
 \subsection{Choosing Artefacts for Statistics Calculator} % (fold)
 \label{sub:choosing_artefacts_for_statistics_calculator}
 
@@ -187,6 +191,7 @@ Once again the C and Pascal code differ in how this is implemented, centred on h
    \label{fig:populate-array-flow}
 \end{figure}
 
+\begin{figure}[htbp]
 \csection{The C version of \texttt{Populate Array} is shown in \lref{clst:populate_array}. This uses the following functions from \texttt{strings.h}. As C does not know the length of the string each of these functions takes a number (\texttt{n}) that indicates the maximum number of characters to copy.
 \begin{itemize}
   \item \texttt{\textbf{strncpy}}: String Copy (n characters). The first parameter is the destination, the second the source, the third is the number of characters.
@@ -194,10 +199,13 @@ Once again the C and Pascal code differ in how this is implemented, centred on h
   \item \textbf{\texttt{strncat}}: String Concatenate (n characters). Adds the text in parameter 2 to the end of the string in parameter 1. 
 \end{itemize}
 
-\ccode{clst:populate_array}{C code for \texttt{Populate Array}}{topics/arrays/application/populate-array.c}}
+\ccode{clst:populate_array}{C code for \texttt{Populate Array}}{topics/arrays/application/populate-array.c}}  
+\end{figure}
 
-\passection{The Pascal version of \texttt{Populate Array} is shown in \lref{paslst:populate_array}. This uses Pascal's \textbf{\texttt{IntToStr}} function to convert the value \texttt{i + 1} from Integer to String.
-\pascode{paslst:populate_array}{Pascal code for \texttt{Populate Array}}{topics/arrays/application/PopulateArray.pas}}
+\begin{figure}[htbp]
+  \passection{The Pascal version of \texttt{Populate Array} is shown in \lref{paslst:populate_array}. This uses Pascal's \textbf{\texttt{IntToStr}} function to convert the value \texttt{i + 1} from Integer to String.
+  \pascode{paslst:populate_array}{Pascal code for \texttt{Populate Array}}{topics/arrays/application/PopulateArray.pas}}  
+\end{figure}
 
 % subsubsection populating_the_array (end)
 
