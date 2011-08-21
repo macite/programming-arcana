@@ -67,3 +67,54 @@ This is an updated version of the Circle Areas Program. See Section \ref{sub:cir
 \passection{\pascode{lst:data-circle-areas-pas}{Pascal Circle Areas}{topics/storing-using-data/examples/CircleAreas.pas}}
 
 % subsection circle_area (end)
+
+\clearpage
+\subsection{Comet Orbit} % (fold)
+\label{sub:comet_orbit}
+
+This program uses SwinGame to draw the orbit of the Hale-Bopp comet around the sun. The Hale-Bopp comet performs an elliptical orbit of the sun that can be plotted using Equation~ \ref{eq:orbit}. This equation calculates the radius (r) of the comet's position based on the \emph{angle} between the comet and the sun. Where \emph{e} is the Eccentricity value with a constant value of 0.995, and \emph{d} is the distance between the pole and directrix with a constant value of 1.828.
+
+\begin{equation}
+  r = \frac{ed}{1 + e sin(angle)}
+  \label{eq:orbit}
+\end{equation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Comet Orbit} \\
+  \\
+  \textbf{Description} & Calculates and plots the position of the Hale-Bopp comet, based on an equation of its elliptical orbit of the sun. \\
+  \hline
+\end{tabular}
+\caption{Description of the Comet Orbit program}
+\label{tbl:data-comet-orbit}
+\end{table}
+
+This will require functions and procedures to do the following:
+\begin{itemize}
+  \item A function to \textbf{calculate} the \textbf{r} value for the comet based on an \emph{angle}.
+  \item Functions to \textbf{convert} the \textbf{x} and \textbf{y} positions of the comet from AU (Astronomical Units) to pixel coordinates so that the comets position can be plotted on the screen.
+  \item A procedure to \textbf{Draw} the \textbf{comet} to the screen, based on its current angle.
+  \item A procedure to \textbf{Draw} the \textbf{sun}.
+  \item A procedure to \textbf{draw} the entire \textbf{system}, including the sun and the comet at a given angle.
+  \item The main procedure to coordinate actions (calling, draw system with different angle values).
+\end{itemize}
+
+\clearpage
+
+\csection{\ccode{clst:comet-orbit}{Comet Orbit, continued in \lref{clst:comet-orbit1}}{topics/storing-using-data/examples/comet-orbit.cpp}}
+
+\begin{figure}[p]
+\csection{\ccode{clst:comet-orbit1}{Comet Orbit, continued in \lref{clst:comet-orbit2}}{topics/storing-using-data/examples/comet-orbit1.cpp}}
+\end{figure}
+
+\begin{figure}[p]
+\csection{\ccode{clst:comet-orbit2}{Comet Orbit}{topics/storing-using-data/examples/comet-orbit2.cpp}}
+\end{figure}
+
+
+% subsection comet_orbit (end)
