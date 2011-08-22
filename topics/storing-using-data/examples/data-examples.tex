@@ -67,6 +67,57 @@ This is an updated version of the Circle Areas Program. See Section \ref{sub:cir
 \passection{\pascode{lst:data-circle-areas-pas}{Pascal Circle Areas}{topics/storing-using-data/examples/CircleAreas.pas}}
 
 % subsection circle_area (end)
+\clearpage
+\subsection{Bicycle Race} % (fold)
+\label{sub:bicycle_race}
+
+The Bicycle Race program will simulate a thirty second sprint race between a number of bicycles. The race has a standing start, and then each racer accelerates as fast as they can for thirty seconds. The winner is the racer who makes it the furthest.
+
+\begin{itemize}
+  \item You can calculate distance the racers cover using Equation~\ref{eq:acceleration}.
+  \begin{itemize}
+    \item \emph{s} is the distance covered.
+    \item \emph{u} is the starting speed
+    \item \emph{t} is time.
+    \item \emph{a} is acceleration.
+  \end{itemize} 
+  \begin{equation}
+    s = ut + \frac{a t^2}{2}
+    \label{eq:acceleration}
+  \end{equation}
+  \item This race has a standing start, so the initial speed of each racer will be 0.
+  \item The time for the race is 30 seconds, this is constant.
+  \item Each racer will have a randomly determined acceleration, with a maximum acceleration of 10 $pixels/second^2$
+\end{itemize}
+
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|p{10cm}}
+  \hline
+  \multicolumn{2}{c}{\textbf{Program Description}} \\
+  \hline
+  \textbf{Name} & \emph{Comet Orbit} \\
+  \\
+  \textbf{Description} & Calculates and plots the position of the Hale-Bopp comet, based on an equation of its elliptical orbit of the sun. \\
+  \hline
+\end{tabular}
+\caption{Description of the Comet Orbit program}
+\label{tbl:data-comet-orbit}
+\end{table}
+
+\begin{figure}[p]
+\csection{\ccode{clst:bike-race}{C Bicycle Race, continued in \lref{clst:bike-race1}}{topics/storing-using-data/examples/bike-race.c}}
+\end{figure}
+
+\begin{figure}[p]
+\csection{\ccode{clst:bike-race1}{C Bicycle Race}{topics/storing-using-data/examples/bike-race1.c}}
+\end{figure}
+
+
+% subsection bicycle_race (end)
 
 \clearpage
 \subsection{Comet Orbit} % (fold)
@@ -115,6 +166,5 @@ This will require functions and procedures to do the following:
 \begin{figure}[p]
 \csection{\ccode{clst:comet-orbit2}{Comet Orbit}{topics/storing-using-data/examples/comet-orbit2.cpp}}
 \end{figure}
-
 
 % subsection comet_orbit (end)

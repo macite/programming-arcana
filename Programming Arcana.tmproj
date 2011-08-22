@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>code/c/array/bubble-game.c</string>
+	<string>topics/type-decl/type-decl.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,34 +23,6 @@
 	<integer>228</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/array/bubble-game.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>105</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>59</integer>
-		</dict>
-		<key>code/c/types/shape_drawing.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>preamble/commands.tex</key>
 		<dict>
 			<key>caret</key>
@@ -59,20 +31,6 @@
 				<integer>30</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>programming-arcana.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -449,20 +407,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/arrays.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>187</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>topics/arrays/c/c-stats-calc.tex</key>
 		<dict>
 			<key>caret</key>
@@ -490,34 +434,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>topics/arrays/examples/bubble-game.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>23</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>1</integer>
-		</dict>
-		<key>topics/arrays/examples/bubble-game1.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>24</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>10</integer>
 		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
@@ -947,66 +863,6 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/storing-using-data/exercises/data-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>114</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>451</integer>
-			<key>firstVisibleLine</key>
-			<integer>92</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>111</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>114</integer>
-			</dict>
-		</dict>
-		<key>topics/storing-using-data/storing-using-data.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>73</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>73</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-		</dict>
 		<key>topics/type-decl/application/using-custom-types.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1067,47 +923,24 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/exercises/type-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>181</integer>
-				<key>line</key>
-				<integer>44</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>1</integer>
-		</dict>
 		<key>topics/type-decl/type-decl.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>96</integer>
+				<integer>119</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>96</integer>
+			<integer>81</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>topics/type-decl/type-decl.tex</string>
-		<string>topics/type-decl/exercises/type-exercises.tex</string>
-		<string>programming-arcana.tex</string>
-		<string>code/c/types/shape_drawing.c</string>
-		<string>topics/arrays/examples/bubble-game.c</string>
-		<string>topics/arrays/examples/bubble-game1.c</string>
-		<string>code/c/array/bubble-game.c</string>
-		<string>topics/storing-using-data/exercises/data-exercises.tex</string>
-		<string>topics/storing-using-data/storing-using-data.tex</string>
-		<string>topics/arrays/arrays.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1151,6 +984,13 @@
 									<key>subItems</key>
 									<dict/>
 								</dict>
+								<key>storing-using-data</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -1176,12 +1016,34 @@
 								</dict>
 							</dict>
 						</dict>
+						<key>storing-using-data</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>examples</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1440, 874}}</string>
+	<string>{{0, 4}, {2560, 1414}}</string>
 </dict>
 </plist>
