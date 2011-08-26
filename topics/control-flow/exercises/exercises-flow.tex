@@ -90,7 +90,88 @@ Read over the concepts in this chapter and answer the following questions:
   \item Open a new SwinGame project and examine the startup code. How does this program keep the window open until the user closes it?
 \end{enumerate}
 
-\bigskip
+\clearpage
+
+Use what you have learnt to read and understand the following code samples.
+\begin{enumerate}
+  \item Read the C code in \lref{clst:rect-move}, or the Pascal code in \lref{plst:rect-move}, and then answer the following questions:
+  \begin{enumerate}
+    \item What are \texttt{X\_SPEED}, \texttt{width}, \texttt{height}, \texttt{x}, and \texttt{y}? How are they similar/different? What purpose does each of these play? What values are they assigned?
+    \item What does the loop in this code do?
+    \item Briefly explain what this code does, and suggest a name for the \texttt{????} procedure.
+    \item Provide an example of how you could call this procedure.
+  \end{enumerate}
+  
+  \begin{figure}[h]
+    \csection{\ccode{clst:rect-move}{What does this C code do?}{topics/control-flow/exercises/rect_move.c}}
+  \end{figure}
+  \begin{figure}[h]
+    \passection{\pascode{plst:rect-move}{What does this Pascal code do?}{topics/control-flow/exercises/RectMove.pas}}
+  \end{figure}
+  
+  \item Read the C code in \lref{clst:color-pick}, or the Pascal code in \lref{plst:color-pick}, and then answer the following questions:
+  \begin{enumerate}
+    \item What will be drawn to the screen when the user is not holding down any key?
+    \item When the user is holding down the G key what will be drawn?
+    \item When the user is holding down the R and B keys what will be drawn?
+    \item What condition causes the loop to end? How can a user end this loop?
+    \item Draw a flow chart to illustrate the possible paths through this code.
+  \end{enumerate}
+  \begin{figure}[h]
+    \csection{\ccode{clst:color-pick}{What does this C code do?}{topics/control-flow/exercises/color_pick.c}}
+  \end{figure}
+  \begin{figure}[h]
+    \passection{\pascode{plst:color-pick}{What does this Pascal code do?}{topics/control-flow/exercises/ColorPick.pas}}
+  \end{figure}
+  \clearpage
+  
+  \item Read the C code in \lref{clst:color-pick1}, or the Pascal code in \lref{plst:color-pick1}, and then answer the following questions:
+  \begin{enumerate}
+    \item What will be drawn to the screen when the user is not holding down any key?
+    \item When the user is holding down the G key what will be drawn?
+    \item When the user is holding down the R and B keys what will be drawn?
+    \item What condition causes the loop to end? How can a user end this loop?
+    \item Draw a flow chart to illustrate the possible paths through this code.
+  \end{enumerate}
+  \begin{figure}[h]
+    \csection{\ccode{clst:color-pick1}{What does this C code do?}{topics/control-flow/exercises/color_pick1.c}}
+  \end{figure}
+  \begin{figure}[h]
+    \passection{\pascode{plst:color-pick1}{What does this Pascal code do?}{topics/control-flow/exercises/ColorPick1.pas}}
+  \end{figure}
+  \clearpage
+  
+  \item Read the C code in \lref{clst:click_game}, or the Pascal code in \lref{plst:click_game}, and then answer the following questions:
+  \begin{enumerate}
+    \item What is the purpose of the if statement in this code? What is it testing?
+    \item When will the color of the rectangle change? What are the conditions that must be met?
+    \item If the user clicks the left button on their mouse will the color of the rectangle change? discuss
+    \item What would need to be added to keep a score of the number of times the user changed the color? explain
+  \end{enumerate}
+  
+  \bigskip
+  
+  \begin{figure}[h]
+     \centering
+     \includegraphics[width=0.8\textwidth]{./topics/control-flow/exercises/ClickGame.png} 
+     \caption{The game in play}
+     \label{fig:click_game}
+  \end{figure}
+  
+  
+  \begin{figure}[p]
+    \csection{\ccode{clst:click_game}{What does this C code do?}{topics/control-flow/exercises/play_game.c}}
+  \end{figure}
+  \begin{figure}[p]
+    \passection{\pascode{plst:click_game}{What does this Pascal code do?}{topics/control-flow/exercises/PlayGame.pas}}
+  \end{figure}
+  \clearpage
+  
+  
+  
+\end{enumerate}
+
+\clearpage
 
 Apply what you have learnt to the following tasks:
 \begin{enumerate}

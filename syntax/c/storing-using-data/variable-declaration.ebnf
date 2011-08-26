@@ -1,6 +1,4 @@
-variable decl. = [ "const" ], type name, { actual variable declaration, [ "=", expression]}+(",") , ';' ;
-
-actual var. decl. = variable name;
+variable decl. = [ "const" ], type name, { variable name, [ "=", expression]}+(",") , ';' ;
 
 variable name = identifier ;
 

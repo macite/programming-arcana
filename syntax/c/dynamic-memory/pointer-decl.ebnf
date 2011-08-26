@@ -1,0 +1,2 @@
+parameter decl. = type name, [ "*" ], parameter name, {"[ ]"}* ;
+

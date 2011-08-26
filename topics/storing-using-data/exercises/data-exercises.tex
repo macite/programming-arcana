@@ -90,6 +90,19 @@ Apply what you have learnt to the following tasks:
   \item Design the structure and then the code for a program that converts temperatures from Celsius to Fahrenheit. This should read the value to convert from the user, and output the results to the Terminal.
   \item Take the adjusted Face Shape program from \cref{cha:procedure_declaration}, and re-implement it so that the \texttt{Draw Face} procedure takes in an x and y coordinate for the location where the face will be drawn. Adjust the coordinates of the face's components in \texttt{Draw Face}, by the amounts in the \texttt{x} and \texttt{y} parameters. Use your new procedure to draw three faces to the screen at different positions.
   \item Write a \texttt{Swap} procedure that takes in two integer parameters (passed by reference) and swaps their values. Write a program to test this procedure. This should work so that if you call \texttt{Swap(a, b);} that the values in the \texttt{a} and \texttt{b} variables are swapped over. You can test this by printing the values before and after the call to the \texttt{Swap} procedure.
+  \item Watch \url{http://www.youtube.com/watch?v=y2R3FvS4xr4}, which clearly demonstrates the importance of being able to calculate the airspeed velocity of a swallow. This can be calculated using an equation based on the Strouhal Number, see \url{http://www.style.org/strouhalflight}. Use this information to create a program that can be used to calculate the airspeed velocity of African and European Swallows. Use the following values:
+  \begin{itemize}
+    \item Strouhal Number of 0.33
+    \item African Swallow: frequency 15hz, amplitude 21cm
+    \item European Swallow: frequency 14hz, amplitude 22cm
+  \end{itemize}
+\end{enumerate}
+
+\clearpage
+
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+
+\begin{enumerate}
   \item Write a small program to experiment with parameter passing. Create in this program a procedure called \texttt{Print It} that takes a integer parameter and prints it to the Terminal. Also create a  \textbf{Double It} procedure that takes an integer parameter passed by reference\footnote{If you are using C, you will need to do this with C++. With C++ your compiler is now g++, rather than gcc.} and has its value doubled in the procedure. Try the following (not all will work):
   \begin{enumerate}
     \item Call \texttt{Print It}, passing in a literal value like \texttt{5}.
@@ -99,21 +112,6 @@ Apply what you have learnt to the following tasks:
     \item Call \texttt{Print It}, passing in a variable's value.
     \item Call \texttt{Double It}, passing in a variable's value.
   \end{enumerate}
-  
-  \clearpage
-  \item Watch \url{http://www.youtube.com/watch?v=y2R3FvS4xr4}, which clearly demonstrates the importance of being able to calculate the airspeed velocity of a swallow. This can be calculated using an equation based on the Strouhal Number, see \url{http://www.style.org/strouhalflight}. Use this information to create a program that can be used to calculate the airspeed velocity of African and European Swallows. Use the following values:
-  \begin{itemize}
-    \item Strouhal Number of 0.33
-    \item African Swallow: frequency 15hz, amplitude 21cm
-    \item European Swallow: frequency 14hz, amplitude 22cm
-  \end{itemize}
-\end{enumerate}
-
-\bigskip
-
-If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
-
-\begin{enumerate}
   \item Further adjust your Face Drawing program so that the caller can pass in a custom color, width, and height for the face.
   \item Adjust the bike race example from \sref{sub:bicycle_race} so that the racers have a rolling start. Each bike will then have a different initial speed, calculated as a random value. You will need to define a maximum starting speed, and recalculate the x scale factor to ensure that the bikes are all drawn to the screen.
 \end{enumerate}

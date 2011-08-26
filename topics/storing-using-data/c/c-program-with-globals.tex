@@ -2,9 +2,9 @@
 \subsection{C Program (with Global Variables and Constants)} % (fold)
 \label{sub:c_program_with_global_variables}
 
-You can declare Global Variables and Constants within a C Program file.
+You can declare global variables and constants within a C Program file.
 
-\csyntax{csynt:storing-using-data-program}{a Program (with global variables and constants)}{storing-using-data/program-with-globals}
+\csyntax{csynt:storing-using-data-program}{a program (with global variables and constants)}{storing-using-data/program-with-globals}
 
 \mynote{
 \begin{itemize}
@@ -16,8 +16,15 @@ You can declare Global Variables and Constants within a C Program file.
     \item \texttt{PI} is a Global Constant, with the value 3.1415. This can be read in both the \texttt{test} procedure and \texttt{main}.
   \end{itemize}
   \item Global variable should be avoided.
+  \item Global constants can be declared in two ways, using a \nameref{sub:c_variable_declaration} with the \texttt{const} modifier or using \texttt{\#define}.
+  \item See \lref{clst:def-consts} for an example of \texttt{\#define} and constants.
+  \item With \texttt{\#define} you are defining a `value' for the identifier, this identifier is then substituted with the `value' throughout your code. This means you have to pay particular attention to what `value' you use. 
   \item There are a number of conventions, called coding standards, that describe how your code should appear for a given language. In this text we will use a common C convention of having all \emph{Constants} in \textbf{UPPER CASE}, with underscores ( \_ ) used to separate words. So the \emph{Maximum Height} constant becomes \texttt{MAXIMUM\_HEIGHT}.
 \end{itemize}
 }
+
+\clearpage
+
+\csection{\ccode{clst:def-consts}{C program with a defined constant, and constant variable}{code/c/storing-using-data/defined-consts.c}}
 
 % subsection c_program_with_global_variables (end)

@@ -2,7 +2,7 @@ union decl. = "union", [union name], "{", field list, "}", typedef name;
 
 field list = { field declaration }+(";") ;
 
-field decl. = type name, field name, {"[", expression, "]"}* ;
+field decl. = type name, [ "*" ], field name, {"[", expression, "]"}* ;
 
 union name = identifier ;
 

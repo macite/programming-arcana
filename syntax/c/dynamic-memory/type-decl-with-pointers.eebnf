@@ -2,8 +2,12 @@ type decl. = "typedef", enum declaration | struct declaration | union declaratio
 
 alias type decl. = [ const ], type name, {direct type declaration}+(",") ;
 
-direct type. decl. = typedef name | array type declaration ;
+direct type. decl. = ["*"], array type declaration | basic type declaration | inner type declaration ;
 
 array type decl. = typedef name, {"[", [constant expression], "]"}*;
+
+basic type decl. = typedef name ;
+
+inner type decl = "(", direct type declaration, ")" ;
 
 typedef name = identifier ;
