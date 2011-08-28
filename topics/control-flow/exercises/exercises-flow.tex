@@ -125,6 +125,21 @@ Use what you have learnt to read and understand the following code samples.
   \end{figure}
   \clearpage
   
+  \item Read the C code in \lref{clst:bar_pattern}, or the Pascal code in \lref{plst:bar_pattern}, and then answer the following questions:
+  \begin{enumerate}
+    \item What do the local variables and parameter keep track of?
+    \item How many times will the loop execute?
+    \item What is the purpose of the if statement within the loop?
+    \item What will be drawn to the screen when this procedure is called?
+  \end{enumerate}
+  \begin{figure}[h]
+    \csection{\ccode{clst:bar_pattern}{What does this C code do?}{topics/control-flow/exercises/draw_bar_pattern.c}}
+  \end{figure}
+  \begin{figure}[h]
+    \passection{\pascode{plst:bar_pattern}{What does this Pascal code do?}{topics/control-flow/exercises/DrawBarPattern.pas}}
+  \end{figure}
+  \clearpage
+  
   \item Read the C code in \lref{clst:color-pick1}, or the Pascal code in \lref{plst:color-pick1}, and then answer the following questions:
   \begin{enumerate}
     \item What will be drawn to the screen when the user is not holding down any key?
@@ -141,6 +156,22 @@ Use what you have learnt to read and understand the following code samples.
   \end{figure}
   \clearpage
   
+  \item Read the C code in \lref{clst:cursor}, or the Pascal code in \lref{plst:cursor}, and then answer the following questions:
+  \begin{enumerate}
+    \item What value is stored in the \texttt{dot x} variable each time through the loop?
+    \item Explain what will be drawn on the screen when this code is executed. How does this code respond to user actions?
+    \item Do the circles appear on top of, or below the frame rate? Explain.
+    \item How frequently are the actions in the loop performed?
+    \item How would putting a call to \texttt{delay} inside this loop effect the running of this program? 
+  \end{enumerate}
+  \begin{figure}[h]
+    \csection{\ccode{clst:cursor}{What does this C code do?}{topics/control-flow/exercises/mouse_pointer.c}}
+  \end{figure}
+  \begin{figure}[h]
+    \passection{\pascode{plst:cursor}{What does this Pascal code do?}{topics/control-flow/exercises/MousePointer.pas}}
+  \end{figure}
+  \clearpage
+
   \item Read the C code in \lref{clst:click_game}, or the Pascal code in \lref{plst:click_game}, and then answer the following questions:
   \begin{enumerate}
     \item What is the purpose of the if statement in this code? What is it testing?
@@ -167,7 +198,20 @@ Use what you have learnt to read and understand the following code samples.
   \end{figure}
   \clearpage
   
-  
+  \item Read the C code in \lref{clst:grid}, or the Pascal code in \lref{plst:grid}, and then answer the following questions:
+  \begin{enumerate}
+    \item What would be better names for the \texttt{i} and \texttt{j} variables?
+    \item How many rectangles are drawn to the screen when this procedure is called?
+    \item What does this code draw to the screen when it is called?
+    \item How would you need to change the code to ensure that the rectangles were always square?
+  \end{enumerate}
+  \begin{figure}[h]
+    \csection{\ccode{clst:grid}{What does this C code do?}{topics/control-flow/exercises/grid.c}}
+  \end{figure}
+  \begin{figure}[p]
+    \passection{\pascode{plst:grid}{What does this Pascal code do?}{topics/control-flow/exercises/Grid.pas}}
+  \end{figure}
+  \clearpage
   
 \end{enumerate}
 
@@ -175,9 +219,13 @@ Use what you have learnt to read and understand the following code samples.
 
 Apply what you have learnt to the following tasks:
 \begin{enumerate}
-  \item Write a small program that will print the message `Hello World' to the screen `1 MILLION TIMES'... mmmmwwwahahahah\footnote{Dr Evil, Austin Powers, 1997}.
-  \item Revisit your Circle Dimensions program from \cref{cha:storing_and_using_data} and adjust its implementation to make use of looping statements. The new output should output the radius, circle area, diameter, and circumference of circles with radius from 1.0cm to 1.0m at 0.25cm increments.
+  \item Write a small program that will print the message `Hello World' to the Terminal `1 MILLION TIMES'... mmmmwwwahahahah\footnote{Dr Evil, Austin Powers, 1997}.
+  \item Revisit your Circle Dimensions program from \cref{cha:storing_and_using_data} and adjust its implementation to make use of looping statements. The new output should display the radius, circle area, diameter, and circumference of circles with radius from 1.0cm to 1.0m at 0.25cm increments.
   \item Take your Times Table program from \cref{cha:storing_and_using_data}, and change it so that you can print a variable number of times. For example, have it print the 5 times table from 1 x 5 to 10 x 5, the 73 times table from 1 x 73 to 73 * 73, and the 42 times table from 1 x 42 to 7 * 42.  
+  \item Implement the Guess that Number program, and test that your implementation works successfully.
+  \item Take the adjusted Face Shape program from \cref{cha:storing_and_using_data}, and re-implement it so that it draws a new randomly places face each time through the loop in \texttt{Main}. SwinGame include a \texttt{rnd} function that can be used to generate a random number between 0 and 1, you can then multiply this by the Screen Width or Screen Height to get a random position.
+  \item Try implementing some of the code reading questions. See if you can combine a few of them together to create a small game.
+  
   \item Write a function called \texttt{Read Integer} that will read a number from the user. If the user does not enter a number the function will output the message `Please enter a number.', and will repeatedly ask the user to enter a number until they do so. Write a small program that tests if your function works correctly.
   
   \begin{figure}[h]
@@ -189,10 +237,6 @@ Apply what you have learnt to the following tasks:
   \item Use your \texttt{Read Integer} function to read in a number, and then print out a custom message for different values. For example, the value \texttt{42} could have the message `The meaning of life...', the value \texttt{73} could have the message `The best number, according to Dr. Sheldon Cooper', etc. Have at least five custom messages, and a default message when the user does not enter one of the selected values.
   
   \item Update your \emph{custom message} program, and have it ask the user if they want to quit at the end, allowing them to print multiple message values.
-  
-  \item Implement the Guess that Number program, and test that your implementation works successfully.
-  \item Download a blank SwinGame project, compile and run it. Checkout the frame rate, this tells you how many times each second the while loop in your main code is running.
-  \item Take the adjusted Face Shape program from \cref{cha:storing_and_using_data}, and re-implement it so that it draws a new randomly places face each time through the loop in \texttt{Main}. SwinGame include a \texttt{rnd} function that can be used to generate a random number between 0 and 1, you can then multiply this by the Screen Width or Screen Height to get a random position.
 \end{enumerate}
   
 \clearpage
@@ -246,7 +290,7 @@ If you want to further your knowledge in this area you can try to answer the fol
   \csection{You can call \texttt{key\_down(VK\_R)} to test if the `r' key is held down, then only draw the rectangle \emph{if} this key is held down.}
   
   \clearpage
-  \item Color can be rep  resented as consisting of three components: hue, saturation, and brightness. The hue component represents the color, the saturation is how much of this color is added to the white point, and the white point is controlled by the brightness and moves from black through grey to white. An illustration of this is shown in \fref{fig:color_wheel}.
+  \item Color can be represented as consisting of three components: hue, saturation, and brightness. The hue component represents the color, the saturation is how much of this color is added to the white point, and the white point is controlled by the brightness and moves from black through grey to white. An illustration of this is shown in \fref{fig:color_wheel}.
 
 \begin{figure}[htbp]
    \centering
