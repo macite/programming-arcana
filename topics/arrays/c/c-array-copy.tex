@@ -1,0 +1,48 @@
+\subsection{C Array Copying} % (fold)
+\label{sub:c_array_copying}
+
+In C you cannot use simple assignment to copy all of the elements of an array into another array. Instead you can use the \texttt{memcpy} (memory copy) function to perform this task for you. It copies a chunk of memory from one location to another.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{void *memcpy(void *destination, const void *source, size\_t num )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{void *} & Destination is returned, can be ignored. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ destination } & The location where the data is copied to.\\
+    & \\
+    \texttt{ source } & The data to copy.\\
+    & \\
+    \texttt{ num } & The number of bytes to copy. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{sscanf}}
+  \label{tbl:memcpy}
+\end{table}
+
+The \texttt{memcpy} function needs to be told the number of bytes to copy. The \texttt{sizeof} operator can be used to get this information for a type or variable. The details of this operator are shown in \fref{csynt:sizeof}. 
+
+\csyntax{csynt:sizeof}{The \texttt{sizeof} operator lets you get the size, in bytes, of a type or variable.}{arrays/sizeof}
+
+\csection{\ccode{clst:array-copy}{C code demonstrating array copying}{code/c/array/array-copy.c}}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{size\_t} type is a whole number used to store the size of types.
+  \item To get the size of a variable or type using the \texttt{sizeof} operator.
+  \item You can think of the \texttt{sizeof} operator as being a function that returns the size of a type or variable.
+  \item The expression in \texttt{sizeof} must be a variable or type name.
+\end{itemize}
+}
+
+% subsection c_array_copying (end)
