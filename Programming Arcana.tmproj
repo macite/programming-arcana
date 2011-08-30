@@ -42,9 +42,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>22</integer>
 				<key>line</key>
-				<integer>19</integer>
+				<integer>22</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -196,9 +196,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -973,7 +973,7 @@
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>arrays</key>
+								<key>control-flow</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1027,6 +1027,21 @@
 								</dict>
 							</dict>
 						</dict>
+						<key>control-flow</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>examples</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 						<key>dynamic-memory</key>
 						<dict>
 							<key>isExpanded</key>
@@ -1055,6 +1070,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {2560, 1414}}</string>
+	<string>{{0, 4}, {1440, 874}}</string>
 </dict>
 </plist>
