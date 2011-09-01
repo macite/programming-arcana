@@ -1,0 +1,40 @@
+\clearpage
+
+\subsection{C Pointer Operators} % (fold)
+\label{sub:c_pointer_operators}
+
+C provides a number of pointer operators that allow you to get and use pointers.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|l|l|p{8cm}|}
+    \hline
+    \textbf{Name} & \textbf{Operator}  & \textbf{Example}  & \textbf{Description} \\
+    \hline
+    Address Of & \texttt{\&} & \texttt{\&x} & Gets a pointer to the variable/field etc. \\
+    \hline
+    Dereference & \texttt{*} & \texttt{*ptr} & Follow the pointer, and read the value it points to.\\
+    \hline
+    & \texttt{->} & \texttt{ptr->field\_name} & Follow a pointer to a struct or union, and read a field value. \\
+    \hline
+  
+  \end{tabular}
+  \caption{C Pointer Operators}
+  \label{tbl:c-ptr-operators}
+\end{table}
+
+You can get a pointer to a value using the ampersand operator (\&). This operator lets you get the address of the variable, field, etc of the 
+
+\csection{\ccode{clst:pointer_operators}{C code showing pointer operator usage}{code/c/dynamic-memory/test-ptr-operators.c}}  
+
+\mynote{
+\begin{itemize}
+  \item The address of operator gets a pointer to the value in the expression that follows it.
+  \item Dereference means `\emph{follow the pointer, and read what it points to}'.
+  \item Use the asterisks (\texttt{*}) to dereference the pointer and get the value it points to.
+  \item You can use \texttt{->} to dereference a pointer to a structure value, and then to read one of the fields from within the structure. 
+  \item \lref{clst:pointer_operators} shows how you can get addresses of different variables, and how you can access the value pointed to using \texttt{*} and \texttt{->}.
+\end{itemize}
+}
+
+% subsection c_pointer_operators (end)

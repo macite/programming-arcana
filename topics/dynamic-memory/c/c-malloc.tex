@@ -1,0 +1,76 @@
+\clearpage
+\subsection{C Memory Allocation Functions} % (fold)
+\label{sub:c_memory_allocation}
+
+C includes a number of memory allocation functions: \nameref{ssub:malloc}.
+
+\subsubsection{Malloc} % (fold)
+\label{ssub:malloc}
+
+\texttt{malloc} is the standard memory allocation function. You tell it how much space you want, and it allocates you that many bytes on the heap. This is a function, that returns a pointer to the space allocated.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{void *malloc(size\_t size )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{void *} & Destination is returned, can be ignored. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ size } & The number of bytes to allocate on the heap. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{malloc} function}
+  \label{tbl:malloc}
+\end{table}
+
+\csection{\ccode{clst:malloc}{Example calls to \texttt{malloc}}{code/c/dynamic-memory/malloc-example.c}}  
+
+\mynote{
+\begin{itemize}
+  \item \texttt{malloc} is used for\emph{memory allocation}.
+  \item You need to include \textbf{stdlib.h} to use \texttt{malloc}.
+  \item \texttt{malloc} allows you to allocate space on the heap. It returns a pointer to this space.
+  \item \texttt{malloc} returns a \texttt{void} pointer, you need to type cast this to the kind of pointer you want, for example \texttt{(int *)} casts it to an integer pointer.
+\end{itemize}
+}
+
+
+% subsubsection malloc (end)
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{void *calloc( size\_t num, size\_t size )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{void *} & Destination is returned, can be ignored. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ num } & The number of elements to allocate to the array.\\
+    & \\
+    \texttt{ size } & The size of each element to be allocated on the heap. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{calloc} function}
+  \label{tbl:calloc}
+\end{table}
+
+
+
+% subsection c_memory_allocation (end)

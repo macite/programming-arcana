@@ -66,46 +66,7 @@ row read_row(int next_id)
     char line[16] = "", temp[2];
     row result = {0, UNK_VAL, {0}, NULL};
     
-    //store the id
-    result.id = next_id;
-    
-    // Read the value from the user into the line
-    printf("Enter value: ");
-    
-    // Read at most 15 characters up to a new line
-    // check if only one of the two inputs is matched
-    if (scanf("%15[^\n]%1[\n]", line, temp) != 2) 
-    {
-        // If the next character was not a newline, read
-        // any remaining text and skip it
-        clear_input();
-    }
-    
-    // Remove any leading or trailing spaces
-    trim(line, 16);
-    
-    // test int first
-    if (is_integer(line))
-    {
-        // read the integer from the line, and store in row
-        sscanf(line, "%d", &result.data.int_val);
-        // store the kind in the row
-        result.kind = INT_VAL;
-    }
-    else if (is_double(line)) // test dbl
-    {
-        // todo: Add handling of double...
-    }
-    else
-    {
-        // copy the text into the row (at most 7 + 1 characters)
-        strncpy(result.data.txt_val, line, 7); // 7 + 1
-        // store the kind in the row
-        result.kind = TXT_VAL;
-    }
-    
-    printf("Stored in row with id %d\n", result.id);
-    return result;
+    /* The remainder of this function is the same as the array version */
 }
 
 // Print the row to the Terminal
@@ -220,26 +181,5 @@ int main()
     menu_option opt;
     data_store db_data = {0, NULL, NULL}; // id, first, last
     
-    do
-    {
-        opt = get_menu_option();
-        
-        switch(opt)
-        {
-            case ADD_DATA:
-                add_a_row(&db_data);
-                break;
-            case DELETE_DATA:
-                delete_a_row(&db_data);
-                break;
-            case PRINT_DATA:
-                print_all_rows(&db_data);
-                break;
-            case QUIT:
-                printf("Bye.\n");
-                break;
-        }
-    } while(opt != QUIT);
-    
-    return 0;
+    /* The remainder of this function is the same as the array version */
 }

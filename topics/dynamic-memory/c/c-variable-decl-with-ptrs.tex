@@ -1,0 +1,36 @@
+\clearpage
+\subsection{C Variable Declaration (with pointers)} % (fold)
+\label{sub:c_variable_declaration_with_pointers_}
+
+In C you can declare pointer variables. This includes \nameref{sub:local_variable}s, \nameref{sub:global_variable}s, and \nameref{sub:parameter}s.
+
+\csyntax{csynt:var-decl-with-ptr}{variable declarations with pointers}{dynamic-memory/pointer-decl}
+
+\mynote{
+\begin{itemize}
+  \item This code allows you to declare your own \nameref{sub:pointer} variables in C.
+  \item For variable declarations, the main aspect to pay attention to is the \texttt{*}. This indicates that the variable is a pointer.
+  \item See \lref{clst:simple-var-ptr} for example variable declarations.
+\end{itemize}
+}
+
+\begin{figure}[p]
+  \csection{\ccode{clst:simple-var-ptr}{C code with pointer variables}{code/c/dynamic-memory/simple_ptr_vars.c}}    
+\end{figure}
+
+
+\subsubsection{Using pointers to emulate pass by reference in C} % (fold)
+\label{ssub:using_pointers_to_emulate_pass_by_reference_in_c}
+
+C does not have built in support for \nameref{sub:pass_by_reference}. Instead, in C you must pass a \nameref{sub:pointer} to the variable you want passed to the function or procedure. \lref{clst:simple-var-ptr} shows an examples of procedures that accept pointers variables.
+
+\mynote{
+\begin{itemize}
+  \item A \texttt{void} pointer can be used to point to \emph{any} value. 
+  \item Also see: \sref{sub:c_procedure_call_with_pass_by_reference} \nameref{sub:c_procedure_call_with_pass_by_reference}, and \sref{ssub:c_reference_parameters} \nameref{ssub:c_reference_parameters}.
+\end{itemize}
+}
+
+% subsubsection using_pointers_to_emulate_pass_by_reference_in_c (end)
+
+% subsection c_variable_declaration_with_pointers_ (end)
