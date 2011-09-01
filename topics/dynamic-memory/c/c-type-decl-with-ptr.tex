@@ -2,7 +2,7 @@
 \subsection{C Type Declarations (with pointers)} % (fold)
 \label{sub:c_type_decl_with_ptrs}
 
-In C you can declare custom types that make use of pointers. This includes alias types (see \nameref{sub:c_type_declaration}), structs (see \nameref{sub:c_structure_declaration}), and unions (see \nameref{sub:c_union_declaration}).
+In C you can declare custom types that make use of pointers. This includes alias types, structs, and unions.
 
 \csyntax{csynt:type-decl-with-ptr}{array and alias type declarations with pointers}{dynamic-memory/type-decl-with-ptrs}
 
@@ -10,7 +10,8 @@ In C you can declare custom types that make use of pointers. This includes alias
 \begin{itemize}
   \item This is the C syntax to for custom alias type that include \nameref{sub:pointer}s.
   \item The main difference is the inclusion of the \texttt{*} in the \emph{direct type declaration}. This indicates that the custom type can alias pointer types. This would allow you to declare a type such as \texttt{person\_ptr} that is a pointer to a person.
-  \item  The inner type declaration allows you to have array of pointers. In these cases you use the brackets to indicate if you want to declare a pointer to an array, or an array of pointers. 
+  \item  The \emph{inner type declaration} allows you to have array of pointers, and pointers to arrays. In these cases you use the brackets to indicate if you want to declare a pointer to an array, or an array of pointers. See \lref{clst:test-type-alias-ptr} for an example of these type declarations.
+  \item 
 \end{itemize}
 }
 
@@ -18,5 +19,28 @@ In C you can declare custom types that make use of pointers. This includes alias
 \csection{\ccode{clst:test-type-alias-ptr}{C code demonstrating type aliasing with pointers}{code/c/dynamic-memory/alias-types-with-ptrs.c}}  
 \end{figure}
 
+\clearpage
+\subsubsection{C Structure Declarations (with pointer fields)} % (fold)
+\label{ssub:c_structure_declarations_with_pointer_fields_}
+
+The fields of a structure may be a pointer. 
+
+\csyntax{csynt:struct-decl-with-ptr}{struct fields with pointers}{dynamic-memory/struct-decl-with-ptr}
+
+\csection{\ccode{clst:simple-node}{C code with a struct that contains a pointer}{code/c/dynamic-memory/simple-node.c}}  
+
+% subsubsection c_structure_declarations_with_pointer_fields_ (end)
+
+\clearpage
+\subsubsection{C Union Declaration (with pointer fields)} % (fold)
+\label{ssub:c_union_declaration_with_pointer_fields_}
+
+The fields of a union may be pointers.
+
+\csyntax{csynt:union-decl-with-ptr}{union fields with pointers}{dynamic-memory/union-decl-with-ptr}
+
+\csection{\ccode{clst:union-ptr}{C code with a union that contains pointer fields}{code/c/dynamic-memory/simple-union-ptr.c}}  
+
+% subsubsection c_union_declaration_with_pointer_fields_ (end)
 
 % subsection c_array_declaration (end)

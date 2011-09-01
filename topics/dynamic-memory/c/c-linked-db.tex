@@ -1,0 +1,15 @@
+\subsection{Small DB 2, the linked version} % (fold)
+\label{sub:small_db_2_the_linked_version}
+
+% subsection small_db_2_the_linked_version (end)
+\sref{sec:using_dynamic_memory_allocation}, \nameref{sec:using_dynamic_memory_allocation}, introduced a version of the Small DB program with a linked structure, as opposed to the array structure used to manage the rows in \cref{cha:more_data_types}. The C code for the altered functions and procedures is shown in \lref{clst:linked-db}, the array version can be found in \lref{lst:c-small-db}.
+
+\straightcode{\ccode{clst:linked-db}{C code for the linked version of Small DB, see \lref{lst:c-small-db} for the array version of this program}{code/c/dynamic-memory/linked-db-for-chap.c}}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{print\_all}, \texttt{delete\_a\_row}, and \texttt{add\_a\_row} are the only procedures that have changed significantly.
+  \item Each of these is explained in more detail in \sref{sec:using_dynamic_memory_allocation}.
+  \item Each row has a pointer to the next row in the database, this will point to nothing in the last row.
+\end{itemize}
+}

@@ -4,7 +4,7 @@ field list = { field declaration }+(";") ;
 
 field decl. = type name, [ "*" ], field name, {"[", expression, "]"}* ;
 
-explicit name = identifier ;
+struct name = identifier ;
 
 field name = identifier ;
 

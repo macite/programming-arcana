@@ -12,21 +12,12 @@
 
 // The Row Value union. Stores either an integer, a
 // double or 8 (7 + 1) characters.
-typedef union {
-        int     int_val;
-        //todo: Add double as an option
-        char    txt_val[8];
-    } row_value;
+typedef union { /* same as array version */ } row_value;
 
 // The Data Kind enumeration indicates the kind of data
 // stored in a row, matches the options available in the
 // Row Value union.
-typedef enum {
-        INT_VAL,
-        //todo: Add double as an option
-        TXT_VAL,
-        UNK_VAL // an unknown value
-    } data_kind;
+typedef enum { /* same as array version */ } data_kind;
 
 // The Row record/structure. Each row contains an id
 // a kind, and some data (a Row Value).
@@ -34,24 +25,19 @@ typedef struct row_struct {
         int                 id;
         data_kind           kind;
         row_value           data;
-        struct row_struct   *next;
+        struct row_struct   *next;  // Points to the next row
     } row;
 
 // The data store is a dynamic linked list of rows, keeping track
 // of the number of rows in the list, and the id for the next row
 typedef struct {
-    int     next_row_id;    // The id of the row that will be added next
-    row     *first_row;      // A pointer to the first row
-    row     *last_row;       // A pointer to the last row
-} data_store;
+        int     next_row_id;    // The id of the row that will be added next
+        row     *first_row;      // A pointer to the first row
+        row     *last_row;       // A pointer to the last row
+    } data_store;
 
 // The user can choose to add, delete, or print data or to quit
-typedef enum {
-    ADD_DATA,
-    DELETE_DATA,
-    PRINT_DATA,
-    QUIT
-} menu_option;
+typedef enum { /* same as array version */ } menu_option;
 
 // ====================================
 // = General Functions and Procedures =
@@ -59,95 +45,15 @@ typedef enum {
 
 // Trim spaces from the start/end of a string (in place)
 // This is passed the string to trim, and the number of characters it contains
-void trim(char* text, int n)
-{
-    int i, j;
-    int first_non_space = 0;
-    
-    // Get the position of the last character
-    int last_char = strlen(text);
-    if (last_char > n) last_char = n;
-    
-    // Move back one character - past the null terminator
-    if (text[last_char] == '\0') last_char--;
-    
-    // for each character, back from the last char to the first
-    for(i = last_char; i >= 0; i--)
-    {
-        if (text[i] == ' ') text[i] = '\0'; //replace spaces with null
-        else break; // found a non-space so break out of this loop
-    }
-    
-    // remember the new position of the last character
-    last_char = i;
-    
-    // Search forward from the start...
-    for(first_non_space = 0; first_non_space < last_char; first_non_space++)
-    {
-        // Break at the first character that is not a space
-        if (text[first_non_space] != ' ') break;
-    }
-    
-    if (first_non_space > 0)
-    {
-        // Need to copy characters back to start of text...
-        // j will track from the start of the text
-        j = 0; 
-        
-        // i will track the index of the non-white space characters
-        // starting at the first_non_white space and looping
-        // until it gets to the last char (include last char so <= not <)
-        for(i = first_non_space; i <= last_char; i++)
-        {
-            text[j] = text[i];
-            j++;
-        }
-        text[j] = '\0'; // add a null terminator to the end
-    }
-}
+void trim(char* text, int n) { /* same as array version */ }
 
 // Test if the passed in text refers to an integer
-bool is_integer(const char* text)
-{
-    char * p;
-    long val;
-    
-    // If the text is empty there is no integer
-    if (text == NULL || *text == '\0')
-      return false;
-    
-    // Test that it can be converted to an integer
-    val = strtol (text, &p, 10); // base 10
-    
-    // It is an integer if all characters were used in 
-    // the conversion, and there was no range error
-    // and the result is in the 
-    return *p == '\0' && errno != ERANGE && val <= INT_MAX && val >= INT_MIN;    
-}
+bool is_integer(const char* text) { /* same as array version */ }
 
 // Test if the passed in text refers to a double
-bool is_double(const char* text)
-{
-    char * p;
-    
-    // IF the text is empty there is no double
-    if (text == NULL || *text == '\0')
-      return false;
-    
-    // Test that it converts to a double
-    strtod (text, &p);
-    
-    // It is a double if the next character in the text 
-    // after the conversion is the end of the string
-    return *p == '\0';
-}
+bool is_double(const char* text) { /* same as array version */ }
 
-void clear_input()
-{
-    scanf("%*[^\n]"); // skip anything is not not a newline
-    scanf("%*1[\n]"); // read the newline
-}
-
+void clear_input()  { /* same as array version */ }
 
 // =====================================
 // = Small DB Functions and Procedures =
@@ -203,58 +109,9 @@ row read_row(int next_id)
 }
 
 // Print the row to the Terminal
-void print_row(row to_print)
-{
-    // Print the row's id
-    printf("Row with id %d: ", to_print.id);
-    
-    // Branch based on the kind, and output the data
-    switch (to_print.kind)
-    {
-        case INT_VAL:
-            printf(" has integer %d\n", to_print.data.int_val);
-            break;
-        // Add double as an option
-        case TXT_VAL:
-            printf(" has text '%s'\n", to_print.data.txt_val);
-            break;
-        default: 
-            printf(" has an unknown value\n");
-    }
-}
+void print_row(row to_print)  { /* same as array version */ }
 
-menu_option get_menu_option()
-{
-    int input = 0;
-    
-    printf("=========================\n");
-    printf("| Small DB              |\n");
-    printf("=========================\n");
-    printf(" 1: Add Data\n");
-    printf(" 2: Print Data\n");
-    printf(" 3: Delete Data\n");
-    printf(" 4: Quit\n");
-    printf("=========================\n");
-    printf("Choose Option: ");
-    
-    while(scanf("%d", &input) != 1 || input < 1 || input > 4 )
-    {
-        clear_input();
-        printf("Please enter a value between 1 and 4.\n");
-        printf("Choose Option: ");
-    }
-    // Ensure that input is clear after menu is read.
-    clear_input();
-    
-    switch(input)
-    {
-        case 1: return ADD_DATA;
-        case 2: return PRINT_DATA;
-        case 3: return DELETE_DATA;
-        case 4: return QUIT;
-        default: return QUIT;
-    }
-}
+menu_option get_menu_option()  { /* same as array version */ }
 
 void add_a_row(data_store *db_data)
 {
