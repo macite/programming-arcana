@@ -2,9 +2,9 @@
 \subsection{C Memory Allocation Functions} % (fold)
 \label{sub:c_memory_allocation}
 
-C includes a number of memory allocation functions: \nameref{ssub:malloc}.
+C includes a number of memory allocation functions: \nameref{ssub:malloc}, \nameref{ssub:calloc}, \nameref{ssub:realloc}, \nameref{ssub:free}.
 
-\subsubsection{Malloc} % (fold)
+\subsubsection{malloc} % (fold)
 \label{ssub:malloc}
 
 \texttt{malloc} is the standard memory allocation function. You tell it how much space you want, and it allocates you that many bytes on the heap. This is a function, that returns a pointer to the space allocated.
@@ -21,7 +21,7 @@ C includes a number of memory allocation functions: \nameref{ssub:malloc}.
     \hline
     \multicolumn{2}{|c|}{\textbf{Returns}} \\
     \hline
-    \texttt{void *} & Destination is returned, can be ignored. \\
+    \texttt{void *} & A pointer to the allocated space is returned. \\
     \hline
     \textbf{Parameter} & \textbf{Description} \\
     \hline
@@ -36,15 +36,20 @@ C includes a number of memory allocation functions: \nameref{ssub:malloc}.
 
 \mynote{
 \begin{itemize}
-  \item \texttt{malloc} is used for\emph{memory allocation}.
+  \item \texttt{malloc} is used for \emph{memory allocation}.
   \item You need to include \textbf{stdlib.h} to use \texttt{malloc}.
   \item \texttt{malloc} allows you to allocate space on the heap. It returns a pointer to this space.
   \item \texttt{malloc} returns a \texttt{void} pointer, you need to type cast this to the kind of pointer you want, for example \texttt{(int *)} casts it to an integer pointer.
+  \item \texttt{malloc} returns \texttt{NULL} if it fails to allocate memory.
 \end{itemize}
 }
 
-
 % subsubsection malloc (end)
+\clearpage
+\subsubsection{calloc} % (fold)
+\label{ssub:calloc}
+
+The difference between \texttt{calloc} and \texttt{malloc} is that \texttt{calloc} clears the memory allocation. When you call \texttt{calloc} you pass it a number and a size, and \texttt{calloc} returns you a pointer to a block of memory that is $number \times size$ bytes.
 
 \begin{table}[h]
   \centering
@@ -58,7 +63,7 @@ C includes a number of memory allocation functions: \nameref{ssub:malloc}.
     \hline
     \multicolumn{2}{|c|}{\textbf{Returns}} \\
     \hline
-    \texttt{void *} & Destination is returned, can be ignored. \\
+    \texttt{void *} & A pointer to the allocated space is returned. \\
     \hline
     \textbf{Parameter} & \textbf{Description} \\
     \hline
@@ -71,6 +76,100 @@ C includes a number of memory allocation functions: \nameref{ssub:malloc}.
   \label{tbl:calloc}
 \end{table}
 
+\csection{\ccode{clst:calloc}{Example calls to \texttt{calloc}}{code/c/dynamic-memory/calloc-example.c}}  
 
+\mynote{
+\begin{itemize}
+  \item \texttt{calloc} is used for getting a \emph{cleared memory allocation}.
+  \item You need to include \textbf{stdlib.h} to use \texttt{calloc}.
+  \item \texttt{calloc} performs a similar task to \nameref{ssub:malloc}, with the addition of clearing the space allocated.
+  \item After calling \texttt{calloc} the memory you are allocated will have all of its bytes set to 0, whereas with \nameref{ssub:malloc} the memory retains whatever value was there previously.
+  \item \texttt{calloc} returns \texttt{NULL} if it fails to allocate memory.
+\end{itemize}
+}
+
+% subsubsection calloc (end)
+
+\clearpage
+\subsubsection{realloc} % (fold)
+\label{ssub:realloc}
+
+Like \texttt{malloc} and \texttt{calloc}, \texttt{realloc} allows you to allocate space from the heap. \texttt{realloc} allows you to allocate or change (\emph{reallocate}) space on the heap.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{void *realloc( void *ptr, size\_t size )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{void *} & A pointer to the allocated space is returned. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & The pointer to \emph{reallocate} space for on the heap.\\
+    & \\
+    \texttt{ size } & The size of each element to be allocated on the heap. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{realloc} function}
+  \label{tbl:realloc}
+\end{table}
+
+\csection{\ccode{clst:realloc}{Example calls to \texttt{realloc}}{code/c/dynamic-memory/realloc-example.c}}
+
+\mynote {
+\begin{itemize}
+  \item \texttt{realloc} allows you to \emph{reallocate memory} for a pointer.
+  \item You need to include \textbf{stdlib.h} to use \texttt{realloc}.
+  \item \texttt{ptr} must be a \texttt{NULL}, or a pointer to a memory block on the heap, i.e. space previously allocated with \nameref{ssub:malloc}, \nameref{ssub:calloc}, or \nameref{ssub:realloc}.
+  \item \texttt{realloc} returns \texttt{NULL} if it fails to allocate memory.
+  \item \texttt{realloc} may need to move the memory allocation, so you need to assign the result to a pointer as it may differ from the value passed to the \texttt{ptr} parameter.
+\end{itemize}
+}
+
+% subsubsection realloc (end)
+
+\clearpage
+\subsubsection{free} % (fold)
+\label{ssub:free}
+
+When you allocate memory you are responsible for freeing that memory when you no longer require it. The \texttt{free} function allows you to do this. 
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{void free( void *ptr )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & The pointer to the space to free on the heap.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{free} function}
+  \label{tbl:free}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{free} allows you to free the memory allocated to a pointer.
+  \item You need to include \textbf{stdlib.h} to use \texttt{free}.
+  \item \texttt{ptr} a pointer to a memory block on the heap, i.e. space previously allocated with \nameref{ssub:malloc}, \nameref{ssub:calloc}, or \nameref{ssub:realloc}.
+  \item You can also pass \texttt{ptr} a \texttt{NULL} value, in which case nothing occurs.
+  \item It is good practice to assign a \texttt{NULL} value to the pointer after freeing it.
+\end{itemize}
+}
+
+% subsubsection free (end)
 
 % subsection c_memory_allocation (end)

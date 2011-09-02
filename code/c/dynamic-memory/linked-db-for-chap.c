@@ -1,23 +1,14 @@
 /* Program: small-db-2.c */
-#include <stdio.h>
-#include <strings.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <limits.h>
+
+/* Includes are the same as original version */
 
 // =====================
 // = Type declarations =
 // =====================
 
-// The Row Value union. Stores either an integer, a
-// double or 8 (7 + 1) characters.
-typedef union { /* same as array version */ } row_value;
-
-// The Data Kind enumeration indicates the kind of data
-// stored in a row, matches the options available in the
-// Row Value union.
-typedef enum { /* same as array version */ } data_kind;
+typedef enum { /* same as array version */ } menu_option;
+typedef union { /* same as original version */ } row_value;
+typedef enum { /* same as original version */ } data_kind;
 
 // The Row record/structure. Each row contains an id
 // a kind, and some data (a Row Value).
@@ -36,24 +27,13 @@ typedef struct {
         row     *last_row;       // A pointer to the last row
     } data_store;
 
-// The user can choose to add, delete, or print data or to quit
-typedef enum { /* same as array version */ } menu_option;
-
 // ====================================
 // = General Functions and Procedures =
 // ====================================
-
-// Trim spaces from the start/end of a string (in place)
-// This is passed the string to trim, and the number of characters it contains
-void trim(char* text, int n) { /* same as array version */ }
-
-// Test if the passed in text refers to an integer
-bool is_integer(const char* text) { /* same as array version */ }
-
-// Test if the passed in text refers to a double
-bool is_double(const char* text) { /* same as array version */ }
-
-void clear_input()  { /* same as array version */ }
+void trim(char* text, int n) { /* same as original version */ }
+bool is_integer(const char* text) { /* same as original version */ }
+bool is_double(const char* text) { /* same as original version */ }
+void clear_input()  { /* same as original version */ }
 
 // =====================================
 // = Small DB Functions and Procedures =
@@ -64,16 +44,15 @@ void clear_input()  { /* same as array version */ }
 row read_row(int next_id)
 {
     char line[16] = "", temp[2];
-    row result = {0, UNK_VAL, {0}, NULL};
+    row result = {0, UNK_VAL, {0}, NULL};   // need to initialise next to point to NULL
     
-    /* The remainder of this function is the same as the array version */
+    /* The remainder of this function is the same as the original version */
 }
 
-// Print the row to the Terminal
-void print_row(row to_print)  { /* same as array version */ }
-
+void print_row(row to_print)  { /* same as original version */ }
 menu_option get_menu_option()  { /* same as array version */ }
 
+// Add a row to the data store
 void add_a_row(data_store *db_data)
 {
     int row_id = 0;
@@ -108,12 +87,11 @@ void add_a_row(data_store *db_data)
     db_data->last_row = new_row;
 }
 
+// Delete a row from the data store
 void delete_a_row(data_store *db_data)
 {
     int row_id;
-    row *current;
-    row *next;
-    row *prev;
+    row *current, *next, *prev;
     
     if (db_data == NULL) return;
     
@@ -154,19 +132,18 @@ void delete_a_row(data_store *db_data)
     free(current);
 }
 
+// Print all of the rows from the data store
 void print_all_rows(const data_store *db_data)
 {
     row *current;
     
     if (db_data == NULL) return;
     
-    current = db_data->first_row;
+    current = db_data->first_row;       // current is the first row
     
-    // While there is a current node
-    while(current != NULL)
+    while(current != NULL)              // While there is a current node
     {
-        // Print the row to the Terminal
-        print_row(*current);
+        print_row(*current);            // Print the row to the Terminal
         current = current->next;
     }
 }

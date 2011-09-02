@@ -318,6 +318,7 @@ void delete_a_row(data_store *db_data)
     }
 }
 
+// Print all of the rows from the data store
 void print_all_rows(const data_store *db_data)
 {
     int i = 0;

@@ -1,0 +1,72 @@
+\subsection{Concept Questions} % (fold)
+\label{sub:dynamic_memory_concept_questions}
+
+Read over the concepts in this chapter and answer the following questions:
+\begin{enumerate}
+  \item What is the difference between the heap and the stack?
+  \item Why would you want to allocate space on the heap?
+  \item How can you allocate space on the heap?
+  \item Why do you need to free the space you are allocated? Why do you not need to do this with values stored on the stack?
+  \item What is a pointer?
+  \item What can a pointer point to?
+  \item Why do you need pointers to make use of the heap?
+  \item Where can pointers be stored?
+  \item How can you get a pointer to an existing value?
+  \item What can you do with the pointer?
+  \item The pointer has a value, and points to a value. What is the value of the pointer? How is this different to the value it points to?
+  \item What are the different ways you can allocate memory? Describe each, and explain what they can be used for.
+  \item What additional issues are you likely to encounter when working with pointers? Explain each, and how you plan to handle these issues.
+\end{enumerate}
+
+% subsection concept_questions (end)
+\clearpage
+\subsection{Code Reading Questions} % (fold)
+\label{sub:dynamic_memory_code_reading_questions}
+
+Use what you have learnt to read and understand the following code samples, and answer the associated questions.
+\begin{enumerate}
+  \item Read the code for the dynamic array version of Small DB 2 (for your language of choice) and do the following:
+  \begin{enumerate}
+    \item Draw a picture of an empty data store that shows what it looks like in memory.
+    \item Draw a new picture showing how the data store will appear after one row is added.
+    \item Draw a new picture showing how the data store will appear after three rows have been added.
+    \item Explain how the Add Row code is able to add rows to the data store.
+    \item Explain how the Delete Row code is able to delete a row from the data store. Include a drawing that illustrates the process.
+    \item Explain the steps you would need to perform to add an \emph{Insert Row} option for the user.
+  \end{enumerate}
+  \item Read the code for the linked version of Small DB 2 (for your language of choice) and do the following:
+  \begin{enumerate}
+    \item Draw a picture of an empty data store that shows what it looks like in memory.
+    \item Draw a new picture showing how the data store will appear after one row is added.
+    \item Draw a new picture showing how the data store will appear after three rows have been added.
+    \item Explain how the Add Row code is able to add rows to the data store.
+    \item Explain how the Delete Row code is able to delete a row from the data store. Include a drawing that illustrates the process.
+    \item Explain the steps you would need to perform to add an \emph{Insert Row} option for the user.
+  \end{enumerate}
+\end{enumerate}
+
+% subsection code_reading_questions (end)
+\clearpage
+\subsection{Code Writing Questions: Applying what you have learnt} % (fold)
+\label{sub:dynamic_memory_code_writing_questions_applying_what_you_have_learnt}
+
+Apply what you have learnt to the following tasks.
+
+% subsection code_questions_applying_what_you_have_learnt (end)
+
+\subsection{Extension Questions} % (fold)
+\label{sub:dynamic_memory_extension_questions}
+
+If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
+
+\begin{enumerate}
+  \item Compare the dynamic array and linked versions of the Small DB 2 program. Discuss the relative advantages and disadvantages of each approach.
+  \item Test the speed difference between the dynamic array and linked versions of the Small DB 2 program for the following operations:
+  \begin{enumerate}
+    \item Adding rows (test with adding 10, 100, 1000, and 10000 rows)
+    \item Inserting rows (test with inserting 10, 100, 1000, and 10000 rows)
+    \item Deleting rows (deleting 10, 100, 1000, and 10000 rows)
+  \end{enumerate}
+\end{enumerate}
+
+% subsection extension_questions (end)

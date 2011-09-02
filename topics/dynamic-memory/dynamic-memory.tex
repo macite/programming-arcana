@@ -2,11 +2,20 @@
 \chapter{Dynamic Memory Allocation} % (fold)
 \label{cha:dynamic_memory_allocation}
 
+\begin{quote}
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \lettrine[image=true,lines=3,lraise=0.1]
+  {T}{here} are many places you can draw upon to power your spells. So far you have been limited by the constraints of this realm. The tools I give you now will let you stretch beyond this realm, and will open your mind to even greater powers. You will need your orb, your wand, and \ldots
+\end{quote}
+
+\bigskip
+
 So far data has been limited by the constraints of the Stack. With the stack, the compiler must know how much space to allocate to each variable ahead of time. This means you are limited to working with a fixed number of values, whether those values are stored in a number of variables or stored in an array. This constraint is not a problem for small programs, but most programs will require the flexibility to work with a variable number of data elements.
 
 This chapter introduces the tools needed to dynamically allocate additional memory for your program to use. With these tools you will be able to dynamically allocate additional space for your program to use as you need it. As memory is finite you will also see how you can release this memory back to the computer when you no longer require it.
 
-By the end of this chapter you will be able to dynamically allocate memory for your program, increasing and decreasing the number of values that you are storing.
+When you have understood the material in this chapter you will be able to dynamically allocate memory for your program, increasing and decreasing the number of values that you are storing.
 
 \minitoc
 
@@ -47,6 +56,7 @@ By the end of this chapter you will be able to dynamically allocate memory for y
 \section{Dynamic Memory Allocation in C} % (fold)
 \label{sec:dynamic_memory_allocation_in_c}
 
+\input{topics/dynamic-memory/c/c-dynamic-array-small-db.tex}
 \input{topics/dynamic-memory/c/c-linked-db.tex}
 \input{topics/dynamic-memory/c/c-variable-decl-with-ptrs.tex}
 \input{topics/dynamic-memory/c/c-address-of.tex}
@@ -81,18 +91,20 @@ By the end of this chapter you will be able to dynamically allocate memory for y
 \section{Exercises for Dynamic Memory Allocation} % (fold)
 \label{sec:exercises_for_dynamic_memory_allocation}
 
+\input{topics/dynamic-memory/exercises/dynamic-memory-exercises.tex}
+
 % section exercises_for_dynamic_memory_allocation (end)
 
-% ============================================
-% = Dynamic Memory Allocation in the Project =
-% ============================================
-\clearpage
-\section{Dynamic Memory Allocation in the Project} % (fold)
-\label{sec:dynamic_memory_allocation_in_the_project}
-
-
-
-% section dynamic_memory_allocation_in_the_project (end)
+% % ============================================
+% % = Dynamic Memory Allocation in the Project =
+% % ============================================
+% \clearpage
+% \section{Dynamic Memory Allocation in the Project} % (fold)
+% \label{sec:dynamic_memory_allocation_in_the_project}
+% 
+% 
+% 
+% % section dynamic_memory_allocation_in_the_project (end)
 
 
 % chapter dynamic_memory_allocation (end)

@@ -256,6 +256,7 @@ The control flow of Main will involve a \nameref{sub:post_test_loop} that will r
 
 % subsubsection control_flow_for_main (end)
 
+\clearpage
 \subsection{The Implementation Phase: Writing the code for Small DB 2} % (fold)
 \label{sub:writing_the_code_for_small_db_2}
 
@@ -423,7 +424,8 @@ When a new Row is added the first step is to allocate space for it on the heap, 
 
 The code for \texttt{Add a Row} now needs to link this new \texttt{Row} into those already in the \texttt{Data Store}. This is where it checks to see if there is a \texttt{Row} value currently referred to be the \texttt{last row} of the \texttt{Data Store} value. As this refers to \emph{Nothing} at this point, the code takes a branch that sets the \texttt{first row} and the \texttt{last row} both to refer to the newly created \texttt{Row} value. At this point, the new \texttt{Row} is both the first and the last row in the \texttt{Data Store.}
 
-Most the time when you add a new row it will not be the first one in the list. Typically, you will need to add the row to the existing rows in memory. This involves updating the old \texttt{last row} so that its \texttt{next} points to the newly created row, and then you can change the \texttt{Data Store}'s \texttt{last row} to point to it as well. This is shown in \fref{fig:add-node-2}, with the whole pseudocode shown in \lref{lst:add_linked_row}.
+\clearpage
+Most the time when you add a new row it will not be the first one in the list. Typically, you will need to add the row to the existing rows in memory. This involves updating the current \texttt{last row} so that its \texttt{next} points to the newly created row, and then you can change the \texttt{Data Store}'s \texttt{last row} to point to it as well. This is shown in \fref{fig:add-node-2}, with the whole pseudocode shown in \lref{lst:add_linked_row}.
 
 \begin{figure}[htbp]
    \centering
@@ -432,15 +434,19 @@ Most the time when you add a new row it will not be the first one in the list. T
    \label{fig:add-node-2}
 \end{figure}
 
-\pseudocode{lst:add_linked_row}{Pseudocode for the \texttt{Add a Row} procedure in the linked version of Small DB 2}{topics/dynamic-memory/application/AddLinkedRow.txt}
+\begin{figure}[p]
+  \pseudocode{lst:add_linked_row}{Pseudocode for the \texttt{Add a Row} procedure in the linked version of Small DB 2}{topics/dynamic-memory/application/AddLinkedRow.txt}  
+\end{figure}
 
-\mynote{
-\begin{itemize}
-  \item Step 3 of \lref{lst:add_linked_row} allocates space on the heap for the row data, and stores a pointer to it in \texttt{New Row}.
-  \item Step 6 checks if this is the first \texttt{Row} in the \texttt{Data Store}.
-  \item Step 9 reads \texttt{Db Data}'s \texttt{Last Row} pointer, then follows it to the \texttt{Row}, so that it can store a value in that \texttt{Row}'s \texttt{Next} field.
-\end{itemize}
-}
+\begin{figure}[p]
+  \mynote{
+  \begin{itemize}
+    \item Step 3 of \lref{lst:add_linked_row} allocates space on the heap for the row data, and stores a pointer to it in \texttt{New Row}.
+    \item Step 6 checks if this is the first \texttt{Row} in the \texttt{Data Store}.
+    \item Step 9 reads \texttt{Db Data}'s \texttt{Last Row} pointer, then follows it to the \texttt{Row}, so that it can store a value in that \texttt{Row}'s \texttt{Next} field.
+  \end{itemize}
+  }
+\end{figure}
 
 % subsubsection adding_a_row_to_the_linked_version_of_small_db_2 (end)
 
@@ -461,9 +467,9 @@ The standard pseudocode for looping through \emph{each} node in a list is shown 
    \label{fig:iterate-list}
 \end{figure}
 
-% \begin{figure}[p]
+\begin{figure}[p]
   \pseudocode{lst:print_all_rows_list}{Pseudocode for the \texttt{Print all Rows} procedure in the linked version of Small DB 2}{topics/dynamic-memory/application/PrintAllNodes.txt}
-% \end{figure}
+\end{figure}
 
 \begin{figure}[p]
   \csection{

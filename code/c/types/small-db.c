@@ -120,6 +120,13 @@ bool is_double(const char* text)
     return *p == '\0';
 }
 
+// Clear anything from the input, upto the end of the current line
+void clear_input()
+{
+    scanf("%*[^\n]"); // skip anything is not not a newline
+    scanf("%*1[\n]"); // read the newline
+}
+
 // Display the intro message.
 void show_intro()
 {
@@ -151,8 +158,7 @@ row read_row(int next_id)
     {
         // If the next character was not a newline, read
         // any remaining text and skip it
-        scanf("%*[^\n]"); // skip anything is not not a newline
-        scanf("%*1[\n]"); // read the newline
+        clear_input();
     }
     
     // Remove any leading or trailing spaces
