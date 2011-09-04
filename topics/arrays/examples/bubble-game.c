@@ -14,8 +14,11 @@ void load_resources()
 // and give it a random movement
 void place_bubble(sprite bubble)
 {
+    // Set the bubble's position
     sprite_set_x(bubble, rnd(screen_width() - sprite_width(bubble)));
     sprite_set_y(bubble, rnd(screen_height() - sprite_height(bubble)));
+    
+    // Set the bubble's movement
     sprite_set_dx(bubble, (rnd() * 2) - 1); // between +1 and -1
     sprite_set_dy(bubble, (rnd() * 2) - 1); // between +1 and -1
 }
@@ -24,15 +27,11 @@ void place_bubble(sprite bubble)
 void populate_bubbles(sprite bubbles[], int sz)
 {
     int i;
-    int bubble_width, bubble_height;
     
-    bubble_width = bitmap_width(bitmap_named("bubbles"));
-    bubble_height = bitmap_height(bitmap_named("bubbles"));
-    
-    for (i = 0; i < sz; i++)
+    for (i = 0; i < sz; i++)    //For each bubble
     {
-        bubbles[i] = create_sprite(bitmap_named("bubble"));
-        place_bubble(bubbles[i]);
+        bubbles[i] = create_sprite(bitmap_named("bubble")); // Create it
+        place_bubble(bubbles[i]); // Place it on the screen
     }
 }
 

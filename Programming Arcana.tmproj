@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,78 +21,6 @@
 	<integer>308</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/dynamic-memory/array-db-for-chap.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>29</integer>
-				<key>line</key>
-				<integer>65</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>59</integer>
-		</dict>
-		<key>code/c/dynamic-memory/linked-db-for-chap.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>121</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>95</integer>
-		</dict>
-		<key>code/c/pointers/small-db-2.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>53</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>46</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>53</integer>
-			</dict>
-		</dict>
-		<key>code/c/types/small-db.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>235</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>169</integer>
-		</dict>
 		<key>preamble/commands.tex</key>
 		<dict>
 			<key>caret</key>
@@ -103,20 +29,6 @@
 				<integer>30</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>programming-arcana.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>44</integer>
-				<key>line</key>
-				<integer>27</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -263,20 +175,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>tools/syntax-parser/eebnf_exporter.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
 			<key>caret</key>
@@ -290,20 +188,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>25</integer>
-		</dict>
-		<key>tools/syntax-parser/eebnf_to_tikzpicture.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>tools/syntax-parser/eebnf_tokeniser.py</key>
 		<dict>
@@ -550,62 +434,6 @@
 				<key>line</key>
 				<integer>37</integer>
 			</dict>
-		</dict>
-		<key>topics/dynamic-memory/c/c-dynamic-array-small-db.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>18</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/dynamic-memory/c/c-linked-db.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>337</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/dynamic-memory/dynamic-memory.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>52</integer>
-				<key>line</key>
-				<integer>58</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>27</integer>
-		</dict>
-		<key>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>82</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -1038,20 +866,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>tools/syntax-parser/eebnf_exporter.py</string>
-		<string>programming-arcana.tex</string>
-		<string>topics/dynamic-memory/dynamic-memory.tex</string>
-		<string>tools/syntax-parser/eebnf_to_tikzpicture.py</string>
-		<string>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</string>
-		<string>code/c/types/small-db.c</string>
-		<string>topics/dynamic-memory/c/c-linked-db.tex</string>
-		<string>code/c/dynamic-memory/array-db-for-chap.c</string>
-		<string>topics/dynamic-memory/c/c-dynamic-array-small-db.tex</string>
-		<string>code/c/pointers/small-db-2.c</string>
-		<string>code/c/dynamic-memory/linked-db-for-chap.c</string>
-	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -1156,6 +970,28 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
+						<key>arrays</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>examples</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 						<key>control-flow</key>
 						<dict>
 							<key>isExpanded</key>
@@ -1193,6 +1029,43 @@
 								</dict>
 							</dict>
 						</dict>
+						<key>program-creation</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>concepts</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>storing-using-data</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>application</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
 						<key>type-decl</key>
 						<dict>
 							<key>isExpanded</key>
@@ -1214,6 +1087,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {2560, 1414}}</string>
+	<string>{{0, 4}, {1440, 874}}</string>
 </dict>
 </plist>
