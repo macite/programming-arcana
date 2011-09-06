@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</string>
+	<string>topics/storing-using-data/concepts/pass-by.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,100 +23,14 @@
 	<integer>308</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/dynamic-memory/array-db-for-chap.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>29</integer>
-				<key>line</key>
-				<integer>65</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>59</integer>
-		</dict>
-		<key>code/c/dynamic-memory/linked-db-for-chap.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>121</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>95</integer>
-		</dict>
-		<key>code/c/pointers/small-db-2.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>53</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>46</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>53</integer>
-			</dict>
-		</dict>
-		<key>code/c/types/small-db.c</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>235</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>169</integer>
-		</dict>
-		<key>preamble/commands.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>programming-arcana.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>44</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>27</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -263,20 +177,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>tools/syntax-parser/eebnf_exporter.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>tools/syntax-parser/eebnf_parser.py</key>
 		<dict>
 			<key>caret</key>
@@ -290,20 +190,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>25</integer>
-		</dict>
-		<key>tools/syntax-parser/eebnf_to_tikzpicture.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>tools/syntax-parser/eebnf_tokeniser.py</key>
 		<dict>
@@ -493,14 +379,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/c/c-stats-calc.tex</key>
+		<key>topics/arrays/c/c-array-decl.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>320</integer>
+				<integer>43</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -520,6 +406,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/exercises/array-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>236</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>190</integer>
 		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
@@ -551,61 +451,63 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
-		<key>topics/dynamic-memory/c/c-dynamic-array-small-db.tex</key>
+		<key>topics/control-flow/exercises/exercises-flow.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>68</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>226</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>topics/dynamic-memory/c/c-linked-db.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>337</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>206</integer>
 		</dict>
 		<key>topics/dynamic-memory/dynamic-memory.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>52</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>58</integer>
+				<integer>72</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>27</integer>
+			<integer>43</integer>
 		</dict>
 		<key>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>82</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>1</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -670,14 +572,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>35</integer>
 				<key>line</key>
-				<integer>54</integer>
+				<integer>91</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>35</integer>
+			<integer>46</integer>
 		</dict>
 		<key>topics/program-creation/c/identifier.tex</key>
 		<dict>
@@ -824,14 +726,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>70</integer>
 				<key>line</key>
-				<integer>39</integer>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>topics/programs-and-compilers/compilers.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>47</integer>
+				<key>line</key>
+				<integer>163</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>138</integer>
 		</dict>
 		<key>topics/storing-using-data/c/c-function-call.tex</key>
 		<dict>
@@ -947,6 +863,50 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>topics/storing-using-data/concepts/parameter.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>35</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>35</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+		<key>topics/storing-using-data/concepts/pass-by.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/storing-using-data/concepts/statement-with-assignment.tex</key>
 		<dict>
 			<key>caret</key>
@@ -977,35 +937,33 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/application/using-custom-types.tex</key>
+		<key>topics/storing-using-data/exercises/data-exercises.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>491</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>215</integer>
+				<integer>126</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>226</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>215</integer>
-			<key>selectFrom</key>
+			<integer>90</integer>
+		</dict>
+		<key>topics/type-decl/c/c-small-db.tex</key>
+		<dict>
+			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>132</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>215</integer>
+				<integer>7</integer>
 			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>491</integer>
-				<key>line</key>
-				<integer>215</integer>
-			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>topics/type-decl/concepts/enum.tex</key>
 		<dict>
@@ -1037,20 +995,36 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
+		<key>topics/type-decl/exercises/type-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>34</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>tools/syntax-parser/eebnf_exporter.py</string>
-		<string>programming-arcana.tex</string>
-		<string>topics/dynamic-memory/dynamic-memory.tex</string>
-		<string>tools/syntax-parser/eebnf_to_tikzpicture.py</string>
 		<string>topics/dynamic-memory/exercises/dynamic-memory-exercises.tex</string>
-		<string>code/c/types/small-db.c</string>
-		<string>topics/dynamic-memory/c/c-linked-db.tex</string>
-		<string>code/c/dynamic-memory/array-db-for-chap.c</string>
-		<string>topics/dynamic-memory/c/c-dynamic-array-small-db.tex</string>
-		<string>code/c/pointers/small-db-2.c</string>
-		<string>code/c/dynamic-memory/linked-db-for-chap.c</string>
+		<string>topics/arrays/exercises/array-exercises.tex</string>
+		<string>topics/type-decl/c/c-small-db.tex</string>
+		<string>topics/dynamic-memory/dynamic-memory.tex</string>
+		<string>topics/storing-using-data/concepts/pass-by.tex</string>
+		<string>topics/storing-using-data/concepts/parameter.tex</string>
+		<string>topics/control-flow/exercises/exercises-flow.tex</string>
+		<string>topics/procedure-decl/exercises/procedure-decl-exercises.tex</string>
+		<string>topics/program-creation/exercises/exercises.tex</string>
+		<string>topics/programs-and-compilers/compilers.tex</string>
+		<string>topics/storing-using-data/exercises/data-exercises.tex</string>
+		<string>topics/type-decl/exercises/type-exercises.tex</string>
+		<string>programming-arcana.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1075,65 +1049,12 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
+				<key>preamble</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
-					<dict>
-						<key>c</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>dynamic-memory</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>pointers</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>types</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
-				<key>syntax</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict>
-						<key>c</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>dynamic-memory</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-					</dict>
+					<dict/>
 				</dict>
 				<key>tools</key>
 				<dict>
@@ -1156,7 +1077,7 @@
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>control-flow</key>
+						<key>arrays</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -1176,7 +1097,43 @@
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
+							<dict/>
+						</dict>
+						<key>program-creation</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
 							<dict>
+								<key>exercises</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>programs-and-compilers</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
+						<key>type-decl</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>application</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
 								<key>c</key>
 								<dict>
 									<key>isExpanded</key>
@@ -1193,27 +1150,12 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>type-decl</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {2560, 1414}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>

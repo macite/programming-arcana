@@ -8,17 +8,17 @@
 // The number of elements in the row array
 #define DB_SIZE 3
 
-// The Row Value union. Stores either an integer, a
+// The Column Value union. Stores either an integer, a
 // double or 8 (7 + 1) characters.
 typedef union {
         int     int_val;
         double  dbl_val;
         char    txt_val[8];
-    } row_value;
+    } column_value;
 
 // The Data Kind enumeration indicates the kind of data
 // stored in a row, matches the options available in the
-// Row Value union.
+// Column Value union.
 typedef enum {
         INT_VAL,
         DBL_VAL,
@@ -26,11 +26,11 @@ typedef enum {
     } data_kind;
 
 // The Row record/structure. Each row contains an id
-// a kind, and some data (a Row Value).
+// a kind, and some data (a Column Value).
 typedef struct {
         int         id;
         data_kind   kind;
-        row_value   data;
+        column_value   data;
     } row;
 
 // Test if the passed in text refers to an integer
@@ -160,7 +160,7 @@ void print_row(row to_print)
 // Entry point
 int main()
 {
-    // Create array or row values
+    // Create array or Column Values
     row db_data[DB_SIZE];
     int i;
     

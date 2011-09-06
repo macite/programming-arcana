@@ -18,7 +18,7 @@ typedef enum {
     QUIT
 } menu_option;
 
-typedef union { /* same as original version */ } row_value;
+typedef union { /* same as original version */ } column_value;
 typedef enum { /* same as original version */ } data_kind;
 typedef struct { /* same as original version */ } row;
 

@@ -107,18 +107,6 @@ The \texttt{\textbf{Next Row Id}} and the \textbf{\texttt{Rows}} data are associ
     \hline
     \multicolumn{3}{c}{} \\
     \hline
-    \textbf{\texttt{Row}} & \multicolumn{2}{p{11cm}|}{The \textbf{record/struct} from \tref{tbl:dd-small-db} that stores the row's \texttt{id}, \texttt{value}, and \texttt{kind}.}  \\
-    \hline
-    \multicolumn{3}{c}{} \\
-    \hline
-    \textbf{\texttt{Data Kind}} & \multicolumn{2}{p{11cm}|}{The \textbf{enumeration} from \tref{tbl:dd-small-db} representing the kind of value that can be stored in a row.}\\
-    \hline
-    \multicolumn{3}{c}{} \\
-    \hline
-    \textbf{\texttt{Row Value}} & \multicolumn{2}{p{11cm}|}{The \textbf{union} from \tref{tbl:dd-small-db} that stores either an integer, double, or text value.}\\
-    \hline
-    \multicolumn{3}{c}{} \\
-    \hline
     \textbf{\texttt{Menu Option}} & \multicolumn{2}{p{10cm}|}{An \textbf{enumeration} with the following options:}\\
     \hline
     & \texttt{ADD\_DATA} & The user wants to add a row.\\
@@ -128,6 +116,18 @@ The \texttt{\textbf{Next Row Id}} and the \textbf{\texttt{Rows}} data are associ
     & \texttt{DELETE\_DATA} & The user wants to delete a row.\\
     \hline
     & \texttt{QUIT} & The user wants to quit.\\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{\texttt{Row}} & \multicolumn{2}{p{11cm}|}{The \textbf{record/struct} from \tref{tbl:dd-small-db} that stores the row's \texttt{id}, \texttt{value}, and \texttt{kind}.}  \\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{\texttt{Data Kind}} & \multicolumn{2}{p{11cm}|}{The \textbf{enumeration} from \tref{tbl:dd-small-db} representing the kind of value that can be stored in a row.}\\
+    \hline
+    \multicolumn{3}{c}{} \\
+    \hline
+    \textbf{\texttt{Column Value}} & \multicolumn{2}{p{11cm}|}{The \textbf{union} from \tref{tbl:dd-small-db} that stores either an integer, double, or text value.}\\
     \hline
     \multicolumn{3}{c}{} \\
     \hline
@@ -349,7 +349,7 @@ The \texttt{First Row} pointer, points to the first \texttt{Row} value allocated
     \hline
     \multicolumn{3}{c}{} \\
     \hline
-    \textbf{\texttt{Row Value}} & \multicolumn{2}{p{11cm}|}{The \textbf{union} from \tref{tbl:dd-small-db} that stores either an integer, double, or text value.}\\
+    \textbf{\texttt{Column Value}} & \multicolumn{2}{p{11cm}|}{The \textbf{union} from \tref{tbl:dd-small-db} that stores either an integer, double, or text value.}\\
     \hline
     \multicolumn{3}{c}{} \\
     \hline
@@ -531,7 +531,7 @@ This concludes the design for the linked version of Small DB 2. As you have done
 During the implementation process you should also be testing your solution. With pointers, as with anything, it is best to write a little and then test it. Use the same testing strategy as discussed in  \nameref{ssub:the_testing_phase_compiling_and_running_small_db_2}. This should help you locate any memory issues with this code.
 
 \mynote{
-As this code requires more work with pointers you are likely to have more issues. You should expect your program to crash a few times as you work through these, so do not worry if this does happen. The best way to work through these issues is with a piece of paper and a pencil. Use this to draw up the different Row values and their pointers. Then work through the actions yourself on paper.
+As this code requires more work with pointers you are likely to have more issues. You should expect your program to crash a few times as you work through these, so do not worry if this does happen. The best way to work through these issues is with a piece of paper and a pencil. Use this to draw up the different \texttt{Row} values and their pointers. Then work through the actions yourself on paper.
 }
 % subsubsection implementing_and_testing_the_linked_version_of_small_db_2 (end)
 

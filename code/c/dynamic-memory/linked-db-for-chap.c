@@ -7,15 +7,15 @@
 // =====================
 
 typedef enum { /* same as array version */ } menu_option;
-typedef union { /* same as original version */ } row_value;
+typedef union { /* same as original version */ } column_value;
 typedef enum { /* same as original version */ } data_kind;
 
 // The Row record/structure. Each row contains an id
-// a kind, and some data (a Row Value).
+// a kind, and some data (a Column Value).
 typedef struct row_struct {
         int                 id;
         data_kind           kind;
-        row_value           data;
+        column_value           data;
         struct row_struct   *next;  // Points to the next row
     } row;
 

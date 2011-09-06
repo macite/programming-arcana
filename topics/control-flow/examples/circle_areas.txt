@@ -12,7 +12,7 @@ Program: Circle Areas
   ----------------------------
   Returns: A Double - the area of a circle with the given radius
   Parameters:
-  * radius (Double)
+  - radius (Double)
   Steps:
    1: Return the result PI * radius * radius
 

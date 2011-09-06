@@ -52,6 +52,21 @@ Use what you have learnt to read and understand the following code samples, and 
 
 Apply what you have learnt to the following tasks.
 
+\begin{enumerate}
+  \item Alter your address book program from \cref{cha:more_data_types}, so that you can enter any number of contacts, and output their details to the Terminal. Use a small menu to allow the user to choose between adding a new contact, printing contacts, and quitting the program.
+  
+  \item Revisit your statistics program from \cref{cha:managing_multiple_values}.
+  \begin{enumerate}
+    \item Alter its implementation so that the user can enter a variable number of values. The program can start by asking how many values the user will enter, and sizing the array appropriately.
+    \item Add a loop and menu to the program so that the user can add more values, display statistics, or quit.
+  \end{enumerate} 
+  \item Revisit your small-db program from \cref{cha:more_data_types}.
+  \begin{enumerate}
+    \item Alter its implementation to introduce a \texttt{Data Store} type that contains a dynamic number of \texttt{row} values.
+    \item Introduce a menu with options to allow the user to add a row, delete a row, print all rows, and quit the program.
+  \end{enumerate}
+\end{enumerate}
+
 % subsection code_questions_applying_what_you_have_learnt (end)
 
 \subsection{Extension Questions} % (fold)
@@ -60,6 +75,8 @@ Apply what you have learnt to the following tasks.
 If you want to further your knowledge in this area you can try to answer the following questions. The answers to these questions will require you to think harder, and possibly look at other sources of information.
 
 \begin{enumerate}
+  \item Try implementing an alternate approach to deleting a row from the array version of the small db program.
+  \item Alter the \texttt{Row} type in your small db program to have a variable number of column values (rename).
   \item Compare the dynamic array and linked versions of the Small DB 2 program. Discuss the relative advantages and disadvantages of each approach.
   \item Test the speed difference between the dynamic array and linked versions of the Small DB 2 program for the following operations:
   \begin{enumerate}

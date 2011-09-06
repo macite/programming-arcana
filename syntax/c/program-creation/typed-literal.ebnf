@@ -6,6 +6,6 @@ float literal = real number , "f" | "F" ;
 
 double literal = real number ;
 
-char literal = character;
+char literal = "'", single character, "'" ;
 
-c-string literal = character string ;
+c-string literal = '"', { single character }*, '"'  ;
