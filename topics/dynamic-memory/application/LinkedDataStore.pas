@@ -3,11 +3,11 @@ type
     RowPtr = ^Row;
     
     // The Row record/structure. Each row contains an id
-    // a kind, and some data (a Row Value).
+    // a kind, and some data (a Column Value).
     Row = record
         id: Integer;
         kind: DataKind;
-        data: RowValue;
+        data: ColumnValue;
         next: RowPtr;         // The next Row in the list
     end;
 

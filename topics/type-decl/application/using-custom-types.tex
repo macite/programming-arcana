@@ -39,7 +39,7 @@ This program does not perform any complex functionality, so it does not require 
 Data identified:
 \begin{itemize}
   \item \textbf{Row}: has a unique identifier, and a value.
-  \item \textbf{Row Value}: each value in a row is either an integer, a double, or a text value.
+  \item \textbf{Column Value}: each value in a row is either an integer, a double, or a text value.
 \end{itemize}
 
 Tasks to be performed:
@@ -64,7 +64,7 @@ The most common of these is the \textbf{record}, a \textbf{struct} in C. This ty
 
 In the case of the Small DB program there appears to be one kind of record: the \texttt{row}. The program needs to store \textbf{row} values, where each row has a unique id (an integer), and a data value. These two values \emph{together} make up a row.
 
-This data type will also work nicely with the planned functionality for the program. The code needs to be able to read and print row values. This means that this code can accept/return \texttt{row} values. The \texttt{Print Row} procedure will take in a \texttt{row} parameter, and print out its details to the \texttt{Terminal}. The \texttt{Read Row} function can read values from the user and return a \texttt{row} value to the caller.
+This data type will also work nicely with the planned functionality for the program. The code needs to be able to read and print \texttt{row} values. This means that this code can accept/return \texttt{row} values. The \texttt{Print Row} procedure will take in a \texttt{row} parameter, and print out its details to the \texttt{Terminal}. The \texttt{Read Row} function can read values from the user and return a \texttt{row} value to the caller.
 
 % subsubsection looking_for_records_in_small_db (end)
 
@@ -73,9 +73,9 @@ This data type will also work nicely with the planned functionality for the prog
 
 The \textbf{union}, the \textbf{Variant Record} in Pascal, is going to be less common than records, but they can offer some useful flexibility when designing your code. The union gives you the ability to have a type that stores one of a selection of types. If your program requires the ability to store different types at the one location then a union is a useful way of modelling this.
 
-Reading the description of the Small DB program there does appear to be the need for a union. Each \texttt{row} needs to be able to store \emph{either} a Integer, a Double, or a text value. Using a union it will be possible to create a type to model this. This can be called the \texttt{Row Value} type, and will be the union of these three values.
+Reading the description of the Small DB program there does appear to be the need for a union. Each \texttt{row} needs to be able to store \emph{either} a Integer, a Double, or a text value. Using a union it will be possible to create a type to model this. This can be called the \texttt{Column Value} type, and will be the union of these three values.
 
-The great thing about a union is that it stores only one value, the one that you assign to it. This means that it takes only the size needed to store the largest kind of value. In our case the \texttt{Row Value} will need space to store an Integer (4 bytes), a Double (8 bytes), or 7 Characters (8 bytes, 7 + 1 overhead). This will only need \textbf{8 bytes} of space, as at any one time it can only have one of these values. 
+The great thing about a union is that it stores only one value, the one that you assign to it. This means that it takes only the size needed to store the largest kind of value. In our case the \texttt{Column Value} will need space to store an Integer (4 bytes), a Double (8 bytes), or 7 Characters (8 bytes, 7 + 1 overhead). This will only need \textbf{8 bytes} of space, as at any one time it can only have one of these values. 
 
 % subsubsection looking_for_unions_in_small_db (end)
 
@@ -111,7 +111,7 @@ This is a common pattern you will find for working with unions. It is called a \
     \hline
     & \texttt{kind} & A \textbf{Data Kind} value indicating the type of data being stored in this record. \\
     \hline
-    & \texttt{data} & Stores \textbf{Row Value} data containing the actual data. \\ 
+    & \texttt{data} & Stores \textbf{Column Value} data containing the actual data. \\ 
     \hline
     \multicolumn{3}{c}{} \\
     \hline
@@ -125,7 +125,7 @@ This is a common pattern you will find for working with unions. It is called a \
     \hline
     \multicolumn{3}{c}{} \\
     \hline
-    \textbf{\texttt{Row Value}} & \multicolumn{2}{l|}{A \textbf{union} that stores one of the following:}\\
+    \textbf{\texttt{Column Value}} & \multicolumn{2}{l|}{A \textbf{union} that stores one of the following:}\\
     \hline
     & \texttt{Int Val} & An Integer value. \\
     \hline 
@@ -178,7 +178,7 @@ Finally, one of the options from the \textbf{enumeration} is stored in the \text
 
 Having read data into a \texttt{Row} it is now possible to output that to the Terminal. The steps required to do this can be coded into a \texttt{Print Row} procedure. The required steps are shown in the flowchart in \fref{fig:print-row-flow}.
 
-The \texttt{Print Row} procedure will take a single \texttt{Row} parameter. This parameter will contain the data related of the row that is to be output to the Terminal. The procedure will output the \texttt{id} value and the \texttt{data} values from the \texttt{Row}, using the \texttt{kind} value to determine which field to access from the \texttt{Row Value} union.
+The \texttt{Print Row} procedure will take a single \texttt{Row} parameter. This parameter will contain the data related of the row that is to be output to the Terminal. The procedure will output the \texttt{id} value and the \texttt{data} values from the \texttt{Row}, using the \texttt{kind} value to determine which field to access from the \texttt{Column Value} union.
 
 The \texttt{row}'s \texttt{id} can be output straight away as it is an Integer value. The actual data that needs to be output depends on the kind of value that is stored in the \texttt{Row}. A \nameref{sub:case_statement} can be used to select a path based upon the value stored in the row's \texttt{kind} field. The four paths here cater for the three options from the \texttt{Data Kind} enumeration, plus an additional path in case the value in \texttt{To Print}'s \texttt{kind} field does not match\footnote{A enumeration is stored as an Integer value, meaning it is possible to store other values in here.} one of these. This path would indicate a bug in the software, but should be included just to be safe.
 

@@ -1,9 +1,9 @@
 // The Row record/structure. Each row contains an id
-// a kind, and some data (a Row Value).
+// a kind, and some data (a Column Value).
 typedef struct row_struct {
         int                 id;
         data_kind           kind;
-        row_value           data;
+        column_value        data;
         struct row_struct   *next;  // The next Row in the list
     } row;
 
