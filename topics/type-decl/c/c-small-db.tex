@@ -7,7 +7,7 @@
 
 \mynote{
 \begin{itemize}
-  \item \texttt{strtol} is a function from the \texttt{stdlib.h} header. This converts the input to a integer, and updated \texttt{p} to point to the character the conversion got to before ending. Checking that this matched the end of string terminator (\csnipet{'\0'}) indicates that the input matched the entire string.
+  \item \texttt{strtol} is a function from the \texttt{stdlib.h} header. This converts the input to a integer, and updates \texttt{p} to point to the character the conversion got to before ending. Checking that this matches the end of string terminator (\csnipet{'\\0'}) indicates that the input matches the entire string.
   \item \texttt{strtod} is a similar function that converts text to a double. As with \texttt{strtol}, this updates \texttt{p} to refer to the character it got in the conversion. If this refers to the end of the text then the data does contain a double.
   \item The \texttt{trim} function removes spaces from the start and the end of the input, ensuring that numbers with leading or trailing spaces are still detected as numbers.
   \item The type definitions must appear before they are used, as a result they commonly appear at the start of the code after the includes.
