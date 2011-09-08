@@ -38,10 +38,24 @@ Use what you have learnt to read and understand the following code samples.
 \begin{enumerate}
   \item Read the C code in \lref{clst:all-below}, or the Pascal code in \lref{plst:all-below}, and answer the following questions:
   \begin{enumerate}
-    \item What does the code do?
+    \item What is returned by the function if it is passed ... 
+    
+    \begin{table}[h]
+      \centering
+      \begin{tabular}{|c|c|c|}
+      \hline
+       \textbf{data[ ]} & \textbf{sz} (C only)  & \textbf{max}  \\
+       \hline 
+       \{ 1, 2, 3, 4 \} & 4 & 10 \\
+       \hline
+       \{ -4, 6, 20, 11, 92 \} & 5 & 50 \\
+       \hline
+       \{ 2, 7, 1 \} & 3 & 5 \\
+       \hline
+      \end{tabular}
+    \end{table}
     \item What would be a good name for this function?
     \item Why is the array passed in using the const modifier?
-    \item Will arrays be passed in by value or by reference when this function is called?
   \end{enumerate}
   \begin{figure}[h]
     \csection{\ccode{clst:all-below}{What does this C function do?}{topics/arrays/exercises/all-below.c}}
@@ -61,7 +75,7 @@ Use what you have learnt to read and understand the following code samples.
       \centering
       \begin{tabular}{|c|c|c|}
       \hline
-       \textbf{data[]} & \textbf{sz} (C only)  & \textbf{val}  \\
+       \textbf{data[ ]} & \textbf{sz} (C only)  & \textbf{val}  \\
        \hline 
        \{ 1, 2, 3, 4 \} & 4 & 3 \\
        \hline
@@ -87,7 +101,7 @@ Use what you have learnt to read and understand the following code samples.
   \clearpage
   \item The following code is designed to find the median (middle value) of a array of numbers, but does it work? Read the C code in \lref{clst:median}, or the Pascal code in \lref{plst:median}, and answer the following questions:
   \begin{enumerate}
-    \item Assume that data := [1,2,3,4,5,6,7,8], execute this code by hand and show the steps involved. Explain any shortcuts you take.
+    \item Assume that data contains the values \texttt{[1,2,3,4,5,6,7,8]}, execute this code by hand and show the steps involved. Explain any shortcuts you take.
     \item What value is returned when the function ends?
     \item You should have noticed that there is a bug in this program. How can it be fixed?
     \item What does this program assume about the data in the array?
@@ -211,7 +225,6 @@ Apply what you have learnt to the following tasks:
     \item Place the bubble image in the \texttt{Resources/images} folder in your SwinGame project.
     \item Implement the code from \sref{sub:bubble_game_start_}.
     \item Run the game and you should something similar to \fref{fig:bubble_game}.
-  \end{enumerate}
   
   \begin{figure}[h]
      \centering
@@ -220,16 +233,17 @@ Apply what you have learnt to the following tasks:
      \label{fig:bubble_game}
   \end{figure}
   
-  \item Try extending the game in one or more of the following ways:
+    \item Extend the game in one or more of the following ways:
   
- \begin{enumerate}
-  \item Play a sound effect when the bubbles appear.
-  \item Add a background image.
-  \item Check if the user has clicked the bubble. If they have, play a pop sound effect and place the bubble.
-  \item Add a score, and give points for the number of bubbles popped.
-  \item Try changing the game dynamics... add gravity and have the bubbles pop when they hit the ground, ending the game. Start new bubbles at the top of the screen.
-  \item \ldots
- \end{enumerate}
+   \begin{enumerate}
+    \item Play a sound effect when the bubbles appear.
+    \item Add a background image.
+    \item Check if the user has clicked the bubble. If they have, play a pop sound effect and place the bubble.
+    \item Add a score, and give points for the number of bubbles popped.
+    \item Try changing the game dynamics... for example: Start new bubbles at the top of the screen, have them move down the screen, and pop when they hit the ground, ending the game. 
+    \item \ldots
+   \end{enumerate}
+  \end{enumerate}
   
 \end{enumerate}
 % subsection code_writing_questions_applying_what_you_have_learnt (end)

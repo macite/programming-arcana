@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>topics/arrays/exercises/array-exercises.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,9 +28,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
 				<integer>0</integer>
+				<key>line</key>
+				<integer>159</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>programming-arcana.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>37</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -405,6 +421,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>topics/arrays/exercises/array-exercises.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>243</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>204</integer>
+		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
 			<key>caret</key>
@@ -652,7 +682,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>17</integer>
 				<key>line</key>
 				<integer>39</integer>
 			</dict>
@@ -866,6 +896,12 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>preamble/commands.tex</string>
+		<string>programming-arcana.tex</string>
+		<string>topics/arrays/exercises/array-exercises.tex</string>
+	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -925,6 +961,13 @@
 							</dict>
 						</dict>
 					</dict>
+				</dict>
+				<key>preamble</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
 				</dict>
 				<key>syntax</key>
 				<dict>
@@ -992,21 +1035,6 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>control-flow</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
 						<key>dynamic-memory</key>
 						<dict>
 							<key>isExpanded</key>
@@ -1014,43 +1042,6 @@
 							<key>subItems</key>
 							<dict>
 								<key>c</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>exercises</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>program-creation</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>concepts</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>storing-using-data</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>application</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1087,6 +1078,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1440, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>
