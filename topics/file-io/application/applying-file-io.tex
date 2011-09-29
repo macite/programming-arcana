@@ -1,0 +1,42 @@
+\clearpage
+\section{Using Input and Output} % (fold)
+\label{sec:using_input_and_output}
+
+Using File Input and Output it is now possible to load and save data. As an example we will examine how you can go about saving and loading data in the small db program.
+
+\subsection{Saving Data from Small DB} % (fold)
+\label{ssub:saving_data_from_small_db}
+
+The Small DB\footnote{In this chapter we will be saving data from the array based version of the Small DB program, though a similar approach would be taken to save the linked version.} program allows the user to enter a number of \emph{row} values, with each row having a single column that stores a data value (either an integer, text, or double value). At this stage the program only keeps its data while it is executing, once it ends the data is gone. The first step is therefore to save the data from the program into a file.
+
+\subsubsection{Row File Format} % (fold)
+\label{ssub:row_file_format}
+
+When thinking about saving data the first task is to try to determine how the data can be saved so that it can later be read back into the program. The following information can help us design the structure of the file saved from the program: 
+
+\begin{enumerate}
+  \item There are a variable number of rows.
+  \item Each row has a fixed size, when you know the kind of data it is storing.
+\end{enumerate}
+
+In this array based version of the Small DB program the number of rows is saved in the \texttt{data store}. This means that an easy way to handle this will be to save the number of rows at the start of the file. This will mean that when the file is loaded back the program can read the number of rows in the file, and create enough space for these in memory before reading them from the file. The pseudocode for save is shown in \lref{plst:save}.
+
+\pseudocode{plst:save}{Pseudocode for Save (for Small DB array version)}{topics/file-io/application/save_data_store.txt}
+
+\mynote{
+\begin{itemize}
+  \item Notice the number of rows is saved first.
+  \item Following this each row is saved to the file.
+\end{itemize}
+}
+
+The \texttt{Save} procedure calls a \texttt{Save Row} procedure to save each individual row to the file. The pseudocode for this is shown in \lref{plst:save_row}. This code saves the \texttt{id} and \texttt{kind} values to the file, and then uses a \nameref{sub:case_statement} select whether to output the integer value, double value, or text value from the \texttt{row}'s data.
+
+\pseudocode{plst:save_row}{Pseudocode for Save Row (for Small DB array version)}{topics/file-io/application/save_row.txt}
+
+% subsubsection row_file_format (end)
+
+
+% subsection saving_data_from_small_db (end)
+
+% section using_input_and_output (end)

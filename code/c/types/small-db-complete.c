@@ -28,9 +28,9 @@ typedef enum {
 // The Row record/structure. Each row contains an id
 // a kind, and some data (a Column Value).
 typedef struct {
-        int         id;
-        data_kind   kind;
-        column_value   data;
+        int             id;
+        data_kind       kind;
+        column_value    data;
     } row;
 
 // Test if the passed in text refers to an integer
