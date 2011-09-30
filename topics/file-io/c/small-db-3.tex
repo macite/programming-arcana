@@ -1,0 +1,15 @@
+\subsection{Implementing Small DB File IO in C} % (fold)
+\label{sub:implementing_small_db_file_io_in_c}
+
+\sref{sec:using_input_and_output} presented an altered version of the Small DB program from \cref{cha:dynamic_memory_allocation}. The changes introduced four new procedures used to save the programs data to file, and to reload the data from file. The new code is presented in \lref{lst:c-small-db3}.
+
+\straightcode{\ccode{lst:c-small-db3}{C code for the Small DB program with file loading and saving}{code/c/file-io/small-db-changes.c}}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{FILE} type is used to refer to files that have been opened for the application. See \sref{sub:c_file_type} \nameref{sub:c_file_type}.
+  \item 
+\end{itemize}
+}
+
+% subsection implementing_small_db_file_io_in_c (end)

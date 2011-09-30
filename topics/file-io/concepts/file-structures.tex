@@ -2,10 +2,10 @@
 \subsection{File Structures} % (fold)
 \label{sub:file_structures}
 
-When thinking about using files that one aspect that you need to spend the most time on will be how to organise the data in the file to allow you to read the values back into your program at a later time. Some common strategies are to:
+When thinking about using using files, the one aspect that you need to spend the most time on will be the organisation of the data in the file. You need to ensure that the data you save includes sufficient information that it can be read back into the program at a later stage. Some common strategies are to:
 
 \begin{enumerate}
-  \item Write fixed size data blocks.
+  \item Write fixed size data blocks where possible.
   \item Store meta data\footnote{Meta data is data about your data.}, such as the number or size of variable data blocks.
   \item Alternatively, mark the end of variable sized or numbered data blocks with a \emph{sentinel} values.
 \end{enumerate}

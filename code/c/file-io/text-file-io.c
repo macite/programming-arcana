@@ -23,10 +23,9 @@ int main()
     fscanf(in, "%*[\n]"); // skip the new line
     fscanf(in, "%d", &in_val); // read the number
     
+    fclose(in);
+    
     printf("Read: %s & %d\n", in_message, in_val);
-    
-    fclose(out);
-    
     
     return 0;
 }

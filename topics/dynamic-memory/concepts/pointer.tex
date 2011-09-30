@@ -13,23 +13,47 @@ A Pointer is a new kind of data type, just like Integer, Double, and Boolean. A 
 
 \mynote{
 \begin{itemize}
-  \item A Pointer is an \textbf{existing artefact}, a data type that is built into the Programming Language.
-  \item A Pointer's Value points to a value.
+  \item A pointer is an \textbf{existing artefact}, a data type that is built into the programming language.
+  \item A pointer has a value, that stores the location of another value.
+  \item It is a good idea to picture a pointer as a value that \emph{points} to another value.
+  \item The pointer's value is the memory address of the value it \emph{points} to.
   \item The CPU architecture tells you the size of its pointers. A 32bit machine has 32bit pointers. A 64bit machine has 64bit pointers.
-  \item It is a good idea to picture a pointer as a value that \emph{points} to a location in memory.
-  \item Pointers are used to point to locations in the Heap, when you are allocated space the Operating System will give you a Pointer Value that you can use to get to that location.
 \end{itemize}
 }
+
+\clearpage
+\subsubsection{Using pointer to access the heap} % (fold)
+\label{ssub:using_pointer_to_access_the_heap}
+
+Pointers can be used to point to locations in the heap. When you ask the Operating System to allocate you space on the heap, it will give you a pointer value that \emph{points} to the space you were allocated. You can use this pointer to access the value at that location.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/dynamic-memory/diagrams/HeapAccess2} 
+   \caption{You can use pointers to access values on the heap}
+   \label{fig:heap_access_2}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item Your code can access values stored on the stack, in its local variables and parameters.
+  \item There is no way to directly access values on the heap.
+  \item The memory allocation functions will give you a pointer to the space you were allocated.
+  \item Storing the pointer in a local variable will mean you can use it to access the value on the heap.
+\end{itemize}
+}
+
+% subsubsection using_pointer_to_access_the_heap (end)
 
 \clearpage
 \subsubsection{What can a pointer point to?} % (fold)
 \label{ssub:what_can_a_pointer_point_to_}
 
-Pointers store a value that is an address of the value that it points to. This means that you can point to \emph{any} value in memory, regardless of where it is. You can have Pointer values that point  to \nameref{sub:local_variable}s, \nameref{sub:global_variable}s, \nameref{sub:parameter}s, \nameref{sub:array} elements, fields of \nameref{ssub:record}s or \nameref{ssub:union}s. One of its key ability, however, is the ability to point to values on the \nameref{sub:heap}.
+Pointers store a value that is an address of the value that it points to. This means that you can point to \emph{any} value in memory, regardless of where it is. You can have pointer values that point  to \nameref{sub:local_variable}s, \nameref{sub:global_variable}s, \nameref{sub:parameter}s, \nameref{sub:array} elements, fields of \nameref{ssub:record}s or \nameref{ssub:union}s. One of its key ability, however, is the ability to point to values on the \nameref{sub:heap}.
 
 \begin{figure}[h]
    \centering
-   \includegraphics[width=\textwidth]{./topics/dynamic-memory/diagrams/PointerPointing} 
+   \includegraphics[width=0.8\textwidth]{./topics/dynamic-memory/diagrams/PointerPointing} 
    \caption{A Pointer can point to any value, at any location in memory}
    \label{fig:pointer-pointing}
 \end{figure}

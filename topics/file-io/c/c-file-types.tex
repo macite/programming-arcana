@@ -1,0 +1,21 @@
+\clearpage
+
+\subsection{C File Type} % (fold)
+\label{sub:c_file_type}
+
+C includes a \texttt{FILE} type that is used to interact with files on the computer. This type includes all of the information that C needs to read and write data to a file. 
+
+\csection{\ccode{clst:file}{Example use of the FILE type to read and write text data}{code/c/file-io/text-file-io.c}}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{FILE} type is used to read and write data from a file.
+  \item You open the file using \texttt{fopen}.
+  \item After the file has been opened you must remember to close it using \texttt{fclose}.
+  \item File based versions of \texttt{printf} and \texttt{scanf} allow you to read and write data from the file.
+  \item The IO code in C always works with \texttt{FILE} pointers, as a result all of your \texttt{FILE} variables will be pointers.
+\end{itemize}
+}
+
+
+% subsection c_file_type (end)

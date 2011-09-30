@@ -56,7 +56,7 @@ Storing single values on the Heap can be useful, but often you want to be able t
    \label{fig:allocate-memory-array}
 \end{figure}
 
-\csection{The \texttt{calloc} function from \texttt{stdlib.h} allows you to allocate space for an array. This function takes two parameter, the first takes the number of elements to allocation, the second the size of those elements. \texttt{calloc} also \emph{clears} its allocation, setting each byte allocated to 0. The following code allocates 4 integer values as shown in \fref{fig:allocate-memory-array}: \csnipet{p = (int*) calloc(4, sizeof(int));} \newline 
+\csection{In C you can use \texttt{malloc} to allocate space for a number of element. Alternatively the \texttt{calloc} function from \texttt{stdlib.h} provides direct support for allocating space for an array. This function takes two parameter, the first takes the number of elements to allocation, the second the size of those elements. \texttt{calloc} also \emph{clears} its allocation, setting each byte allocated to 0. The following code allocates 4 integer values as shown in \fref{fig:allocate-memory-array}: \csnipet{p = (int*) malloc(4 * sizeof(int));} or using \texttt{calloc}, which would set all values to 0, you could use \csnipet{p = (int*) calloc(4, sizeof(int));} \newline 
 \newline
 In C you can use the standard array access mechanisms with pointers to access subsequent elements. So \texttt{p[0]} is the value in the first element of the array dynamically allocated in \fref{fig:allocate-memory-array}, \texttt{p[1]} is the value of the second element, \texttt{p[2]} is the value of the third element, and so on. This relates back to Pointer arithmetic discussed in \sref{ssub:what_is_the_pointer_value_what_can_you_do_with_it_}.
 }

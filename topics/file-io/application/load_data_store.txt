@@ -1,0 +1,19 @@
+Procedure: Load
+----------------------------
+Parameters:
+ 1: Db Data   (Data Store, passed by reference)
+ 2: Filename  (String)
+----------------------------
+Locals:
+ - i      (Integer)
+ - input  (Text file)
+----------------------------
+Steps:
+ 1: Assign to input, the result of opening the file with Filename (for read)
+ 2: If this failed, exit from this procedure and return to the caller
+ 3: Read Db Data's Next Row Id from the input file
+ 4: Read Db Data's Row Count from the input file
+ 5: Allocate space for Db Data's Rows, based on Db Data's Row Count
+ 5: For each of the rows in Db Data
+ 6:     Call Load Row, passing in the current row from Db Data and input file
+ 7: Close the input file

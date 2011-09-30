@@ -1,16 +1,16 @@
-Procedure: Save Row
+Procedure: Write Row to File
 ----------------------------
 Parameters:
- 1: To Save (Row)
- 2: Out (Text File)
+ 1: To Save   (Row)
+ 2: Out       (Text File)
 ----------------------------
 Steps:
  1: Write the row's id and kind to the Out file
  2: Based on the row's kind:
  3:   if its a INT VAL:
- 4:       write the row's data's Int Val to the Out file
+ 4:       Write the row's data's Int Val to the Out file
  5:   if its a DBL VAL:
- 6:       write the row's data's Dbl Val to the Out file
+ 6:       Write the row's data's Dbl Val to the Out file
  7:   if its a TXT VAL:
- 8:       write the row's data's Txt Val to the Out file
- 9: Write a new line to the Out file
+ 8:       Write the row's data's Txt Val to the Out file
+  9: Write a new line to the Out file

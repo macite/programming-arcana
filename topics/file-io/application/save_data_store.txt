@@ -5,13 +5,14 @@ Parameters:
  2: Filename (String)
 ----------------------------
 Locals:
- - i (Integer)
- - out (Text file)
+ - i    (Integer)
+ - out  (Text file)
 ----------------------------
 Steps:
- 1: Assign to out, the result of opening the file with Filename
+ 1: Assign to out, the result of opening the file with Filename (for write)
  2: If this failed, exit from this procedure and return to the caller
- 3: Write Db Data's Row Count to the out file
- 4: For each of the rows in Db Data
- 5:     Call Save Row, passing in the current row from Db Data and out file
- 6: Close the out file
+ 3: Write Db Data's Next Row Id to the out file
+ 4: Write Db Data's Row Count to the out file
+ 5: For each of the rows in Db Data
+ 6:     Call Write Row to File, passing in Db Data's current row and the out file
+ 7: Close the out file

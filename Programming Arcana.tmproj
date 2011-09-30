@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>topics/file-io/concepts/file-structures.tex</string>
+	<string>topics/file-io/c/c-file-functions.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -23,42 +23,14 @@
 	<integer>308</integer>
 	<key>metaData</key>
 	<dict>
-		<key>code/c/file-io/test.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>preamble/commands.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>159</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>programming-arcana.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>36</integer>
+				<integer>32</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -435,20 +407,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/arrays/exercises/array-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>16</integer>
-				<key>line</key>
-				<integer>243</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>189</integer>
-		</dict>
 		<key>topics/branching/branching.tex</key>
 		<dict>
 			<key>caret</key>
@@ -479,28 +437,144 @@
 				<integer>37</integer>
 			</dict>
 		</dict>
-		<key>topics/file-io/concepts/file-structures.tex</key>
+		<key>topics/dynamic-memory/concepts/allocate-memory.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>29</integer>
+				<integer>53</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>68</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>108</integer>
+			<key>firstVisibleLine</key>
+			<integer>49</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>68</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>68</integer>
+			</dict>
+		</dict>
+		<key>topics/dynamic-memory/concepts/heap.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/file-io/concepts/interacting-with-files.tex</key>
+		<key>topics/dynamic-memory/concepts/pointer.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>28</integer>
+				<integer>37</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>16</integer>
+		</dict>
+		<key>topics/file-io/application/applying-file-io.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>33</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<key>topics/file-io/c/c-file-functions.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>138</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>118</integer>
+		</dict>
+		<key>topics/file-io/c/file-io-in-c.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>40</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/file-io/c/small-db-3.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>topics/file-io/concepts/file-structures.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>124</integer>
+				<key>line</key>
+				<integer>24</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -521,35 +595,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>topics/file-io/concepts/persisting-data.tex</key>
+		<key>topics/file-io/file-io.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>37</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>9</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
 		</dict>
 		<key>topics/looping/looping.tex</key>
 		<dict>
@@ -921,66 +979,6 @@
 				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/application/using-custom-types.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>491</integer>
-				<key>line</key>
-				<integer>215</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>226</integer>
-			<key>firstVisibleLine</key>
-			<integer>215</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>132</integer>
-				<key>line</key>
-				<integer>215</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>491</integer>
-				<key>line</key>
-				<integer>215</integer>
-			</dict>
-		</dict>
-		<key>topics/type-decl/concepts/assignment-with-types.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-		</dict>
 		<key>topics/type-decl/concepts/enum.tex</key>
 		<dict>
 			<key>caret</key>
@@ -1011,48 +1009,20 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
-		<key>topics/type-decl/exercises/type-exercises.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>18</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>4</integer>
-		</dict>
-		<key>topics/type-decl/type-decl.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>39</integer>
-		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>preamble/commands.tex</string>
+		<string>topics/dynamic-memory/concepts/heap.tex</string>
+		<string>topics/dynamic-memory/concepts/pointer.tex</string>
+		<string>topics/dynamic-memory/concepts/allocate-memory.tex</string>
 		<string>programming-arcana.tex</string>
-		<string>topics/arrays/exercises/array-exercises.tex</string>
-		<string>topics/type-decl/exercises/type-exercises.tex</string>
-		<string>topics/file-io/concepts/persisting-data.tex</string>
-		<string>topics/file-io/concepts/interacting-with-files.tex</string>
+		<string>topics/file-io/application/applying-file-io.tex</string>
+		<string>topics/file-io/file-io.tex</string>
+		<string>topics/file-io/c/small-db-3.tex</string>
+		<string>topics/file-io/c/c-file-functions.tex</string>
+		<string>topics/file-io/c/file-io-in-c.tex</string>
 		<string>topics/file-io/concepts/file-structures.tex</string>
 		<string>topics/file-io/concepts/io-concepts.tex</string>
-		<string>topics/type-decl/concepts/assignment-with-types.tex</string>
-		<string>topics/type-decl/type-decl.tex</string>
-		<string>code/c/file-io/test.txt</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -1077,26 +1047,19 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>topics</key>
+				<key>code</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>file-io</key>
+						<key>c</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>concepts</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-								<key>diagrams</key>
+								<key>file-io</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1105,13 +1068,36 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>type-decl</key>
+					</dict>
+				</dict>
+				<key>topics</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>dynamic-memory</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>concepts</key>
+								<key>c</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+						<key>file-io</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>c</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -1126,6 +1112,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1280, 874}}</string>
+	<string>{{0, 4}, {1280, 1414}}</string>
 </dict>
 </plist>

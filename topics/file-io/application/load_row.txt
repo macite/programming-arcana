@@ -1,0 +1,15 @@
+Procedure: Read Row From File
+----------------------------
+Parameters:
+ 1: To Load   (Row)
+ 2: Input     (Text File)
+----------------------------
+Steps:
+ 1: Read the row's id and kind from the Input file
+ 2: Based on the row's kind:
+ 3:   if its a INT VAL:
+ 4:       Read the row's data's Int Val from the Input file
+ 5:   if its a DBL VAL:
+ 6:       Read the row's data's Dbl Val from the Input file
+ 7:   if its a TXT VAL:
+ 8:       Read the row's data's Txt Val from the Input file

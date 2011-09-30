@@ -337,7 +337,7 @@ void print_all_rows(const data_store *db_data)
 // = Loading and Saving Data =
 // ===========================
 
-void read_row_from_file(row *to_load, FILE *in)
+void read_row_from_file(row *to_load, FILE *input)
 {
     // Load defaults in case loading fails...
     to_load->id = 0;
@@ -345,33 +345,32 @@ void read_row_from_file(row *to_load, FILE *in)
     to_load->data.int_val = 0;
     
     // Read in the id and the kind (as an integer)
-    fscanf(in, "%d %d ", &to_load->id, (int*)&to_load->kind);
+    fscanf(input, " %d %d ", &to_load->id, (int*)&to_load->kind);
     
     // Branch based on the kind, and output the data
     switch (to_load->kind)
     {
         case INT_VAL:
             // Read in the integer from the file
-            fscanf(in, "%d\n", &to_load->data.int_val);
+            fscanf(input, "%d\n", &to_load->data.int_val);
             break;
         // Add double as an option
         case TXT_VAL:
             // Read in the text value from the file (upto 7 characters)
-            fscanf(in, "%7s\n", to_load->data.txt_val); // no & as char array
+            fscanf(input, "%7[^\n]\n", to_load->data.txt_val); // no & as char array
             break;
         default:
             // Dont know what the value is... set it to 0
             to_load->data.int_val = 0;
     }
-    
 }
 
 bool load(data_store *db_data, const char *filename)
 {
-    FILE *in;
+    FILE *input;
     
-    in = fopen(filename, "r");
-    if ( in == NULL ) return false;
+    input = fopen(filename, "r");
+    if ( input == NULL ) return false;
     
     int i = 0;
     
@@ -380,13 +379,14 @@ bool load(data_store *db_data, const char *filename)
         db_data->row_count = 0;
         
         // Save the row count...
-        fscanf(in, "rows:%d ", &(db_data->row_count));
+        fscanf(input, "next id:%d ", &(db_data->next_row_id));
+        fscanf(input, "rows:%d ", &(db_data->row_count));
         
         // Allocate space for rows...
         db_data->rows = (row *) realloc(db_data->rows, sizeof(row) * db_data->row_count);
         if (db_data->rows == NULL)
         {
-            fclose(in);
+            fclose(input);
             return false;
         }
         
@@ -394,11 +394,11 @@ bool load(data_store *db_data, const char *filename)
         for (i = 0; i < db_data->row_count; i++)
         {
             // read the row from the file, into the space allocated for this row
-            read_row_from_file(&(db_data->rows[i]), in);
+            read_row_from_file(&(db_data->rows[i]), input);
         }        
     }
     
-    fclose(in);
+    fclose(input);
     return true;
 }
 
@@ -433,6 +433,7 @@ bool save(const data_store *db_data, const char *filename)
     if (db_data != NULL)
     {
         // Save the row count...
+        fprintf(out, "next id:%d\n", db_data->next_row_id);
         fprintf(out, "rows:%d\n", db_data->row_count);
         
         // For each row in the array
