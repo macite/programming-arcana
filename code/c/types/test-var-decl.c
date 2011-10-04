@@ -1,4 +1,3 @@
-/* Program: test-var-decl.c */
 #include <stdio.h>
 #include <strings.h>
 

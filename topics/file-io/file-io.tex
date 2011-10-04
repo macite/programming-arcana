@@ -1,6 +1,23 @@
 \chapter{Input and Output} % (fold)
 \label{cha:input_and_output}
 
+\begin{quote}
+  \Fontlukas\Large
+  \renewcommand{\LettrineTextFont}{\relax}
+  \lettrine[image=true,lines=3,lraise=0.1]
+  {Y}{ou} are progressing well. You have already mastered most of the basics of spell and potion craft, so now we can turn our attention to the creation of scrolls. These magical devices will allow you to capture the magical energies created in your spells, and store them to be retrieved at a later time. Gather your parchment and wand, now summon the energies for your spell and \ldots
+\end{quote}
+
+\bigskip
+
+Over the previous chapter you have leant to create programs that manipulate data. So far this data has only existed within the program, with the values stored being lost when the program terminates. If you want to be able to maintain these values between executions you need to learn to save data to file. By saving the program's data to file you can then load it back in when the program is restarted.
+
+This chapter will introduce the artefacts needed to save data from your program to file, and to load that data from file. Using this you will be able to persist data, making it available to future executions of the program.
+
+When you have understood the material in this chapter you will be able to save and load data from text and binary files. 
+
+\clearpage
+
 \minitoc
 
 \input{topics/file-io/concepts/io-concepts}
@@ -10,30 +27,27 @@
 \input{topics/file-io/c/file-io-in-c}
 
 
-\clearpage
-\section{Input and Output in Pascal} % (fold)
-\def\pageLang{pas}
-\label{sec:file_io_in_pascal}
-
-% section input_and_output_in_pascal (end)
+% \clearpage
+% \section{Input and Output in Pascal} % (fold)
+% \def\pageLang{pas}
+% \label{sec:file_io_in_pascal}
+% 
+% % section input_and_output_in_pascal (end)
 
 \clearpage
 \def\pageLang{none}
-\section{Understanding Input and Output} % (fold)
-\label{sec:understanding_input_and_output}
+% \section{Understanding Input and Output} % (fold)
+% \label{sec:understanding_input_and_output}
+% 
+% % section understanding_input_and_output (end)
+% 
+% \clearpage
+% \section{Input and Output Examples} % (fold)
+% \label{sec:input_and_output_examples}
+% 
+% % section input_and_output_examples (end)
+% 
 
-% section understanding_input_and_output (end)
-
-\clearpage
-\section{Input and Output Examples} % (fold)
-\label{sec:input_and_output_examples}
-
-% section input_and_output_examples (end)
-
-\clearpage
-\section{Input and Output Exercises} % (fold)
-\label{sec:input_and_output_exercises}
-
-% section input_and_output_exercises (end)
+\input{topics/file-io/exercises/file-io-exercises}
 
 % chapter input_and_output (end)

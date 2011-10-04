@@ -56,8 +56,8 @@ Before you can interact with a file the first step will be to open the file. Thi
 
 \mynote{
 \begin{itemize}
-  \item Remember to check that \texttt{fopen} has returned you a valid pointer, if you get back NULL then it failed to load the file.
-  
+  \item Remember to check that \texttt{fopen} has returned you a valid pointer, if you get back NULL then it failed to open the file.
+  \item For binary files you can append a \texttt{b} to the mode. For example, to open a binary file for reading you use the mode \texttt{"rb"}, to open for writing and reading you use \texttt{"w+b"}.
 \end{itemize}
 }
 
@@ -101,10 +101,10 @@ Once you have opened a file it is important that you also close it. The \texttt{
 
 % subsubsection closing_a_file (end)
 
-\subsubsection{Writing data to file} % (fold)
-\label{ssub:writing_data_to_file}
+\subsubsection{Writing text data to file} % (fold)
+\label{ssub:writing_text_data_to_file}
 
-You can use \texttt{sprintf} to write data to a \texttt{FILE} that has been opened with write capabilities. This works the same as \texttt{printf} and \texttt{sprintf}.
+You can use \texttt{fprintf} to write data to a \texttt{FILE} that has been opened with write capabilities. This works the same as \texttt{printf} and \texttt{sprintf}.
 
 \begin{table}[h]
   \centering
@@ -136,6 +136,7 @@ You can use \texttt{sprintf} to write data to a \texttt{FILE} that has been open
 \mynote{
 \begin{itemize}
   \item This will write the data as text to the file.
+  \item The file must be opened with write permissions.
 \end{itemize}
 }
 
@@ -143,8 +144,10 @@ You can use \texttt{sprintf} to write data to a \texttt{FILE} that has been open
 
 \clearpage
 
-\subsubsection{Reading data from file} % (fold)
-\label{ssub:reading_data_from_file}
+\subsubsection{Reading text data from file} % (fold)
+\label{ssub:reading_text_data_from_file}
+
+Reading text data from a file is similar to reading data from the Terminal or from a string. The \texttt{fprintf} function works in the same way as \texttt{printf} and \texttt{sprintf}, but writes its data to a text file.
 
 \begin{table}[h]
   \centering
@@ -176,11 +179,111 @@ You can use \texttt{sprintf} to write data to a \texttt{FILE} that has been open
 \mynote{
 \begin{itemize}
   \item This will read text data from the file.
+  \item The file must be opened with read permissions.
 \end{itemize}
 }
+
+\csection{\ccode{clst:text_io}{Example code that demonstrates writing a value and reading it back from a text file}{code/c/file-io/text_io.c}}
 
 
 % subsubsection reading_data_from_file (end)
 
+
+\subsubsection{Writing binary data to file} % (fold)
+\label{ssub:writing_binary_data_to_file}
+
+The \texttt{fwrite} function allows you to write binary data to a file. This requires you to pass a pointer to your data, as well as the size and number of elements you want written.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{size\_t fwrite( const void *ptr, size\_t size, size\_t count, FILE *destination)}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{int} & The number of elements written to the \texttt{destination} by \texttt{fwrite}. If this does not equal the \texttt{count} parameter it indicates an error occurred writing the data to the file.\\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & A pointer to the data to be saved to the file.\\
+    & \\
+    \texttt{ size } & The size of each element to be saved.\\
+    & \\
+    \texttt{ count } & The number of elements to be saved to the file.\\
+    & \\
+    \texttt{ destination } & The FILE to write the output into.\\
+    & \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{fwrite}}
+  \label{tbl:fwrite}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item The file must be opened with write permissions.
+  \item This will write the binary data to file from the values pointed to by the \texttt{prt} parameter.
+\end{itemize}
+}
+
+\csection{\ccode{clst:write_binary}{Example code that writing an array of double values to a binary file.}{code/c/file-io/write_binary.c}}
+
+
+% subsubsection writing_binary_data_to_file (end)
+
+\clearpage
+\subsubsection{Reading binary data from file} % (fold)
+\label{ssub:reading_binary_data_from_file}
+
+To read back binary data you need to use \texttt{fread}. This reads back a block of data from the file, and stores it in memory at a location indicated by a pointer.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{size\_t fread( void *ptr, size\_t size, size\_t count, FILE *destination)}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{int} & The number of elements read from the \texttt{destination} by \texttt{fprintf}. If this does not equal the \texttt{count} parameter it indicates an error occurred reading the data from the file.\\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & A pointer to the location to store the loaded data. This must be large enough to store the values loaded.\\
+    & \\
+    \texttt{ size } & The size of each element to be loaded.\\
+    & \\
+    \texttt{ count } & The number of elements to be loaded from the file.\\
+    & \\
+    \texttt{ destination } & The FILE to read the data from.\\
+    & \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{fwrite}}
+  \label{tbl:fread}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item The file must be opened with read permissions.
+  \item You must ensure that \texttt{ptr} points to sufficient space to load the data into.
+\end{itemize}
+}
+
+\begin{figure}[p]
+  \csection{\ccode{clst:read_binary}{Example code that reads an array of double values from a binary file.}{code/c/file-io/read_binary.c}}  
+\end{figure}
+
+
+% subsubsection reading_binary_data_from_file (end)
 
 % subsection c_file_functions (end)
