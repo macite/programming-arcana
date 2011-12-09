@@ -93,7 +93,25 @@
       \end{tikzpicture}%
       }% End ifodd
       \fi
-    }{}% End C if
+    }% End C if
+    {
+      \ifthenelse{\equal{\pageLang}{pas}}{
+      \ifodd \value{page} {
+      \begin{tikzpicture}[remember picture, overlay]
+        \node[pas-mybox,minimum height=0.66\textheight,minimum width=1cm] (box) at (current page.east)
+        {};% % end 
+        \node[pas-fancytitle,rotate=-90,minimum width=0.21\textheight,rounded corners] at (box.west) {Pascal Reference};
+      \end{tikzpicture}%
+      } \else { %
+      \begin{tikzpicture}[remember picture, overlay]
+        \node[pas-mybox,minimum height=0.66\textheight,minimum width=1cm] (box) at (current page.west)
+        {};% % end 
+        \node[pas-fancytitle,rotate=90,minimum width=0.21\textheight,rounded corners] at (box.east) {Pascal Reference};
+      \end{tikzpicture}%
+      }% End ifodd
+      \fi
+      }{}
+    }
 }%
 \makeatother
 
