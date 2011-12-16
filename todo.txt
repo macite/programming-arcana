@@ -27,3 +27,9 @@
 * Add Entry Point (Main): heading to pseudocode
 
 * Add which library each function / procedure comes from
+
+
+
+----------------
+
+* Add language "overviews": note things like "C is case sensitive"

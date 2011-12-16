@@ -2,7 +2,7 @@
 \subsection{C Expression} % (fold)
 \label{sub:program-creation-c_expression}
 
-An \nameref{sub:expression} in C is a mathematical calculation or a Literal value. Each expression will have a \nameref{sub:type}, and can contain a number of mathematic operators. Table \ref{tbl:program-creation-c operators and expresions} lists the operators that you can include in your expressions, listed in order of precedence\footnote{The expressions follow the standard mathematic order of precedence (BODMAS).}. The operators you can use depend on the kind of data that you are using within the expression.
+An \nameref{sub:expression} in C is a mathematical calculation or a Literal value. Each expression will have a \nameref{sub:type}, and can contain a number of mathematic operators. Table \ref{tbl:program-creation-c operators and expresions} lists the operators that you can include in your expressions, listed in order of precedence.\footnote{Expressions follow the standard mathematic order of precedence (BODMAS).} The operators you can use depend on the kind of data that you are using within the expression.
 
 \begin{table}[h]
   \centering
@@ -10,7 +10,7 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
     \hline
     \textbf{Operator} & \textbf{Description} & \textbf{Example} \\
     \hline
-    \texttt{ () }     &   Parenthesis                 & \texttt{(1 + 1) * 2}  \\
+    \texttt{ ( ) }     &   Parenthesis                 & \texttt{(1 + 1) * 2}  \\
     \texttt{* /}      &   Multiplication and Division & \texttt{1 / 2 * 5}    \\
     \texttt{+ -}      &   Addition and subtraction    & \texttt{10 + 3 - 4}   \\
     \hline
@@ -34,9 +34,9 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
     \texttt{ 1 + 3 * 2 }  & 7 & \texttt{int} \\
     \texttt{ (1 + 3) * 2} & 8 & \texttt{int} \\
     \texttt{ 7 - 3 + 1 }  & 5 & \texttt{int} \\
-    \texttt{ 3 / 2 } & 1\footnote{C does integer division for int values, rounding the value off.} & \texttt{int} \\
+    \texttt{ 3 / 2 } & 1\footnote{C does integer division for int values, rounding the value down.} & \texttt{int} \\
     \texttt{ 3.0 / 2.0} & 1.5 & \texttt{float} \\
-    \texttt{ 3 / 2.0 } & 1.5\footnote{If either or both value are real numbers the result is also a real number.} & \texttt{float} \\
+    \texttt{ 3 / 2.0 } & 1.5\footnote{If either, or both, values are real (floating point) numbers the result is also a real number.} & \texttt{float} \\
     \texttt{ 1 + (3 / 2.0) + 6 * 2 - 8} & 6.5 & \texttt{float} \\
     \hline
   \end{tabular}
@@ -48,8 +48,8 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
 
 \mynote{
 \begin{itemize}
-  \item Table \ref{tbl:program-creation-c example expresions} shows some example expressions, their values, and types
-  \item Expressions can be Literal values, entered in the code.
+  \item Table \ref{tbl:program-creation-c example expresions} shows some example expressions, their values, and types.
+  \item Expressions can be literal values, entered in the code.
   \item Expression can contain mathematical calculations using standard addition, subtraction, multiplication, division, and grouping.
 \end{itemize}
 }

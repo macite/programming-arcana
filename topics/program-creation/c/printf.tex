@@ -2,7 +2,7 @@
 \subsection{C Terminal Output} % (fold)
 \label{sub:c_console_output}
 
-C comes with a range of \nameref{sub:library}s that provide reusable programming artefacts, including reusable \nameref{sub:procedure}s. The Standard Library includes a number of different components, one of which is \texttt{stdio.h}. The \texttt{stdio.h} refers to the Standard Input/Output library. This header file gives you access to artefacts you can use to perform input and output, including code to write output to the Terminal. The \texttt{printf} procedure is used to write data to the Terminal.
+C comes with a range of libraries that provide reusable programming artefacts, including reusable \nameref{sub:procedure}s. The C library includes a number of different components, one of which is \texttt{stdio.h} - the standard input/output library. This header file gives you access to artefacts you can use to perform input and output tasks, including code to write output to the Terminal. The \texttt{printf} procedure is used to write output data to the Terminal.
 
 \begin{table}[h]
   \centering
@@ -16,7 +16,7 @@ C comes with a range of \nameref{sub:library}s that provide reusable programming
     \hline
     \textbf{Parameter} & \textbf{Description} \\
     \hline
-    \texttt{ format } & The text that is to be written to the Terminal. This text may contain format tags to include other values. See Figure \ref{csynt:program-creation-format-string} for the syntax of the format tag. \\
+    \texttt{ format } & The text that is to be written to the Terminal. This text may contain format tags to include other values. See Figure \ref{csynt:program-creation-format-string} for the syntax of the \textbf{format tag}. \\
     & \\
     \texttt{\ldots}   & Optional values, must have at least as many values as format tags. \\
     \hline
@@ -25,11 +25,11 @@ C comes with a range of \nameref{sub:library}s that provide reusable programming
   \label{tbl:program-creation-c printf parameters}
 \end{table}
 
-The syntax for the \texttt{Format Tag} is shown in Figure \ref{csynt:program-creation-format-string}, with the details for the values that can be placed in the \emph{flag}, \emph{width}, \emph{precision}, and \emph{specifier} section being shown in Table \vref{tbl:program-creation-c printf specifier}. A number of examples are shown in Table \ref{tbl:program-creation-c printf specifier}, as well as in Listing \ref{lst:program-creation-c-printf}.
+The syntax for the \emph{format tag} is shown in Figure \ref{csynt:program-creation-format-string}, with the details for the values that can be placed in the \emph{flag}, \emph{width}, \emph{precision}, and \emph{specifier} section being shown in Table \vref{tbl:program-creation-c printf specifier}. A number of examples are shown in Table \ref{tbl:program-creation-c printf specifier}, as well as in Listing \ref{lst:program-creation-c-printf}.
 
 \csyntax{csynt:program-creation-format-string}{Format Tag}{program-creation/format-string}
 
-\csection{\ccode{lst:program-creation-c-printf}{C \texttt{printf} Examples}{code/c/program-creation/sample-printf.c}}
+\csection{\ccode{lst:program-creation-c-printf}{C \texttt{printf} examples}{code/c/program-creation/sample-printf.c}}
 
 \begin{table}[htbp]
   \begin{minipage}{\textwidth}
@@ -83,7 +83,7 @@ The syntax for the \texttt{Format Tag} is shown in Figure \ref{csynt:program-cre
   \end{tabular}
   
   \end{minipage}
-  \caption{Details for Format Tag specifier, flag, precision, and width}
+  \caption{Details for, and examples of, the format tag specifier, flag, precision, and width.}
   \label{tbl:program-creation-c printf specifier}
 \end{table}
 

@@ -1,0 +1,65 @@
+\clearpage
+\subsection{Pascal Terminal Output} % (fold)
+\label{sub:pascal_console_output}
+
+Pascal comes with a range of libraries (called units in Pascal) that provide reusable programming artefacts, including reusable \nameref{sub:procedure}s. The \texttt{System} unit is automatically included in all Pascal programs. This unit includes artefacts you can use to perform input and output tasks, including procedures to write output to the Terminal.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{Write( {\ldots} )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ \ldots } & The \texttt{Write} procedure takes a variable number of parameters. Each of the parameters are written to the Terminal in sequence. See notes for details on formatting numeric values. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{Write}}
+  \label{tbl:program-creation-pas write parameters}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{WriteLn( {\ldots} )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ \ldots } & Works in the same way as \texttt{WriteLn}, but also advances to a new line after writing each parameter to the Terminal. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{WriteLn}}
+  \label{tbl:program-creation-pas writeln parameters}
+\end{table}
+
+\passection{\pascode{lst:program-creation-pas-writeln}{Pascal \texttt{writeln} examples}{code/pascal/program-creation/SampleWriteLn.pas}}
+
+\mynote{
+\begin{itemize}
+  \item Numeric values can be formatted using two format modifiers. You can specify the minimum number of characters and the number of decimal places.
+  \begin{itemize}
+    \item To output with a minimum number of characters use - \texttt{value:min characters}.
+    \begin{itemize}
+      \item \texttt{WriteLn(2.4:10);} This will write the text \texttt{` 2.4E+0000'} to the Terminal. 
+      \item \texttt{WriteLn(2.4:-10);} This will write the text \texttt{`2.4E+0000 '} to the Terminal. 
+    \end{itemize}
+    \item To output with decimal places use - \texttt{value:min characters:decimal places}.
+    \begin{itemize}
+      \item \texttt{WriteLn(2.4:8:3);} This will write the text \texttt{`\ \ \ 2.400'} to the Terminal. 
+      \item \texttt{WriteLn(2.4:-6.2);} This will write the text \texttt{`2.40\ \ '} to the Terminal. 
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
+
+% subsection c_console_output (end)

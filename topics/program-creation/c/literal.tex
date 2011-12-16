@@ -2,13 +2,13 @@
 \subsection{C Literal} % (fold)
 \label{sub:program-creation-c_literal}
 
-A Literal is either a number or text value entered directly into the code. Figure \ref{csynt:program-creation-literal} shows the syntax for the different Literal values you can enter into your C code.
+A literal is either a number or text value stated directly in the code. In other words, it is not \emph{calculated} when the program runs - it is already in the code. Figure \ref{csynt:program-creation-literal} shows the syntax for the different literal values you can enter into your C code.
 
 \csyntax{csynt:program-creation-literal}{Literals}{program-creation/literal}
 
 \mynote{
 \begin{itemize}
-  \item Within a string the {\textbackslash} is used to indicate the next character has a special meaning. The following list includes the most useful escape characters:
+  \item Within a string the {\textbackslash} character is used to indicate that the next character has a special meaning. The following list includes the most useful special characters:
   \begin{itemize}
     \item \texttt{{\textbackslash}n} creates a new line
     \item \texttt{{\textbackslash}"} creates a double quote
@@ -16,7 +16,7 @@ A Literal is either a number or text value entered directly into the code. Figur
     \item \texttt{{\textbackslash}{\textbackslash}} creates a {\textbackslash}
   \end{itemize}
   % \item `0..9' means the digits 0, 1, 2, etc. up to 9.
-  \item `\emph{any character except ", {\textbackslash}, \%, or new line}' allows you to include any character, with those that can not be includes directly being able to be included using the escape sequence (e.g. {\textbackslash}n for new line).
+  % \item `\emph{any character except ", {\textbackslash}, \%, or new line}' allows you to include any character, with those that can not be includes directly being able to be included using the escape sequence (e.g. {\textbackslash}n for new line).
 \end{itemize}
 }
 

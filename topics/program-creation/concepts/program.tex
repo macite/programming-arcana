@@ -2,7 +2,9 @@
 \subsection{Program} % (fold)
 \label{sub:program}
 
-A program contains the instructions the computer will follow when that program is executed. In your source code you can declare a program in which you code the steps you want followed when your program is executed. When you compile this code the compiler will create an executable file (a \emph{program}) that the user can run. Running the program will then get the computer to perform the steps you wrote in the code.
+In most software projects the top level \emph{artefact} you are aiming to create is a \textbf{program}. Within your software a program is a list of instructions the computer will perform when that program is run on the computer.
+
+When you create a program in your code you should be thinking about the tasks you want the program to achieve, and the steps you must get the computer to perform when the program is run. These then become the instructions within the program, with each instruction being a \nameref{sub:statement} of what you want performed.
 
 \begin{figure}[h]
    \centering
@@ -15,10 +17,10 @@ A program contains the instructions the computer will follow when that program i
 \mynote{
 \begin{itemize}
   \item A program is an \textbf{artefact}, something you can create in your code.
-  \item Figure \ref{fig:program-creation-program} shows the concepts related to programs.
+  \item Figure \ref{fig:program-creation-program} shows the concepts related to the program's code.
   \item A program is a programming artefact used to define the steps to perform when the program is run.
-  \item You use the compiler to convert the program's source code into an executable file.
-  \item By declaring a program in your code you are telling the compiler to create a file the user can run.
+  \item You use a compiler to convert the program's source code into an executable file.
+  \item By declaring a program in your code you are telling the compiler to create a file the user can run (execute).
   \item The program has an \textbf{entry point} that indicates where the program's instructions start.
   \item The name of the program determines the name of the executable file.
   \item Your program can use code from a \nameref{sub:library} or number of libraries.
