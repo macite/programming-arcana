@@ -1,0 +1,31 @@
+\clearpage
+\subsection{Pascal Assignment Statement} % (fold)
+\label{sub:pas_assignment_statement}
+
+The assignment statement is used to store a value in a variable.
+
+\passyntax{passynt:storing-using-data-assignment-statement}{an assignment statement}{storing-using-data/assignment-statement}
+
+\mynote{
+\begin{itemize}
+  \item This is the Pascal syntax for the \nameref{sub:assignment_statement}.
+  \item In Pascal assignment is indicated by a colon followed by an equals sign ( \texttt{:=} ).
+  \item The \emph{left hand side} of the assignment must be a valid variable, this is where the value is to be stored.
+  \item The \emph{right hand side} of the assignment is an expression, this calculates the value that will be stored in the variable.
+  \item There are multiple versions of the assignment, giving short hand ways of using the current value.
+  \begin{itemize}
+    \item \textbf{\texttt{=}} stores the value of the expression in the variable.
+    \item \textbf{\texttt{+=}} increments the variable's value, \newline \passnipet{a += n;} is equivalent to \passnipet{a := a + n;}
+    \item \textbf{\texttt{-=}} decrements the variable's value, \newline \passnipet{a -= n;} is equivalent to \passnipet{a := a - n;}
+    \item \textbf{\texttt{*=}} multiplies the value in the variable by a factor. \newline \passnipet{a *= n;} is equivalent to \passnipet{a := a * n;}
+    \item \textbf{\texttt{/=}} divides the value in the variable by a factor. \newline \passnipet{a /= n;} is equivalent to \passnipet{a := a / n;}
+  \end{itemize}
+\end{itemize}
+}
+
+\clearpage
+
+\passection{\pascode{lst:assignment-test-pas}{Sample assignment statements}{code/pascal/storing-using-data/AssignmentTest.pas}}
+
+
+% subsection c_assignment_statement (end)

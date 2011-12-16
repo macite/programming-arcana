@@ -1,0 +1,19 @@
+\clearpage
+\subsection{Pascal Function Call} % (fold)
+\label{sub:pas_function_call}
+
+\passyntax{passynt:function-decl-function-call}{a function call}{function-decl/function-call}
+
+\passection{\pascode{plst:test-fn-call}{Example function calls}{code/pascal/storing-using-data/TestFnCalls.pas}}
+
+\mynote{
+\begin{itemize}
+  \item A function call can be used to calculate a value within an expression.
+  \item A Pascal function call is similar to a \nameref{sub:procedure call}.
+  \item You use the name of the \nameref{sub:function}, its identifier, to indicate which function is called.
+  \item Following the function's name is the list of \emph{arguments}, these are the values (or variables) that are being passed to the called function.
+  \item In Listing \ref{plst:test-fn-call} the values of the inner function calls are passed to the arguments of the outer calls. This means that \texttt{Square(5)} is calculated first then \texttt{Square(4)}. The results of these two function calls are then passed as the \emph{arguments} into the call to the \texttt{Sum} function. In this case the function call will be \texttt{Sum(25, 16)} with \texttt{25} being the result returned by \texttt{Square(5)} and \texttt{16} being the result returned by \texttt{Square(4)}.
+\end{itemize}
+}
+% subsection c_procedure_declaration (end)
+

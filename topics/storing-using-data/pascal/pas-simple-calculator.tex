@@ -1,0 +1,23 @@
+\subsection{Implementing Change Calculator in Pascal} % (fold)
+\label{sub:implementing_simple_change_in_pas}
+
+Section \ref{sec:using_these_concepts_storing_using_data} of this chapter introduced the `Change Calculator' program, and its design. Its implementation requires the definition of functions as well as procedures. These functions and procedures accepted parameters and use local variables. 
+
+This section of the chapter introduces the Pascal syntax rules for implementing these concepts using the Pascal language. The Pascal implementation of the Change Calculator is shown in Listing \ref{lst:storing-data-pas-simple-change}. 
+
+\straightcode{\pascode{lst:storing-data-pas-simple-change}{Pascal code for the Change Calculator}{code/pascal/storing-using-data/SimpleChange.pas}}
+
+\mynote{
+\begin{itemize}
+  \item Save the Pascal code in a file named \texttt{SimpleChange.pas}.
+  \item Compile this using \bashsnipet{fpc -S2 SimpleChange.pas}.
+  \item Run the resulting program using \bashsnipet{./SimpleChange}.
+  \item Perform each of the Test Cases from Table \ref{tab:simple_change_test_data} and check that the output matches the expected values.
+  \item Look over the code and examine how the variables, parameters, constants, and function are being used.
+  \item Notice how the indentation makes it easy to see where each function and procedure starts and ends. Always lay your code out so that it is easy to see its structure.
+  \item See how the function and procedure are declared before they are used. This is important as the Pascal compiler reads the code from the start, and must know about the artefacts before you use them.
+\end{itemize}
+}
+
+% subsection implementing_simple_change_in_c (end)
+

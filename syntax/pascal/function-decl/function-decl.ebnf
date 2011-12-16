@@ -1,0 +1,5 @@
+function decl. = "function", identifier, "(", parameter declarations, "):", $ type identifier, ";" block, ";" ;
+
+block = declaration part, statement part ;
+
+stmt. part = "begin", { statement }+(";"), "end" ;

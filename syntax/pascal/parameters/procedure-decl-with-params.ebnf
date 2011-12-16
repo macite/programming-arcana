@@ -1,0 +1,15 @@
+procedure decl. = "procedure", identifier, "(", parameter declarations, ");", block, ";" ;
+
+parameter decls. = {parameter declaration}+(";") ;
+
+parameter decl. =  ~ | "const" | "out" | "var", {identifier}+(","), ":", type identifier;
+
+block = declaration part, statement part ;
+
+decl. part = { variable declarations   }+ ;
+
+variable decls. = "var", { variable declaration }+ ;
+
+variable decl. = {identifier}+(","), ":", type identifier, [ "=", expression ], ";";
+
+stmt. part = "begin", { statement }+(";"), "end" ;
