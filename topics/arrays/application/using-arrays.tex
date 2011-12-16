@@ -164,6 +164,8 @@ The C and Pascal code for this are both slightly different to the flowchart due 
    \label{fig:read-double-flow}
 \end{figure}
 
+\clearpage
+
 \csection{The C version of \texttt{Read Double}, shown in \lref{clst:read_double}, uses \texttt{scanf} (see \nameref{sub:c_terminal_input}) to read and format the number in the one action. The \texttt{scanf} Function returns a value indicating the number of conversions that were successful. This can be checked in the loop, and the loop is repeated \emph{while} \texttt{scanf} did not convert one value.
 \newline\newline
 In the loop itself the \texttt{scanf} is used to read past the value that is not a number, as \texttt{scanf} does not proceed when it finds an error. The format string in \texttt{scanf} indicates that it should read everything up to the end of the line.

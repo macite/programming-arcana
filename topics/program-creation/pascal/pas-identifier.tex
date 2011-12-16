@@ -1,0 +1,48 @@
+\clearpage
+\subsection{Pascal Identifier} % (fold)
+\label{sub:pas_identifier}
+
+The Pascal \nameref{sub:identifier} syntax is shown in Figure \ref{passynt:program-creation-identifier}. In Pascal, as in most programming languages, the identifier must start with an underscore (\_) or a letter; in other words your identifiers cannot start with a number or contain other symbols. This is because the compiler needs a way of distinguishing identifiers from numbers entered directly into the code.
+
+\passyntax{passynt:program-creation-identifier}{an Identifier}{program-creation/identifier}
+
+
+\begin{table}[h]
+  \centering \footnotesize
+  \begin{tabular}{|ccccc||c|}
+    \hline
+    \multicolumn{5}{|c||}{\textbf{Reserved Identifiers (Keywords)}} & \textbf{Examples}  \\
+    \hline
+    \texttt{absolute}  & \texttt{and}  & \texttt{array}  & \texttt{as} & \texttt{asm}                         & \texttt{WriteLn} \\
+    \texttt{begin}  & \texttt{case}  & \texttt{class} & \texttt{const}  & \texttt{constructor}                & \texttt{Write} \\
+    \texttt{destructor}  & \texttt{dispose} & \texttt{dispinterface} & \texttt{div} & \texttt{do}             & \texttt{ReadLn} \\
+    \texttt{downto}  & \texttt{else}  & \texttt{end}  & \texttt{except} & \texttt{exports}                    & \texttt{Bitmap} \\
+    \texttt{exit} & \texttt{false} & \texttt{file} & \texttt{finalization} & \texttt{finally}                 & \texttt{myAlien} \\
+    \texttt{for}  & \texttt{function}  & \texttt{goto}  & \texttt{if}  & \texttt{implementation}              & \texttt{age} \\
+    \texttt{in}  & \texttt{inherited}  & \texttt{initialization} & \texttt{inline}  & \texttt{interface}      & \texttt{height} \\
+    \texttt{is} & \texttt{label}  & \texttt{library} & \texttt{mod}  & \texttt{new}                           & \texttt{\_23} \\
+    \texttt{nil}  & \texttt{not}  & \texttt{object}  & \texttt{of}  & \texttt{on}                             & \texttt{i} \\
+    \texttt{operator}  & \texttt{or}  & \texttt{out} & \texttt{packed}  & \texttt{procedure}                  & \texttt{name} \\
+    \texttt{program}  & \texttt{property} & \texttt{raise} & \texttt{record}  & \texttt{reintroduce}          & \texttt{test} \\
+    \texttt{repeat}  & \texttt{resourcestring} & \texttt{self}  & \texttt{set}  & \texttt{shl}                & \texttt{height} \\
+    \texttt{shr}  & \texttt{string}  & \texttt{then} & \texttt{threadvar} & \texttt{to}                       & \texttt{DrawRectangle} \\
+    \texttt{true} & \texttt{try} & \texttt{type}  & \texttt{unit} & \texttt{until}                            & \texttt{FillCircle} \\
+    \texttt{uses}  & \texttt{var}  & \texttt{while}  & \texttt{with}  & \texttt{xor}                          & \texttt{CheckRange} \\
+    \hline
+  \end{tabular}
+  \caption{Pascal identifiers}
+  \label{tbl:program-creation-pas identifiers and keywords}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item In the syntax definition an identifier cannot contain spaces, or special characters other than underscores (\_).
+  \item A letter is any alphabetic character (\emph{a} to \emph{z} and \emph{A} to \emph{Z}).
+  \item A digit is a single number (\emph{0} to \emph{9}).
+  \item Each item in Table \ref{tbl:program-creation-pas identifiers and keywords} is a valid identifier.
+  \item The \textbf{keywords} are identifier that has special meaning to the language.
+  % \item The \textbf{example identifiers} give you examples of the kinds of names you could give to artefacts you create.
+\end{itemize}
+}
+
+% subsection c_identifier (end)

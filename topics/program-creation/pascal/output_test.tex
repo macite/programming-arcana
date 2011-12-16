@@ -1,0 +1,16 @@
+Section \vref{sec:using_these_concepts_program_creation} of this chapter introduced an `Output Test' program, and its design. The pseudocode from this section is shown in Listing \ref{lst:program-creation-hello-pseudo 2}. In this Section you will see the rules for translating this program's design into the C code shown in Listing \ref{lst:program-c-output_test}.
+
+\pseudocode{lst:program-creation-hello-pseudo 2}{Pseudocode for Hello World program (from Listing \ref{lst:program-creation-hello-pseudo}).}{./topics/program-creation/application/HelloWorld.txt}
+
+\passection{\pascode{lst:program-pas-output_test}{Output Test in Pascal}{code/pascal/program-creation/OutputTest.pas}}
+
+\mynote {
+\begin{itemize}
+  \item Save the Pascal code in a file named \texttt{OutputTest.pas}.
+  \item Compile this using \bashsnipet{fpc -S2 OutputTest.pas}.
+  \item Run using \bashsnipet{./OutputTest}.
+  \item The code at the start is a Comment describing what is in the file, see \nameref{sub:pas_comments}.
+  \item Each of the procedure calls contains one or two \nameref{sub:expression}s that pass values to the \texttt{WriteLn} procedure, which will output these to the Terminal.
+  \item This code uses \texttt{strings}, \texttt{int}, and \texttt{float} types, see \nameref{sub:program-creation-pas_types}.
+\end{itemize}
+}

@@ -2,48 +2,37 @@
 \subsection{C Identifier} % (fold)
 \label{sub:c_identifier}
 
-The C \nameref{sub:identifier} syntax is shown in Figure \ref{csynt:program-creation-identifier}. In C, as in most languages, the identifier must start with an underscore (\_) or a letter, in other words your identifiers cannot start with a number or contain other symbols. This is because the compiler needs a way of distinguishing identifiers from numbers entered in the code as Literals.
+The C \nameref{sub:identifier} syntax is shown in Figure \ref{csynt:program-creation-identifier}. In C, as in most programming languages, the identifier must start with an underscore (\_) or a letter; in other words your identifiers cannot start with a number or contain other symbols. This is because the compiler needs a way of distinguishing identifiers from numbers entered directly into the code.
 
 \csyntax{csynt:program-creation-identifier}{an Identifier}{program-creation/identifier}
 
 \begin{table}[h]
   \centering
-  \begin{tabular}{|ccccc||cc|}
+  \begin{tabular}{|ccccc|c|cc|}
     \hline
-    \multicolumn{5}{|c||}{\textbf{Keywords}} & \multicolumn{2}{c|}{\textbf{Example Identifiers}} \\
+    \multicolumn{5}{|c|}{\textbf{Reserved Identifiers (Keywords)}} & & \multicolumn{2}{c|}{\textbf{Example Identifiers}} \\
     \hline
-    \texttt{auto}     &   \texttt{break}    & \texttt{case}     &   \texttt{char}     &   \texttt{const}   & printf & scanf  \\         
-    \texttt{continue} &   \texttt{default}  &  \texttt{do}      &   \texttt{double}   &   \texttt{else}    & bitmap & sound\_effect  \\
-    \texttt{enum}     &   \texttt{extern}   & \texttt{float}    &   \texttt{for}      &   \texttt{goto}    & name & draw\_bitmap  \\
-    \texttt{if}       &   \texttt{int}      &   \texttt{long}   &   \texttt{register} &   \texttt{return}  & age & my\_alien \\         
-    \texttt{short}    &   \texttt{signed}   & \texttt{sizeof}   &   \texttt{static}   &   \texttt{struct}  & height & test  \\          
-    \texttt{switch}   & \texttt{typedef}  &   \texttt{union}    &   \texttt{unsigned} &   \texttt{void}    & alien & name3 \\
-    \texttt{volatile} &   \texttt{while}    &  & &                                                         & \_23  & i \\
+    \texttt{auto}     &   \texttt{break}    & \texttt{case}     &   \texttt{char}     &   \texttt{const}  & & printf & scanf  \\         
+    \texttt{continue} &   \texttt{default}  &  \texttt{do}      &   \texttt{double}   &   \texttt{else}   & & bitmap & sound\_effect  \\
+    \texttt{enum}     &   \texttt{extern}   & \texttt{float}    &   \texttt{for}      &   \texttt{goto}   & & name & draw\_bitmap  \\
+    \texttt{if}       &   \texttt{int}      &   \texttt{long}   &   \texttt{register} &   \texttt{return} & & age & my\_alien \\         
+    \texttt{short}    &   \texttt{signed}   & \texttt{sizeof}   &   \texttt{static}   &   \texttt{struct} & & height & test  \\          
+    \texttt{switch}   & \texttt{typedef}  &   \texttt{union}    &   \texttt{unsigned} &   \texttt{void}   & & alien & name3 \\
+    \texttt{volatile} &   \texttt{while}    &  & & &                                                        & \_23  & i \\
     \hline
   \end{tabular}
-  \caption{C Keywords and example Identifiers}
+  \caption{C Keywords and other example identifiers}
   \label{tbl:program-creation-c identifiers and keywords}
 \end{table}
 
-
-
-
-
-
-
-
-
-
-
-
 \mynote{
 \begin{itemize}
-  \item Table \ref{tbl:program-creation-c identifiers and keywords} contains a list of the keywords in C, and some example identifiers.
-  \item Each item in Table \ref{tbl:program-creation-c identifiers and keywords} is a valid identifier.
+  \item In the syntax definition an identifier cannot contain spaces, or special characters other than underscores (\_).
   \item A letter is any alphabetic character (\emph{a} to \emph{z} and \emph{A} to \emph{Z}).
   \item A digit is a single number (\emph{0} to \emph{9}).
-  \item A \textbf{keyword} is a kind of identifier that has special meaning to the language. Usually used to identify a kind of action, or a kind of artefact.
-  \item Notice in the syntax definition that Identifiers cannot contain spaces, or special characters other than underscores (\_).
+  \item Each item in Table \ref{tbl:program-creation-c identifiers and keywords} is a valid identifier.
+  \item The \textbf{keywords} are identifier that has special meaning to the language.
+  \item The \textbf{example identifiers} give you examples of the kinds of names you could give to artefacts you create.
 \end{itemize}
 }
 

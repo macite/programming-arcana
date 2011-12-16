@@ -1,4 +1,4 @@
-void ????(int data[], int sx, int param3, int param4)
+void ????(int data[], int sz, int param3, int param4)
 {
     int i;
     

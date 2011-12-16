@@ -1,0 +1,17 @@
+single digit = "0" | ".." | "9" ;
+
+digits = {single digit}+;
+
+sign = "+" | "-" ;
+
+(*number = [ sign ], unsigned real | unsigned integer ;*)
+
+whole number = [ sign ] , digits;
+
+real number = [ sign ] , digits [".", digits] ;
+
+single char. = "any character except '" | "''" ;
+
+character = "'", single character, "'" ;
+
+character string = "'", { single character }*, "'" ;

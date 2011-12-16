@@ -1,0 +1,21 @@
+\clearpage
+\subsection{Pascal Program} % (fold)
+\label{sub:program_in_pas}
+
+Figure \ref{passynt:program-creation-program} shows the structure of the syntax you can use to create a program using the Pascal language.
+
+\passyntax{passynt:program-creation-program}{a Program}{program-creation/program}
+
+The code in Listing \ref{lst:program-creation-pas-hello-world} shows an example Pascal Program. You should be able to match this up with the syntax defined in \fref{passynt:program-creation-program}. Notice that the uses clause is skipped, this clause allows you to access code in external libraries (called units in Pascal). By default all Pascal programs have access to the \texttt{System} unit which contains the \texttt{WriteLn} procedure and many other reusable artefacts.
+
+\passection{\pascode{lst:program-creation-pas-hello-world}{Pascal Hello World}{code/pascal/program-creation/HelloWorld.pas}}
+
+\mynote{
+  \begin{itemize}
+    \item A Pascal \nameref{sub:program} starts at the first \nameref{sub:statement} after the program's \texttt{begin} keyword (line 2).
+    \item The program ends when the instructions get to the program's \texttt{end} keyword (line 4).
+    \item The \texttt{WriteLn} procedure comes from a \texttt{System} unit (Pascal's name for an external library) that is automatically include in each program.
+  \end{itemize}
+}
+
+% subsection program_in_c (end)

@@ -1,0 +1,73 @@
+\clearpage
+\subsection{Pascal Types} % (fold)
+\label{sub:program-creation-pas_types}
+
+\nameref{sub:type}s are used to define how data is interpreted and the operations that can be performed on the data. Table \ref{tbl:program-creation-pas-types} shows the three basic types of data, the associated Pascal type, size in memory, and other related information. Table \ref{tbl:program-creation-pas operators by type} shows the operators that are permitted for each type.
+
+\begin{table}[h] 
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Whole Number Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \multicolumn{2}{c|}{\emph{Range (lowest .. highest)}} \\
+\hline
+\texttt{Byte} & 1 bytes/8 bits & \multicolumn{2}{c|}{0 .. 255} \\
+\texttt{SmallInt} & 2 bytes/16 bits & \multicolumn{2}{c|}{-32,767 .. 32,767} \\
+\texttt{Integer} & 4 bytes/32 bits & \multicolumn{2}{c|}{-2147483648 .. 2147483647} \\
+\texttt{Int64}    & 8 bytes/64 bits & \multicolumn{2}{c|}{-9,223,372,036,854,775,807 ..} \\
+  & & \multicolumn{2}{c|}{9,223,372,036,854,775,807} \\
+\hline
+\multicolumn{4}{c}{} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Real Number Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \emph{Range (lowest .. highest)} & \emph{Significant Digits} \\
+\hline
+\texttt{Single} & 4 bytes/32 bits & 1.0e-38 .. 1.0e38 & 6 \\
+\texttt{Double} & 8 bytes/64 bits & 2.0e-308 .. 2.0e308 & 10 \\
+\texttt{Extended} & 10 bytes/80 bits & 1.9e-4932 .. 1.1e4932 & 20 \\
+\hline
+\multicolumn{4}{c}{} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Text Types}} \\
+\hline
+\emph{Name} & \emph{Size} & \multicolumn{2}{c|}{\emph{Notes}} \\
+\hline
+\texttt{Char}  & 1 byte/8 bits & \multicolumn{2}{c|}{} \\
+\hline
+\texttt{String} & various\footnote{1 byte per character + 1 byte overhead} &  \multicolumn{2}{c|}{Supports up to 255 characters by default,} \\
+ & & \multicolumn{2}{c|}{compiler options allow longer strings.} \\
+\hline
+\end{tabular}
+\caption{Pascal Data Types}\label{tbl:program-creation-pas-types}
+\end{minipage}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|l|}
+    \hline
+    \textbf{Type} & \textbf{Operations Permitted} & \textbf{Notes}\\
+    \hline
+    Whole Numbers     &   \texttt{( ) + - / *} & Division rounds down if all\\
+                                    &                        & values are whole numbers.\\
+    Real Numbers   &   \texttt{( ) + - / *} &    \\
+       & & \\
+    Text           &   \texttt{( ) + }          & The \texttt{+} performs concatenation.\\
+       & & \\
+    \hline
+  \end{tabular}
+  \caption{Pascal Permitted Operators by Type}
+  \label{tbl:program-creation-pas operators by type}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{Integer} type is the typical whole number type.
+  \item The \texttt{Double} type is the typical real number type.
+  \item For example values see Table \vref{tbl:program-creation-pas example expresions}.
+\end{itemize}
+}
+% subsection c_types (end)

@@ -7,10 +7,10 @@ Parameters:
 Steps:
  1: Write the row's id and kind to the Out file
  2: Based on the row's kind:
- 3:   if its a INT VAL:
+ 3:   if it is a INT VAL:
  4:       Write the row's data's Int Val to the Out file
- 5:   if its a DBL VAL:
+ 5:   if it is a DBL VAL:
  6:       Write the row's data's Dbl Val to the Out file
- 7:   if its a TXT VAL:
+ 7:   if it is a TXT VAL:
  8:       Write the row's data's Txt Val to the Out file
   9: Write a new line to the Out file
