@@ -19,75 +19,8 @@ When you have understood the material in this chapter you will be able to create
 % ====================
 % = Concepts Section =
 % ====================
-\clearpage
-\section{Procedure Declaration Concepts} % (fold)
-\label{sec:procedure_declaration_concepts}
 
-Chapter \ref{cha:program_creation} \nameref{cha:program_creation} introduced the idea of creating your own Programs as a sequence of instructions, \nameref{sub:statement}s. The instructions in these programs called existing \nameref{sub:procedure}s that performed tasks for the program. The code you wrote sequenced these procedures to produce a desired output.
-
-As you learnt in Chapter \ref{cha:program_creation}, \nameref{sub:procedure}s are designed to perform a single task that can be called when you want that task performed. Using Procedures from Libraries is an important task, but what about the tasks related to the program we are creating? Can we create our own procedures that help us to model the actions we want performed in the code?
-
-The simple answer is \emph{yes}. Yes you can, and should, create your own procedures. These procedures enable you to model the processes related to your program, capturing the individual tasks in the Procedures your create. 
-
-In this Chapter you will learn how to create the following programming \textbf{artefacts}:
-
-\begin{itemize}
-  \item \nameref{sub:program_with_procedures_}: Lets you create Procedures in your program's code.
-  \item \nameref{sub:proc_decl-procedure_declarations}: Declare the actions the Procedure will perform.
-\end{itemize}
-
-\bigskip
-
-You may need to revise the following programming terminology:
-\begin{itemize}
-  \item \nameref{sub:statement}: An instruction performed in your code.
-  \item \nameref{sub:identifier}: The name of an artefact, or the text used to identify something meaningful to the language.
-\end{itemize}
-
-This material also requires that you have a good understanding of the following actions:
-\begin{itemize}
-  \item \nameref{sub:procedure call}: A procedure call is an instruction to run a Procedure.
-\end{itemize}
-
-By the end of this material we will have worked through an example where you create a program that writes a small Morse Code message to the Terminal. This program will break the functionality across a number of procedures, making it easy to extend to output other messages. The output of the program is shown in Figure \ref{fig:procedure-decl-morse_calling}.
-
-\begin{figure}[h]
-   \centering
-   \includegraphics[width=0.9\textwidth]{./topics/procedure-decl/images/MorseCalling} 
-   \caption{Morse Calling run in the Terminal}
-   \label{fig:procedure-decl-morse_calling}
-\end{figure}
-
-
-\input{topics/procedure-decl/concepts/program-with-proc}
-\input{topics/procedure-decl/concepts/procedure-decl}
-
-\clearpage
-\subsection{Summary} % (fold)
-\label{sub:procedure-decl_summary}
-
-This section has introduced you to the idea of creating and using your own Procedures. The concepts related to this are shown in Figure \ref{fig:procedure-decl-summary}. The next section will examine how these concepts can be used to design the Morse Code program.
-
-\begin{figure}[h]
-   \centering
-   \includegraphics[width=\textwidth]{./topics/procedure-decl/diagrams/Summary} 
-   \caption[Chapter Concepts]{Key Concepts introduced in this Chapter}
-   \label{fig:procedure-decl-summary}
-\end{figure}
-
-\mynote{
-\begin{itemize}
-  \item \textbf{Artefacts} are things you can \emph{create} and \emph{use}.
-  \item \textbf{Terms} are things you need to \emph{understand}.
-  \item \textbf{Actions} are things you can \emph{command} the computer to perform.
-\end{itemize}
-}
-
-
-% subsection summary (end)
-
-
-% section procedure_declaration_concepts (end)
+\input{topics/procedure-decl/concepts/procedure-decl-concepts}
 
 % ========================
 % = Using these concepts =
@@ -107,30 +40,14 @@ Procedures give us a means of modelling the tasks we want the computer to perfor
 % =============
 % = C Section =
 % =============
-\clearpage
-\def\pageLang{c}
-\section{Procedure Declarations in C} % (fold)
-\label{sec:procedure_declaration_in_c}
 
-% Concept overview
-\input{topics/procedure-decl/c/c-morse-calling}
-
-% Parts of the syntax
-\input{topics/procedure-decl/c/c-program-with-proc}
-\input{topics/procedure-decl/c/c-procedure-decl}
-
-
-% section procedure_declaration_in_c (end)
+\input{topics/procedure-decl/c/procedure-decl-in-c}
 
 % ==================
 % = Pascal Section =
 % ==================
-\clearpage
-\def\pageLang{pascal}
-\section{Procedure Declaration in Pascal} % (fold)
-\label{sec:procedure_declaration_in_pascal}
 
-% section procedure_declaration_in_pascal (end)
+\input{topics/procedure-decl/pascal/procedure-decl-in-pascal}
 
 % =========================
 % = Understanding Section =

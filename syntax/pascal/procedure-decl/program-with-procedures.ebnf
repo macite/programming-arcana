@@ -1,0 +1,7 @@
+program = "program", identifier, ";", [uses clause], block, "." ;
+uses clause = "uses", { unit identifier }+(","), ";" ;
+block = declaration part, statement part ;
+
+decl. part = { procedure declaration  }+ ;
+
+stmt. part = "begin", { statement }+(";"), "end" ;

@@ -1,0 +1,22 @@
+\subsection{Implementing Morse Calling in Pascal} % (fold)
+\label{sub:implementing_morse_calling_in_pascal}
+
+Section \ref{sec:using_these_concepts_procedure_decl} of this chapter introduced the `Morse Calling' program, and its design. Its implementation requires the definition of some procedures in the program's code. This section of the chapter introduces the Pascal syntax rules for declaring your own procedures, with the Pascal implementation of Morse Calling being shown in Listing \ref{lst:procedure-decl-pas-morse_calling}.
+
+\passection{\pascode{lst:procedure-decl-pas-morse_calling}{Pascal Morse Calling}{code/pascal/procedure-decl/MorseCalling.pas}}
+
+\mynote{
+\begin{itemize}
+  \item Save the Pascal code in a file named \texttt{MorseCalling.pas}.
+  \item Compile this using \bashsnipet{fpc -S2 MorseCalling.pas}.
+  \item Run the resulting program using \bashsnipet{./MorseCalling}.
+  \item Check that the output matches the expected values.
+  \item Looking over the code you should be able to see the instructions for each procedure.
+  \item Notice how the indentation makes it easy to see where each procedure starts and ends. Always lay your code out so that it is easy to see its structure.
+  \item See how the procedures are declared before they are used. This is important as the Pascal compiler must know about procedures before you can call them.
+  \item To see how to create this have a look at the syntax for declaring \nameref{sub:pas_program_with_procedures_}.
+  \item The program's declaration can contain a number of procedures using the \nameref{sub:pas_procedure_declaration} syntax.
+\end{itemize}
+}
+
+% subsection implementing_morse_sos_in_c (end)

@@ -1,0 +1,7 @@
+procedure decl. = "procedure", identifier, "();", block, ";" ;
+
+block = declaration part, statement part ;
+
+decl. part = { procedure declaration  }+ ;
+
+stmt. part = "begin", { statement }+(";"), "end" ;
