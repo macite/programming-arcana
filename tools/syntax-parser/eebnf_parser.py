@@ -26,6 +26,7 @@ class EEBNFParser():
         }
         
         self._compound_parts = {
+            '|':    self._parse_selection, #empty first option...
             '[':    self._parse_option,
             '{':    self._parse_repeat,
             '(':    self._parse_group,

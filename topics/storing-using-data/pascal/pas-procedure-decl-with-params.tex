@@ -1,0 +1,29 @@
+\clearpage
+\subsection{Pascal Procedure Declaration (with Parameters)} % (fold)
+\label{sub:pas_procedure_declaration_with_parameters_}
+
+In Pascal \nameref{sub:parameter}s can be declared in any function or procedure declaration.
+
+\passyntax{passynt:parameter-procedure-decl}{procedure declarations (with parameters)}{parameters/procedure-decl-with-params}
+
+\mynote{
+\begin{itemize}
+  \item The syntax in \fref{csynt:parameter-procedure-decl} shows the Pascal syntax for declaring procedures with \nameref{sub:parameter}s.
+  \item Parameters in Pascal are declared in a similar way to other variables.
+  \item Pascal supports passing parameters by reference and by value. The parameters in \lref{lst:parameter-test-pas} are all passed by value.
+  \item There are three ways of passing references by reference in Pascal (see \lref{lst:parameter-types-pas} for examples of these):
+  \begin{itemize}
+    \item \textbf{const}: The parameter is passed a reference to the variable, but cannot change its value. This can be used to pass a value \textbf{in} to the procedure by reference.
+    \item \textbf{out}: The parameter is passed a reference to the variable, but cannot assume it contains a meaningful value. This can be used to pass a value \textbf{out} to the procedure by reference.
+    \item \textbf{var}: The parameter is passed a reference to the variable. This can be used to pass a value \textbf{in} and \textbf{out} of the procedure by reference.
+  \end{itemize}
+\end{itemize}
+}
+
+\clearpage
+
+\passection{\pascode{lst:parameter-test-pas}{Example procedure with parameters}{code/pascal/storing-using-data/ParameterTest.pas}}
+
+\passection{\pascode{lst:parameter-types-pas}{Example of the different parameter types}{code/pascal/storing-using-data/ParameterTypes.pas}}
+
+% subsection c_procedure_declaration_with_parameters_ (end)

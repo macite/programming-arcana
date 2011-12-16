@@ -7,11 +7,11 @@ const float PI = 3.1415;
 float global_float = 12.3;
 int global_int = 73;
 
-void test(int param_int, int param_int2)
+void test(int param_int, float param_float)
 {
     int my_local = 37, another_local = 42;
     printf("my local int = %d, another_local = %d\n", my_local, another_local);
-    printf("param int = %d, param int2 = %d\n", param_int, param_int2);
+    printf("param int = %d, param float = %f\n", param_int, param_float);
     printf("globals are %f and %d\n", global_float, global_int);
 }
 

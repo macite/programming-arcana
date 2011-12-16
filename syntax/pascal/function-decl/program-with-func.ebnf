@@ -1,0 +1,13 @@
+procedure decl. = "procedure", identifier, "();", block, ";" ;
+
+block = declaration part, statement part ;
+
+decl. part = { constant declarations | function declaration | procedure declaration | variable declarations  }+ ;
+
+constant declarations = "const", { identifier, "=", expression, ";" }+ ;
+
+variable decls. = "var", { variable declaration }+ ;
+
+variable decl. = {identifier}+(","), ":", type identifier, [ "=", expression ], ";";
+
+stmt. part = "begin", { statement }+(";"), "end" ;

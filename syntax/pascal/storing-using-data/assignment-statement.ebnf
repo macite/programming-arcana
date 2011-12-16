@@ -1,0 +1,3 @@
+assignment stmt. = variable name, "=" | "+=" | "-=" | "*=" | "/=" , expression ;
+
+variable name = identifier;
