@@ -1,4 +1,4 @@
-function decl. = "function", identifier, "(", parameter declarations, "):", $ type identifier, ";" block, ";" ;
+function decl. = "function", identifier, "(", parameter declarations, "):", $ type name, ";" block, ";" ;
 
 block = declaration part, statement part ;
 

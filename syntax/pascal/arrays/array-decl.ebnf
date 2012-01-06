@@ -1,0 +1,5 @@
+subrange type = constant, "..", constant;
+
+variable decl. = {identifier}+(","), ":", [ array specifier ], type name, [ "=", expression ], ";";
+
+array spec. = "array", [ "[", {ordinal type}+(","), "]"], "of" ;

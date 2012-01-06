@@ -1,0 +1,16 @@
+\subsection{Implementing Statistics Calculator in Pascal} % (fold)
+\label{sub:implementing_statistics_calculator_in_pas}
+
+\sref{sec:arrays_using_these_concepts} of this Chapter introduced the Statistics Calculator. A partial implementation of this program is shown in Listing \ref{lst:pas-stats-calc}, with the logic in the \texttt{max} and \texttt{variance} functions still to be implemented. This program reads a number of values from the user into an array, and then calculates and outputs the \textbf{sum}, \textbf{mean}, \textbf{variance}, and \textbf{maximum} value from this data.
+
+\straightcode{\pascode{lst:pas-stats-calc}{Pascal code for the Statistics Calculator}{code/pascal/array/SimpleStats.pas}}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{SysUtils} is used to give access to the \texttt{TryStrToFloat} function. This \emph{tries} to convert a string to a double, and returns a boolean to indicate if it succeeded.
+  \item The arrays in this program are passed by reference using \textbf{const} (for in only) or \textbf{var} (for in and out).
+  \item The \texttt{Low(\ldots)} function gives you the first index of the array, \texttt{High(\ldots)} gives you the last index of the array, and \texttt{Length(\ldots)} tells you the number of elements in the array.
+\end{itemize}
+}
+
+% subsection implementing_statistics_calculator_in_c (end)

@@ -1,0 +1,89 @@
+\clearpage
+\section{Control Flow Concepts} % (fold)
+\label{sec:control_flow_concepts}
+
+Programming is about designing code that commands the computer to perform actions. Earlier chapters have introduced the \nameref{sub:program}, \nameref{sub:procedure}, and \nameref{sub:function} artefacts into which you can enter these instructions, but have not elaborated on the actions that you can perform.
+
+Most of a program's actual work will be carried out in \nameref{sub:assignment_statement}s, and through \nameref{sub:procedure call}s and \nameref{sub:function_call}s. These are the main commands, allowing you to alter values stored in memory and to execute stored instructions. The remaining commands relate to controlling the order in which the computer performs the instructions; called \textbf{control flow statements}.
+
+This chapter introduces the following kinds of instructions. You can use these to get the computer to perform certain \textbf{actions} within your program.
+\begin{itemize}
+  \item \nameref{sub:if_statement}: Run some code if a condition is true.
+  \item \nameref{sub:case_statement}: Selectively run a branch of code.
+  \item \nameref{sub:compound_statement}: Group statements together.
+  \item \nameref{sub:pre_test_loop}: Loop after testing a condition.
+  \item \nameref{sub:post_test_loop}: Loop then test a condition.
+\end{itemize}
+
+In addition to these actions, you will need have a look at an existing \textbf{artefact}:
+\begin{itemize}
+  \item \nameref{sub:boolean_data}: An existing \nameref{sub:type} that has either a \emph{true} or \emph{false} value.
+\end{itemize}
+
+\bigskip
+
+You may need to revise the following programming artefacts:
+\begin{itemize}
+  \item \nameref{sub:program}: The idea of building your own programs.
+  \item \nameref{sub:procedure}: Creating your own Procedure, as well as calling Procedures from libraries.
+  \item \nameref{sub:function}: Creating your own Functions, as well as calling Functions from libraries.
+\end{itemize}
+
+The following programming terminology will also be used in this Chapter:
+\begin{itemize}
+  \item \nameref{sub:statement}: An instruction performed in your code.
+  \item \nameref{sub:type}: A kind of data used in your code.
+\end{itemize}
+
+The example for this chapter is a guessing game, where the user is guessing a number between 1 and 100. An example of this program executing is shown in Figure \ref{fig:control-flow-guess-num}.
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=0.5\textwidth]{./topics/control-flow/images/GuessThatNumber} 
+   \caption[Guess That Number Terminal]{Guess that Number run from the Terminal}
+   \label{fig:control-flow-guess-num}
+\end{figure}
+
+\input{topics/control-flow/concepts/boolean}
+
+\input{topics/control-flow/concepts/branching}
+\input{topics/control-flow/concepts/if-statement}
+\input{topics/control-flow/concepts/case-statement}
+
+\input{topics/control-flow/concepts/looping}
+\input{topics/control-flow/concepts/pre-test-loop}
+\input{topics/control-flow/concepts/post-test-loop}
+
+\input{topics/control-flow/concepts/jump-statements}
+\input{topics/control-flow/concepts/break}
+\input{topics/control-flow/concepts/continue}
+\input{topics/control-flow/concepts/exit}
+\input{topics/control-flow/concepts/goto}
+
+
+\input{topics/control-flow/concepts/combining-statements}
+\input{topics/control-flow/concepts/statement-with-loops}
+
+\clearpage
+\subsection{Summary} % (fold)
+\label{sub:control_flow_summary}
+
+This section has introduced a number of new actions that you can use in your code to create more dynamic programs. 
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=\textwidth]{./topics/control-flow/diagrams/Summary} 
+   \caption[Chapter Concepts]{Key Concepts introduced in this Chapter}
+   \label{fig:control-flow-summary}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item \textbf{Artefacts} are things you can \emph{create} and \emph{use}.
+  \item \textbf{Terms} are things you need to \emph{understand}.
+  \item \textbf{Actions} are things you can \emph{command} the computer to perform.
+\end{itemize}
+}
+
+% subsection summary (end)
+% section control-flow_concepts (end)

@@ -8,7 +8,7 @@
 void draw_water_tank(float x, float y, int width, int height, float pct_full)
 {
     float ellipse_height;       // the height of the ellipses for top/botton
-    float body_height, body_y;  // the height of the core of the cyclinder
+    float body_height, body_y;  // the height of the core of the cylinder
     float bottom_ellipse_y, top_ellipse_y; // the y position of the ellipses
     float water_height, water_y; // the top (y) of the water, and its height
     
@@ -25,7 +25,7 @@ void draw_water_tank(float x, float y, int width, int height, float pct_full)
     // Bottom ellipse
     fill_ellipse(ColorBlue, x, bottom_ellipse_y, width, ellipse_height);
     draw_ellipse(ColorBlack, x, bottom_ellipse_y, width, ellipse_height);
-    // Body - center of cyclinder
+    // Body - center of cylinder
     fill_rectangle(ColorBlue, x, water_y, width, water_height);
     //Top ellipse
     fill_ellipse(ColorBlue, x, top_ellipse_y, width, ellipse_height);

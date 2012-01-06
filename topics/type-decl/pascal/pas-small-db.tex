@@ -1,0 +1,15 @@
+\subsection{Implementing Small DB in Pascal} % (fold)
+\label{sub:implementing_small_db_in_pas}
+
+\sref{sec:using_custom_types} of this Chapter introduced the Small DB program. A partial implementation of this program is shown in \lref{lst:pas-small-db}. The type definitions, and code are missing the details needed to store and display double values. This program reads a number of rows of data from the user (determined by the \texttt{DB\_SIZE} constant). Each row stores a single value, being either a double value, an integer value, or a text value.
+
+\straightcode{\pascode{lst:pas-small-db}{Pascal code for the Small DB program}{code/pascal/types/SmallDB.pas}}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{trim} function removes spaces from the start and the end of the input, ensuring that numbers with leading or trailing spaces are still detected as numbers.
+  \item The type definitions must appear before they are used, as a result they commonly appear at the start of the code after the includes.
+\end{itemize}
+}
+
+% subsection implementing_small_db_in_c (end)

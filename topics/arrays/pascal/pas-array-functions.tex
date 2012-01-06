@@ -1,0 +1,59 @@
+\subsection{Pascal Array Functions} % (fold)
+\label{sec:pascal_array_functions}
+
+Pascal includes a number of functions to help you work with arrays. These allow you to determine the length of the array, and its range of indexes. These functions are typically used in conjuncture with the for loop.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototypes}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{function Length( arg: array of \ldots ): Integer}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{Integer} & The number of elements in the \texttt{arg} array. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ arg } & The array you want to get the length of.\\
+    \hline
+    \multicolumn{2}{c}{} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{function Low( arg: array of \ldots ): Integer}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{Integer} & The lowest index in the \texttt{arg} array. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ arg } & The array you want to get the lowest index of.\\
+    \hline
+    \multicolumn{2}{c}{} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{function High( arg: array of \ldots ): Integer}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{Integer} & The last index in the \texttt{arg} array. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ arg } & The array you want to get the last index of.\\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{Length}, \texttt{High}, and \texttt{Low}}
+  \label{tbl:pas-array-fns}
+\end{table}
+
+\passection{\pascode{plst:array_fn_test}{}{code/pascal/array/TestArrayFunctions.pas}}
+
+% section pascal_array_functions (end)

@@ -6,6 +6,6 @@ decl. part = { procedure declaration | variable declarations   }+ ;
 
 variable decls. = "var", { variable declaration }+ ;
 
-variable decl. = {identifier}+(","), ":", type identifier, [ "=", expression ], ";";
+variable decl. = {identifier}+(","), ":", type name, [ "=", expression ], ";";
 
 stmt. part = "begin", { statement }+(";"), "end" ;

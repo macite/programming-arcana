@@ -1,0 +1,31 @@
+\clearpage
+\subsection{Pascal String} % (fold)
+\label{sub:pas_string}
+
+Pascal has built in support for strings. Behind the scenes Pascal uses an array of characters to store the text for each string. The first element of this array stores an integer that indicates the size of the string, and this is followed by the text characters.
+
+\begin{table}[h]
+\begin{minipage}{\textwidth}
+  \centering
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+Characters: & & F & r & e & d  \\
+\hline
+Bytes Values\footnote{Byte values are shown as decimal.}: & \texttt{4} & \texttt{70} & \texttt{114} & \texttt{101} & \texttt{100} \\
+\hline
+\end{tabular}
+\caption{The characters and byte values for the string containing the text `Fred' in Pascal}
+\label{tbl:pas-string-fred}
+\end{minipage}
+\end{table}
+
+\passection{\pascode{plst:test-strings}{Code illustrating working with strings in Pascal}{code/pascal/array/TestString.pas}}
+
+\mynote{
+\begin{itemize}
+  \item You can access individual characters in a string using array notation, the first text character is at index 1.
+  \item Pascal strings can be concatenated used \texttt{+}, for example `Hello' + ` World'.
+\end{itemize}
+}
+
+% subsection pas_string (end)

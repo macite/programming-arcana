@@ -11,7 +11,7 @@ void draw_water_tank(float x, float y, int width, int height, float pct_full)
     float water_height, water_y;
     
     ellipse_height = height * 0.1;
-    body_height = height - ellipse_height;  // the area for the center of the cyclinder
+    body_height = height - ellipse_height;  // the area for the center of the cylinder
     body_y = y + ellipse_height / 2;
     bottom_ellipse_y = (y + height) - ellipse_height;
     
@@ -23,7 +23,7 @@ void draw_water_tank(float x, float y, int width, int height, float pct_full)
     // Bottom ellipse
     fill_ellipse(ColorBlue, x, bottom_ellipse_y, width, ellipse_height);
     draw_ellipse(ColorBlack, x, bottom_ellipse_y, width, ellipse_height);
-    // Body - center of cyclinder
+    // Body - center of cylinder
     fill_rectangle(ColorBlue, x, water_y, width, water_height);
     //Top ellipse
     fill_ellipse(ColorBlue, x, top_ellipse_y, width, ellipse_height);

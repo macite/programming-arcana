@@ -1,0 +1,7 @@
+enum decl. = "(", { enum constant }+(","), ")";
+
+enum constant = enumeration constant name, [ "=", constant expression ];
+
+enum name = identifier;
+
+enum const name = identifier;

@@ -1,0 +1,1 @@
+parameter decl. = ~ | "var" | "const" | "out", {identifier}+(","), ":", ["array of"], type name, ";";

@@ -1,0 +1,5 @@
+case statement = "case", expression, "of", { case }+(";"), [default case], "end";
+
+case = {constant expr., ["..", constant expr.]}+(","), ":", statement ;
+
+default case = "else", { statement }*(";") ;

@@ -1,6 +1,4 @@
 program TestArray;
-//uses SysUtils;
-
 
 procedure Main();
 var
@@ -8,7 +6,7 @@ var
     data1: array [0..2] of Integer;
     i: Integer;
 begin
-    data1 := data;
+    data1 := data;      // copy from data into data1...
     data[0] := 1;
     for i := 0 to 2 do
     begin

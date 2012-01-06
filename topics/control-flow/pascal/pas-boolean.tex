@@ -1,0 +1,74 @@
+\clearpage
+\subsection{Pascal Boolean Data} % (fold)
+\label{sub:pas_boolean_data}
+
+Pascal includes a \texttt{Boolean} type, as well as \texttt{True} and \texttt{False} values.
+
+\begin{table}[h] 
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Boolean Type}} \\
+\hline
+\emph{Name} & \emph{Size} & \emph{Values} \\
+\hline
+\texttt{Boolean} & 1 byte/8 bits & \texttt{True} or \texttt{False} \\
+\hline
+\end{tabular}
+\caption{Pascal Boolean Type}\label{tbl:pas-boolean}
+\end{minipage}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+     & \textbf{Description} & \textbf{C} \\
+    \hline
+    \textbf{Equal} & Are the values the same? & \texttt{a = b} \\
+    \hline
+    \textbf{Not Equal} & Are the values different? & \texttt{a <> b} \\
+    \hline
+    \textbf{Larger Than} & Is the left value larger than the right? & \texttt{a > b}  \\
+    \hline
+    \textbf{Less Than} & Is the left value smaller than the right? & \texttt{a < b}  \\
+    \hline
+    \textbf{Larger Or Equal} & Is the left value equal or larger than the right? & \texttt{a >= b}  \\
+    \hline
+    \textbf{Less Or Equal} & Is the left value smaller or equal to the right? & \texttt{a <= b}  \\
+    \hline
+  \end{tabular}
+  \caption{Pascal Comparison Operators}
+  \label{tbl:pas_comparison_op}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+     & \textbf{Description} & \textbf{Pascal} \\
+    \hline
+    \textbf{And} & Are both values True? & \texttt{a and b} \\
+    \hline
+    \textbf{Or} & Is at least one value True? & \texttt{a or b} \\
+    \hline
+    \textbf{Xor} & Is one value True, and the other False? & \texttt{a xor b} \\
+    \hline
+    \textbf{Not} & Is the value False? & \texttt{not a} \\
+    \hline
+  \end{tabular}
+  \caption{Logical Operators}
+  \label{tbl:pas-logical-operators}
+\end{table}
+
+\mynote{
+The Pascal logical operators have precedence over the comparison operators, this means you will need to use parenthesis to group comparisons when combining them using logical operators. For example, \texttt{(a $>$ b) or (c $<$ d)}.
+}
+
+\clearpage
+
+\passection{\pascode{plst:bool-test}{Pascal Boolean Test Code}{code/pascal/control-flow/TestBools.pas}}
+
+
+% subsection c_boolean_data (end)
