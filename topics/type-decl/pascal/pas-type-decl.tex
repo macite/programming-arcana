@@ -1,0 +1,31 @@
+\clearpage
+\subsection{Pascal Type Declaration} % (fold)
+\label{sub:pas_type_declaration}
+
+In Pascal you can declare your own record/structure, union, and enumeration types using a \texttt{type} declaration. It is also possible to create an alias type declaration, in which you assign a new name to an existing type.
+
+\passyntax{psynt:type-decl}{Type Declarations}{type-decl/type-decl}
+
+\begin{figure}
+  \passection{\pascode{plst:test-alias}{Testing the alias declarations in Pascal}{code/pascal/types/TestAlias.pas}}
+\end{figure}
+
+\mynote{
+\begin{itemize}
+  \item This syntax allows you to declare your own data types.
+  \item The following sections contain the details of declaring different kinds of custom types:
+  \begin{itemize}
+    \item Records/structures and unions are shown in \nameref{sub:pas_structure_declaration}.
+    \item Enumerations are shown in \nameref{sub:pas_enum_declaration}.
+  \end{itemize}
+  \item \lref{plst:test-alias} shows how to declare alias types. An alias type give a new name to an existing type. Included in this are examples of the following:
+  \begin{itemize}
+    \item \texttt{Number} is an alias for \texttt{Integer}.
+    \item \texttt{FiveNumbers} is an alias for an array of five \texttt{int} values.
+  \end{itemize}
+  \item Notice that these new types can be used to declare variables, arrays, and parameter.
+  \item \texttt{grid2} is an array that contains \texttt{FiveNumbers} in each element. Each element of this array is an array of five integer values.
+\end{itemize}
+}
+
+% subsection c_type_declaration (end)

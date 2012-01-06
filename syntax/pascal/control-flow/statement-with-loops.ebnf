@@ -1,0 +1,7 @@
+statement = procedure call | assignment statement | compound statement | branching statement | looping statement | jump statement;
+
+branching stmt. = if statement | case statement ;
+
+looping stmt. = while loop | repeat until loop | for loop ;
+
+jump statement = break statement | continue statement | return statement ;

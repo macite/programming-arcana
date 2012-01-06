@@ -5,7 +5,7 @@ begin
     result := x * x;
 end; 
 
-function sum(a, b: Integer): Integer;
+function Sum(a, b: Integer): Integer;
 begin
     result := a + b;
 end;

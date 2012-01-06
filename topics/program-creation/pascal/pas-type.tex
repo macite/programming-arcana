@@ -37,7 +37,7 @@
 \hline
 \texttt{Char}  & 1 byte/8 bits & \multicolumn{2}{c|}{} \\
 \hline
-\texttt{String} & various\footnote{1 byte per character + 1 byte overhead} &  \multicolumn{2}{c|}{Supports up to 255 characters by default,} \\
+\texttt{String} & 256 bytes/2048 bits &  \multicolumn{2}{c|}{Supports up to 255 characters by default,} \\
  & & \multicolumn{2}{c|}{compiler options allow longer strings.} \\
 \hline
 \end{tabular}
@@ -51,8 +51,8 @@
     \hline
     \textbf{Type} & \textbf{Operations Permitted} & \textbf{Notes}\\
     \hline
-    Whole Numbers     &   \texttt{( ) + - / *} & Division rounds down if all\\
-                                    &                        & values are whole numbers.\\
+    Whole Numbers     &   \texttt{( ) + - div / * mod} & \\
+       & & \\
     Real Numbers   &   \texttt{( ) + - / *} &    \\
        & & \\
     Text           &   \texttt{( ) + }          & The \texttt{+} performs concatenation.\\

@@ -2,7 +2,7 @@ procedure decl. = "procedure", identifier, "(", parameter declarations, ");", bl
 
 parameter decls. = {parameter declaration}+(";") ;
 
-parameter decl. =  ~ | "const" | "out" | "var", {identifier}+(","), ":", type identifier;
+parameter decl. =  ~ | "const" | "out" | "var", {identifier}+(","), ":", type name;
 
 block = declaration part, statement part ;
 
@@ -10,6 +10,6 @@ decl. part = { variable declarations   }+ ;
 
 variable decls. = "var", { variable declaration }+ ;
 
-variable decl. = {identifier}+(","), ":", type identifier, [ "=", expression ], ";";
+variable decl. = {identifier}+(","), ":", type name, [ "=", expression ], ";";
 
 stmt. part = "begin", { statement }+(";"), "end" ;

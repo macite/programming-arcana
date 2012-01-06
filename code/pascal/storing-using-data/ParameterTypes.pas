@@ -9,7 +9,7 @@ end;
 procedure TestOutByRef(out xOut: Integer);
 begin
     WriteLn('I have a reference to the x variable');
-    WriteLn('It does not have a meaning value');
+    WriteLn('It does not have a meaningful value');
     WriteLn('but I can store a value in it...');
     xOut := 10;
 end;

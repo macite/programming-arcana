@@ -1,0 +1,13 @@
+record decl. = "record", { field declaration }+, [ variant part ]"end";
+
+field decl. = {identifier}+(","), ":", [ array specifier ], type name, ";" ;
+
+array spec. = "array", [ "[", {ordinal type}+(","), "]"], "of";
+
+variant part = "case", [ field name, ":"] ordinal type, "of", union fields;
+
+union fields = "(", { field declaration }+, ")", ";";
+
+record name = identifier ;
+
+field name = identifier ;

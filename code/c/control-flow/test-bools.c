@@ -13,7 +13,7 @@ void print_bool(bool value)
 // Is v1 at least double v2
 bool at_least_double(int v1, int v2)
 {
-    return v1 * 2 >= v2;
+    return v1 >= 2 * v2;
 }
 
 int main()

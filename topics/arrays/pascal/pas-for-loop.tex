@@ -1,0 +1,20 @@
+\clearpage
+\subsection{Pascal For Loop} % (fold)
+\label{sub:pas_for_loop}
+
+The \nameref{sub:for_loop} in Pascal can be used to implement the logic to process each element of an array. With the for loop you specify a control variable, and the range of values it will loop over. When the loop is started the control variable is assigned the initial value, at the end of each loop this value is incremented (for \texttt{to}) or decremented (for \texttt{downto}) until it has processed all values in the indicated range.
+
+\passyntax{psynt:looping-for-loop}{a for loop}{arrays/for-loop}
+
+\passection{\pascode{plst:test-for}{Code illustrating the for loop in Pascal}{code/pascal/array/TestFor.pas}}
+
+\mynote{
+\begin{itemize}
+  \item This is the Pascal syntax for implementing a \nameref{sub:for_loop}.
+  \item The first expression is the \emph{initial value} given to the variable.
+  \item If you use \texttt{to} the variable's value is increased by one at the end of each loop, ending the loop when the variable's value is larger than the second expression.
+  \item Alternatively \texttt{downto} decreased the variable's value by one at the end of each loop, ending when the variable's value is less than the second expression.
+\end{itemize}
+}
+
+% subsection c_while_loop (end)

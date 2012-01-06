@@ -35,14 +35,14 @@ int main()
     open_graphics_window("Bicycle Race...", 800, 600);
     load_default_colors();
     
-    clear_screen();
+    clear_screen(ColorWhite);
     
     draw_bike(ColorRed, bike_x_for_accel(random_accel()), 10);
     draw_bike(ColorGreen, bike_x_for_accel(random_accel()), 60);
     draw_bike(ColorBlue, bike_x_for_accel(random_accel()), 110);
     draw_bike(rgbcolor(127, 127, 0), bike_x_for_accel(random_accel()), 160);
     draw_bike(rgbcolor(127, 127, 127), bike_x_for_accel(random_accel()), 210);
-    draw_bike(rgbcolor(255, 255, 255), bike_x_for_accel(random_accel()), 260);
+    draw_bike(rgbcolor(0, 0, 0), bike_x_for_accel(random_accel()), 260);
     draw_bike(random_color(), bike_x_for_accel(random_accel()), 310);
     
     refresh_screen();

@@ -1,4 +1,4 @@
-case statement = "switch", "(", expression, ")", "{", { case }+, default case, "}";
+case statement = "switch", "(", expression, ")", "{", { case }+, [default case], "}";
 
 case = "case", constant expression, ":", { statement }*(";"), ["break;"] ;
 

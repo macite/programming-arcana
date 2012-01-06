@@ -260,11 +260,11 @@ In addition to these artefacts the program will make use of some procedures from
 \end{itemize}
 
 \csection{
-In C the input Procedure to read values from the Terminal is called \csnipet{scanf()}, see \nameref{sub:c_terminal_input}.
+In C the input procedure to read values from the Terminal is called \csnipet{scanf()}, see \nameref{sub:c_terminal_input}.
 }
 
 \passection{
-In Pascal the main input Procedure to read values from the Terminal is called \passnipet{ReadLn()}
+In Pascal the input procedure to read values from the Terminal is called \passnipet{ReadLn()}
 , see \nameref{sub:pas_terminal_input}.}
 
 % subsubsection change_calculator_design_overview (end)
@@ -274,7 +274,7 @@ In Pascal the main input Procedure to read values from the Terminal is called \p
 
 Figure \ref{fig:simple-change-structure} shows the Structure Chart for the Change Calculator. This shows the structure of the solution, visually showing the functions and procedures and the calls between them. This diagram has been enhanced to show the parameter values being passed into the functions and procedures, and the values being returned. These data flows are shown alongside the call arrow, with their own smaller arrow to indicate the direction of the flow. 
 
-By reading Figure \ref{fig:simple-change-structure} you can tell that \texttt{Coins to Give} is going to be a function as it is returning data to \texttt{Main}. \texttt{Give Change} could be a function or a procedure as it is accepting and returning the \texttt{Change Value}, in this design it is a procedure, and updates the value in the \texttt{Change Value} variable using pass by reference. You can also see that \texttt{Coins to Give} and \texttt{Give Change} both require parameters to accept the data being passed into them. 
+By reading \fref{fig:simple-change-structure} you can tell that \texttt{Coins to Give} is going to be a function as it is returning data to \texttt{Main}. \texttt{Give Change} could be a function or a procedure as it is accepting and returning the \texttt{Change Value}, in this design it is a procedure, and updates the value in the \texttt{Change Value} variable using pass by reference. You can also see that \texttt{Coins to Give} and \texttt{Give Change} both require parameters to accept the data being passed into them. 
 
 The Structure Chart shows the static structure of the code, indicating the calls between the functions and procedures, but not communicating when these are called, or how many times. This dynamic information is captured in the Sequence Diagram shown in Figure \ref{fig:simple-change-seq}. This diagram shows the sequence in which the function and procedure calls are performed. Notice that this diagram has also been enhanced to show the data that flows into and out of the functions and procedures. 
 

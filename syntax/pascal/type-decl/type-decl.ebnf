@@ -1,0 +1,7 @@
+type decls. = "type", { type declaration }+(";") ;
+
+type decl. = type name, "=", alias type name | array type declaration | enum declaration | record declaration ;
+
+array type decl. = "array", [ "[", {ordinal type}+(","), "]"], "of", type name ;
+
+type name = identifier ;
