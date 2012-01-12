@@ -71,7 +71,7 @@ This data type will also work nicely with the planned functionality for the prog
 \subsubsection{Looking for unions in Small DB} % (fold)
 \label{ssub:looking_for_unions_in_small_db}
 
-The \textbf{union}, the \textbf{Variant Record} in Pascal, is going to be less common than records, but they can offer some useful flexibility when designing your code. The union gives you the ability to have a type that stores one of a selection of types. If your program requires the ability to store different types at the one location then a union is a useful way of modelling this.
+The \textbf{union}\footnote{\textbf{Variant record} in Pascal} is going to be less common than records, but they can offer some useful flexibility when designing your code. The union gives you the ability to have a type that stores one of a selection of types. If your program requires the ability to store different types at the one location then a union is a useful way of modelling this.
 
 Reading the description of the Small DB program there does appear to be the need for a union. Each \texttt{row} needs to be able to store \emph{either} a Integer, a Double, or a text value. Using a union it will be possible to create a type to model this. This can be called the \texttt{Column Value} type, and will be the union of these three values.
 

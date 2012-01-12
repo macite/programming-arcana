@@ -10,14 +10,6 @@
 // = Type declarations =
 // =====================
 
-// The user can choose to add, delete, or print data or to quit
-typedef enum {
-    ADD_DATA,
-    DELETE_DATA,
-    PRINT_DATA,
-    QUIT
-} menu_option;
-
 typedef union { /* same as original version */ } column_value;
 typedef enum { /* same as original version */ } data_kind;
 typedef struct { /* same as original version */ } row;
@@ -29,6 +21,14 @@ typedef struct {
     int row_count;      // The number of rows in the array
     row *rows;          // A pointer to the rows in memory
 } data_store;
+
+// The user can choose to add, delete, or print data or to quit
+typedef enum {
+    ADD_DATA,
+    DELETE_DATA,
+    PRINT_DATA,
+    QUIT
+} menu_option;
 
 // ====================================
 // = General Functions and Procedures =
@@ -43,7 +43,44 @@ void clear_input() { /* same as original version */ }
 // =====================================
 row read_row(int next_id) { /* same as original version */ }
 void print_row(row to_print) { /* same as original version */ }
-menu_option get_menu_option() { /* same as original version */ }
+
+
+
+
+
+// Show a menu to the user and get the option they select
+menu_option get_menu_option()
+{
+    int input = 0;
+    
+    printf("=========================\n");
+    printf("| Small DB              |\n");
+    printf("=========================\n");
+    printf(" 1: Add Data\n");
+    printf(" 2: Print Data\n");
+    printf(" 3: Delete Data\n");
+    printf(" 4: Quit\n");
+    printf("=========================\n");
+    printf("Choose Option: ");
+    
+    while(scanf("%d", &input) != 1 || input < 1 || input > 4 )
+    {
+        clear_input();
+        printf("Please enter a value between 1 and 4.\n");
+        printf("Choose Option: ");
+    }
+    // Ensure that input is clear after menu is read.
+    clear_input();
+    
+    switch(input)
+    {
+        case 1: return ADD_DATA;
+        case 2: return PRINT_DATA;
+        case 3: return DELETE_DATA;
+        case 4: return QUIT;
+        default: return QUIT;
+    }
+}
 
 // Add a row to the data store
 void add_a_row(data_store *db_data)
@@ -123,6 +160,16 @@ void print_all_rows(const data_store *db_data)
         print_row(db_data->rows[i]);
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 // ========

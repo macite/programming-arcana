@@ -1,0 +1,20 @@
+\clearpage
+\subsection{Pascal Variable Declaration (with pointers)} % (fold)
+\label{sub:pas_variable_declaration_with_pointers_}
+
+In Pascal you can declare pointer variables and types. Pointer variables can be used to declare \nameref{sub:local_variable}s and \nameref{sub:global_variable}s, but cannot be used as \nameref{sub:parameter}s. To pass a pointer to a parameter you need to declare your own pointer type and use that.
+
+\passyntax{psynt:var-decl-with-ptr}{variable declarations with pointers}{dynamic-memory/pointer-decl}
+
+\mynote{
+\begin{itemize}
+  \item This code allows you to declare your own \nameref{sub:pointer} variables in C.
+  \item For variable declarations, the main aspect to pay attention to is the \texttt{\^}: this indicates that the variable is a pointer.
+  \item See \lref{plst:simple-var-ptr} for example variable declarations.
+  \item The variables in \texttt{Main} could be declared as \texttt{\^ Integer} or as \texttt{IntPtr}. It is good practice to declare and use your own pointer types, so \texttt{IntPtr} is preferred.
+\end{itemize}
+}
+
+\passection{\pascode{plst:simple-var-ptr}{Pascal code with pointer variables}{code/pascal/dynamic-memory/SimplePtrVars.pas}}    
+
+% subsection c_variable_declaration_with_pointers_ (end)

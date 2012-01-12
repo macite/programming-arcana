@@ -1,105 +1,103 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include "SwinGame.h"
+program BubbleGame;
+uses
+  sgTypes, sgInput, sgAudio, sgGraphics, sgResources, sgUtils, sgText, sgSprites, sgImages;
 
-#define BUBBLE_COUNT 10
+const BUBBLE_COUNT = 10;
 
 // Load the bubble image
-void load_resources()
-{
-    load_bitmap_named("bubble", "bubble.png");
-}
+procedure LoadResources();
+begin
+    LoadBitmapNamed('bubble', 'bubble.png');
+end;
 
 // Place a bubble somewhere on the screen, 
 // and give it a random movement
-void place_bubble(sprite bubble)
-{
-    sprite_set_x(bubble, rnd(screen_width() - sprite_width(bubble)));
-    sprite_set_y(bubble, rnd(screen_height() - sprite_height(bubble)));
-    sprite_set_dx(bubble, (rnd() * 2) - 1); // between +1 and -1
-    sprite_set_dy(bubble, (rnd() * 2) - 1); // between +1 and -1
-}
+procedure PlaceBubble(bubble : Sprite);
+begin
+    SpriteSetX(bubble, Rnd(ScreenWidth() - SpriteWidth(bubble)));
+    SpriteSetY(bubble, Rnd(ScreenHeight() - SpriteHeight(bubble)));
+    SpriteSetDx(bubble, (Rnd() * 2) - 1); // between +1 and -1
+    SpriteSetDy(bubble, (Rnd() * 2) - 1); // between +1 and -1
+end;
 
 // Create bubbles, and place them on the screen to start
-void populate_bubbles(sprite bubbles[], int sz)
-{
-    int i;
-    int bubble_width, bubble_height;
+procedure PopulateBubbles(var bubbles: array of Sprite);
+var
+    i, bubbleWidth, bubbleHeight: integer;
+begin 
+    bubbleWidth := BitmapWidth(BitmapNamed('bubbles'));
+    bubbleHeight := BitmapHeight(BitmapNamed('bubbles'));
     
-    bubble_width = bitmap_width(bitmap_named("bubbles"));
-    bubble_height = bitmap_height(bitmap_named("bubbles"));
-    
-    for (i = 0; i < sz; i++)
-    {
-        bubbles[i] = create_sprite(bitmap_named("bubble"));
-        place_bubble(bubbles[i]);
-    }
-}
+    for i := Low(bubbles) to High(bubbles) do
+    begin
+        bubbles[i] := CreateSprite(BitmapNamed('bubble'));
+        PlaceBubble(bubbles[i]);
+    end;
+end;
 
 // Update the bubble, move it and check if it is off screen
-void update_bubble(sprite bubble)
-{
-    update_sprite(bubble);  // Moves based on sprites dx,dy
+procedure UpdateBubble(bubble: Sprite);
+begin
+    UpdateSprite(bubble);  // Moves based on sprites dx,dy
     
-    if (sprite_offscreen(bubble)) // is it off screen?
-    {
-        place_bubble(bubble);   // put it back on screen
-    }
-}
+    if (SpriteOffscreen(bubble)) then  // is it off screen?
+        PlaceBubble(bubble)            // put it back on screen
+end;
 
 // Update all of the bubbles...
-void update_bubbles(sprite bubbles[], int sz)
-{
-    int i;
-    
-    for (i = 0; i < sz; i++)
-    {
-        update_bubble(bubbles[i]);
-    }
-}
+procedure UpdateBubbles(var bubbles: array of Sprite);
+var
+    i: integer;
+begin    
+    for i := Low(bubbles) to High(bubbles) do
+    begin
+        UpdateBubble(bubbles[i]);
+    end;
+end;
 
 // Draw all of the bubbles
-void draw_bubbles(sprite bubbles[], int sz)
-{
-    int i;
-    
-    for (i = 0; i < sz; i++)
-    {
-        draw_sprite(bubbles[i]);
-    }
-}
+procedure DrawBubbles(const bubbles: array of Sprite);
+var
+    i: integer;
+begin    
+    for i := Low(bubbles) to High(bubbles) do
+    begin
+        DrawSprite(bubbles[i]);
+    end;
+end;
 
 // A start of a bubble game...
-// Requires "bubble.png" to be placed in Resources/images
-int main()
-{
+// Requires 'bubble.png' to be placed in Resources/images
+procedure Main();
+var
     // Create an array of bubbles
-    sprite bubbles[BUBBLE_COUNT];
+    bubbles: array [0 .. BUBBLE_COUNT - 1] of Sprite;  
+begin
+    OpenAudio();
+    OpenGraphicsWindow('Bubble Pop!', 800, 600);
     
-    open_audio();
-    open_graphics_window("Bubble Pop!", 800, 600);
-    load_default_colors();
+    LoadResources();
+    PopulateBubbles(bubbles);    // Load the bubbles
     
-    load_resources();
-    populate_bubbles(bubbles, BUBBLE_COUNT);    // Load the bubbles
-    
-    do
-    {
+    repeat
         // Update the game...
-        process_events();
-        update_bubbles(bubbles, BUBBLE_COUNT);
+        ProcessEvents();
+        UpdateBubbles(bubbles);
         
         // Draw the game
-        clear_screen();
+        ClearScreen();
         
-        draw_framerate(0,0);
-        draw_bubbles(bubbles, BUBBLE_COUNT);
+        DrawFramerate(0,0);
+        DrawBubbles(bubbles);
         
-        refresh_screen();
-    } while ( ! window_close_requested() );
+        RefreshScreen();
+    until WindowCloseRequested();
     
-    close_audio();
+    CloseAudio();
     
-    release_all_resources();
-    return 0;
-}
+    ReleaseAllResources();
+end;
+
+begin
+    Main();
+end.

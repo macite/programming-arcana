@@ -1,0 +1,18 @@
+\clearpage
+\subsection{Small DB 2, the linked version in Pascal} % (fold)
+\label{sub:pas_small_db_2_the_linked_version}
+
+% subsection small_db_2_the_linked_version (end)
+\sref{sec:using_dynamic_memory_allocation}, \nameref{sec:using_dynamic_memory_allocation}, introduced a version of the Small DB program with a linked structure, as opposed to the array structure used to manage the rows in \cref{cha:more_data_types}. The Pascal code for the altered functions and procedures is shown in \lref{plst:linked-db}, the original version can be found in \lref{lst:p-small-db}.
+
+\straightcode{\pascode{plst:linked-db}{Pascal code for the linked version of Small DB, see \lref{plst:dynamic-array-db} for the array version of this program}{code/pascal/dynamic-memory/LinkedDBforChap.pas}}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{PrintAll}, \texttt{DeleteRow}, and \texttt{AddRow} are the only procedures that have changed significantly.
+  \item Each of these is explained in more detail in \sref{sec:using_dynamic_memory_allocation}.
+  \item Each row has a pointer to the next row in the database, this will point to nothing in the last row.
+  \item The \texttt{DataStore} has a pointer to the first and last rows in the database.
+  \item Adding and removing rows is done by changing the links between row values on the heap.
+\end{itemize}
+}

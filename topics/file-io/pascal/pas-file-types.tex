@@ -1,0 +1,20 @@
+\clearpage
+
+\subsection{Pascal Text Type} % (fold)
+\label{sub:pas_file_type}
+
+Pascal includes \texttt{File} and \texttt{Text} types that are used to interact with files on the computer. The \texttt{File} type is used for binary files, the \texttt{Text} type is used for text files.
+
+\passection{\pascode{plst:file}{Example use of the Text type to read and write text data}{code/pascal/file-io/TextFileIO.pas}}
+
+\mynote{
+\begin{itemize}
+  \item The \texttt{Text} type is used to read and write text data from a file.
+  \item You open the file for reading using \texttt{Assign} then \texttt{Reset}, to write use \texttt{Assign} then \texttt{Rewrite}.
+  \item After the file has been opened you must remember to close it using \texttt{Close}.
+  \item File based versions of \texttt{WriteLn} and \texttt{ReadLn} allow you to read and write text data from the file.
+\end{itemize}
+}
+
+
+% subsection c_file_type (end)
