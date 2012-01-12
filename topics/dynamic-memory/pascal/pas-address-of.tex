@@ -1,0 +1,36 @@
+\clearpage
+
+\subsection{Pascal Pointer Operators} % (fold)
+\label{sub:pas_pointer_operators}
+
+Pascal provides a number of pointer operators that allow you to get and use pointers.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|l|l|p{8cm}|}
+    \hline
+    \textbf{Name} & \textbf{Operator}  & \textbf{Example}  & \textbf{Description} \\
+    \hline
+    Address Of & \texttt{@} & \texttt{@x} & Gets a pointer to the variable/field etc. \\
+    \hline
+    Dereference & \texttt{\^} & \texttt{ptr\^} & Follow the pointer, and read the value it points to.\\
+    \hline
+  \end{tabular}
+  \caption{C Pointer Operators}
+  \label{tbl:c-ptr-operators}
+\end{table}
+
+You can get a pointer to a value using the \emph{at} operator (@). This operator lets you get the address of a variable, field, etc.
+
+\passection{\pascode{plst:pointer_operators}{Pascal code showing pointer operator usage}{code/pascal/dynamic-memory/TestPointerOperators.pas}}  
+
+\mynote{
+\begin{itemize}
+  \item The address of operator gets a pointer to the value in the expression that follows it.
+  \item Dereference means `\emph{follow the pointer, and read what it points to}'.
+  \item Use the \emph{caret} (\texttt{\^}) to dereference the pointer and get the value it points to.
+  \item \lref{plst:pointer_operators} shows how you can get addresses of different variables, and how you can access the value pointed to using \texttt{\^}.
+\end{itemize}
+}
+
+% subsection c_pointer_operators (end)

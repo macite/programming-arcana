@@ -1,0 +1,318 @@
+\clearpage
+\subsection{Pascal File Procedures} % (fold)
+\label{sub:pas_file_functions}
+
+There are a number of functions and procedures in Pascal that will give you the ability to read and write data from files.
+
+\subsubsection{Assigning a filename} % (fold)
+\label{ssub:assigning_a_filename}
+
+Before you can interact with a file the first step will be to assign a filename to the \texttt{Text} variable.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Assign( var fileVar: Text; filename: String )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ fileVar } & The file variable to have its filename set\\
+    & \\
+    \texttt{ filename } & The name of the file to open. This can include a relative or absolute path to the file. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Assign} procedure}
+  \label{tbl:assign}
+\end{table}
+
+% subsubsection assigning_a_filename (end)
+
+\subsubsection{Opening the file to read} % (fold)
+\label{ssub:opening_the_file_to_read}
+
+The \texttt{Reset} procedure is used to reset the file cursor to the start of the file for reading.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Reset( var fileVar: Text )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ fileVar } & The file to reset, after this call you can read from this file.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Reset} procedure}
+  \label{tbl:reset}
+\end{table}
+
+% subsubsection opening_the_file_to_read (end)
+
+\subsubsection{Opening the file to write} % (fold)
+\label{ssub:opening_the_file_to_write}
+
+You can call either \texttt{Rewrite} or \texttt{Append} to write to the file. Rewrite deletes the old file contents, append moves to the end of the file and adds new data there.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Rewrite( var fileVar: Text )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ fileVar } & The file to rewrite. After this call you can write data to this file, this will override the existing contents.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Rewrite} procedure}
+  \label{tbl:reset}
+\end{table}
+
+\clearpage
+
+\texttt{Append} can also be used to open a file for write access. This will not overwrite existing data, keeping the cursor at the end of the existing file.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Append( var fileVar: Text )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ fileVar } & The file to append data to. After this call you can write data to this file and it will appear after the existing contents of the file.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Rewrite} procedure}
+  \label{tbl:reset}
+\end{table}
+
+% subsubsection opening_the_file_to_write (end)
+
+\subsubsection{Closing a file} % (fold)
+\label{ssub:closing_a_file}
+
+Once you have opened a file it is important that you also close it. The \texttt{Close} procedure can be used to close an opened file.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Close( var fileVar: Text )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ fileVar } & The file to close. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Close} procedure}
+  \label{tbl:close}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item Make sure to close all opened files.
+  \item Remember to check all paths through your code.
+\end{itemize}
+}
+
+% subsubsection closing_a_file (end)
+\clearpage
+\subsubsection{Writing text data to file} % (fold)
+\label{ssub:writing_text_data_to_file}
+
+You can use \texttt{WriteLn} to write data to a \texttt{Text} file that has been opened with write capabilities.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure WriteLn(destination: Text; \ldots )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ destination } & The Text file to write the output into.\\
+    & \\
+    \texttt{\ldots}   & The data to be written \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{WriteLn}}
+  \label{tbl:FileWriteLn}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item This will write the data as text to the file.
+  \item The file must be opened with write permissions using \texttt{Rewrite} or \texttt{Append}
+\end{itemize}
+}
+
+% subsubsection writing_data_to_file (end)
+
+\subsubsection{Reading text data from file} % (fold)
+\label{ssub:reading_text_data_from_file}
+
+Reading text data from a file is similar to reading data from the Terminal or from a string.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure ReadLn(source: Text; \ldots )}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Returns}} \\
+    \hline
+    \texttt{int} & The number of values read by \texttt{fscanf}. \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ source } & The Text file from which the input is read.\\
+    & \\
+    \texttt{\ldots}   & The variables into which the values will be read. \\
+    \hline
+  \end{tabular}
+  \caption{Parameters that must be passed to \texttt{ReadLn}}
+  \label{tbl:File Readln}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item This will read text data from the file.
+  \item The file must be opened with read permissions.
+\end{itemize}
+}
+
+\passection{\pascode{plst:text_io}{Example code that demonstrates writing a value and reading it back from a text file}{code/pascal/file-io/TextIO.pas}}
+
+
+% subsubsection reading_data_from_file (end)
+
+
+% \subsubsection{Writing binary data to file} % (fold)
+% \label{ssub:writing_binary_data_to_file}
+% 
+% The \texttt{fwrite} function allows you to write binary data to a file. This requires you to pass a pointer to your data, as well as the size and number of elements you want written.
+% 
+% \begin{table}[h]
+%   \centering
+%   \begin{tabular}{|c|p{9cm}|}
+%     \hline
+%     \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+%     \hline
+%     \multicolumn{2}{|c|}{} \\
+%     \multicolumn{2}{|c|}{\texttt{size\_t fwrite( const void *ptr, size\_t size, size\_t count, FILE *destination)}} \\
+%     \multicolumn{2}{|c|}{} \\
+%     \hline
+%     \multicolumn{2}{|c|}{\textbf{Returns}} \\
+%     \hline
+%     \texttt{int} & The number of elements written to the \texttt{destination} by \texttt{fwrite}. If this does not equal the \texttt{count} parameter it indicates an error occurred writing the data to the file.\\
+%     \hline
+%     \textbf{Parameter} & \textbf{Description} \\
+%     \hline
+%     \texttt{ ptr } & A pointer to the data to be saved to the file.\\
+%     & \\
+%     \texttt{ size } & The size of each element to be saved.\\
+%     & \\
+%     \texttt{ count } & The number of elements to be saved to the file.\\
+%     & \\
+%     \texttt{ destination } & The FILE to write the output into.\\
+%     & \\
+%     \hline
+%   \end{tabular}
+%   \caption{Parameters that must be passed to \texttt{fwrite}}
+%   \label{tbl:fwrite}
+% \end{table}
+% 
+% \mynote{
+% \begin{itemize}
+%   \item The file must be opened with write permissions.
+%   \item This will write the binary data to file from the values pointed to by the \texttt{prt} parameter.
+% \end{itemize}
+% }
+% 
+% \csection{\ccode{clst:write_binary}{Example code that writing an array of double values to a binary file.}{code/c/file-io/write_binary.c}}
+% 
+% 
+% % subsubsection writing_binary_data_to_file (end)
+% 
+% \clearpage
+% \subsubsection{Reading binary data from file} % (fold)
+% \label{ssub:reading_binary_data_from_file}
+% 
+% To read back binary data you need to use \texttt{fread}. This reads back a block of data from the file, and stores it in memory at a location indicated by a pointer.
+% 
+% \begin{table}[h]
+%   \centering
+%   \begin{tabular}{|c|p{9cm}|}
+%     \hline
+%     \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+%     \hline
+%     \multicolumn{2}{|c|}{} \\
+%     \multicolumn{2}{|c|}{\texttt{size\_t fread( void *ptr, size\_t size, size\_t count, FILE *destination)}} \\
+%     \multicolumn{2}{|c|}{} \\
+%     \hline
+%     \multicolumn{2}{|c|}{\textbf{Returns}} \\
+%     \hline
+%     \texttt{int} & The number of elements read from the \texttt{destination} by \texttt{WriteLn}. If this does not equal the \texttt{count} parameter it indicates an error occurred reading the data from the file.\\
+%     \hline
+%     \textbf{Parameter} & \textbf{Description} \\
+%     \hline
+%     \texttt{ ptr } & A pointer to the location to store the loaded data. This must be large enough to store the values loaded.\\
+%     & \\
+%     \texttt{ size } & The size of each element to be loaded.\\
+%     & \\
+%     \texttt{ count } & The number of elements to be loaded from the file.\\
+%     & \\
+%     \texttt{ destination } & The FILE to read the data from.\\
+%     & \\
+%     \hline
+%   \end{tabular}
+%   \caption{Parameters that must be passed to \texttt{fwrite}}
+%   \label{tbl:fread}
+% \end{table}
+% 
+% \mynote{
+% \begin{itemize}
+%   \item The file must be opened with read permissions.
+%   \item You must ensure that \texttt{ptr} points to sufficient space to load the data into.
+% \end{itemize}
+% }
+% 
+% \begin{figure}[p]
+%   \csection{\ccode{clst:read_binary}{Example code that reads an array of double values from a binary file.}{code/c/file-io/read_binary.c}}  
+% \end{figure}
+% 
+% 
+% % subsubsection reading_binary_data_from_file (end)
+% 
+% subsection c_file_functions (end)

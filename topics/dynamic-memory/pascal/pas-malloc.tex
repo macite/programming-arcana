@@ -1,0 +1,120 @@
+\clearpage
+\subsection{Pascal Memory Allocation Functions} % (fold)
+\label{sub:pas_memory_allocation}
+
+Pascal includes a number of memory allocation functions: \nameref{ssub:new}, \nameref{ssub:dispose}, and \nameref{ssub:set_length}.
+
+\subsubsection{New} % (fold)
+\label{ssub:new}
+
+In Pascal the \texttt{New} procedure allocates space for a pointer. The amount of memory allocated is based on the size of the type referred to by the pointer, for example an Integer pointer is allocated enough space to store one integer value.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure New(var ptr: Pointer );}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & The pointer to allocate the space for. After the call this will point to the allocated memory. \\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{New} procedure}
+  \label{tbl:new}
+\end{table}
+
+\passection{\pascode{plst:new}{Example calls to \texttt{New}}{code/pascal/dynamic-memory/NewExample.pas}}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{New} is used for \emph{memory allocation}.
+  \item \texttt{New} allows you to allocate space on the heap.
+\end{itemize}
+}
+
+% subsubsection malloc (end)
+
+\clearpage
+\subsubsection{Dispose} % (fold)
+\label{ssub:dispose}
+
+When you allocate memory you are responsible for freeing that memory when you no longer require it. The \texttt{Dispose} procedure allows you to do this. 
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure Dispose( ptr : Pointer );}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ ptr } & The pointer to the space to free on the heap.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{Dispose} procedure}
+  \label{tbl:dispose}
+\end{table}
+
+\mynote{
+\begin{itemize}
+  \item \texttt{Dispose} allows you to free the memory allocated to a pointer.
+  \item See \lref{plst:new} for example code.
+  \item \texttt{ptr} is a pointer to a memory block on the heap, i.e. space previously allocated with \nameref{ssub:new}.
+  \item You can also pass \texttt{ptr} a \texttt{nil} value, in which case nothing occurs.
+  \item It is good practice to assign a \texttt{nil} value to the pointer after freeing it.
+\end{itemize}
+}
+
+% subsubsection free (end)
+
+\clearpage
+\subsubsection{Set Length} % (fold)
+\label{ssub:set_length}
+
+Pascal includes support for dynamic arrays. These are arrays where the contents is stored on the heap, and can be dynamically resized during execution using the \texttt{SetLength} procedure.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|p{9.5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
+    \hline
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\texttt{procedure SetLength( arr : DynamicArray; len: Integer );}} \\
+    \multicolumn{2}{|c|}{} \\
+    \hline
+    \textbf{Parameter} & \textbf{Description} \\
+    \hline
+    \texttt{ arr } & The pointer to the space to free on the heap.\\
+    & \\
+    \texttt{ len } & The new length for the array \texttt{arr}, preserving any existing data up to the new length.\\
+    \hline
+  \end{tabular}
+  \caption{Details of the \texttt{SetLength} procedure}
+  \label{tbl:setlength}
+\end{table}
+
+\passection{\pascode{plst:new}{Example calls to \texttt{SetLength}}{code/pascal/dynamic-memory/DynamicArrayExample.pas}}  
+
+\mynote{
+\begin{itemize}
+  \item \texttt{SetLength} allows you to set the length of a dynamic array.
+  \item \texttt{High}, \texttt{Low}, and \texttt{Length} determine the valid indexes and length of the array.
+  \item Data for a dynamic array is allocated on the heap.
+  \item Dynamic arrays are declared without specifying the indexes (just use \texttt{array of type}).
+\end{itemize}
+}
+
+
+% subsubsection set_length (end)
+
+% subsection c_memory_allocation (end)

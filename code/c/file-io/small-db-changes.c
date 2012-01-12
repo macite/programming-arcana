@@ -107,7 +107,6 @@ void save(const data_store *db_data, const char *filename)
         // For each row in the array
         for (i = 0; i < db_data->row_count; i++)
         {
-            // Print the row to the Terminal
             save_row(db_data->rows[i], out);
         }        
     }

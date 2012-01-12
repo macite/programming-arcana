@@ -147,7 +147,7 @@ You can use \texttt{fprintf} to write data to a \texttt{FILE} that has been open
 \subsubsection{Reading text data from file} % (fold)
 \label{ssub:reading_text_data_from_file}
 
-Reading text data from a file is similar to reading data from the Terminal or from a string. The \texttt{fprintf} function works in the same way as \texttt{printf} and \texttt{sprintf}, but writes its data to a text file.
+Reading text data from a file is similar to reading data from the Terminal or from a string. The \texttt{fscanf} function works in the same way as \texttt{printf} and \texttt{sprintf}, but writes its data to a text file.
 
 \begin{table}[h]
   \centering
@@ -156,7 +156,7 @@ Reading text data from a file is similar to reading data from the Terminal or fr
     \multicolumn{2}{|c|}{\textbf{Function Prototype}} \\
     \hline
     \multicolumn{2}{|c|}{} \\
-    \multicolumn{2}{|c|}{\texttt{int fscanf(const char *source, const char *format, \ldots )}} \\
+    \multicolumn{2}{|c|}{\texttt{int fscanf(FILE *source, const char *format, \ldots )}} \\
     \multicolumn{2}{|c|}{} \\
     \hline
     \multicolumn{2}{|c|}{\textbf{Returns}} \\
@@ -165,7 +165,7 @@ Reading text data from a file is similar to reading data from the Terminal or fr
     \hline
     \textbf{Parameter} & \textbf{Description} \\
     \hline
-    \texttt{ source } & The string from which the input is read.\\
+    \texttt{ source } & The file from which the input is read.\\
     & \\
     \texttt{ format } & The format specifier describing what is to be read from the Terminal. This is the same as with \texttt{scanf}, see \tref{tbl:format specifiers}. \\
     & \\

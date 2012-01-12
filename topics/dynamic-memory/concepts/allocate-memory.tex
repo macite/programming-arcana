@@ -61,7 +61,7 @@ Storing single values on the Heap can be useful, but often you want to be able t
 In C you can use the standard array access mechanisms with pointers to access subsequent elements. So \texttt{p[0]} is the value in the first element of the array dynamically allocated in \fref{fig:allocate-memory-array}, \texttt{p[1]} is the value of the second element, \texttt{p[2]} is the value of the third element, and so on. This relates back to Pointer arithmetic discussed in \sref{ssub:what_is_the_pointer_value_what_can_you_do_with_it_}.
 }
 
-\passection{Pascal has built in support for \textbf{dynamic arrays}. You can declare an array without a length, and then call \texttt{SetLength} to specify the size you want allocated. Behind the scenes Pascal will allocate the space for this array on the Heap, and will take care of ensuring that it is cleaned up when you no longer have access to it. Pascal also offers a \texttt{GetMem} function that allows you to ask for a certain number of bytes if you do want to perform manually work with the memory allocated yourself.}
+\passection{Pascal has built in support for \textbf{dynamic arrays}. You can declare an array without a length, and then call \texttt{SetLength} to specify the size you want allocated. Behind the scenes Pascal will allocate the space for this array on the heap, and will take care of ensuring that it is cleaned up when you no longer have access to it. If you just want a block of memory to work with Pascal also offers a \texttt{GetMem} function.}
 
 % subsubsection explicitly_allocating_memory_for_an_array (end)
 

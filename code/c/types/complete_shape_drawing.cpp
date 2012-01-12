@@ -126,7 +126,7 @@ void draw_shape(shape &s)
 void do_drawing(drawing &d)
 {	
     // Clear screen and redraw menu
-    clear_screen();
+    clear_screen(ColorWhite);
     draw_shapes_menu(d.selected_shape);
     
 	// Draw the shapes
