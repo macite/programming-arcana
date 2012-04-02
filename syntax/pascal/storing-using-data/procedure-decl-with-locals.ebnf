@@ -2,7 +2,7 @@ procedure decl. = "procedure", identifier, "();", block, ";" ;
 
 block = declaration part, statement part ;
 
-decl. part = { procedure declaration | variable declarations   }+ ;
+decl. part = { variable declarations   }* ;
 
 variable decls. = "var", { variable declaration }+ ;
 

@@ -1,8 +1,10 @@
-procedure decl. = "procedure", identifier, "();", block, ";" ;
+program = "program", identifier, ";", [uses clause], block, "." ;
+
+uses clause = "uses", { unit identifier }+(","), ";" ;
 
 block = declaration part, statement part ;
 
-decl. part = { constant declarations | procedure declaration | variable declarations  }+ ;
+decl. part = { constant declarations | procedure declaration | variable declarations  }* ;
 
 constant declarations = "const", { identifier, "=", expression, ";" }+ ;
 
