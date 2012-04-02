@@ -2,4 +2,10 @@ function decl. = "function", identifier, "(", parameter declarations, "):", $ ty
 
 block = declaration part, statement part ;
 
+decl. part = { variable declarations   }* ;
+
+variable decls. = "var", { variable declaration }+ ;
+
+variable decl. = {identifier}+(","), ":", type name, [ "=", expression ], ";";
+
 stmt. part = "begin", { statement }+(";"), "end" ;
