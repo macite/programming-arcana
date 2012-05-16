@@ -7,7 +7,7 @@ bool beg_for_mercy()
     char ch;
 
     printf("Beg for mercy? [y/N]: ");
-    scanf("%c", &ch);
+    scanf(" %c", &ch);
     
     return ch == 'y' || ch == 'Y';
 }
