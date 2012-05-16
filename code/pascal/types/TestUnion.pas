@@ -21,7 +21,7 @@ begin
     data.kind := IS_FLOAT; //should match value stores (programmer managed!)
     data.asFloat := 10.0; //can store as Integer/Float/String based on field used
     
-    case kind of
+    case data.kind of
         IS_INTEGER:  WriteLn(data.asInt);
         IS_FLOAT:    WriteLn(data.asFloat:4:2);
         IS_TEXT:     WriteLn(data.asString);
