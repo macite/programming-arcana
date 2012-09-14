@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>topics/arrays/application/using-arrays.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,6 +23,110 @@
 	<integer>332</integer>
 	<key>metaData</key>
 	<dict>
+		<key>code/pascal/dynamic-memory/LinkedSmallDB.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>17</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+		</dict>
+		<key>code/pascal/dynamic-memory/SmallDB.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
+		</dict>
+		<key>code/pascal/types/SmallDB.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>73</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>32</integer>
+		</dict>
+		<key>code/pascal/types/SmallDbComplete.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>17</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+		</dict>
 		<key>syntax-out/c/storing-using-data/assignment-statement.tex</key>
 		<dict>
 			<key>caret</key>
@@ -177,6 +283,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>topics/arrays/application/ReadDouble.pas</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>27</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>topics/arrays/application/Sum.pas</key>
 		<dict>
 			<key>caret</key>
@@ -262,6 +382,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>topics/arrays/application/using-arrays.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>58</integer>
+				<key>line</key>
+				<integer>174</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>152</integer>
 		</dict>
 		<key>topics/arrays/c/c-stats-calc.tex</key>
 		<dict>
@@ -638,6 +772,15 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>code/pascal/dynamic-memory/LinkedSmallDB.pas</string>
+		<string>code/pascal/dynamic-memory/SmallDB.pas</string>
+		<string>code/pascal/types/SmallDB.pas</string>
+		<string>code/pascal/types/SmallDbComplete.pas</string>
+		<string>topics/arrays/application/ReadDouble.pas</string>
+		<string>topics/arrays/application/using-arrays.tex</string>
+	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -661,44 +804,6 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict>
-						<key>c</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>control-flow</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-						<key>pascal</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict>
-								<key>types</key>
-								<dict>
-									<key>isExpanded</key>
-									<true/>
-									<key>subItems</key>
-									<dict/>
-								</dict>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
 				<key>preamble</key>
 				<dict>
 					<key>isExpanded</key>
@@ -706,13 +811,20 @@
 					<key>subItems</key>
 					<dict/>
 				</dict>
-				<key>tools</key>
+				<key>topics</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>syntax-parser</key>
+						<key>control-flow</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
+						<key>storing-using-data</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
@@ -725,6 +837,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{1089, 4}, {1280, 1414}}</string>
+	<string>{{140, 49}, {1280, 1369}}</string>
 </dict>
 </plist>
