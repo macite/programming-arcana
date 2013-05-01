@@ -8,9 +8,9 @@ var
     situation: WarningLevel = SAFE;
 begin
     case situation of
-        case SAFE: WriteLn('Safe'); break;
-        case DANGER: WriteLn('Danger!'); break;
-        case EXTREME_DANGER: WriteLn('Run!'); break;
+        SAFE: WriteLn('Safe');
+        DANGER: WriteLn('Danger!');
+        EXTREME_DANGER: WriteLn('Run!');
         else WriteLn('Unknown...');
     end;
 end;

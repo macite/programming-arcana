@@ -11,15 +11,15 @@ begin
     begin
         ProcessEvents();
         
-        dotX = MouseX();
-        dotY = MouseY();
+        dotX := MouseX();
+        dotY := MouseY();
         
         ClearScreen(ColorWhite);
-        DrawFramerate(0,0);
+        DrawFramerate(0, 0);
         DrawCircle(ColorBlack, dotX, dotY, LARGE_RADIUS);
         
-        if ( MouseDown(LEFT_BUTTON) )
-            fill_circle(ColorBlack, dotX, dotY, SMALL_RADIUS)
+        if MouseDown(LEFT_BUTTON) then
+            FillCircle(ColorBlack, dotX, dotY, SMALL_RADIUS)
         else
             DrawCircle(ColorBlack, dotX, dotY, SMALL_RADIUS);
         
