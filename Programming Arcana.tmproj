@@ -650,8 +650,6 @@
 		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
-	<key>showFileHierarchyPanel</key>
 	<true/>
 	<key>treeState</key>
 	<dict>
@@ -661,19 +659,26 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>code</key>
+				<key>topics</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
-						<key>c</key>
+						<key>dynamic-memory</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>control-flow</key>
+								<key>concepts</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>pascal</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -682,13 +687,13 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>pascal</key>
+						<key>type-decl</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
 							<key>subItems</key>
 							<dict>
-								<key>types</key>
+								<key>pascal</key>
 								<dict>
 									<key>isExpanded</key>
 									<true/>
@@ -696,28 +701,6 @@
 									<dict/>
 								</dict>
 							</dict>
-						</dict>
-					</dict>
-				</dict>
-				<key>preamble</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict/>
-				</dict>
-				<key>tools</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict>
-						<key>syntax-parser</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict/>
 						</dict>
 					</dict>
 				</dict>
@@ -725,6 +708,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{1089, 4}, {1280, 1414}}</string>
+	<string>{{519, 447}, {1276, 917}}</string>
 </dict>
 </plist>
