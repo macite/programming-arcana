@@ -1,0 +1,19 @@
+identifier = letter , { letter | digit | "\emph{space}" }* ;
+
+terminal = ("'" , { character }+ , "'" ) | ('"' { character }+ , '"') ;
+
+node = identifer | terminal | selection | repetition | optional | group;
+
+sequence = { node }+(",");
+
+selection = { node }+("|");
+
+repetition = "{" , sequence , "}", ("+" | "*"), [ "(", terminal, ")" ];
+
+optional = "[" , sequence , "]";
+
+group = "(" , sequence , ")";
+
+rule = identifier , "=" , sequence , ";" ;
+
+grammar = { rule }+ ;
