@@ -1,1 +1,1 @@
-gcc -o OutputTest output_test.c
+skm clang++ output_test.cpp -o OutputTest

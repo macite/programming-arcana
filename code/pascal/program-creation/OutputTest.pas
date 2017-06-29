@@ -2,9 +2,12 @@
 // OutputTest: Writes some messages to the Terminal.
 //
 program OutputTest;
+uses SplashKit;
 
 begin
-  WriteLn('Output Test Program');
-  WriteLn(' 1 + 1 = ', 1 + 1);
-  WriteLn(' Area of a circle with radius 3 = ', (3.1415 * 3 * 3):4:2);
+  WriteLine('Output Test Program');
+  Write(' 1 + 1 = ');
+  WriteLine(1 + 1);
+  Write(' Area of a circle with radius 3 = ');
+  WriteLine(3.1415 * 3 * 3);
 end.

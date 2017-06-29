@@ -1,8 +1,9 @@
 program CountBack;
+using SplashKit;
 
 begin
-  WriteLn('Count back from 2...');
-  WriteLn(2);
-  WriteLn(1);
-  WriteLn(0);
+  WriteLine('Count back from 2...');
+  WriteLine(2);
+  WriteLine(1);
+  WriteLine(0);
 end.

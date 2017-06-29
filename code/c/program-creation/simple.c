@@ -8,14 +8,14 @@
 int main()
 {
   // Output some text...
-  printf("Programming can be great Fun!\n");
-  printf("\n");
+  write_line("Programming can be great Fun!");
+  write_line("");
   
   // Output the results of some calculations
-  printf("You can calculate things like 1 + 1 = %d\n", 1 + 1);
-  printf("Or 2 * PI * 3 = %f\n", 2 * 3.1415 * 3);
+  write_line("You can calculate things like 1 + 1 = ", to_string(1 + 1));
+  write_line("Or 2 * PI * 3 = " + to_string( 2 * 3.1415 * 3 ) );
   
   // Finish off...
-  printf("Its great commanding the computer to perform actions for you!");
+  write_line("Its great commanding the computer to perform actions for you!");
   return 0;
 }

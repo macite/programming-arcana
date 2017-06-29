@@ -1,5 +1,24 @@
 Now that the concepts have been presented, let us have a look at how these can be used to create a program. We will take the code from the Hello World, and use a compiler to turn this code into a program that we can then execute. This process is the same for large and small programs.
 
+\subsection{The SplashKit Manager: skm} % (fold)
+\label{sub:skm}
+
+Before we get started, there is one additional tool that we can use to help make SplashKit programs easier to work with: the SplashKit Manager (\textbf{skm}). `skm' is a command line tool that comes with SplashKit when you install it. It is designed to take your compiler instructions, and add the extra options needed to link with the SplashKit library.
+
+The best way to get started with a SplashKit program is to create a new folder (directory) in your file system that will be used to store the code and other files related to that program. 
+
+\csection{
+The following commands create a \emph{MyProject} folder, setup a new C++ project, and then compile it into a program.
+
+\bashcode{lst:c-create-project}{Creating a C++ project with skm.}{code/c/program-creation/create-cpp-project.sh}
+}
+
+\passection{
+The following commands create a \emph{MyProject} folder, setup a new Pascal project, and then compile it into a program.
+
+\bashcode{lst:pas-create-project}{Creating a Pascal project with skm.}{code/pascal/program-creation/create-fpc-project.sh}
+}
+
 \subsection{Making the Hello World Program} % (fold)
 \label{sub:compiling_code}
 
@@ -11,41 +30,25 @@ Now that the concepts have been presented, let us have a look at how these can b
   \item Compile it.
 \end{enumerate}
 
-Step 1 and 2 can be accomplished with any text editor, but the best ones to use highlight your code. Each programming language has rules that determine how its code must be formatted. This is known as the language's \textbf{syntax}. You can get text editors that understand these rules, and highlight your code as you type. This is called \textbf{syntax highlighting}. This highlighting can help you identify any little mistakes you make. \fref{fig:linux-editors} shows the Hello World code in gedit in Linux. \fref{fig:mac-editors} shows the code in TextMate on Mac OS. \fref{fig:windows-editors} shows the code in Notepad++ in Windows.
+Step 1 and 2 can be accomplished with any text editor, but the best ones to use highlight your code. Each programming language has rules that determine how its code must be formatted. This is known as the language's \textbf{syntax}. You can get text editors that understand these rules, and highlight your code as you type. This is called \textbf{syntax highlighting}. This highlighting can help you identify any little mistakes you make. 
+
+\fref{fig:cpp-example} shows the Hello World code in Visual Studio Code with C++, which has a consistent look across all platforms. The figure also includes the command line instructions needed to setup a new SplashKit C++ project, and compile it.
 
 \begin{figure}[h]
    \centering
-   \includegraphics[width=\textwidth]{./topics/programs-and-compilers/images/LinuxEditors} 
-   \caption{Editing and Compiling C and Pascal code in Linux}
-   \label{fig:linux-editors}
+   \includegraphics[width=0.8\textwidth]{./topics/programs-and-compilers/images/CppExample} 
+   \caption{Editing and Compiling C++ code in Visual Studio Code}
+   \label{fig:cpp-example}
 \end{figure}
+
+\fref{fig:fpc-example} shows the Hello World code in Visual Studio Code, which has a consistent look across all platforms. The figure also includes the command line instructions needed to setup a new SplashKit Pascal project, and compile it.
 
 \begin{figure}[h]
    \centering
-   \includegraphics[width=\textwidth]{./topics/programs-and-compilers/images/MacEditors} 
-   \caption{Editing and Compiling C and Pascal code in Mac OS}
-   \label{fig:mac-editors}
+   \includegraphics[width=0.8\textwidth]{./topics/programs-and-compilers/images/FpcExample} 
+   \caption{Editing and Compiling Pascal code in Visual Studio Code}
+   \label{fig:fpc-example}
 \end{figure}
-
-\begin{figure}[h]
-   \centering
-   \includegraphics[width=\textwidth]{./topics/programs-and-compilers/images/WindowsEditors} 
-   \caption{Editing and Compiling C and Pascal code in Windows}
-   \label{fig:windows-editors}
-\end{figure}
-
-
-\mynote{
-\begin{itemize}
-  \item Syntax highlighting editors include:
-  \begin{itemize}
-    \item \textbf{gedit} on Linux.
-    \item \textbf{TextMate} or \textbf{TextWrangler} on MacOS.
-    \item \textbf{Notepad++} or \textbf{Crimson Editor} on Windows.
-  \end{itemize}
-  \item Take care when you type the code in, even one character out of place may mean the compiler fails to compile your code.
-\end{itemize}
-}
 
 \clearpage
 \subsubsection{Running the Compiler} % (fold)
@@ -56,7 +59,7 @@ Once you have saved the code to file it is time to compile your program. For thi
 When you run the compiler you need to give it two kinds of information: options, and the name of the file to compile. The compiler will read the code in the file you give it, and convert this to machine code as shown in \sref{sub:source_code_and_the_compiler} \nameref{sub:source_code_and_the_compiler}. The exact command you use depends on the compiler you are using.
 
 \csection{
-In C the compiler we will be using is called \textbf{gcc}, which stands for the \textbf{GNU C Compiler}. The command you need to run in the Terminal is shown in Listing \ref{lst:compile-hello-world-c}. The \emph{-o name} option tells gcc the name of the program file to create. In our example this will compile the code in \emph{hello-world.c} and save the machine code into a program called \emph{HelloWorld}.
+In C++ the compiler we will be using is called \textbf{clang++} (or \textbf{g++} the \textbf{GNU C++ Compiler}). The command you need to run in the Terminal is shown in Listing \ref{lst:compile-hello-world-c}. The \emph{-o name} option tells the compiler the name of the program file to create. In our example this will compile the code in \emph{hello-world.cpp} and save the machine code into a program called \emph{HelloWorld}.
 
 \bashcode{lst:compile-hello-world-c}{Compiling C code.}{code/c/program-creation/compile-hello-world.sh}
 }

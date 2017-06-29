@@ -1,1 +1,1 @@
-fpc -S2 HelloWorld.pas
+skm fpc -S2 HelloWorld.pas

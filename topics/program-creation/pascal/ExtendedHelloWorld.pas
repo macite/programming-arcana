@@ -1,9 +1,10 @@
 program HelloWorld;
+uses SplashKit;
 
 begin
 
-  WriteLn('Hello World!');
-  WriteLn('by Andrew Cain');
-  WriteLn(' - Enjoying Programming');
+  WriteLine('Hello World!');
+  WriteLine('by Andrew Cain');
+  WriteLine(' - Enjoying Programming');
 
 end.

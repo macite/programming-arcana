@@ -1,4 +1,6 @@
 program HelloWorld;
+uses SplashKit;
+
 begin
-    WriteLn('Hello World!');
+    WriteLine('Hello World!');
 end.

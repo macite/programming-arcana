@@ -1,1 +1,1 @@
-gcc -o HelloWorld hello-world.c
+skm clang++ hello-world.cpp -o HelloWorld

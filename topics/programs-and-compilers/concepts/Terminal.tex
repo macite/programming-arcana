@@ -17,7 +17,7 @@ The Terminal is a program that gives you command line access to the computer. Wi
 \begin{itemize}
   \item On Ubuntu \textbf{Linux} you can find the Terminal in the \emph{Accessories} folder within \emph{Applications}. See Figure \ref{fig:program-creation-ubuntu-terminal}.
   \item On \textbf{MacOS} you can find the Terminal in the \emph{Utilities} folder within \emph{Applications}. See Figure \ref{fig:program-creation-macos-terminal}.
-  \item On \textbf{Windows} you will need to download and install \emph{MinGW}, making sure to select the \emph{MinSYS} option during the install process. The \emph{MinGW Shell} is then the equivalent of Terminal on the other operating systems. You will find this in \emph{Program Files}, \emph{MinGW}. See Figure \ref{fig:program-creation-mingw-shell}.
+  \item On \textbf{Windows} you will need to download and install \emph{MSys2}. The \emph{MSys2 Shell} is the equivalent of Terminal on the other operating systems. The details for how to install this are in the SplashKit installation guides.
 
   \item The Terminal is also be called the \textbf{console} or \textbf{command prompt}.
 \end{itemize}
@@ -29,7 +29,7 @@ The Terminal is a program that gives you command line access to the computer. Wi
 
 The \textbf{Terminal} program itself just provides a text environment, allowing text input and output. Within this environment a \textbf{Shell} program is run to interpret your commands. This is an interactive program that will display a prompt to you, at which you enter your commands.
 
-There are a number of different Shell programs, each of which has its own set of instructions. The Shell we are going to use in this book is called \textbf{Bash}. This shell program is available on Linux, Mac OS, and Windows. As a Unix shell it is native for Linux and Mac OS, and with Windows you can install \textbf{MinGW} to use these commands.
+There are a number of different Shell programs, each of which has its own set of instructions. The Shell we are going to use in this book is called \textbf{Bash}. This shell program is available on Linux, Mac OS, and Windows. As a Unix shell it is native for Linux and Mac OS, and with Windows you can install \textbf{MSys2} to use these commands.
 
 \begin{figure}[h]
    \centering
@@ -98,10 +98,7 @@ With the \textbf{Change Directory} command you tell Bash which directory you wan
   \emph{Mac OS} & \texttt{cd /Users/\emph{uname}/Documents} \\
   or & \texttt{cd $\sim$/Documents} \\
   \hline
-  \emph{Windows 7} & \texttt{cd /c/Users/\emph{uname}/Documents} \\
-  or & \texttt{cd /c/Users/\emph{uname}/My{\textbackslash} Documents} \\
-  \hline
-  \emph{Windows XP} & \texttt{cd /c/Documents{\textbackslash} and{\textbackslash} Settings/\emph{uname}/My{\textbackslash} Documents} \\
+  \emph{Windows} & \texttt{cd /c/Users/\emph{uname}/Documents} \\
   \hline
 \end{tabular}
   \caption{CD command to move into your documents directory on various Operating Systems. In these examples \texttt{\emph{uname}} should be replaced by your user name. The examples in \fref{fig:linux-files}, \fref{fig:mac-files}, and \fref{fig:win-files} are for the user \texttt{acain}.}

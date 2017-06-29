@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "splashkit.h"
 
 int main()
 {
-    printf("Hello World!\n");
+    write_line("Hello World!");
     return 0;
 }

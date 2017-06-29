@@ -1,10 +1,12 @@
 program SampleWriteLn;
+uses SplashKit;
+
 begin
   Write('Hello ');
-  Write('World!', LineEnding);
-  WriteLn('Single Line Output...');
-  WriteLn('Multi', LineEnding, 'Line', LineEnding, 'Output');
-  WriteLn('1 + 1 = ', 1 + 1);
-  WriteLn(2.4, ' = ', 2.4:10, ' = ', 2.4:4:2);
-  WriteLn('It''s a lovely day!');
+  WriteLine('World!');
+  WriteLine('Single Line Output...');
+  WriteLine('Multi' + LineEnding + 'Line' + LineEnding + 'Output');
+  Write('1 + 1 = ');
+  WriteLine(1 + 1);
+  WriteLine('It''s a lovely day!');
 end.

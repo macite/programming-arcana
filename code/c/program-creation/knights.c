@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include "splashkit.h"
 
 int main()
 {
   //Introduce knights
-  printf("We are the Knights who say 'Ni'!\n");
-  printf("We are the keepers of the sacred words:");
-  printf(" 'Ni', 'Peng', and 'Neee-wom'!\n");
-  printf("The Knights Who Say 'Ni' demand a sacrifice.\n");
-  printf("We want... a shrubbery!\n");
+  write_line("We are the Knights who say 'Ni'!");
+  write("We are the keepers of the sacred words:");
+  write_line(" 'Ni', 'Peng', and 'Neee-wom'!");
+  write_line("The Knights Who Say 'Ni' demand a sacrifice.");
+  write_line("We want... a shrubbery!");
   
   return 0;
 }

@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "splashkit.h"
 
 int main()
 {
-  printf("Count back from 2...\n");
-  printf("%d\n", 2);
-  printf("%d\n", 1);
-  printf("%d\n", 0);
+  write_line("Count back from 2...");
+  write_line(2);
+  write_line(1);
+  write_line(0);
 }
 

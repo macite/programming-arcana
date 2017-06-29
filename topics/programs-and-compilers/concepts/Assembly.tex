@@ -42,7 +42,7 @@ _main:
 "L000001$pb":
   leal	LC0-"L000001$pb"(%ebx), %eax
   movl	%eax, (%esp)
-  call	L_printf$stub
+  call	L_write_line$stub
   addl	$20, %esp
   popl	%ebx
   popl	%ebp

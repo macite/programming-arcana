@@ -1,10 +1,11 @@
 program Knights;
+uses SplashKit;
 
 begin
   //Introduce knights
-  WriteLn('We are the Knights who say ''Ni''!');
-  WriteLn('We are the keepers of the sacred words:');
-  WriteLn(' ''Ni'', ''Peng'', and ''Neee-wom''!');
-  WriteLn('The Knights Who Say ''Ni'' demand a sacrifice.');
-  WriteLn('We want... a shrubbery!');
+  WriteLine('We are the Knights who say ''Ni''!');
+  WriteLine('We are the keepers of the sacred words:');
+  WriteLine(' ''Ni'', ''Peng'', and ''Neee-wom''!');
+  WriteLine('The Knights Who Say ''Ni'' demand a sacrifice.');
+  WriteLine('We want... a shrubbery!');
 end.
