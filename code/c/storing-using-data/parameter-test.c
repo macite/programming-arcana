@@ -2,7 +2,7 @@
 
 void print_equation(int m, double x, int c)
 {
-    printf("%d x %4.2f + %d = %4.2f\n", m, x, c, m * x + c);
+    write_line(to_string(m) + " x " + to_string(x) " + " + to_string(c) + " = " + to_string(m * x + c));
 }
 
 int main()

@@ -4,18 +4,21 @@ int main()
 {
     int age = 0;
     double num = 0.0;
+    string line;
     
-    printf("Please enter your age: ");
+    write("Please enter your age: ");
     // pass age by reference, allowing scanf to store the value read 
     // into this variable
-    scanf("%d", &age);
+    line = read_line();
+    age = convert_to_integer(line);
     
-    printf("What is your favourite number: ");
+    write("What is your favourite number: ");
     // pass num by reference
-    scanf("%lf", &num);
+    line = read_line();
+    num = convert_to_double(line);
     
-    printf("Thanks, your age is %d\n", age);
-    printf("Your favourite number if %f\n", num);
+    write_line("Thanks, your age is " + to_string(age));
+    write_line("Your favourite number is " + to_string(num));
     
     return 0;
 }

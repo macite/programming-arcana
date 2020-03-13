@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "splashkit.h"
 
 // This defines that the identifier PI should always be replaced
 // with the "value" 3.1415
@@ -13,9 +13,8 @@ const float DEG_TO_RAD = PI / 180;
 
 int main()
 {
-    printf("%f, %f\n", PI, DEG_TO_RAD);
-    // is the same as...
-    printf("%f, %f\n", 3.1415, DEG_TO_RAD);
+    write_line(PI);
+    write_line(DEG_TO_RAD);
     
     return 0;
 }

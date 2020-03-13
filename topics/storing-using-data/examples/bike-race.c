@@ -1,8 +1,6 @@
-/* Program: bike-race.c, SwinGame */
+/* Program: bike-race.c, splashkit */
 
-#include <stdio.h>
-#include <stdbool.h>
-#include "SwinGame.h"
+#include "splashkit.h"
 
 // ====================
 // = Define constants =

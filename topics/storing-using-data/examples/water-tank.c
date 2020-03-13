@@ -1,4 +1,4 @@
-#include "SwinGame.h"
+#include "splashkit.h"
 
 #define MAX_HEIGHT 400
 #define MAX_WIDTH 200

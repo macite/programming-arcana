@@ -69,7 +69,7 @@ This chapter provides a background on what programs are, and the general process
 % section using_these_concepts_compiling_a_program (end)
 
 
-\input{topics/programs-and-compilers/other/TextEditor}
+% \input{topics/programs-and-compilers/other/TextEditor}
 \input{topics/programs-and-compilers/c/c_compiler}
 \input{topics/programs-and-compilers/pascal/pascal_compiler}
 
@@ -92,7 +92,7 @@ An in depth look at how programs and compilers work is beyond the scope of this 
 
 Programs are very complicated. Trying to keep all of the details about how it works in focus all of the time would take a large amount of effort, and slow you down. As humans we have developed strategies for dealing with these kinds of situations. What we do is create \emph{layers} of abstraction.
 
-A layer, or level, of abstraction provides a means of managing details at a similar level of detail. This means that all aspects of that level are similar, and related to each other. When you are working at a certain level, you think in terms of the tools and artefacts that are available to you. 
+A layer, or level, of abstraction provides a means of managing complexity at a similar level of detail. This means that all aspects of that level are similar, and related to each other. When you are working at a certain level of abstraction, you think in terms of the tools and artefacts that exist within that layer. 
 
 These levels build on top of each other, with each layer being built on top of the lower layer, and providing the foundation for the next higher layer. Within a layer of abstraction you do not need to think about the lower levels of abstraction, most of the time. However, it is always good to know the details of at least one level of abstraction below the level you are working at.
 
@@ -115,7 +115,7 @@ In this book the \emph{Understanding} section of each chapter will help you see 
 
 If computers are unintelligent, how can they do the awesome things they do?
 
-That is a good question. Computers are unintelligent, but programs are not. The computer does not \emph{know} what it is doing. It is following a set of steps that was coded into the program being executed. These steps, however, were created by people, software developers. When a computer does something cool, its because a person told it to do that.
+That is a good question. Computers are unintelligent, but programs are not. The computer does not \emph{know} what it is doing any more than a bicycle \textit{knows} how to move. It is following a set of steps that was coded into the program being executed. These steps, however, were created by people, software developers. When a computer does something cool, its because a person told it to do that.
 
 This is why it can be really great fun to be a software developer. You get to make computers do things you want them to. This creativity can be really exhilarating when you finally get your program to do exactly what you want.
 
@@ -173,7 +173,7 @@ Apply what you have learnt to the following tasks:
   \begin{enumerate}
     \item A \textbf{Text Editor} that offers syntax highlighting for the language you are using. We recommend Visual Studio Code.
     \item The \textbf{Compiler} for the language you are using.
-    \item \textbf{Bash} and the \textbf{Terminal} (on Windows only).
+    \item \textbf{Bash} and the \textbf{Terminal} (on Windows only - this will already be available on Linux and Mac).
   \end{enumerate}
   \item Enter the code, compile, and run the `Hello World' program.
   \item Try changing the code to output a different message. After you have made the changes you will need to re-compile and run the program.

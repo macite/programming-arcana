@@ -9,7 +9,7 @@ int main()
     
     ++val;
     
-    printf("%d\n", val);
+    write_line(val);
     
     return 0;
 }
