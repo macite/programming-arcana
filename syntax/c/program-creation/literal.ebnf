@@ -1,8 +1,8 @@
-single digit = "0" | ".." | "9" ;
+(*single digit = "0" | ".." | "9" ;)
 
-digits = {single digit}+;
+*digits = {digit}+;
 
-sign = "+" | "-" ;
+(*sign = "+" | "-" ;)
 
 (*number = [ sign ], unsigned real | unsigned integer ;*)
 
@@ -10,8 +10,8 @@ whole number = [ sign ] , digits;
 
 real number = [ sign ] , digits [".", digits] ;
 
-single char. = 'any character except \, " or a new line' | "\n" | '\"' |  "\%" | "\\" ;
+single char. = 'any character except \ " or a new line' | "\n" | '\"' |  "\%" | "\\" ;
 
 character = "'", single character, "'" ;
 
-character string = '"', { single character }*, '"' ;
+string = '"', { single character }*, '"' ;

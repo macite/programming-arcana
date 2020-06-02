@@ -1,6 +1,6 @@
 integer literal = whole number;
 
-long long literal = whole number, 'l' | 'L';
+int64-t literal = whole number, 'l' | 'L';
 
 float literal = real number , "f" | "F" ;
 
@@ -9,3 +9,5 @@ double literal = real number ;
 char literal = "'", single character, "'" ;
 
 c-string literal = '"', { single character }*, '"'  ;
+
+string literal = "string", "(", '"', { single character }*, '"', ")"  ;

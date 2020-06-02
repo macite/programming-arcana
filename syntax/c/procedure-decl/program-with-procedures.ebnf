@@ -1,8 +1,8 @@
-program = {header include}*, declarations, main function ;
+program = {header include}*, [ declarations ], main function ;
 
 header include = "#include", "<" | '"', library name, ">" | '"' ;
 
-declarations = { procedure declaration }* ;
+declarations = { procedure declaration }+ ;
 
 main function = "int main()", block ;
 

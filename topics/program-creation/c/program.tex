@@ -1,22 +1,23 @@
-\clearpage
-\subsection{C Program} % (fold)
-\label{sub:program_in_c}
+% \clearpage
+% \subsection{C++ Program} % (fold)
+% \label{sub:program_in_c}
 
-The C programming language does not have an explicit Program artefact for you to create. Rather, in C a program is implied by the existence of a special function called `\texttt{main}' somewhere in your source code. Figure \ref{csynt:program-creation-program} shows the structure of the syntax you can use to create a program using the C language.
+% The C++ programming language does not have an explicit Program artefact for you to create. Rather, in C++ a program is implied by the existence of a special function called `\texttt{main}' somewhere in your source code. Figure \ref{csynt:program-creation-program} shows the structure of the syntax you can use to create a program using the C++ language.
 
-\csyntax{csynt:program-creation-program}{a Program}{program-creation/program}
+% \csyntax{csynt:program-creation-program}{a Program}{program-creation/program}
 
-The code in Listing \ref{lst:program-creation-c-hello-world} shows an example C Program. You should be able to match this up with the syntax defined in Figure \ref{csynt:program-creation-program}. Notice at the start of the code the syntax indicates we can have an optional \emph{header include}, this matches up with the first line in the code where it \emph{includes} the `stdio.h'\footnote{Read `stdio.h' as `standard IO'. This is the file that gives you access to a \nameref{sub:library} that contains procedures you can use for standard (std) input and output (IO).} header file. Declaration of the \texttt{main} function follows the inclusion of the header file, and it contains the instructions that are executed when the program runs.
+% The code in Listing \ref{lst:program-creation-c-hello-world} shows an example C++ Program. You should be able to match this up with the syntax defined in Figure \ref{csynt:program-creation-program}. Notice at the start of the code the syntax indicates we can have an optional \emph{header include}, this matches up with the first line in the code where it \emph{includes} the `splashkit.h' header file. Declaration of the \texttt{main} function follows the inclusion of the header file, and it contains the instructions that are executed when the program runs.
 
-\csection{\ccode{lst:program-creation-c-hello-world}{C Hello World}{code/c/program-creation/hello-world.c}}
+% \csection{\ccode{lst:program-creation-c-hello-world}{C++ Hello World}{code/c/program-creation/hello-world.c}}
 
-\mynote{
-  \begin{itemize}
-    \item A C \nameref{sub:program} starts at the first \nameref{sub:statement} within the \texttt{main} function (line 5).
-    \item A function is a kind of \nameref{sub:procedure}, and their details will be covered later.
-    \item The `\texttt{return 0}' code is a \nameref{sub:statement} that ends the \texttt{main} function (and the program).
-    \item With the \emph{header include} syntax you use \csnipet{#include <...>} to include standard libraries, and \csnipet{#include "..."} to include other external libraries.
-  \end{itemize}
-}
+% \mynote{
+%   \begin{itemize}
+%     \item When a C++ \nameref{sub:program} runs, it start running the instructions from the first \nameref{sub:statement} within the \texttt{main} function (line 5).
+%     \item A \nameref{sub:function} is a kind of \nameref{sub:procedure}, and their details will be covered later (see \sref{sub:function}).
+%     \item The `\texttt{return 0}' code is a \nameref{sub:statement} that ends the \texttt{main} function (and the program). The \nameref{sub:return_statement} is covered later in \sref{sub:return_statement}.
+%     \item With the \emph{header include} syntax you use \csnipet{#include <...>} to include standard libraries, and \csnipet{#include "..."} to include other external libraries.
+%     \item Header files contain a summary of the features available within a library. By including the header file you gain access to these features.
+%   \end{itemize}
+% }
 
-% subsection program_in_c (end)
+% % subsection program_in_c (end)

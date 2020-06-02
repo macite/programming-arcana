@@ -1,0 +1,42 @@
+\clearpage
+\subsection{C++ Program (with Procedures)} % (fold)
+\label{sub:c_program_with_procedures_}
+\label{sub:program_in_c}
+
+C++ does not have an explicit Program artefact. Rather, you create a program by having a function called `\texttt{main}' in your code. Figure \ref{csynt:procedure-decl-program} shows the structure of the syntax used to create a program using the C++ language.
+
+\csyntax{csynt:procedure-decl-program}{a Program (with procedures)}{procedure-decl/program-with-procedures}
+
+Listing \ref{lst:program-creation-c-hello-world} shows a small C++ Program. You should be able to match this up with the syntax defined in Figure \ref{csynt:procedure-decl-program}. This program does not include any custom procedures, but does use a \textbf{header include} to include the \textit{splashit.h} header file. Following this is the \texttt{main} function that includes the instructions that are run when the program is executed.
+
+\csection{\ccode{lst:program-creation-c-hello-world}{C++ Hello World}{code/c/program-creation/hello-world.c}}
+
+
+\mynote{
+  \begin{itemize}
+    \item With the \emph{header include} syntax you use \csnipet{#include <...>} to include standard libraries, and \csnipet{#include "..."} to include other external libraries.
+    \item Header files contain a summary of the features available within a library. By including the header file you gain access to these features.
+    \item When a C++ \nameref{sub:program} runs, it start running the instructions from the first \nameref{sub:statement} within the \texttt{main} function (line 5).
+    \item A \nameref{sub:function} is a kind of \nameref{sub:procedure}, and their details will be covered later (see \sref{sub:function}).
+    \item The `\texttt{return 0}' code is a \nameref{sub:statement} that ends the \texttt{main} function (and the program). The \nameref{sub:return_statement} is covered later in \sref{sub:return_statement}.
+  \end{itemize}
+}
+
+\clearpage
+
+Listing \ref{lst:program-creation-c-hello-world} shows another example C++ Program. This code includes two custom procedures: \texttt{say\_hello} and \texttt{say\_is\_anyone\_there}. These procedures are called within \texttt{main}.
+
+\csection{\ccode{lst:program-c-say-hello-proc}{Is Anyone There?}{code/c/procedure-decl/say-hello-proc.c}}
+
+\mynote{
+\begin{itemize}
+  \item You place \textbf{declarations} after the \emph{header includes} and before the \emph{main function}.
+  \item The \emph{declarations} can contain any number of \emph{procedure declarations}. See \nameref{sub:c_procedure_declaration} for details on this code.
+  \item The code in Listing \ref{lst:program-c-say-hello-proc} shows a Program with two procedures: \texttt{say\_hello()} and \texttt{say\_is\_anyone\_there()}.
+  \item Notice that these procedures are declared after the \emph{header include} \csnipet{#include "splashkit.h"} and before the \texttt{main function}.
+\end{itemize}
+}
+
+
+
+% subsection c_program_with_procedures_ (end)

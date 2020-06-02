@@ -1,22 +1,22 @@
 \clearpage
-\subsection{C Procedure Call} % (fold)
+\subsection{C++ Procedure Call} % (fold)
 \label{sub:program-creation-c_procedure_call}
 
-A procedure call allows you to run the code in a Procedure, getting its instructions to run before control returns back to this point in the program.
+A procedure call allows you to run the code in a Procedure, getting its instructions to run before control returns back to the point where the procedure was called.
 
 \csyntax{csynt:program-creation-procedure-call}{Procedure Call Syntax}{program-creation/procedure-call}
 
-\csection{\ccode{lst:program-creation-c-count-back}{C Count Back}{code/c/program-creation/count-back.c}}
+\csection{\ccode{lst:program-creation-c-count-back}{C++ Count Back}{code/c/program-creation/count-back.c}}
 
 \mynote{
 \begin{itemize}
   \item A procedure call is an \textbf{action} which commands the computer to run the code in a procedure.
-  \item The procedure call starts with the procedure's \nameref{sub:identifier}, this indicates the procedure to be called.
+  \item The procedure call starts with the procedure's name (its \nameref{sub:identifier}) that indicates the procedure to be called.
   \item Following the identifier is a list of values within parenthesis, these are the values (coded as \nameref{sub:expression}s) that are passed to the procedure for it to use.
-  \item Remember that C is case sensitive so using \texttt{Printf} instead of \texttt{printf} will not work.
+  \item Remember that C++ is case sensitive so using \csnipet{Write_Line} instead of \csnipet{write_line} will not work.
   \item The code in \lref{lst:program-creation-c-count-back} contains a \nameref{sub:program_in_c}.
   \item This Program contains four procedure calls.
-  \item Each procedure call runs the \texttt{printf} procedure to output text to the Terminal. See the section on \nameref{sub:c_console_output}.
+  \item Each procedure call runs the \csnipet{write_line} procedure to output text to the Terminal. See the section on \nameref{sub:c_console_output}.
   
 \end{itemize}
 }

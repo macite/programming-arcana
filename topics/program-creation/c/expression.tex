@@ -1,8 +1,8 @@
 \clearpage
-\subsection{C Expression} % (fold)
+\subsection{C++ Expression} % (fold)
 \label{sub:program-creation-c_expression}
 
-An \nameref{sub:expression} in C is a mathematical calculation or a Literal value. Each expression will have a \nameref{sub:type}, and can contain a number of mathematic operators. Table \ref{tbl:program-creation-c operators and expresions} lists the operators that you can include in your expressions, listed in order of precedence.\footnote{Expressions follow the standard mathematic order of precedence (BODMAS).} The operators you can use depend on the kind of data that you are using within the expression.
+An \nameref{sub:expression} in C++ is a mathematical calculation or a \nameref{sub:program-creation-c_literal} value. Each expression will have a \nameref{sub:type}, and can contain a number of mathematic operators. Table \ref{tbl:program-creation-c operators and expresions} lists the operators that you can include in your expressions, listed in order of precedence.\footnote{Expressions follow the standard mathematic order of precedence (BODMAS).} The operators you can use depend on the kind of data that you are using within the expression.
 
 \begin{table}[h]
   \begin{minipage}{\textwidth}
@@ -17,7 +17,7 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
     \hline
   \end{tabular}
   \end{minipage}
-  \caption{C Operators and Example Expressions}
+  \caption{C++ Operators and Example Expressions}
   \label{tbl:program-creation-c operators and expresions}
 \end{table}
 
@@ -30,8 +30,8 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
     \hline
     \texttt{ 73 }     &   73                 & \texttt{int}  \\
     \texttt{ 2.1 }      & 2.1   & \texttt{float}    \\
-    \texttt{ "Hello World" }      &   "Hello World"    & \texttt{char*}   \\
-    \texttt{ "Fred" }      &   "Fred"    & \texttt{char*}   \\
+    \texttt{ "Hello World" }      &   "Hello World"    & \texttt{string}\footnote{This is technically a \texttt{char*} which denotes a reference to a \textit{string} of characters.}   \\
+    \texttt{ "Fred" }      &   "Fred"    & \texttt{string}   \\
     \texttt{ 3 * 2 } & 6 & \texttt{int} \\
     \texttt{ 1 + 3 * 2 }  & 7 & \texttt{int} \\
     \texttt{ (1 + 3) * 2} & 8 & \texttt{int} \\
@@ -45,16 +45,15 @@ An \nameref{sub:expression} in C is a mathematical calculation or a Literal valu
     \hline
   \end{tabular}
 \end{minipage}
-  \caption{C Operators and Example Expressions}
+  \caption{Example C++ Expressions and their values}
   \label{tbl:program-creation-c example expresions}
 \end{table}
-
 
 \mynote{
 \begin{itemize}
   \item Table \ref{tbl:program-creation-c example expresions} shows some example expressions, their values, and types.
   \item Expressions can be literal values, entered in the code.
-  \item Expression can contain mathematical calculations using standard addition, subtraction, multiplication, division, and grouping.
+  \item Expression can contain mathematical calculations using standard addition, subtraction, multiplication, division, and groupings.
 \end{itemize}
 }
 

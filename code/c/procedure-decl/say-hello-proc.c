@@ -3,16 +3,16 @@
 * Outputs 'Hello' messages to the Terminal.
 */
 
-#include <stdio.h>
+#include "splashkit.h"
 
 void say_hello()
 {
-    printf("Hello...\n");
+    write_line("Hello...");
 }
 
 void say_is_anyone_there()
 {
-    printf("Is anyone there?");
+    write_line("Is anyone there?");
 }
 
 int main()

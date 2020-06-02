@@ -1,1 +1,1 @@
-statement = procedure call ;
+statement =  [ procedure call ]; 

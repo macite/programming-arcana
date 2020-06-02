@@ -1,8 +1,10 @@
 \clearpage
-\subsection{C Terminal Output} % (fold)
+\subsection{C++ SplashKit Terminal Output} % (fold)
 \label{sub:c_console_output}
 
-C comes with a range of libraries that provide reusable programming artefacts, including reusable \nameref{sub:procedure}s. The C library includes a number of different components, one of which is \texttt{stdio.h} - the standard input/output library. This header file gives you access to artefacts you can use to perform input and output tasks, including code to write output to the Terminal. The \texttt{printf} procedure is used to write output data to the Terminal.
+The C and C++ programming languages include standard libraries that allow you to write text to the terminal. However, the way the C procedures work is prone to errors (none of which will help you learn about programming) and the C++ way is unique to C++ and not something other languages have adopted. As the focus of this book is on learning to program, not to learn to use any one particular language, we will use the SplashKit procedures to output text. These avoid the issues inherent in the C library, and use a more standard approach than that taken in C++. You can revisit the standard libraries once you are confident in programming in general.
+
+SplashKit includes two procedures to output text to the terminal: \csnipet{write_line} and \csnipet{write}.
 
 \begin{table}[h]
   \centering
@@ -11,84 +13,31 @@ C comes with a range of libraries that provide reusable programming artefacts, i
     \multicolumn{2}{|c|}{\textbf{Procedure Prototype}} \\
     \hline
     \multicolumn{2}{|c|}{} \\
-    \multicolumn{2}{|c|}{\texttt{printf(char *format, \ldots )}} \\
+    \multicolumn{2}{|c|}{\csnipet{void write_line(string text)}} \\
+    \multicolumn{2}{|c|}{\csnipet{void write_line(int text)}} \\
+    \multicolumn{2}{|c|}{\csnipet{void write_line(double text)}} \\
+    \multicolumn{2}{|c|}{} \\
+    \multicolumn{2}{|c|}{\csnipet{void write(string text)}} \\
+    \multicolumn{2}{|c|}{\csnipet{void write(int text)}} \\
+    \multicolumn{2}{|c|}{\csnipet{void write(double text)}} \\
     \multicolumn{2}{|c|}{} \\
     \hline
     \textbf{Parameter} & \textbf{Description} \\
     \hline
-    \texttt{ format } & The text that is to be written to the Terminal. This text may contain format tags to include other values. See Figure \ref{csynt:program-creation-format-string} for the syntax of the \textbf{format tag}. \\
-    & \\
-    \texttt{\ldots}   & Optional values, must have at least as many values as format tags. \\
+    \texttt{ text } & The text that is to be written to the Terminal. \\
     \hline
   \end{tabular}
-  \caption{Parameters that must be passed to \texttt{printf}}
+  \caption{Parameters that must be passed to write line.}
   \label{tbl:program-creation-c printf parameters}
 \end{table}
 
-The syntax for the \emph{format tag} is shown in Figure \ref{csynt:program-creation-format-string}, with the details for the values that can be placed in the \emph{flag}, \emph{width}, \emph{precision}, and \emph{specifier} section being shown in Table \vref{tbl:program-creation-c printf specifier}. A number of examples are shown in Table \ref{tbl:program-creation-c printf specifier}, as well as in Listing \ref{lst:program-creation-c-printf}.
+\csection{\ccode{lst:program-creation-c-printf}{C++ write line examples}{code/c/program-creation/sample-printf.c}}
 
-\csyntax{csynt:program-creation-format-string}{Format Tag}{program-creation/format-string}
-
-\csection{\ccode{lst:program-creation-c-printf}{C \texttt{printf} examples}{code/c/program-creation/sample-printf.c}}
-
-\begin{table}[htbp]
-  \begin{minipage}{\textwidth}
-  \centering
-  
-  \begin{tabular}{|c|p{4cm}|l|c|}
-    \hline
-    \textbf{Flag} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
-    \hline
-    \texttt{-}  & Left justify\footnote{Right justify is the default} the width. & \csnipet{printf("\%-5c", 'a');} & \texttt{a\textvisiblespace\textvisiblespace\textvisiblespace\textvisiblespace} \\
-                & & \csnipet{printf("\%5i", 23);} & \texttt{\textvisiblespace\textvisiblespace{\textvisiblespace}23} \\
-    \hline
-    \texttt{+}  & Always display sign for numbers & \csnipet{printf("\%+d", 42);} & \texttt{+42} \\
-                & & \csnipet{printf("\%+i", -42);} & \texttt{-42} \\
-    \hline
-    \texttt{\textvisiblespace}\footnote{A space.}  & Shows a space if positive & \csnipet{printf("\% f", 127.5);} & \texttt{\textvisiblespace127.5} \\
-                & & \csnipet{printf("\% i", -73);} & \texttt{-73} \\
-    \hline
-    \texttt{0}  & Pad with 0's rather than spaces\footnote{The 5 in the example represents the width of the output.} & \csnipet{printf("\%05i", 3);} & \texttt{00003} \\
-    \hline
-    \multicolumn{4}{c}{} \\
-    \hline
-    \textbf{Width} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
-    \hline
-    \emph{number} & The minimum width for output & \csnipet{printf("\%5i", 1);} & \texttt{\textvisiblespace\textvisiblespace\textvisiblespace{\textvisiblespace}1} \\
-    & & \csnipet{printf("\%5s", "Fred");} & \texttt{{\textvisiblespace}Fred} \\
-    & & \csnipet{printf("\%5s", "Hello World");} & \texttt{Hello World}\footnote{Width specifies the minimum width.} \\
-    \hline
-    \multicolumn{4}{c}{} \\
-    \hline
-    \textbf{Precision} & \textbf{Description}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
-    \hline
-    \emph{number} & \textbf{For integers}: same as Width &  \csnipet{printf("\%.5i", 1);} & \texttt{\textvisiblespace\textvisiblespace\textvisiblespace{\textvisiblespace}1} \\
-     & \textbf{For real numbers}: number of &  \csnipet{printf("\%.3f", 3.1415);} & \texttt{3.142} \\
-     &  values after the decimal point & \csnipet{printf("\%.3f", 2.5);} & \texttt{2.500} \\
-    \hline
-    \multicolumn{4}{c}{} \\
-    \hline
-    \textbf{Specifier} & \textbf{Output}  & \multicolumn{2}{c|}{ \textbf{Example Usage \& Output} } \\
-    \hline
-    \texttt{c}  & A single character & \csnipet{printf("\%c", 'a');} & \texttt{a} \\
-    \hline
-    \texttt{d} or \texttt{i} & A signed decimal integer & \csnipet{printf("\%d", -127);} & \texttt{-127} \\
-    \hline
-    \texttt{f}  & Decimal floating point number & \csnipet{printf("\%f", 127.5);} & \texttt{127.5} \\
-    \hline
-    \texttt{s}  & Text data & \csnipet{printf("\%s", "Hello World");} & \texttt{Hello World} \\
-    \hline
-    \multicolumn{4}{c}{} \\
-    \hline
-  \end{tabular}
-  
-  \end{minipage}
-  \caption{Details for, and examples of, the format tag specifier, flag, precision, and width.}
-  \label{tbl:program-creation-c printf specifier}
-\end{table}
-
-
-
-
-
+\mynote{
+\begin{itemize}
+  \item To convert a number into a string you can use the \csnipet{to_string} \nameref{sub:function}.
+  \item There are multiple versions of \csnipet{write_line} so that you can easily output numbers and text.
+  \item The \csnipet{write_line} procedure writes out the text and then adds a new line, whereas \csnipet{write} just writes out the text (remaining on the same line).
+\end{itemize}
+}
 % subsection c_console_output (end)
