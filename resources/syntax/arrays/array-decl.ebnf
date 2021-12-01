@@ -1,0 +1,7 @@
+variable decl. = [ "const" ], type name, {actual var. decl., [ "=", expr list]}+(","), ";" ;
+
+actual var. decl. = variable name | array declaration;
+
+array decl. = variable name, {"[", [constant expression], "]"}+;
+
+expression list = (~, ~, expression) | ("{", { expression list}+(",") ,"}") ;

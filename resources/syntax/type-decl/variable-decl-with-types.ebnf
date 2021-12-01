@@ -1,0 +1,3 @@
+variable decl. = [ const ], type name, {actual variable declaration, [ "=", expression]}+(","), ";" ;
+
+actual var. decl. = variable name | array declaration ;

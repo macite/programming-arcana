@@ -1,0 +1,9 @@
+function decl. = type name, function name, "(", parameter list ,")", block ;
+
+parameter list = { parameter declaration }*(",") ;
+
+parameter decl. = type name, parameter name ;
+
+function name = identifier ;
+
+block = "{", variable declarations, statements ,"}" ;

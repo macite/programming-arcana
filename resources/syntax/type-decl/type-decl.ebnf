@@ -1,0 +1,9 @@
+type decl. = "typedef", enum declaration | struct declaration | union declaration | alias type declaration, ";";
+
+alias type decl. = [ const ], type name, {direct type declaration}+(",") ;
+
+direct type. decl. = typedef name | array type declaration ;
+
+array type decl. = typedef name, {"[", [constant expression], "]"}*;
+
+typedef name = identifier ;

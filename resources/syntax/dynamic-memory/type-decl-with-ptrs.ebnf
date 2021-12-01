@@ -1,0 +1,7 @@
+alias type decl. = [ const ], type name, {direct type declaration}+(",") ;
+
+direct type. decl. = ["*"], typedef name | array type declaration | inner type declaration ;
+
+inner type decl = "(", direct type declaration, ")" ;
+
+typedef name = identifier ;

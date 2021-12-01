@@ -1,0 +1,11 @@
+program = {header include | hash define }*, declarations, main function ;
+
+header include = "#include", "<" | '"', library name, ">" | '"' ;
+
+hash define = "#define", identifier, [ value ] ;
+
+declarations = { procedure declaration | variable declaration }* ;
+
+main function = "int main()", block ;
+
+library name = filename ;

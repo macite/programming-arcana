@@ -1,0 +1,1 @@
+format tag = "%", [ flag ] , [width] , [ "." , precision], specifier ;

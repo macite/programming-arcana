@@ -1,0 +1,5 @@
+function call = function name, "(", { argument }*(",") ")" ;
+
+procedure call = function call ;
+
+argument = ( ~, expression) | ( "&", variable name ) ;

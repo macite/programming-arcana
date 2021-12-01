@@ -1,0 +1,5 @@
+prototype decl. = type name, function name | procedure name , "(", parameter list ,")", ";" ;
+
+parameter list = { parameter declaration }* ;
+
+parameter decl. = type name, [ "*" ], parameter name, {"[ ]"}* ;

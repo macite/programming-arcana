@@ -1,0 +1,13 @@
+procedure decl. = "void", procedure name, "(", parameter list ,")", block ;
+
+parameter list = { parameter declaration }*(",") ;
+
+parameter decl. = type name, parameter name ;
+
+block = "{", variable declarations, statements ,"}" ;
+
+variable decls. = {variable declaration}*(",") ;
+
+statements = {statement, ";"}* ;
+
+parameter name = identifier ;

@@ -1,0 +1,7 @@
+for loop = "for", "(", initialiser, ";", control, ";", increment, ")", statement;
+
+initialiser = assignment statement ;
+
+control = expression ;
+
+increment = assignment statement ;

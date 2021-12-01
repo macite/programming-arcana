@@ -1,0 +1,12 @@
+header file = {header contents}*;
+
+header contents = header include | hash condition | hash define | declarations ;
+
+header include = "#include", "<" | '"', library name, ">" | '"' ;
+
+header cond. = "#ifndef" | "#ifdef", identifier, header contents, $ {"#elif", expression, header contents}* $ [ "#else", header contents], $ "#endif";
+
+hash define = "#define", identifier, [ value ] ;
+
+declaration = function prototype declaration | extern variable declaration | type declaration ;
+

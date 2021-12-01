@@ -1,0 +1,5 @@
+procedure decl. = "void", procedure name, "( )", block ;
+
+procedure name = identifier ;
+
+block = "{", {statement, ";"}*, "}" ;
