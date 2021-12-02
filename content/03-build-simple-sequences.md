@@ -36,8 +36,3 @@ At the end of **Build Simple Sequences** you should be able to:
 
 Testing 1.2.3
 
-![remote image](https://gatsbymdxembeddedimages.gatsbyjs.io/static/7110b824615a045ab2b7841b8ae95e95/9e479/image2.webp)
-
-![Some example programming language statements used to illustrate the sequence of steps involved in running each step of our code.](03-build-simple-sequences/01-sequence/SceneDrawing.png)
-
-<YoutubeEmbed code="rkPHNhZ3rsw" image="./03-build-simple-sequence/01-sequence/slides/slide-002.jpeg" />
