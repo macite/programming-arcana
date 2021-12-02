@@ -1,5 +1,7 @@
 ---
 title: "Build simple sequences"
+metaTitle: "Build simple sequences"
+metaDescription: "Learn to build programs involving simple sequences"
 ---
 
 [Sequence](03-build-simple-sequences/01-sequence) is at the heart of all imperative programming languages. This concept underpins how you approach coding, think about programs, and understand how they work. In this chapter, you will see how code runs as a sequence of machine code instructions. Using just a few simple commands, you will create some small visualisations to test out these ideas.

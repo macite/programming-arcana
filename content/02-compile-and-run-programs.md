@@ -1,5 +1,7 @@
 ---
 title: "Making programs"
+metaTitle: "Compiling and running programs"
+metaDescription: "In this chapter you will learn to build and run your own programs."
 ---
 
 Goal:

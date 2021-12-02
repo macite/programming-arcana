@@ -4,7 +4,6 @@ import styled from '@emotion/styled';
 import CodeBlock from './codeBlock';
 import AnchorTag from './anchor';
 import YoutubeEmbed from './YoutubeEmbed';
-import MdxImage from './MdxImage';
 
 const StyledPre = styled('pre')`
   padding: 16px;

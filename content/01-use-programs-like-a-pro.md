@@ -1,5 +1,7 @@
 ---
 title: "Using programs like a pro"
+metaTitle: "Using programs like a programmer"
+metaDescription: "This chapter covers common tools utilised by software developers including use of the command line, file systems, and useful utilities."
 ---
 
 Computers
