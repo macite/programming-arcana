@@ -40,6 +40,7 @@
     "gatsby-transformer-remark": "^5.0.0",
     "graphql": "^15.5.0",
     "is-absolute-url": "^3.0.3",
+    "littlefoot": "^3.4.1",
     "lodash.flatten": "^4.4.0",
     "lodash.startcase": "^4.4.0",
     "prismjs": "^1.23.0",

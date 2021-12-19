@@ -1,5 +1,5 @@
 ---
-title: "Building Simple Sequences - Demystified and Decoded"
+title: "Demystified and Decoded"
 subtitle: "How to think about programming simple sequences"
 ---
 
