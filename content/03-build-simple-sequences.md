@@ -271,24 +271,33 @@ width="\\textwidth"}
 
 :::
 
-## Sequene in action
+## Sequence in action
 
-### Writing to the terminal
+We now have a few things in our toolbox we can use to build programs:
 
-### Drawing shapes and images
+- **Program**: we can build a program that the computer can run.
+- **Procedure Call**: our program can call procedures, with main running a sequence of calls to procedures that will get the computer to do something we want.
+- **Library**: we can use the SplashKit library to load images, draw shapes, and play sound effects.
+
+We are quite limited in what we can do with only these tools, but we can use these to build some small programs. Sequence will be central to each program, focus on sequencing instructions to achieve the desired outcome. For each of these programs make sure that you can:
+
+- Describe the procedures that your program is calling.
+- Identify each of the procedure calls in the code, and explain the values that are being passed to each procedure.
+- Explain why the procedure calls are sequenced as they are in the code.
+- Identify `main`, where it starts and ends, and the sequence of instructions it contains.
+
+
+
+- [Drawing shapes and images](03-build-simple-sequences/1-drawing-shapes)
+- [Playing sound effects](03-build-simple-sequences/1-drawing-shapes-images)
 
 ### Playing sound effects
 
 ### Creating animations
 
+### Shell scripting
+
 ## Using these concepts
-
-We now have a few things in our toolbox that we can start to use to build programs:
-
-- **Program**: we can build a program that the computer can run.
-- **Procedure Call**: our program can call procedures, with main running a sequence of instructions.
-- **Library**: we can make use of the SplashKit library to load images, draw shapes, and play sound effects.
-
 
 
 
