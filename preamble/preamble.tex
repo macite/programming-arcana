@@ -27,11 +27,13 @@
 \ifpdf
   \usepackage[pdftex]{graphicx}
   \pdfcompresslevel=9
-  \DeclareGraphicsExtensions{.pdf,.png,.jpg} 
-  \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+  
+  % \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+  % \DeclareGraphicsRule{.jpg}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .jpg`.png}
 \else
   \usepackage{graphicx}
 \fi
+\DeclareGraphicsExtensions{.pdf,.png,.jpg} 
 
 \usepackage{epstopdf}
 

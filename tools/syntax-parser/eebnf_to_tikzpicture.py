@@ -215,7 +215,7 @@ class EEBNFToTikzPicture():
                     result = p_count
             result += 3 # was 4??
         else:
-            print node
+            print(node)
             assert False
         
         return result
@@ -452,7 +452,7 @@ class EEBNFToTikzPicture():
             n_ident = self._current_picture()._add_data_to_matrix(to_row, 'p', 'point', 'spacer')
             depth = 1
         else:
-            print node
+            print(node)
             assert False
         
         return (n_ident, depth)
@@ -482,7 +482,7 @@ class EEBNFToTikzPicture():
             # print node, width
             
             if width > 90:
-                print 'rule width = ', rule[0], width
+                print('rule width = ', rule[0], width)
                 # print 'Rule length overflow... moving to new picture'
                 p_ident = self._current_picture()._add_data_to_matrix(to_row, 'p', 'point', '')
                 p_ident = self._current_picture()._add_data_to_matrix(to_row, 'p', 'point', '')
@@ -613,7 +613,7 @@ def test_basic():
     c = EEBNFToTikzPicture()
     output = c.convert_file(lines)
     
-    print output
+    print(output)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.ERROR,format='%(asctime)s - %(levelname)s - %(message)s',stream=sys.stdout)
