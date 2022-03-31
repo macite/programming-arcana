@@ -19,6 +19,7 @@ def main():
     
     for f in dirList:
         if '.py' in f or f[0] == '.' : continue
+        if f == '__pycache__': continue
         
         (dirName, fileName) = os.path.split(f)
         key = fileName.replace('.', '_')

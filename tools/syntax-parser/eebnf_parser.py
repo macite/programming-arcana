@@ -240,7 +240,7 @@ def test_basic():
     p = EEBNFParser()
     tree = p.parse(lines)
     
-    print tree
+    print(tree)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.ERROR,format='%(asctime)s - %(levelname)s - %(message)s',stream=sys.stdout)

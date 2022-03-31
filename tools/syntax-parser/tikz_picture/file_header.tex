@@ -1,0 +1,107 @@
+\documentclass[crop=true,border=10pt,varwidth=160mm,convert]{standalone}
+
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,shapes.misc,chains,scopes,shadows}
+
+\tikzset{
+  syntax-rule/.style={
+    % The shape:
+    rectangle,
+    % The size:
+    minimum size=5mm,
+    minimum width=8em,
+    % The border:
+    % very thick,
+    % draw=red!50!black!50,       % 50% red and 50% black,
+                                % and that mixed with 50% white
+    % The filling:
+    % top color=white,
+    % bottom color=red!50!black!20, % and something else at the bottom
+    % Font
+    font=\itshape\small
+  }
+}
+
+\tikzset{
+  syntax-rule-cont/.style={
+    % The shape:
+    rectangle,
+    % The size:
+    minimum size=6mm,
+    minimum width=8em,
+    % The border:
+    % very thick,
+    % draw=red!50!black!50,       % 50% red and 50% black,
+                                % and that mixed with 50% white
+    % The filling:
+    % top color=white,
+    % bottom color=red!50!black!20, % and something else at the bottom
+    % Font
+    font=\itshape\small,
+    text=white
+  }
+}
+
+\tikzset{
+  nonterminal/.style={
+      % The shape:
+      rectangle,
+      % The size:
+      minimum size=5mm,
+      % The border:
+      very thick,
+      draw=red!30!black!50,       % 50% red and 50% black,
+                                  % and that mixed with 50% white
+      % The filling:
+      top color=white,
+      bottom color=red!30!black!20, % and something else at the bottom
+      % Font
+      font=\small
+    }
+}
+
+\tikzset{
+  terminal/.style={
+    % The shape:
+    rounded rectangle,
+    % The size:
+    minimum size=5mm,
+    % The border:
+    very thick,
+    draw=black!50,
+    % The filling:
+    top color=white,
+    bottom color=black!20,
+    font=\ttfamily\small
+  }
+}
+
+\tikzset{
+  meta-terminal/.style={
+    % The shape:
+    rounded rectangle,
+    % The size:
+    minimum size=5mm,
+    % The border:
+    very thick,
+    draw=black!50,
+    opacity=0.5,
+    % The filling:
+    top color=white,
+    bottom color=black!20,
+    font=\ttfamily\it\small
+  }
+}
+
+
+\begin{document}
+
+     \centering%
+
+    \begin{minipage}{\textwidth}%
+      \begin{tikzpicture}
+        \draw[very thick,color=gray] (0,-0.15) -- (0,0) -- (\textwidth,0) -- (\textwidth,-0.15);
+      \end{tikzpicture}
+
+      \begin{minipage}{0.95\textwidth}
